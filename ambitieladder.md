@@ -182,3 +182,8 @@ Vanaf hier gaat het meer over transparantie dan over echt opensourcewerken. Om d
 7. Blijft gelijk
 8. Blijft gelijk
 9. Blijft gelijk
+
+## Bijdragers
+
+* Marc van Andel (Kadaster)
+* Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
