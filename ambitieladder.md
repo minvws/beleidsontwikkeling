@@ -10,13 +10,27 @@ Het beheer van dit document ligt bij Maurice Hendriks.
 
 Voor iedereen met een github account. Je kan hier inloggen via dat account zodat je bijdragen traceerbaar zijn.
 
+Elke twee weken vind er een community overleg plaats over de voortgang van dit document. Tijdens die bijeenkomst worden alle commentaren en verbetersuggesties besproken op volgorde van binnenkomst. Mocht je dus iets willen bespreken, zet dat dan 'op de agenda' met een concrete opmerking, vraag of verbetersuggestie.
+
+Regels van de online bijeenkomsten:
+* Allereerst de [Chatham House Rules](https://en.wikipedia.org/wiki/Chatham_House_Rule).
+* De beheerder van dit document is ook de host van de online bijeenkomst.
+* Je participeert, omdat je goede ideeën hebt.
+* Er vind geen kennismaking plaats om mensen zonder aanziens des persoon de kans te geven te participeren.
+* Het staat iedereen vrij zijn echte naam te gebruiken of een pseudoniem.
+* Je bent herkenbaar in beeld.
+* Alles op basis van goed vertrouwen.
+* Wordt het vertrouwen geschaad, dan wordt er door de host ingegrepen.
+
+Community call url: https://meet.jit.si/OpenSourceBeleidsontwikkeling
+
 ## Introductie
 
 Dit document heeft als doel samen na te denken over de ambitieladder voor open source in aanbestedingen of inhuur. Het is in eerste aanzet opgesteld door Maurice Hendriks (Senior CIO-Adviseur bij MinVWS). De kennis komt voort uit concrete ervaringen met open source aanbesteden binnen de Rijksoverheid.
 
-In mijn werk ben ik geen ambtenaren tegengekomen die niet enthousiast zijn over de toepassing van open source en de doelen die ermee bereikt kunnen worden. Waarbij ze met enige hulp goed in staat zijn te verwoorden welke doelstellingen en ambitie ze zelf zien bij de toepassing met open source. Maar wat uiteindelijk ontbreekt zijn concrete handvatten om het toe te passen in de praktijk, van in dit geval aanbesteding, en ervaringen met anderen om de koudwatervrees weg te nemen.
+De ervaring leert dat iemand met enige hulp goed in staat is te verwoorden welke doelstellingen en ambitie ze zelf zien bij de toepassing met open source. Maar wat uiteindelijk ontbreekt zijn concrete handvatten om het toe te passen in de praktijk, van in dit geval aanbesteding of inhuur, en ervaringen van anderen om de koudwatervrees weg te nemen.
 
-Het doel van de ambitieladder is om dat handvat te bieden in het denken over het eigen ambitieniveau. Op basis van dat ambitieniveau biedt de ambitieladder concrete tekst(suggesties) in de toepassing van die ambitie in een aanbesteding of inhuuropdracht.
+Het doel van de ambitieladder is om dat handvat te bieden in het denken over het eigen ambitieniveau. Op basis van dat ambitieniveau biedt de ambitieladder concrete tekst(suggesties) in de toepassing van die ambitie in een aanbesteding of inhuur.
 
 ## Verkennende vragen
 
@@ -30,7 +44,7 @@ Om een eigen ambitie te kunnen bepalen is het belangrijk om na te denken over de
 
 ## Ambitieniveaus
 
-Ik ben begonnen met het idee dat er 10 ambitieniveaus zijn. Dat kunnen er echter ook 5, 9, 15 of ... zijn. In gezamenlijkheid gaan we uitvinden wat de juiste indeling is. Ik heb geprobeerd met ambitieniveau 1 aan te sluiten bij de minimale verplichtingen die voortvloeien uit wet- en regelgeving. In ambitieniveau 10 heb ik geprobeerd de hoogst haalbare ambitie te verwoorden.
+*Ik ben begonnen met het idee dat er 10 ambitieniveaus zijn. Dat kunnen er echter ook 5, 9, 15 of ... zijn. In gezamenlijkheid gaan we uitvinden wat de juiste indeling is. Ik heb geprobeerd met ambitieniveau 1 aan te sluiten bij de minimale verplichtingen die voortvloeien uit wet- en regelgeving. In ambitieniveau 10 heb ik geprobeerd de hoogst haalbare ambitie te verwoorden.*
 
 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding. Feedback en vragen worden niet opgepakt.
 2. *ambitieniveau 2*
@@ -45,11 +59,11 @@ Ik ben begonnen met het idee dat er 10 ambitieniveaus zijn. Dat kunnen er echter
 
 ## Realiseren van de ambitie
 
-Voor het realiseren van een ambitie is het nodig te weten hoe je de ambitie kan verwoorden in een aanbesteding of richting een inhuuropdracht. Per ambitieniveau moeten er concrete hulpmiddelen beschikbaar zijn die direct in te passen zijn.
+Voor het realiseren van een ambitie is het nodig te weten hoe je de ambitie kan verwoorden in een aanbesteding of richting inhuur. Per ambitieniveau moeten er concrete hulpmiddelen beschikbaar zijn die direct in te passen zijn.
 
-Om het denkproces hierover te vergemakkelijken beginnen we met het nadenken over de uitwerking van het hoogste ambitieniveau. Meestal zal een lager ambitieniveau betekenen dat bepaalde eisen vervallen of minder krachtig verwoord zijn. Een hoger ambitieniveau vraagt normaliter ook meer van de eigen organisatie waar het gaat over de regierol, benodigde financien, kennis en kwaliteiten van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner.
+Om het denkproces hierover te vergemakkelijken wordt er begonnen met het hoogste ambitieniveau. Meestal zal een lager ambitieniveau betekenen dat bepaalde eisen vervallen of minder krachtig verwoord zijn. Daarbij vraagt een hoger ambitieniveau normaliter ook meer van de eigen organisatie waar het gaat over de regierol, benodigde financien, kennis en kwaliteiten van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is.
 
-Hieronder staan tekst suggesties die gebruikt kunnen worden in de Programma van Eisen van een aanbesteding. Elk ambitieniveau lager wordt in relatie gebracht met de ambitieniveaus erboven. Als een eis hetzelfde is als de eis een ambitieniveau hoger, dan staat er simpelweg blijft gelijk. Als een eis vervalt dan staat er simpelweg vervalt. Als een eis in verwoording veranderd, dan is de hele eis opgenomen maar duidelijk gemaakt wat er dan is veranderd in die verwoording. Ondanks dat de teksten zijn geschreven met een aanbesteding in het achterhoofd kunnen ze ook gelezen worden als eisen die je stelt aan inhuurkrachten of in vacatures. Zo vragen alle ambitie niveaus kennis van git, SBOM standaarden, open source licenties etc. Partijen of personen die in staat zijn een hoger ambitieniveau te bedienen kunnen dan de voorkeur genieten boven andere partijen of personen.
+Per ambitieniveau staan tekst suggesties die gebruikt kunnen worden in de Programma van Eisen van een aanbesteding. Elk ambitieniveau lager wordt in relatie gebracht met de ambitieniveaus erboven. Als een eis hetzelfde is als de eis een ambitieniveau hoger, dan staat er simpelweg blijft gelijk. Als een eis vervalt dan staat er simpelweg vervalt. Als een eis in verwoording veranderd, dan is de hele eis opgenomen maar duidelijk gemaakt wat er dan is veranderd in de verwoording. Ondanks dat de teksten zijn geschreven met een aanbesteding in het achterhoofd kunnen ze ook gelezen worden als eisen die je stelt aan inhuurkrachten of in vacatures. Zo vragen alle ambitie niveaus kennis van git, SBOM-standaarden, open source licenties etc. Partijen of personen die in staat zijn een hoger ambitieniveau te bedienen kunnen dan de voorkeur genieten boven andere partijen of personen.
 
 Alle ambities zijn geschreven vanuit het uitgangspunt van een volledig maatwerk ontwikkelde oplossing of component. Natuurlijk wordt er ook doorontwikkeld op bestaande (open source) oplossing of componenten. Het wordt aanbevolen om in geval van doorontwikkeling op bestaande open source dit te laten plaatsvinden op een kopie. Zo wordt niet alleen de continuïteit zoveel als mogelijk gewaarborgd, maar geeft dit ook de ontwikkelaar alle regie op het (door) te ontwikkelen product en bijbehorende repositories. Hierdoor kunnen de eisen behorende bij de van toepassing zijnde ambitie alsnog worden gerealiseerd. Verbeteringen op de kopie dienen natuurlijk wel conform de ambitieniveaus terug te vloeien naar de gemeenschap van het oorspronkelijke product. Wanneer er door wordt ontwikkeld op een closed source product, dan kan die doorontwikkeling beschouwd worden als een losstaand open source product.
 
