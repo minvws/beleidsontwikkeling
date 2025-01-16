@@ -55,7 +55,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ## Wat is auteursrecht?
 
-- Creatief werk is automatisch beschermd vanuit het auteursrecht.
+- Creatief werk is automatisch beschermd vanuit de auteurswet.
 - De maker heeft automatisch het intellectueel eigendom.
 - Anderen mogen het werk niet zomaar verder verspreiden, kopiëren en/of aanpassen.
 - Je kan licenties uitgeven aan gebruikers om het creatieve werk toch te mogen gebruiken.
@@ -122,7 +122,7 @@ Open source licenties gaan expliciet over de broncode. Hoe de software wordt geb
 
 ---
 
-## Nuance: Auteursrecht en overheid
+## Nuance: Auteurswet en overheid
 
 - Voor overheden geldt een uitzondering.
 - Openbaar gemaakt werk vanuit de overheid is zonder expliciete gebruikersvoorwaarden **niet** beschermd door auteursrecht. 
@@ -133,10 +133,9 @@ Open source licenties gaan expliciet over de broncode. Hoe de software wordt geb
 ## In de context van de fiets
 
 - Een fiets bestaat uit allerlei gestandaardiseerde componenten.
-- Denk aan een trappers, tandwielen, een ketting, stuur, twee wielen.
-- Op een standaard fiets zijn vrijwel alle onderdelen te vervangen.
-- Door onderdelen van een ander merk en/of van meer of minder kwaliteit.
-- Variëren op bijv. het frame en wieldikte maakt van een fiets een standfiets, mountainbike of racefiets.
+- Denk aan een trappers, tandwielen, een ketting, stuur, wielen.
+- Op een standaard fiets zijn vrijwel alle onderdelen te vervangen door onderdelen van een ander merk en/of van meer of mindere kwaliteit.
+- Variëren op bijv. het frame en wieldikte maakt van een fiets een stadsfiets, mountainbike of racefiets.
 
 ---
 
@@ -145,12 +144,6 @@ Open source licenties gaan expliciet over de broncode. Hoe de software wordt geb
 We nemen als voorbeeld het ROM-pedaal. Het ROM-pedaal maakt het mogelijk om te fietsen met een minimale kniebuiging. Handig voor mensen met een aandoening zoals artrose.
 
 Een ROM-pedaal past op elke gangbare fiets, want de componenten van een fiets zijn grotendeels gestandaardiseerd.
-
----
-
-## Het ROM-pedaal
-
-Het ROM-pedaal is bedoeld voor patiënt die bijv. leiden aan artrose. Een ROM-pedaal zorgt ervoor dat de draaicirkel bij het trappen sterk wordt verminderd en daarmee ook de buiging van de knie.
 
 ---
 
@@ -198,14 +191,14 @@ De individuele componenten die een minder ambitieuze licentie (*toegevelijk* of 
 
 Zoals eerder is genoemd gaat het bij een open source licentie alleen over de broncode en niet over hoe de software wordt gebruikt. 
 
-In geval van een fiets gaat het alleen over de onderdelen die de fiets maken om de fiets als geheel, maar niet over hoe de fiets wordt gebruikt. Om dat te illustreren, een aantal voorbeelden.
+In geval van een fiets gaat het alleen om de fiets als geheel, maar niet over hoe de fiets wordt gebruikt. Om dat te illustreren, een aantal voorbeelden.
 
 ---
 
 ## Voorbeeld 1
 
 - Fiets (*sterk wederkerig*)
-- Snelbinders (*toegevelijk*) +
+- Snelbinders (*toegevelijk*) + \
   \=
 - Fiets als geheel (*sterk wederkerig*)
 - Snelbinders (*toegevelijk*)
@@ -217,7 +210,7 @@ Een *sterk wederkerig* onderdeel zorgt dat het product dat is samengesteld uit d
 ## Voorbeeld 2
 
 - Fiets (*toegevelijk*)
-- Snelbinders (*sterk wederkerig*) +
+- Snelbinders (*sterk wederkerig*) + \
   \=
 - Fiets als geheel (*sterk wederkerig*)
 - Snelbinders (*sterk wederkerig*)
@@ -229,7 +222,7 @@ Een *sterk wederkerig* onderdeel zorgt dat het product dat is samengesteld uit d
 ## Voorbeeld 3
 
 - Fiets (*sterk wederkerig*)
-- Losse fietstassen (*toegevelijk*) +
+- Losse fietstassen (*toegevelijk*) + \
   \=
 - Fiets als geheel (*sterk wederkerig*)
 - Losse fietstassen (*toegevelijk*)
@@ -241,7 +234,7 @@ De kennis om tot het totaalproduct te komen wordt *sterk wederkerig* beschikbaar
 ## Voorbeeld 4
 
 - Fiets (*zwak wederkerig*)
-- Losse fietstassen (*sterk wederkerig*) +
+- Losse fietstassen (*sterk wederkerig*) + \
   \=
 - Fiets als geheel (*sterk wederkerig*)
 - Losse fietstassen (*sterk wederkerig*)
@@ -253,7 +246,7 @@ Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het t
 ## Voorbeeld 5
 
 - Fiets (*zwak wederkerig*)
-- Losse fietstassen (*toegevelijk*) +
+- Losse fietstassen (*toegevelijk*) + \
   \=
 - Fiets als geheel (*zwak wederkerig*)
 - Losse fietstassen (*toegevelijk*)
@@ -264,7 +257,7 @@ Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het t
 
 - Fiets (*sterk wederkerig*)
 - Mandje op het stuur (*sterk wederkerig*) +
-- Snelbinders los in het mandje +
+- Snelbinders los in het mandje + \
   \=
 - Fiets als geheel (*sterk wederkerig*)
 - Losse fietstassen (*sterk wederkerig*)
@@ -278,7 +271,7 @@ De snelbinders worden in zijn geheel niet geraakt door de open source licenties,
 
 - Fiets (*sterk wederkerig*)
 - Fietslamp (*sterk wederkerig*) +
-- Verbeteringen op de fietslamp
+- Verbeteringen op de fietslamp + \
   \=
 - Fiets als geheel (*sterk wederkerig*)
 - Fietslamp (*sterk wederkerig*)
@@ -292,7 +285,7 @@ Je doet verbeteringen op een *sterk wederkerig* product, alle verbeteringen moet
 
 - Fiets (*gesloten licentie*)
 - Fietslamp (*zwak wederkerig*) +
-- Verbeteringen op de fietslamp
+- Verbeteringen op de fietslamp + \
   \=
 - Fiets als geheel (*geen licentie*)
 - Fietslamp (*zwak wederkerig*)
@@ -306,7 +299,7 @@ Je doet verbeteringen op een *zwak wederkerig* product, alle verbeteringen moete
 
 - Fiets (*gesloten licentie*)
 - Fietslamp (*toegevelijk*) +
-- Verbeteringen op de fietslamp
+- Verbeteringen op de fietslamp + \
   \=
 - Fiets als geheel (*geen licentie*)
 - Fietslamp (*toegevelijk*)
@@ -319,7 +312,7 @@ Je doet verbeteringen op een *toegevelijk* product, alle verbeteringen mogen ook
 ## Voorbeeld 10
 
 - Fiets (*gesloten licentie*)
-- Fietslamp (*sterk wederkerig*)
+- Fietslamp (*sterk wederkerig*) + \
   \=
 - Fiets als geheel & fietslamp (*sterk wederkerig*)
 
@@ -330,7 +323,7 @@ Een *sterk wederkerig* onderdeel zorgt er ook hier voor dat het totale product *
 ## Voorbeeld 11
 
 - Fiets (*sterk wederkerig*)
-- Fiets wordt vervoerd in een vrachtwagen (*gesloten licentie*)
+- Fiets wordt vervoerd in een vrachtwagen (*gesloten licentie*) + \
   \=
 - Fiets als geheel (*sterk wederkerig*)
 - Vrachtwagen (*gesloten licentie*)
