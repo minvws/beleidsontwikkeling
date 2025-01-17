@@ -107,11 +107,11 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ## Varianten open source licenties
 
-- Toegevelijke licenties (*permissive*) 
+- Toegevelijke licenties (*permissive*) \
   Verbeteringen mogen gesloten gehouden worden.
-- Zwak-wederkerige licenties (*weak copyleft*)
-  Verbeteringen moeten onder dezelfde voorwaarden ook beschikbaar zijn.
-- Sterk-wederkerige licenties (*strong copyleft*)
+- Zwak-wederkerige licenties (*weak copyleft*) \
+  Verbeteringen moeten onder dezelfde voorwaarden ook beschikbaar worden gesteld.
+- Sterk-wederkerige licenties (*strong copyleft*) \
   De hele software waarbinnen de open source broncode wordt gebruikt moet onder dezelfde voorwaarden open source worden gemaakt.
 
 ---
@@ -200,10 +200,11 @@ In geval van een fiets gaat het alleen om de fiets als geheel, maar niet over ho
 - Fiets (*sterk wederkerig*)
 - Snelbinders (*toegevelijk*) + \
   \=
-- Fiets als geheel (*sterk wederkerig*)
-- Snelbinders (*toegevelijk*)
+- Fiets incl. snelbinders (*sterk wederkerig*)
+- Snelbinders apart (*toegevelijk*)
 
-Een *sterk wederkerig* onderdeel zorgt dat het product dat is samengesteld uit de verschillende onderdelen ook *sterk wederkerig* wordt.
+\
+Een *sterk wederkerige* licentie overtroefd altijd andere licenties.
 
 ---
 
@@ -212,10 +213,11 @@ Een *sterk wederkerig* onderdeel zorgt dat het product dat is samengesteld uit d
 - Fiets (*toegevelijk*)
 - Snelbinders (*sterk wederkerig*) + \
   \=
-- Fiets als geheel (*sterk wederkerig*)
-- Snelbinders (*sterk wederkerig*)
+- Fiets (*sterk wederkerig*)
+- Snelbinders apart (*sterk wederkerig*)
 
-Een *sterk wederkerig* onderdeel zorgt dat het product dat is samengesteld uit de verschillende onderdelen ook *sterk wederkerig* wordt.
+\
+Een *sterk wederkerig* onderdeel zorgt dat het samengestelde product ook *sterk wederkerig* wordt, ongeacht de licentie van de andere onderdelen.
 
 ---
 
@@ -224,9 +226,10 @@ Een *sterk wederkerig* onderdeel zorgt dat het product dat is samengesteld uit d
 - Fiets (*sterk wederkerig*)
 - Losse fietstassen (*toegevelijk*) + \
   \=
-- Fiets als geheel (*sterk wederkerig*)
+- Fiets (*sterk wederkerig*)
 - Losse fietstassen (*toegevelijk*)
 
+\
 De kennis om tot het totaalproduct te komen wordt *sterk wederkerig* beschikbaar gesteld. Het losse onderdeel kan nog steeds in een andere context *toegevelijk* worden gebruikt.
 
 ---
@@ -236,9 +239,10 @@ De kennis om tot het totaalproduct te komen wordt *sterk wederkerig* beschikbaar
 - Fiets (*zwak wederkerig*)
 - Losse fietstassen (*sterk wederkerig*) + \
   \=
-- Fiets als geheel (*sterk wederkerig*)
+- Fiets (*sterk wederkerig*)
 - Losse fietstassen (*sterk wederkerig*)
 
+\
 Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het totaalproduct *sterk wederkerig* beschikbaar moet komen. 
 
 ---
@@ -248,8 +252,11 @@ Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het t
 - Fiets (*zwak wederkerig*)
 - Losse fietstassen (*toegevelijk*) + \
   \=
-- Fiets als geheel (*zwak wederkerig*)
+- Fiets (*zwak wederkerig*)
 - Losse fietstassen (*toegevelijk*)
+
+\
+*zwak wederkerige* en *toegevelijke* licenties overtroeven de licenties van andere onderdelen niet.
 
 ---
 
@@ -259,11 +266,12 @@ Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het t
 - Mandje op het stuur (*sterk wederkerig*) +
 - Snelbinders los in het mandje + \
   \=
-- Fiets als geheel (*sterk wederkerig*)
+- Fiets (*sterk wederkerig*)
 - Losse fietstassen (*sterk wederkerig*)
 - Snelbinders (*zonder licentie*)
 
-De snelbinders worden in zijn geheel niet geraakt door de open source licenties, want de snelbinders worden in het mandje vervoert. Ze maken nu geen onderdeel uit van de fiets.
+\
+De snelbinders worden niet geraakt door de licenties van de fiets en mandje, want ze worden in het mandje vervoert. Ze maken nu geen onderdeel uit van de fiets.
 
 ---
 
@@ -273,10 +281,11 @@ De snelbinders worden in zijn geheel niet geraakt door de open source licenties,
 - Fietslamp (*sterk wederkerig*) +
 - Verbeteringen op de fietslamp + \
   \=
-- Fiets als geheel (*sterk wederkerig*)
+- Fiets (*sterk wederkerig*)
 - Fietslamp (*sterk wederkerig*)
 - Verbeteringen (*sterk wederkerig*)
 
+\
 Je doet verbeteringen op een *sterk wederkerig* product, alle verbeteringen moeten onder dezelfde voorwaarden gedeeld worden.
 
 ---
@@ -287,10 +296,11 @@ Je doet verbeteringen op een *sterk wederkerig* product, alle verbeteringen moet
 - Fietslamp (*zwak wederkerig*) +
 - Verbeteringen op de fietslamp + \
   \=
-- Fiets als geheel (*geen licentie*)
+- Fiets (*geen licentie*)
 - Fietslamp (*zwak wederkerig*)
 - Verbeteringen (*zwak wederkerig*)
 
+\
 Je doet verbeteringen op een *zwak wederkerig* product, alle verbeteringen moeten onder dezelfde voorwaarden gedeeld worden. De *zwak wederkerige* licentie heeft geen invloed op de licentie van het samengestelde product.
 
 ---
@@ -305,6 +315,7 @@ Je doet verbeteringen op een *zwak wederkerig* product, alle verbeteringen moete
 - Fietslamp (*toegevelijk*)
 - Verbeteringen mogen gesloten blijven
 
+\
 Je doet verbeteringen op een *toegevelijk* product, alle verbeteringen mogen ook beschikbaar gesteld worden, maar dat hoeft niet. De *toegevelijke* licentie heeft ook geen invloed op de licentie van het samengestelde product.
 
 ---
@@ -314,8 +325,10 @@ Je doet verbeteringen op een *toegevelijk* product, alle verbeteringen mogen ook
 - Fiets (*gesloten licentie*)
 - Fietslamp (*sterk wederkerig*) + \
   \=
-- Fiets als geheel & fietslamp (*sterk wederkerig*)
+- Fiets (*sterk wederkerig*)
+- Fietslamp (*sterk wederkerig*)
 
+\
 Een *sterk wederkerig* onderdeel zorgt er ook hier voor dat het totale product *sterk wederkerig* beschikbaar gesteld moet worden.
 
 ---
@@ -325,7 +338,38 @@ Een *sterk wederkerig* onderdeel zorgt er ook hier voor dat het totale product *
 - Fiets (*sterk wederkerig*)
 - Fiets wordt vervoerd in een vrachtwagen (*gesloten licentie*) + \
   \=
-- Fiets als geheel (*sterk wederkerig*)
+- Fiets (*sterk wederkerig*)
 - Vrachtwagen (*gesloten licentie*)
 
+\
 Het vervoeren van de fiets in een vrachtwagen heeft geen invloed op de vrachtwagen. Het zijn losse producten.
+
+---
+
+## Een strategisch beleidsinstrument
+
+Zoals in alle voorbeelden te zien kan een open source licentie dienen als een strategisch beleidsinstrument. Met licenties kan je op meer of mindere mate afdwingen dat (het geheel aan) ontwikkelingen open en transparant blijven.
+
+---
+
+## Wanneer *toegevelijk*?
+
+- Wanneer een publieke instelling een nieuwe markt wil stimuleren met nieuwe innovaties/ functionaliteiten zonder publieke belang.
+- Wanneer een publieke instelling zelf ontwikkelt aan functies zonder publiek belang, zoals een Design System.
+- Wanneer een publieke instelling werkt een wetenschappelijk of innovatief waardevolle kennis, bijv. in de vorm van een Proof-of-concept.
+
+---
+
+## Wanneer *zwak wederkerig*?
+
+- Wanneer het nodig is door te ontwikkelen op bestaand producten.
+- Wanneer een publieke instelling een nieuwe markt wil stimuleren met nieuwe innovaties/ functionaliteiten met weinig publieke belang.
+- Wanneer een publieke instelling zelf ontwikkelt aan functies met weinig publiek belang.
+- Wanneer de ontwikkeling niet als doel heeft bij te dragen aan de wetenschap.
+
+---
+
+## Wanneer *sterk wederkerig*?
+
+- Bij de ontwikkeling van stelsels en/of infrastructuren die een duidelijk publiek belang dienen, zoals basisregistraties.
+- Bij software die sterk gekoppeld is aan de fundamenten van onze liberale democratische samenleving, zoals verkiezingssoftware.
