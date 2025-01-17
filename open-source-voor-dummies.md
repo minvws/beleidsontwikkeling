@@ -53,15 +53,6 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Wat is auteursrecht?
-
-- Creatief werk is automatisch beschermd vanuit de auteurswet.
-- De maker heeft automatisch het intellectueel eigendom.
-- Anderen mogen het werk niet zomaar verder verspreiden, kopiëren en/of aanpassen.
-- Je kan licenties uitgeven aan gebruikers om het creatieve werk toch te mogen gebruiken.
-
----
-
 ## Wat is software?
 
 - Software is een samenhang van opdrachten die een computer vertelt wat die moet doen.
@@ -81,9 +72,9 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ## Hoe is software opgebouwd?
 
-- De meeste software wordt niet vanaf nul volledig ontwikkeld.
 - Veel gebruikte functies zijn gestandaardiseerd en kunnen worden hergebruikt.
 - Een logische samenhang aan functies wordt ook wel een software component genoemd.
+- De meeste software wordt niet vanaf nul volledig ontwikkeld.
 
 ---
 
@@ -92,6 +83,15 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
   - Het samenbrengen van bestaande componenten.
   - Het eventueel ontwikkelen van een nieuw component.
   - Nieuwe regels toevoegen (aan componenten) voor de lokale context.
+
+---
+
+## Wat zegt de auteurswet?
+
+- Creatief werk is automatisch beschermd vanuit de auteurswet.
+- De maker heeft automatisch het intellectueel eigendom.
+- Anderen mogen het werk niet zomaar verder verspreiden, kopiëren en/of aanpassen.
+- Je kan licenties uitgeven aan gebruikers om het creatieve werk toch te mogen gebruiken.
 
 ---
 
