@@ -1,0 +1,5 @@
+destination: ./build
+baseurl: 'beleidsontwikkeling'
+title: "Open beleidsontwikkeling rond open source"
+theme: just-the-docs
+search_enabled: false
