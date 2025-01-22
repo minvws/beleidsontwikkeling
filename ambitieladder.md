@@ -23,7 +23,7 @@ layout: default
 >[!Note]Participeren?
 >
 >[![hackmd-github-sync-badge](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ/badge)](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ)
->
+> \
 >:100: Het doel van dit document is om in open samenwerking tot een volledig uitgewerkte ambitieladder te komen die een handvat moet gaan bieden voor open source in aanbestedingen of inhuur. Het staat iedereen vrij te participeren in dit document. Op basis van goed vertrouwen.
 
 >[!Important]Beheerder
@@ -34,9 +34,11 @@ layout: default
 
 > [!Note] Community call
 > :phone: https://meet.jit.si/OpenSourceBeleidsontwikkeling
-> 
+> \
+> \
 > :date: In elke oneven weken op woensdag om 13:00
-> 
+> \
+> \
 > :grey_question: Tijdens deze bijeenkomst worden alle commentaren en verbetersuggesties besproken op volgorde van binnenkomst. Mocht je dus iets willen bespreken, zet dat dan 'op de agenda' met een concrete opmerking, vraag of verbetersuggestie. Gewoon meepraten kan natuurlijk ook.
 
 > [!Important] Regels van de bijeenkomsten
