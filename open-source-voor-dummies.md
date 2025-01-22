@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <style>
 p {
     text-align: left; 
@@ -40,7 +44,7 @@ ul {
 }
 </style>
 
-Open source voor dummies
+Open source licenties voor dummies
 ===
 
 ---
