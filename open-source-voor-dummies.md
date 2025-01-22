@@ -377,3 +377,7 @@ Zoals in alle voorbeelden te zien kan een open source licentie dienen als een st
 
 - Bij de ontwikkeling van stelsels en/of infrastructuren die een duidelijk publiek belang dienen, zoals basisregistraties.
 - Bij software die sterk gekoppeld is aan de fundamenten van onze liberale democratische samenleving, zoals verkiezingssoftware.
+
+---
+
+<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
