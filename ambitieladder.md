@@ -254,3 +254,5 @@ Vanaf hier gaat het meer over transparantie dan over echt opensourcewerken. Om d
 
 * Marc van Andel (Kadaster)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
+
+<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
