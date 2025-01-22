@@ -1,0 +1,40 @@
+.colorblock-alert {
+    padding: 0.25rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.colorblock-alert > :first-child {
+    margin-top: 0;
+}
+
+.colorblock-alert > :last-child {
+    margin-bottom: 0;
+}
+
+.colorblock-alert .colorblock-alert-title {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    line-height: 1;
+}
+
+.colorblock-alert svg {
+    margin-right: 0.5rem !important;
+}
+
+.colorblock-alert svg path {
+    fill: currentColor;
+}
+
+.colorblock-alert.colorblock-alert-info {
+    border-left: .25em solid #0284c7;
+    background: #e0f2fe;
+    color: #0284c7;
+}
+
+.colorblock-alert.colorblock-alert-warning {
+    border-left: .25em solid #f59e0b;
+    background: #fef3c799;
+    color: #f59e0b;
+}
