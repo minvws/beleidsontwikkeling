@@ -129,7 +129,8 @@ Open source licenties gaan expliciet over de broncode. Hoe de software wordt geb
 ## Nuance: Auteurswet en overheid
 
 - Voor overheden geldt een uitzondering.
-- Openbaar gemaakt werk vanuit de overheid is zonder expliciete gebruikersvoorwaarden **niet** beschermd door auteursrecht. 
+- De overheid heeft net als ieder ander standaard het auteursrecht op creatief werk wat vanuit diezelfde overheid is gemaakt.
+- Openbaar gemaakt werk vanuit de overheid is zonder expliciete gebruikersvoorwaarden alleen **niet** beschermd tegen auteursrechtschendingen (Auteurswet Art. 15b). 
 - Een open source licentie verruimd dus niet het gebruikersrecht, maar legt ermee juist een (zeer beperkte) beperking op.
 
 ---
@@ -381,3 +382,5 @@ Zoals in alle voorbeelden te zien kan een open source licentie dienen als een st
 ---
 
 <small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
+
+[![hackmd-github-sync-badge](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA/badge)](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA)
