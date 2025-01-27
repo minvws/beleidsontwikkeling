@@ -129,8 +129,7 @@ Open source licenties gaan expliciet over de broncode. Hoe de software wordt geb
 ## Nuance: Auteurswet en overheid
 
 - Voor overheden geldt een uitzondering.
-- De overheid heeft net als ieder ander standaard het auteursrecht op creatief werk wat vanuit diezelfde overheid is gemaakt.
-- Openbaar gemaakt werk vanuit de overheid is zonder expliciete gebruikersvoorwaarden alleen **niet** beschermd tegen auteursrechtschendingen (Auteurswet Art. 15b). 
+- Openbaar gemaakt werk vanuit de overheid mag, zonder expliciete gebruikersvoorwaarden, vrij worden gebruikt en gekopieerd door derden zonder dat dit als auteursrechtschending wordt gezien (Auteurswet Art. 15b), maar de overheid behoudt het auteursrecht.
 - Een open source licentie verruimd dus niet het gebruikersrecht, maar legt ermee juist een (zeer beperkte) beperking op.
 
 ---
