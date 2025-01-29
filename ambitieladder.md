@@ -53,7 +53,7 @@ layout: default
 > :phone: https://meet.jit.si/OpenSourceBeleidsontwikkeling
 > \
 > \
-> :date: In elke oneven weken op woensdag om 13:00
+> :date: In elke oneven weken op woensdag om 13:30
 > \
 > \
 > :grey_question: Tijdens deze bijeenkomst worden alle commentaren en verbetersuggesties besproken op volgorde van binnenkomst. Mocht je dus iets willen bespreken, zet dat dan 'op de agenda' met een concrete opmerking, vraag of verbetersuggestie. Gewoon meepraten kan natuurlijk ook.
@@ -75,7 +75,7 @@ layout: default
 >
 > De ervaring leert dat iemand met enige hulp goed in staat is te verwoorden welke doelstellingen en ambitie ze zelf zien bij de toepassing met open source. Maar wat uiteindelijk ontbreekt zijn concrete handvatten om het toe te passen in de praktijk, van in dit geval aanbesteding of inhuur, en ervaringen van anderen om de koudwatervrees weg te nemen.
 
-Het doel van de ambitieladder is een handvat bieden in de toepassing van open source in een aanbesteding, inhuur, opdracht of zelfs vacature. Op basis van dat ambitieniveau biedt deze ambitieladder concrete tekst(suggesties) in de toepassing van die ambitie.
+Het doel van de ambitieladder is een handvat bieden in de toepassing van open source in een aanbesteding, inhuur, opdracht of zelfs vacature. Je kan het ook gebruiken als ambitie richting je projectteam. Op basis van dat ambitieniveau biedt deze ambitieladder concrete tekst(suggesties) in de toepassing van die ambitie.
 
 Het is goed te realiseren dat een hoger ambitieniveau normaliter ook meer van de eigen organisatie vraagt waar het gaat om de regierol, benodigde financien, kennis en expertise van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is.
 
@@ -329,3 +329,9 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
    Opdrachtnemers krijgen betaald voor alle ontwikkeling die in het kader van deze aanbesteding worden gevraagd. Het intellectueel eigendom van de werken die in opdracht van deze aanbesteding worden ontwikkeld liggen bij de Opdrachtgever. Het staat Opdrachtnemers natuurlijk vrij om, gezien het open source karakter van deze aanbesteding, de ontwikkelde broncode her te gebruiken in welke andere (commerciële) context dan ook.
 * **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
    Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
+   
+---
+
+<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
+
+[![hackmd-github-sync-badge](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA/badge)](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA)
