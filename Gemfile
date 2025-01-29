@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem "just-the-docs"
   gem "kramdown-parser-gfm"
+  gem "jekyll-last-commit"
 end

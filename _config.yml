@@ -27,6 +27,7 @@ theme: just-the-docs
 plugins:
   - jemoji
   - jekyll-optional-front-matter
+  - jekyll-last-commit
 search_enabled: false
 
 exclude:
