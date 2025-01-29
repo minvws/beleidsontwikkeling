@@ -23,7 +23,7 @@ layout: default
 # Open source ambitieladder in maatwerk aanbesteding of opdracht
 
 >[!Note]Uitleg
->Alle tekst in deze blokken komen niet in het uiteindelijke document, maar zijn bedoeld als uitleg voor jou als bijdrager.
+>Alle tekst in deze blokken komen niet in het gepubliceerde document op github pages, maar zijn bedoeld als uitleg voor jou als bijdrager hier op HackMD.
 
 >[!Note]Participeren?
 >
@@ -67,6 +67,21 @@ layout: default
 > * Je bent herkenbaar in beeld.
 > * Alles op basis van goed vertrouwen.
 > * Wordt het vertrouwen geschaad, dan wordt er door de host ingegrepen.
+
+## Inhoud
+
+* [Introductie](#Introductie)
+* [Voordelen van opensourcewerken](#Voordelen-van-opensourcewerken)
+* [Voordelen van open source aanbesteden](#Voordelen-van-open-source-aanbesteden)
+* [Tekstsuggesties](#Tekstsuggesties)
+  * [Algemene teksten](#Algemene-teksten)
+  * [1. Efficiëntie en Onafhankelijkheid](#1-Efficiëntie-en-Onafhankelijkheid)
+  * [2. Veiligheid en Betrouwbaarheid](#2-Veiligheid-en-Betrouwbaarheid)
+  * [3. Transparantie en Vertrouwen](#3-Transparantie-en-Vertrouwen)
+  * [4. Samenwerking en Innovatie](#4-Samenwerking-en-Innovatie)
+* [Voorbeeld laagste ambitie](#Voorbeeld-laagste-ambitie)
+* [Voorbeeld hoogste ambitie](#Voorbeeld-hoogste-ambitie)
+* [Veel gestelde vragen door opdrachtnemers](#Veel-gestelde-vragen-door-opdrachtnemers)
 
 ## Introductie
 
@@ -148,7 +163,9 @@ Open source aanbesteden brengt een groot aantal voordelen met zich mee. Niet all
 * Opdrachtnemers die een aanbesteding niet winnen, kunnen toch gebruik maken van het werk en de kennis die vanuit de opdracht wordt ontwikkeld. Ze hoeven **geen kennisachterstand** te hebben. Dat is met name van belang wanneer meerdere leveranciers samen in een specifiek stelsel opereren.
 * Het is voor opdrachtnemers makkelijker om een **portfolio** aan te leggen van niet alleen eindproducten, maar ook **met inzicht in de kwaliteit van de techniek**.
 
-## Algemene teksten
+## Tekstsuggesties
+
+### Algemene teksten
 
 Een aanbesteding bestaat uit allerlei samenhangende documenten. Het is van belang om in al die documenten op de juiste manier aandacht te besteden aan de eisen die aan het opensourcewerken worden gesteld. Een voorbeeld zin die in het *Selectiedocument* gebruikt kan worden:
 
@@ -162,23 +179,23 @@ Alle eisen die onder categorie 1, 2 en 3 staan beschreven zijn bedoeld om op te 
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat <span class="variabele">[enige mate|een hoge standaard|hoogste standaard]</span> van opensourcewerken wordt toegepast. Dat wil zeggen dat: 
 
-## 1. Efficiëntie en Onafhankelijkheid
+### 1. Efficiëntie en Onafhankelijkheid
 
 Voor dit voordeel kan je minder spreken over ambities. Het gaat eerder over opties. Voor dit voordeel is het nodig om de aanbesteding vanaf begin af aan op een bepaalde manier in de markt te zetten. Zodat je al tijdens de marktconsultatie aangeeft of je de aanbesteding wel of niet 'verkavelt'; een chique woord voor opknippen. Dat je bijv. een de (door)ontwikkeling en/of integratie en/of technische/functioneel beheer, hosting etc. allemaal bij dezelfde leverancier wil beleggen of juist bewust van verschillende leveranciers wil afnemen.
 
-### Optie 1. Er wordt één opdrachtnemer aanbesteed om alle dienstverlening te leveren
+#### Optie 1. Er wordt één opdrachtnemer aanbesteed om alle dienstverlening te leveren
 
 Er worden geen aanvullende eisen gesteld aan de aanbesteding. Er wordt één opdrachtnemer gezocht voor alle dienstverlening.
 
-### Optie 2. Er worden meerdere opdrachtnemers aanbesteed om verschillende onderdelen uit de dienstverlening op zich te nemen
+#### Optie 2. Er worden meerdere opdrachtnemers aanbesteed om verschillende onderdelen uit de dienstverlening op zich te nemen
 
 De aanbesteding wordt bewust verkaveld. Er is nagedacht uit welke (onafhankelijke) onderdelen deze aanbesteding bestaat. Het wordt aan potentieële opdrachtnemers duidelijk gemaakt op welke onderdelen ze zich mogen inschrijven. Ook wordt duidelijk gemaakt of opdrachtnemers meerdere onderdelen in de aanbesteding mogen uitvoeren.
 
-### Optie 3. Leveranciers, maatschappelijke partners en/of andere geïnteresseerden werken samen en kunnen blijven samenwerken. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
+#### Optie 3. Leveranciers, maatschappelijke partners en/of andere geïnteresseerden werken samen en kunnen blijven samenwerken. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
 
 Voor de aanbesteding wordt door (één van de) leveranciers of door de opdrachtgevers een gezamenlijke backlog bijgehouden waaraan opdrachtnemende partijen zich commiteren. De uitvoering gebeurt niet op basis van op voorhand volledig uitgedachte werkzaamheden, maar op basis van globale functionele wensen.
 
-## 2. Veiligheid en Betrouwbaarheid
+### 2. Veiligheid en Betrouwbaarheid
 
 Zoals eerder vermeld wordt er in dit voordeel geen consessies gedaan. Maak gebruik van onderstaande teksten om op een veilige en betrouwbare manier open source software in te kopen.
 
@@ -200,38 +217,38 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 1. Broncode en de onderliggende data gescheiden wordt gehouden.
 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk (openbaar) veilig te stellen op een eigen platform.
 
-## 3. Transparantie en Vertrouwen
+### 3. Transparantie en Vertrouwen
 
-### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
+#### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
 
-### Ambitie 2. Op vaste momenten open source publiceren van de broncode
+#### Ambitie 2. Op vaste momenten open source publiceren van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="oud">na afronding van de opdracht</span> worden gepubliceerd op een openbaar git ondersteunend platform.
 1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
 1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 
-### Ambitie 3. Het vanaf begin volledig openbaar open source ontwikkeling van de broncode
+#### Ambitie 3. Het vanaf begin volledig openbaar open source ontwikkeling van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 1. <span class="oud">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 1. <span class="nieuw">Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.</span>
 
-## 4. Samenwerking en Innovatie
+### 4. Samenwerking en Innovatie
 
-### Ambitie 1. Externe bijdragen worden niet behandeld
+#### Ambitie 1. Externe bijdragen worden niet behandeld
 
 1. Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
 
-### Ambitie 2. Externe bijdragen worden behandeld maar niet actief gezocht
+#### Ambitie 2. Externe bijdragen worden behandeld maar niet actief gezocht
 
 1. <span class="oud">Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.</span>
 1. <span class="nieuw">De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.</span>
 1. <span class="nieuw">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
 
-### Ambitie 3. Actief samenwerken
+#### Ambitie 3. Actief samenwerken
 
 1. De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.
 1. <span class="oud">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
