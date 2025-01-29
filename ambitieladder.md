@@ -7,11 +7,16 @@ layout: default
 }
     
 .oud {     
-    background: rgb(255, 200, 200);  
+    background: rgb(255, 200, 200);
 }
     
 .nieuw {     
-    background: rgb(200, 255, 200);      
+    background: rgb(200, 255, 200);
+}
+    
+.variabele {
+    background: rgb(225, 225, 225);
+    color: rgb(100, 100, 100);
 }
 </style>
 
@@ -22,9 +27,21 @@ layout: default
 
 >[!Note]Participeren?
 >
->[![hackmd-github-sync-badge](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ/badge)](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ)
+> Suggesties voor wijzigingen kun je doen via: \
+> [![hackmd-github-sync-badge](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ/badge)](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ)
+> \
 > \
 >:100: Het doel van dit document is om in open samenwerking tot een volledig uitgewerkte ambitieladder te komen die een handvat moet gaan bieden voor open source in aanbestedingen of inhuur. Het staat iedereen vrij te participeren in dit document. Op basis van goed vertrouwen.
+> \
+> \
+> Om te participeren ga je via bovenstaande knop naar de HackMD versie van dit document. Daar heb je twee opties:
+> 1. Commentaar achterlaten;
+> 2. Een tekstsuggestie doen.
+>
+> Selecteer een stuk tekst. Er opent dan een klein menu waarin je kan kiezen voor "*Comment*", "*Suggest Edit*", "*Edit from here*" of "*Copy link*".
+> \
+> \
+> Participeren via github is niet mogelijk zal daar ook niet worden behandeld. Je kan in plaats daarvan met of zonder je github account op HackMD inloggen.
 
 >[!Important]Beheerder
 >:cop: Maurice Hendriks
@@ -58,86 +75,29 @@ layout: default
 >
 > De ervaring leert dat iemand met enige hulp goed in staat is te verwoorden welke doelstellingen en ambitie ze zelf zien bij de toepassing met open source. Maar wat uiteindelijk ontbreekt zijn concrete handvatten om het toe te passen in de praktijk, van in dit geval aanbesteding of inhuur, en ervaringen van anderen om de koudwatervrees weg te nemen.
 
-Het doel van de ambitieladder is een handvat bieden in de toepassing van open source in een aanbesteding, inhuur, opdracht of zelfs vacature. Op basis van dat ambitieniveau biedt de ambitieladder concrete tekst(suggesties) in de toepassing van die ambitie.
+Het doel van de ambitieladder is een handvat bieden in de toepassing van open source in een aanbesteding, inhuur, opdracht of zelfs vacature. Op basis van dat ambitieniveau biedt deze ambitieladder concrete tekst(suggesties) in de toepassing van die ambitie.
 
-De daadwerkelijke ambitieniveau's beginnen met het hoogste ambitieniveau. Meestal zal een lager ambitieniveau betekenen dat bepaalde eisen vervallen of minder krachtig verwoord zijn. Daarbij vraagt een hoger ambitieniveau normaliter ook meer van de eigen organisatie waar het gaat over de regierol, benodigde financien, kennis en kwaliteiten van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is.
+Het is goed te realiseren dat een hoger ambitieniveau normaliter ook meer van de eigen organisatie vraagt waar het gaat om de regierol, benodigde financien, kennis en expertise van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is.
 
-Per ambitieniveau staan tekst suggesties die gebruikt kunnen worden in de Programma van Eisen van een aanbesteding. Elk ambitieniveau lager wordt in relatie gebracht met de ambitieniveaus erboven. Als een eis hetzelfde is als de eis een ambitieniveau hoger, dan staat er simpelweg blijft gelijk. Als een eis vervalt dan staat er simpelweg vervalt. Als een eis in verwoording veranderd, dan is de hele eis opgenomen maar duidelijk gemaakt wat er dan is veranderd in de verwoording.
+Per ambitieniveau staan tekst suggesties die gebruikt kunnen worden in de *Programma van Eisen* van een aanbesteding. Per ambitieniveau veranderen ook de eisen in verwoording, komen er eisen bij of vallen er eisen af. Hoe de eisen verschillen tussen ambitieniveaus is met rood (vervalt) en groen (komt erbij) inzichtelijk gemaakt.
 
 :::info
 :bulb: **Aanbesteding, opdracht of vacature?**
 
-Ondanks dat de teksten zijn geschreven met een aanbesteding in het achterhoofd kunnen ze ook gelezen worden als eisen die je stelt aan inhuurkrachten of in vacatures. Zo vragen alle ambitie niveaus kennis van git, SBOM-standaarden, open source licenties etc. Partijen of personen die in staat zijn een hoger ambitieniveau te bedienen kunnen dan de voorkeur genieten boven andere partijen of personen.
+Ondanks dat de teksten zijn geschreven met een aanbesteding in het achterhoofd kunnen ze ook gelezen worden als eisen die je stelt aan inhuurkrachten, in vacatures of je ontwikkelteam. Zo wordt de kennis van git, SBOM-standaarden, open source licenties in deze ambitieladder sowieso veronderstelt. Partijen of personen die in staat zijn een hoger ambitieniveau te bedienen kunnen dan de voorkeur genieten boven andere partijen of personen.
 :::
 
 :::info
 :bulb: **Doorontwikkeling?**
 
-Alle ambities zijn geschreven vanuit het uitgangspunt van een volledig maatwerk ontwikkelde oplossing of component. Natuurlijk wordt er ook doorontwikkeld op bestaande (open source) oplossing of componenten. Het wordt aanbevolen om in geval van doorontwikkeling op bestaande open source dit te laten plaatsvinden op een kopie. Zo wordt niet alleen de continuïteit zoveel als mogelijk gewaarborgd, maar geeft dit ook de ontwikkelaar alle regie op het (door) te ontwikkelen product en bijbehorende repositories. Hierdoor kunnen de eisen behorende bij de van toepassing zijnde ambitie alsnog worden gerealiseerd. Verbeteringen op de kopie dienen natuurlijk wel conform de ambitieniveaus terug te vloeien naar de gemeenschap van het oorspronkelijke product. Wanneer er door wordt ontwikkeld op een closed source product, dan kan die doorontwikkeling beschouwd worden als een losstaand open source product.
+Alle ambities zijn geschreven vanuit het uitgangspunt van een volledig maatwerk ontwikkelde oplossing of component. Natuurlijk wordt er ook doorontwikkeld op bestaande (open source) oplossingen of componenten. Het wordt aanbevolen om in geval van doorontwikkeling op bestaande open source dit te laten plaatsvinden op een kopie. Zo wordt niet alleen de continuïteit zoveel als mogelijk gewaarborgd, maar geeft dit ook de ontwikkelaar alle regie op het (door) te ontwikkelen product en bijbehorende repositories. De ambitie kan dan gewoon gevraagd worden alsof er volledig maatwerk wordt ontwikkeld. Verbeteringen op de kopie dienen natuurlijk wel conform de ambitie terug te vloeien naar de gemeenschap achter het oorspronkelijke werk. Wanneer er door wordt ontwikkeld op een closed source product, dan kan die doorontwikkeling beschouwd worden als een losstaande open source ontwikkeling.
 :::
 
+:::info
+:bulb: **Eigen menu samenstellen?**
 
-## Verkennende vragen
-
-Waarom willen we in deze aanbesteding aandacht besteden aan opensourcewerken? Gaat dit om het voldoen van minimale wettelijke eisen of hebben we hogere strategische doelen langs de assen van het opensourcewerken.
-
-* Transparantie en Vertrouwen
-  In hoeverre willen we dat de producten in deze aanbesteding zo open en transparant mogelijk worden ontwikkeld? Of in hoeverre willen we dat in te huren experts met hun kennis en ervaring uitvoering kunnen geven aan een ambitie?
-* Samenwerking en Innovatie
-  In hoeverre willen we dat leveranciers, maatschappelijke partners (overheid, kennisinstellingen en/of burgers) en/of andere geïnteresseerden tijdens of na de ontwikkeling van de producten (kunnen blijven) samenwerken?
-* Veiligheid en Betrouwbaarheid\
-  ...
-* Efficiëntie en Onafhankelijkheid? 
-  Willen we eventueel meerdere leveranciers aanbesteden die ieder een onderdeel van de aanbesteding voor hun rekening nemen? Indien wordt gekozen voor een samenwerking met meerdere opdrachtnemers: hoe wordt regie gevoerd op de samenwerking?
-   
-Hoe zien deze doelstellingen eruit op korte, middellange en lange termijn? Welke samenwerking met stakeholders (leveranciers, partners en/of overige geïnteresseerden) is daarvoor nodig over 1, 5 en 10 jaar?
-
-## Ambitieniveaus
-
->[!Note]Toelichting
->Ik ben begonnen met het idee dat er 10 ambitieniveaus zijn. Dat kunnen er echter ook 5, 9, 15 of ... zijn. In gezamenlijkheid gaan we uitvinden wat de juiste indeling is. Ik heb geprobeerd met ambitieniveau 1 aan te sluiten bij de minimale verplichtingen die voortvloeien uit wet- en regelgeving. In ambitieniveau 10 heb ik geprobeerd de hoogst haalbare ambitie te verwoorden.
-
-1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding. Feedback en vragen worden niet opgepakt.
-2. *ambitieniveau 2*
-3. *ambitieniveau 3*
-4. *ambitieniveau 4*
-5. *ambitieniveau 5*
-6. <span class="oud">Het eenmalig</span> <span class="nieuw">Op vaste momenten</span> open source publiceren van alle broncode <span class="oud">na afronden van de aanbesteding</span> <span class="nieuw">waarbij door open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal wordt gefaciliteerd.</span> Feedback en vragen worden niet opgepakt.
-7. Op vaste momenten open source publiceren van de broncode waarbij door open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal wordt gefaciliteerd. <span class="oud">Feedback en vragen worden niet opgepakt.</span> <span class="nieuw">Met de inbreng van derden wordt naar behoefte of noodzaak iets gedaan.</span>
-8. <span class="oud">Op vaste momenten</span> <span class="nieuw">Het vanaf begin volledig openbaar</span> open source <span class="oud">publiceren</span> <span class="nieuw">ontwikkelen</span> van de broncode waarbij door open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal wordt gefaciliteerd. Met de inbreng van derden wordt naar behoefte of noodzaak iets gedaan.
-9. Het vanaf begin volledig openbaar open source ontwikkelen van de broncode waarbij door open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd<span class="oud">. Met de</span><span class="nieuw"> en waarbij</span> inbreng van derden actief wordt <span class="oud">naar behoefte of noodzaak iets gedaan</span> <span class="nieuw">verwerkt</span>.
-10. Het volledig openbaar open source ontwikkeling van de broncode waarbij <span class="oud">door</span> <span class="nieuw">leveranciers, maatschappelijke partners en/of andere geïnteresseerden samenwerken en kunnen blijven werken naar ieders kennis en kwaliteiten. Met</span> open documentatie <span class="nieuw">wordt</span> onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk gefaciliteerd. <span class="oud">De inbreng van derden wordt actief verwerkt</span><span class="nieuw">Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten</span>.
-
-### Ambitieniveau 10
-
-#### Ambitie
-
-Het volledig openbaar open source ontwikkeling van de broncode waarbij leveranciers, maatschappelijke partners en/of andere geïnteresseerden samenwerken en kunnen blijven werken naar ieders kennis en kwaliteiten. Met open documentatie wordt onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
-
-#### Eisen
-
-1. Bij de ontwikkeling van de prestatie verwacht opdrachtgever de hoogste standaard van opensourcewerken wordt toegepast. Dat wil zeggen dat:
-    1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder resp. de ... en ..., moeten worden ontwikkeld op een openbaar git ondersteunend platform.
-    2. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
-    3. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
-    4. Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
-    5. De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.
-    6. Middels een goed documenteerde governance, conventies, projectdoelstellingen en communicatiekanalen duidelijk wordt gemaakt hoe andere geïnteresseerden kunnen participeren in de samenwerking.
-2. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten.
-    1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
-    2. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities.
-    3. In geval van kwetsbaarheden  handelt opdrachtnemer zoals vanuit Responsible Vulnerability Disclosure beleid verwacht mag worden.
-    4. Bij het gebruik van deze componenten dient de opdrachtgever ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
-3. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
-    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
-    2. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
-4. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
-7. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
-6. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
-7. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
-1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
-8. Broncode en de onderliggende data gescheiden wordt gehouden.
-9. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
+In dit document worden suggesties gedaan die je kunt hergebruiken in een aanbesteding. Het zijn expliciet suggesties en geen wetmatigheden. Voel de vrijheid om selectief in deze suggesties te shoppen door bepaalde suggesties te negeren, anders te formuleren, ze anders te combineren of wat voor jouw specifieke situatie het beste werkt. 
+:::
 
 :::warning
 :heavy_exclamation_mark: **Het beteugelen van strong-copyleft**
@@ -147,112 +107,225 @@ Wanneer er voor een *strong-copyleft* open source licentie wordt gekozen is het 
 *In de uitwerking van de verschillende architecturen wordt rekening gehouden met de virale werking van de gekozen sterk wederkerige (strong-copyleft) licentie. Dat wil zeggen dat de architecturen zo worden ontworpen dat deze doorwerking beperkt blijft tot de prestatie die vanuit deze aanbesteding wordt gevraagd en geen invloed heeft op het gebruik van de prestatie of op de diensten die eventueel op de prestatie worden aangesloten.*
 :::
 
+:::info
+:bulb: **De licentie van dit document**
 
-### Ambitieniveau 9
+Dit document is openbaar beschikbaar onder de European Public License (EUPL) versie 1.2 of hoger. Dat betekent dat het iedereen vrij staat de kennis te gebruiken, te verbeteren en/of verder te verspreiden. Er zijn geen garanties dat met de toepassing van de kennis ook de daadwerkelijk vooraf gestelde doelen worden gehaald. Daar wordt geen verantwoordelijkheid voor genomen.
 
-#### Ambitie
+De licentie bepaald ook dat verbeteringen op dit document ook weer onder de EUPL v1.2 of hoger openbaar gemaakt moeten worden. Idealiter gebeurt dat natuurlijk in dit document zelf.
+:::
 
-Het vanaf begin volledig openbaar open source ontwikkelen van de broncode waarbij door open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd en waarbij inbreng derden actief wordt verwerkt.
+## Voordelen van opensourcewerken
 
-#### Verschil
+De voordelen van opensourcewerken zijn in vier categorieën onderverdeeld. Dat wil niet zeggen dat elk voordeel voor elke situatie even belangrijk is of vanuit hetzelfde ideaal nagestreefd zou moeten worden. Per voordeel zijn dus ambities of opties te formuleren. Deze kan je vrij combineren om je eigen variant samen te stellen. Het is wel aan te raden om zo volledig mogelijk te zijn en dus aandacht aan alle voordelen te besteden. Zo voorkom je dat zo  min mogelijk ter interpretatie open blijft. Al is het maar om kenbaar te maken dat er op een bepaald voordeel lage verwachtingen zijn.
 
-De veranderingen zitten hem hier in het aansturen op de open samenwerking door middel van het hebben van een heldere governance en overige afspraken. Verder gaat het dus niet meer om de hoogste standaard van open source ontwikkelen en is het samenwerken met de communities van bestaande open source software geen harde eis meer.
+1. **Efficiëntie en Onafhankelijkheid**  \
+  Willen we eventueel meerdere leveranciers aanbesteden die ieder een onderdeel van de aanbesteding voor hun rekening nemen? Indien wordt gekozen voor een samenwerking met meerdere opdrachtnemers: hoe wordt regie gevoerd op de samenwerking?
+1. **Veiligheid en Betrouwbaarheid** \
+  In hoeverre kunnen we ervanuit gaan dat het ontwikkelde werk veilig is en doet wat het moet doen? Op het gebied van deze eisen worden er in deze ambitieladder geen consessies gedaan. Deze categorie is daarom ook niet in ambities onderverdeeld.
+1. **Transparantie en Vertrouwen** \
+  In hoeverre willen we dat de producten in deze aanbesteding zo open en transparant mogelijk worden ontwikkeld? Of in hoeverre willen we dat in te huren experts met hun kennis en ervaring uitvoering kunnen geven aan een ambitie?
+1. **Samenwerking en Innovatie** \
+  In hoeverre willen we dat leveranciers, maatschappelijke partners (overheid, kennisinstellingen en/of burgers) en/of andere geïnteresseerden tijdens of na de ontwikkeling van de producten (kunnen blijven) samenwerken?
+   
+In zijn algemeenheid is het goed om na te denken over hoe de doelstellingen eruit zien op korte, middellange en lange termijn? Welke samenwerking met stakeholders (leveranciers, partners en/of overige geïnteresseerden) is daarvoor nodig over 1, 5 en 10 jaar?
 
-#### Eisen
+## Voordelen van open source aanbesteden
 
-1. Bij de ontwikkeling van de prestatie verwacht opdrachtgever <span class="oud">de hoogste standaard</span> <span class="nieuw">dat er een hoge mate</span> van opensourcewerken wordt toegepast. Dat wil zeggen dat:
-    1. Blijft gelijk
-    2. Blijft gelijk
-    3. Blijft gelijk
-    4. Blijft gelijk
-    5. Blijft gelijk
-    6. <span class="oud">Middels een goed documenteerde governance, conventies, projectdoelstellingen en communicatiekanalen duidelijk wordt gemaakt hoe andere geïnteresseerden kunnen participeren in de samenwerking.</span> <span class="nieuw">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
-2. Blijft gelijk
-    1. Blijft gelijk
-    2. <span class="nieuw">Er verwacht wordt dat</span> alle bevindingen en/of verbeteringen op bestaande open source componenten <span class="oud">dienen te</span> worden gemeld en/of teruggegeven aan de betreffende communities.
-    3. Blijft gelijk
-    4. Blijft gelijk
-3. Blijft gelijk
-    1. Blijft gelijk
-    2. Blijft gelijk
-4. Blijft gelijk
-5. Blijft gelijk
-6. Blijft gelijk
-7. Blijft gelijk
-8. Blijft gelijk
-9. Blijft gelijk
+Open source aanbesteden brengt een groot aantal voordelen met zich mee. Niet alleen voor de opdrachtgever, maar zeker ook voor de opdrachtnemer.
 
-### Ambitieniveau 8
+**Voor opdrachtgevers**
+* Overheden voldoen ermee aan de **wettelijke inspanningsverplichting** uit de Wet open overheid en de Wet hergebruik overheidsinformatie.
+* Overheden voldoen ermee aan de **beleidslijn [Open, tenzij](https://www.rijksoverheid.nl/documenten/kamerstukken/2020/04/17/kamerbrief-inzake-vrijgeven-broncode-overheidssoftware)**
+* Vanaf begin in openbaarheid open source laten ontwikkelen van broncode **verlegt de verantwoordelijkheid** voor een verantwoorde uitvoering hiervan bij de opdrachtnemer. Je mag van een opdrachtnemer verwachten dat zij ook de expertise hebben dat goed te doen.
+* Het voorkomt aanzienlijk **reparatie werk achteraf** wanneer de broncode niet *transparant-by-design* is ontwikkeld.
+* Organisaties zijn doorgaans huiviger om broncode achteraf alsnog te openbaren.
+* Het **voorkomt leveranciersafhankelijkheid** in maatwerk aanbesteding. Door de kennisachterstand van andere leveranciers hebben die doorgaans geen zin om  de doorontwikkeling van het werk van een ander op zich te nemen. Wanneer goed gedocumenteerd en voor hergebruik geschikt in openbaarheid open source wordt ontwikkeld wordt die kennisachterstand geminimaliseerd. 
+* Opdrachtgever blijven niet **zitten op het eigenaarschap van software**. Het vertegenwoordigd kapitaal die zou kunnen renderen wanneer openbaar open source gemaakt.
 
-#### Ambitie
+**Voor opdrachtnemers**
+* Opdrachtnemers hebben de **vrijheid het werk** dat ze op kosten van de opdrachtnemer hebben ontwikkeld **in andere (commerciële) contexten her te gebruiken**. Opdrachtnemers hebben er dus direct zelf baat bij met dat hergebruik in het achterhoofd te ontwikkelen.
+* Opdrachtnemers die een aanbesteding niet winnen, kunnen toch gebruik maken van het werk en de kennis die vanuit de opdracht wordt ontwikkeld. Ze hoeven **geen kennisachterstand** te hebben. Dat is met name van belang wanneer meerdere leveranciers samen in een specifiek stelsel opereren.
+* Het is voor opdrachtnemers makkelijker om een **portfolio** aan te leggen van niet alleen eindproducten, maar ook **met inzicht in de kwaliteit van de techniek**.
 
-Het vanaf begin volledig openbaar open source ontwikkelen van de broncode waarbij door  open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal wordt gefaciliteerd. Met de inbreng van derden wordt naar behoefte of noodzaak iets gedaan.
+## Algemene teksten
 
-#### Verschil
+Een aanbesteding bestaat uit allerlei samenhangende documenten. Het is van belang om in al die documenten op de juiste manier aandacht te besteden aan de eisen die aan het opensourcewerken worden gesteld. Een voorbeeld zin die in het *Selectiedocument* gebruikt kan worden:
 
-Hier vervallen de eisen die gaan over het kunnen stellen en/of kunnen aandragen van verbeteringen.
+> De, specifiek voor deze Overeenkomst ontwikkelde software, inclusief achterliggende broncode en documentatie, zonder belemmeringen en kosteloos tijdens en na de opdracht ter beschikking te stellen middels resp. een nog nader te bepalen open source en creative commons licentie.
 
-#### Eisen
+Later kan die zin in het *Beschrijvend document* verder gespecificeerd worden zodra duidelijk is onder welke licentie die ontwikkelingen moeten gebeuren:
 
-1. Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat er een hoge mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
-    1. Blijft gelijk
-    2. Blijft gelijk
-    3. Blijft gelijk
-    4. Blijft gelijk
-    5. Blijft gelijk
-    6. <span class="oud">Er goed gedocumenteerd hoe</span> Andere geïnteresseerden <span class="nieuw">in staat worden gesteld</span> een bijdrage <span class="oud">kunnen</span> <span class="nieuw">te</span> doen aan of vragen <span class="nieuw">te</span> kunnen stellen over de broncode en/of documentatie.
-2. Blijft gelijk
-    1. Blijft gelijk
-    2. Blijft gelijk
-    3. Blijft gelijk
-    4. Blijft gelijk
-3. Blijft gelijk
-    1. Blijft gelijk
-    2. Blijft gelijk
-4. Blijft gelijk
-5. Blijft gelijk
-6. Blijft gelijk
-7. Blijft gelijk
-8. Blijft gelijk
-9. Blijft gelijk
+> De, specifiek voor deze Overeenkomst ontwikkelde software, inclusief achterliggende broncode en documentatie, zonder belemmeringen en kosteloos tijdens de opdracht ter beschikking stellen middels resp. de European Union Public License (EUPL) v1.2 of hoger en de Creative Common Attribution Share Alike (CC BY-SA).
 
-### Ambitieniveau 7
+Alle eisen die onder categorie 1, 2 en 3 staan beschreven zijn bedoeld om op te nemen in de Programma van Eisen. Het is goed om die eisen in samenhang in te leiden met een introducerende zin.
 
-#### Ambitie
+> Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat <span class="variabele">[enige mate|een hoge standaard|hoogste standaard]</span> van opensourcewerken wordt toegepast. Dat wil zeggen dat: 
 
-Op vaste momenten open source publiceren van de broncode waarbij door open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal wordt gefaciliteerd. Met de inbreng van derden wordt naar behoefte of noodzaak iets gedaan.
+## 1. Efficiëntie en Onafhankelijkheid
 
-#### Verschil
+Voor dit voordeel kan je minder spreken over ambities. Het gaat eerder over opties. Voor dit voordeel is het nodig om de aanbesteding vanaf begin af aan op een bepaalde manier in de markt te zetten. Zodat je al tijdens de marktconsultatie aangeeft of je de aanbesteding wel of niet 'verkavelt'; een chique woord voor opknippen. Dat je bijv. een de (door)ontwikkeling en/of integratie en/of technische/functioneel beheer, hosting etc. allemaal bij dezelfde leverancier wil beleggen of juist bewust van verschillende leveranciers wil afnemen.
 
-Vanaf hier gaat het meer over transparantie dan over echt opensourcewerken. Om die reden zijn de eisen rond het inzichtelijk maken van programmeerconventies afgezwakt. In plaats daarvan wordt er de nadruk gelegd op het inzichtelijk maken van de verschillen tussen versies.
+### Optie 1. Er wordt één opdrachtnemer aanbesteed om alle dienstverlening te leveren
 
-#### Eisen
+Er worden geen aanvullende eisen gesteld aan de aanbesteding. Er wordt één opdrachtnemer gezocht voor alle dienstverlening.
 
-1. Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat er een hoge mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
-    1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">in openbaarheid</span> <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span> onder resp. ... en ..., <span class="oud">moeten worden ontwikkeld</span> <span class="nieuw">op een openbaar git ondersteunend platform worden gepubliceerd.</span>
-    2. Blijft gelijk
-    3. Blijft gelijk
-    4. <span class="oud">Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.</span> <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
-    5. <span class="oud">De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.</span> <span class="nieuw">Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.</span>
-    6. Blijft gelijk
-2. Blijft gelijk
-    1. Blijft gelijk
-    2. Blijft gelijk
-    3. Blijft gelijk
-    4. Blijft gelijk
-3. Blijft gelijk
-    1. Blijft gelijk
-    2. Blijft gelijk
-4. Blijft gelijk
-5. Blijft gelijk
-6. Blijft gelijk
-7. Blijft gelijk
-8. Blijft gelijk
-9. Blijft gelijk
+### Optie 2. Er worden meerdere opdrachtnemers aanbesteed om verschillende onderdelen uit de dienstverlening op zich te nemen
 
-## Bijdragers
+De aanbesteding wordt bewust verkaveld. Er is nagedacht uit welke (onafhankelijke) onderdelen deze aanbesteding bestaat. Het wordt aan potentieële opdrachtnemers duidelijk gemaakt op welke onderdelen ze zich mogen inschrijven. Ook wordt duidelijk gemaakt of opdrachtnemers meerdere onderdelen in de aanbesteding mogen uitvoeren.
 
-* Marc van Andel (Kadaster)
-* Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
+### Optie 3. Leveranciers, maatschappelijke partners en/of andere geïnteresseerden werken samen en kunnen blijven samenwerken. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
 
-<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
+Voor de aanbesteding wordt door (één van de) leveranciers of door de opdrachtgevers een gezamenlijke backlog bijgehouden waaraan opdrachtnemende partijen zich commiteren. De uitvoering gebeurt niet op basis van op voorhand volledig uitgedachte werkzaamheden, maar op basis van globale functionele wensen.
+
+## 2. Veiligheid en Betrouwbaarheid
+
+Zoals eerder vermeld wordt er in dit voordeel geen consessies gedaan. Maak gebruik van onderstaande teksten om op een veilige en betrouwbare manier open source software in te kopen.
+
+1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
+Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten.
+1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
+   1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
+   1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities.
+   1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Responsible Vulnerability Disclosure beleid verwacht mag worden.
+   1. Bij het gebruik van deze componenten dient de opdrachtnemer ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
+Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
+1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
+   1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
+   1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
+1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
+1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
+1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
+   1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
+1. Broncode en de onderliggende data gescheiden wordt gehouden.
+1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk (openbaar) veilig te stellen op een eigen platform.
+
+## 3. Transparantie en Vertrouwen
+
+### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
+
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
+
+### Ambitie 2. Op vaste momenten open source publiceren van de broncode
+
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="oud">na afronding van de opdracht</span> worden gepubliceerd op een openbaar git ondersteunend platform.
+1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
+1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
+
+### Ambitie 3. Het vanaf begin volledig openbaar open source ontwikkeling van de broncode
+
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
+1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
+1. <span class="oud">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
+1. <span class="nieuw">Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.</span>
+
+## 4. Samenwerking en Innovatie
+
+### Ambitie 1. Externe bijdragen worden niet behandeld
+
+1. Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
+
+### Ambitie 2. Externe bijdragen worden behandeld maar niet actief gezocht
+
+1. <span class="oud">Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.</span>
+1. <span class="nieuw">De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.</span>
+1. <span class="nieuw">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
+
+### Ambitie 3. Actief samenwerken
+
+1. De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.
+1. <span class="oud">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
+1. <span class="nieuw">Middels een goed documenteerde governance, conventies, projectdoelstellingen en communicatiekanalen duidelijk wordt gemaakt hoe andere geïnteresseerden kunnen participeren in de samenwerking.</span>
+1. <span class="nieuw">Met open documentatie over de werking van de software en ontwerpkeuzes van de achterliggende broncode wordt onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk gefaciliteerd.</span>
+
+## Voorbeeld laagste ambitie
+
+Oftewel, de basis van optie 1 *Efficiëntie en Onafhankelijk* + *Veiligheid en Betrouwbaar* + ambitie 1 van *Transparantie en Vertrouwen* + ambitie 1 van *Samenwerken en Innovatie*.
+
+Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document**:
+
+> De aanbestende dienst zoekt één leverancier en verwacht van die leverancier dat alle broncode eenmalig open source zal worden na afronden van de aanbesteding waarbij duidelijk wordt gemaakt dat externe bijdragen niet worden behandeld.
+
+Voor in de **Programma van Eisen**:
+
+> Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat een zekere mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
+>
+> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
+> 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
+> 1. Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
+> 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
+>    1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
+>    1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities.
+>    1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Responsible Vulnerability Disclosure beleid verwacht mag worden.
+>    1. Bij het gebruik van deze componenten dient de opdrachtgever ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
+Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
+> 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
+>    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
+>    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
+> 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
+> 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
+> 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
+>    1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
+> 1. Broncode en de onderliggende data gescheiden wordt gehouden.
+> 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
+
+## Voorbeeld hoogste ambitie
+
+Oftewel, de basis van optie 3 *Efficiëntie en Onafhankelijk* + *Veiligheid en Betrouwbaar* + ambitie 3 van *Transparantie en Vertrouwen* + ambitie 3 van *Samenwerken en Innovatie*.
+
+Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document**:
+
+> De aanbestedende dienst verwacht dat de broncode vanaf begin volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
+
+Voor in de **Programma van Eisen**:
+
+> Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat hoogste standaard van opensourcewerken wordt toegepast. Dat wil zeggen dat:
+>
+> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder resp. <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden ontwikkeld op een openbaar git ondersteunend platform.
+> 1. Met open documentatie over de werking van de software en ontwerpkeuzes van de achterliggende broncode wordt onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk gefaciliteerd.
+> 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
+> 1. Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
+> 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
+Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten.
+is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
+> 1. De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.
+> 1. Middels een goed documenteerde governance, conventies, projectdoelstellingen en communicatiekanalen duidelijk wordt gemaakt hoe andere geïnteresseerden kunnen participeren in de samenwerking.
+> 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
+>    1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
+>    1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities.
+>    1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Responsible Vulnerability Disclosure beleid verwacht mag worden.
+>    1. Bij het gebruik van deze componenten dient de opdrachtgever ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
+Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
+> 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
+>    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
+>    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
+> 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
+> 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
+> 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
+>    1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
+> 1. Broncode en de onderliggende data gescheiden wordt gehouden.
+> 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
+
+## Veel gestelde vragen door opdrachtnemers
+
+Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende gelegenheden tot het stellen van vragen in de vorm van een *Nota van Inlichtingen*. De meest gestelde vragen staat hier gedeeld inclusief antwoord suggesties.
+
+* **De aanbesteding vraagt om doorontwikkeling. Betekent dit dat ook we al bestaande broncode ook openbaar open source beschikbaar moeten stellen?**
+  * In geval van een *Permissive* licentie? \
+    Er is bewust gekozen voor een *permissive* licentie. Dat betekent dat dit in zijn geheel geen invloed heeft op bestaande broncode van opdrachtnemers.
+  * In geval van een *Weak-copyleft* licentie? \
+    Er is bewust gekozen voor een *weak-copyleft* licentie. Dat betekent dat dit in zijn geheel geen invloed heeft op bestaande broncode van opdrachtnemers.
+  * In geval van een *Strong-copyleft* licentie? \
+    Er is bewust gekozen voor een *strong-copyleft* licentie. Dat betekent inderdaad dat de software waarbinnen de doorontwikkeling plaatsvind onder dezelfde licentie openbaar open source gemaakt dient te worden.
+* **Mogen we componenten van derden gebruiken waar wij als Opdrachtnemer het intellectueel eigendom niet van hebben?** \
+  Dat mag zeker en we moedigen het gebruik van beproefde open source componenten zelfs aan. Uit welke componenten de voor deze opdracht ontwikkelde werken zijn opgebouwd zal inzichtelijk moeten worden gemaakt als onderdeel van de gevraagde documentatie. Het is wel de verantwoordelijkheid van de Opdrachtnemer om ervoor te zorgen dat er geen licentieconflicten ontstaan onder deze overeenkomst ontwikkelde werk en dat de voorwaarden waarop bestaande open source componenten beschikbaar zijn gesteld worden nageleefd.
+* **Zijn we ook verantwoordelijk voor kwetsbaarheden die worden gevonden in compenten van derden?** \
+  Opdrachtgever gaat er vanuit dat het geleverde werk vrij is van kwetsbaarheden. Worden er toch kwetsbaarheden gevonden, dan zorgt Opdrachtnemer dat er direct passende maatregelen worden genomen. Dit betekent in ieder geval dat alle relevante partijen direct op de hoogte worden gesteld waaronder in de Opdrachtgever. Zie voor verdere details de Programma van Eisen.
+* **Waar ligt het intellectueel eigendom van de opgeleverde broncode?** \
+   Voor deze aanbesteding zijn de <span class="variabele">[ARBIT|ARVODI|GIBIT|andere algemene inkoopvoorwaarden]</span> van toepassing. Daarin is bepaald dat het intellectueel eigendom van al het onder deze overeenkomst ontwikkelde werk Opdrachtgever toekomt.
+* **Mag iedereen met het open source beschikbare werk doen wat die wil?** \
+   Opdrachtgever laat het een ieder vrij om de uit deze overeenkomst ontwikkelde werken her te gebruiken in welke (commerciële) context dan ook, zoals ook ganbaar is bij open source ontwikkeling. Voor het hergebruik binnen de context van deze aanbesteding gelden natuurlijk de daarvoor geldende waarborgen.
+* **Hoe verwacht Opdrachtgever dat opdrachtnemers geld kunnen verdienen aan open source ontwikkelde code?** \
+   Opdrachtnemers krijgen betaald voor alle ontwikkeling die in het kader van deze aanbesteding worden gevraagd. Het intellectueel eigendom van de werken die in opdracht van deze aanbesteding worden ontwikkeld liggen bij de Opdrachtgever. Het staat Opdrachtnemers natuurlijk vrij om, gezien het open source karakter van deze aanbesteding, de ontwikkelde broncode her te gebruiken in welke andere (commerciële) context dan ook.
+* **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
+   Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
