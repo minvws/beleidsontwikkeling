@@ -27,22 +27,17 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 >Alle tekst in deze blokken komen niet in het gepubliceerde document op github pages, maar zijn bedoeld als uitleg voor jou als bijdrager hier op HackMD.
 
 >[!Note]Participeren?
->
-> Suggesties voor wijzigingen kun je doen via: \
-> [![hackmd-github-sync-badge](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ/badge)](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ)
-> \
-> \
 >:100: Het doel van dit document is om in open samenwerking tot een volledig uitgewerkte ambitieladder te komen die een handvat moet gaan bieden voor open source in aanbestedingen of inhuur. Het staat iedereen vrij te participeren in dit document. Op basis van goed vertrouwen.
 > \
 > \
-> Om te participeren ga je via bovenstaande knop naar de HackMD versie van dit document. Daar heb je twee opties:
+> Je hebt in dit document twee opties:
 > 1. Commentaar achterlaten;
 > 2. Een tekstsuggestie doen.
 >
 > Selecteer een stuk tekst. Er opent dan een klein menu waarin je kan kiezen voor "*Comment*", "*Suggest Edit*", "*Edit from here*" of "*Copy link*".
 > \
 > \
-> Participeren via github is niet mogelijk zal daar ook niet worden behandeld. Je kan in plaats daarvan met of zonder je github account op HackMD inloggen.
+> Participeren via github is niet mogelijk zal daar ook niet worden behandeld. Je kan in plaats daarvan met of zonder je github account op HackMD participeren.
 
 >[!Important]Beheerder
 >:cop: Maurice Hendriks
@@ -361,4 +356,4 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
 
 <small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
 
-[![hackmd-github-sync-badge](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA/badge)](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA)
+[![hackmd-github-sync-badge](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ/badge)](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ)
