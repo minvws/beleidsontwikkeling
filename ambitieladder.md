@@ -38,6 +38,9 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 > \
 > \
 > Participeren via github is niet mogelijk zal daar ook niet worden behandeld. Je kan in plaats daarvan met of zonder je github account op HackMD participeren.
+> \
+> \
+> Wil je als bijdrager erkend worden in de lijst van bijdragers onderaan dit document? Zet dan je naam en eventueel organisatie in een commentaar veld bij dat hoofdstuk. Als je wil dat je naam linkt naar een online profiel o.i.d., laat dat dan ook weten.
 
 >[!Important]Beheerder
 >:cop: Maurice Hendriks
@@ -66,7 +69,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 
 # Inhoud
 
-> [!Note] Waarom de links niet werken?
+> [!Note] Waarom de links niet werken
 > 
 > De anchors worden in github pages anders aangemaakt dan hier op HackMD. \
 > Op HackMD volgen de anchors de hoofdletters van de koppen. \
@@ -85,6 +88,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
   * [Laagste ambitie](#laagste-ambitie)
   * [Hoogste ambitie](#hoogste-ambitie)
 * [Veel gestelde vragen door opdrachtnemers](#veel-gestelde-vragen-door-opdrachtnemers)
+* [Bijdragers](#bijdragers)
 
 # Introductie
 
@@ -157,7 +161,7 @@ Open source aanbesteden brengt een groot aantal voordelen met zich mee. Niet all
 * Overheden voldoen ermee aan de **beleidslijn [Open, tenzij](https://www.rijksoverheid.nl/documenten/kamerstukken/2020/04/17/kamerbrief-inzake-vrijgeven-broncode-overheidssoftware)**
 * Vanaf begin in openbaarheid open source laten ontwikkelen van broncode **verlegt de verantwoordelijkheid** voor een verantwoorde uitvoering hiervan bij de opdrachtnemer. Je mag van een opdrachtnemer verwachten dat zij ook de expertise hebben dat goed te doen.
 * Het voorkomt aanzienlijk **reparatie werk achteraf** wanneer de broncode niet *transparant-by-design* is ontwikkeld.
-* Organisaties zijn doorgaans huiviger om broncode achteraf alsnog te openbaren.
+* Organisaties zijn doorgaans huiverig om broncode achteraf alsnog te openbaren.
 * Het **voorkomt leveranciersafhankelijkheid** in maatwerk aanbesteding. Door de kennisachterstand van andere leveranciers hebben die doorgaans geen zin om  de doorontwikkeling van het werk van een ander op zich te nemen. Wanneer goed gedocumenteerd en voor hergebruik geschikt in openbaarheid open source wordt ontwikkeld wordt die kennisachterstand geminimaliseerd. 
 * Opdrachtgever blijven niet **zitten op het eigenaarschap van software**. Het vertegenwoordigd kapitaal die zou kunnen renderen wanneer openbaar open source gemaakt.
 
@@ -165,6 +169,8 @@ Open source aanbesteden brengt een groot aantal voordelen met zich mee. Niet all
 * Opdrachtnemers hebben de **vrijheid het werk** dat ze op kosten van de opdrachtnemer hebben ontwikkeld **in andere (commerciële) contexten her te gebruiken**. Opdrachtnemers hebben er dus direct zelf baat bij met dat hergebruik in het achterhoofd te ontwikkelen.
 * Opdrachtnemers die een aanbesteding niet winnen, kunnen toch gebruik maken van het werk en de kennis die vanuit de opdracht wordt ontwikkeld. Ze hoeven **geen kennisachterstand** te hebben. Dat is met name van belang wanneer meerdere leveranciers samen in een specifiek stelsel opereren.
 * Het is voor opdrachtnemers makkelijker om een **portfolio** aan te leggen van niet alleen eindproducten, maar ook **met inzicht in de kwaliteit van de techniek**.
+
+Hoe hoger het ambitieniveau hoe groter de kans dat bovenstaande ambities worden gehaald. Zo wordt de kennisachterstand van leveranciers verminderd wanneer meerdere leveranciers samenwerken aan een product en draagt het volledig in openbaarheid ontwikkelen aanzienlijk bij aan de herbruikbaarheid van de broncode.
 
 # Tekstsuggesties
 
@@ -213,6 +219,8 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
+   1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
+1. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
@@ -284,6 +292,8 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 > 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
 >    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
 >    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
+>    1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
+> 1. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 > 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
@@ -297,7 +307,7 @@ Oftewel, de basis van optie 3 *Efficiëntie en Onafhankelijk* + *Veiligheid en B
 
 Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document**:
 
-> De aanbestedende dienst verwacht dat de broncode vanaf begin volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
+> De aanbestedende dienst wil bereiken dat leveranciers, maatschappelijke partners en/of andere geïnteresseerden samen (kunnen blijven) werken. Er wordt dus verwacht dat de broncode vanaf begin volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
 
 Voor in de **Programma van Eisen**:
 
@@ -321,6 +331,8 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 > 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
 >    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
 >    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
+>    1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
+> 1. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 > 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
@@ -344,7 +356,7 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
 * **Zijn we ook verantwoordelijk voor kwetsbaarheden die worden gevonden in compenten van derden?** \
   Opdrachtgever gaat er vanuit dat het geleverde werk vrij is van kwetsbaarheden. Worden er toch kwetsbaarheden gevonden, dan zorgt Opdrachtnemer dat er direct passende maatregelen worden genomen. Dit betekent in ieder geval dat alle relevante partijen direct op de hoogte worden gesteld waaronder in de Opdrachtgever. Zie voor verdere details de Programma van Eisen.
 * **Waar ligt het intellectueel eigendom van de opgeleverde broncode?** \
-   Voor deze aanbesteding zijn de <span class="variabele">[ARBIT|ARVODI|GIBIT|andere algemene inkoopvoorwaarden]</span> van toepassing. Daarin is bepaald dat het intellectueel eigendom van al het onder deze overeenkomst ontwikkelde werk Opdrachtgever toekomt.
+   Voor deze aanbesteding zijn de <span class="variabele">[ARBIT|ARVODI|GIBIT|andere algemene inkoopvoorwaarden]</span> van toepassing. Daarin is bepaald dat het intellectueel eigendom van al het onder deze overeenkomst ontwikkelde maatwerk Opdrachtgever toekomt.
 * **Mag iedereen met het open source beschikbare werk doen wat die wil?** \
    Opdrachtgever laat het een ieder vrij om de uit deze overeenkomst ontwikkelde werken her te gebruiken in welke (commerciële) context dan ook, zoals ook ganbaar is bij open source ontwikkeling. Voor het hergebruik binnen de context van deze aanbesteding gelden natuurlijk de daarvoor geldende waarborgen.
 * **Hoe verwacht Opdrachtgever dat opdrachtnemers geld kunnen verdienen aan open source ontwikkelde code?** \
@@ -352,8 +364,16 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
 * **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
    Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
    
----
+## Bijdragers
 
-<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
+Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
+
+* Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
+* Johan Groenen (Tiltshift)
+* Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
+* [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Kadaster)
+---
+<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small> \
+<small>Laatst gesynchroniseerd op {{ page.last_commit.time | date: '%d-%m-%Y om %R' }}</small>
 
 [![hackmd-github-sync-badge](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ/badge)](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ)
