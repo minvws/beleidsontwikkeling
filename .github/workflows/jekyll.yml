@@ -48,7 +48,6 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
-          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} -- *.md > ./_plugins/changed_files
           ./_plugins/jekyll-update-push-date.sh
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
