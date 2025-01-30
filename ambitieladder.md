@@ -369,9 +369,11 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
 Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
 
 * Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
+* [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Kadaster)
+* Joeri Bekker (Maykin)
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
-* [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Kadaster)
+* Eva van Sloten (Ministerie Binnenlandse Zaken en Koninkrijksrelaties)
 
 ---
 
