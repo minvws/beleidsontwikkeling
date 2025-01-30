@@ -372,7 +372,9 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
 * [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Kadaster)
+
 ---
+
 <small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small> \
 <small>Laatst gesynchroniseerd op {{ page.last_commit.time | date: '%d-%m-%Y om %R' }}</small>
 
