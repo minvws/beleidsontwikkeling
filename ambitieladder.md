@@ -373,7 +373,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Joeri Bekker (Maykin)
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
-* Eva van Sloten (Ministerie Binnenlandse Zaken en Koninkrijksrelaties)
+* Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
 
 ---
 
