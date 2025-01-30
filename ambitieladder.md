@@ -156,21 +156,20 @@ In zijn algemeenheid is het goed om na te denken over hoe de doelstellingen erui
 
 Open source aanbesteden brengt een groot aantal voordelen met zich mee. Niet alleen voor de opdrachtgever, maar zeker ook voor de opdrachtnemer.
 
-**Voor opdrachtgevers**
+**Voor publieke opdrachtgevers**
 * Overheden voldoen ermee aan de **wettelijke inspanningsverplichting** uit de Wet open overheid en de Wet hergebruik overheidsinformatie.
 * Overheden voldoen ermee aan de **beleidslijn [Open, tenzij](https://www.rijksoverheid.nl/documenten/kamerstukken/2020/04/17/kamerbrief-inzake-vrijgeven-broncode-overheidssoftware)**
 * Vanaf begin in openbaarheid open source laten ontwikkelen van broncode **verlegt de verantwoordelijkheid** voor een verantwoorde uitvoering hiervan bij de opdrachtnemer. Je mag van een opdrachtnemer verwachten dat zij ook de expertise hebben dat goed te doen.
 * Het voorkomt aanzienlijk **reparatie werk achteraf** wanneer de broncode niet *transparant-by-design* is ontwikkeld.
-* Organisaties zijn doorgaans huiverig om broncode achteraf alsnog te openbaren.
-* Het **voorkomt leveranciersafhankelijkheid** in maatwerk aanbesteding. Door de kennisachterstand van andere leveranciers hebben die doorgaans geen zin om  de doorontwikkeling van het werk van een ander op zich te nemen. Wanneer goed gedocumenteerd en voor hergebruik geschikt in openbaarheid open source wordt ontwikkeld wordt die kennisachterstand geminimaliseerd. 
+* Het **voorkomt leveranciersafhankelijkheid** (vendor lock-in) in maatwerk aanbesteding. Door de kennisachterstand van andere leveranciers hebben die doorgaans geen zin om  de doorontwikkeling van het werk van een ander op zich te nemen. Wanneer goed gedocumenteerd en voor hergebruik geschikt in openbaarheid open source wordt ontwikkeld wordt die kennisachterstand geminimaliseerd. 
 * Opdrachtgever blijven niet **zitten op het eigenaarschap van software**. Het vertegenwoordigd kapitaal die zou kunnen renderen wanneer openbaar open source gemaakt.
 
 **Voor opdrachtnemers**
-* Opdrachtnemers hebben de **vrijheid het werk** dat ze op kosten van de opdrachtnemer hebben ontwikkeld **in andere (commerciële) contexten her te gebruiken**. Opdrachtnemers hebben er dus direct zelf baat bij met dat hergebruik in het achterhoofd te ontwikkelen.
-* Opdrachtnemers die een aanbesteding niet winnen, kunnen toch gebruik maken van het werk en de kennis die vanuit de opdracht wordt ontwikkeld. Ze hoeven **geen kennisachterstand** te hebben. Dat is met name van belang wanneer meerdere leveranciers samen in een specifiek stelsel opereren.
+* Opdrachtnemers hebben de **vrijheid het werk** dat ze op kosten van de opdrachtnemer hebben ontwikkeld **in andere (commerciële) contexten her te gebruiken**. Wat overigens ook weer een voordeel is voor publieke organisaties, want opdrachtnemers hebben er dus direct zelf baat bij met hergebruik in het achterhoofd te ontwikkelen.
+* Opdrachtnemers die een aanbesteding niet winnen, kunnen toch gebruik maken van het werk en de kennis die vanuit de opdracht wordt ontwikkeld. Ze krijgen daarmee maar een **minimale kennisachterstand**. Dat is met name van belang wanneer meerdere leveranciers samen in een specifiek stelsel opereren.
 * Het is voor opdrachtnemers makkelijker om een **portfolio** aan te leggen van niet alleen eindproducten, maar ook **met inzicht in de kwaliteit van de techniek**.
 
-Hoe hoger het ambitieniveau hoe groter de kans dat bovenstaande ambities worden gehaald. Zo wordt de kennisachterstand van leveranciers verminderd wanneer meerdere leveranciers samenwerken aan een product en draagt het volledig in openbaarheid ontwikkelen aanzienlijk bij aan de herbruikbaarheid van de broncode.
+Hoe hoger het open source ambitieniveau binnen een aanbesteding hoe groter de kans dat bovenstaande voordelen worden gehaald. Zo zorgt een publieke software aanbesteding niet alleen voor een praktische IT-oplossing voor de opdrachtgever in kwestie, maar leidt de inkoop van nieuwe software ook tot beleidsmatige, publieke, financiële en zelfs commerciële meerwaarde.
 
 # Tekstsuggesties
 
