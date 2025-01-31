@@ -363,7 +363,7 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
 * **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
    Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
    
-## Bijdragers
+# Bijdragers
 
 Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
 
@@ -372,6 +372,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Joeri Bekker (Maykin)
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
+* Marlena van Ooijen (Logius)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
 
 ---
