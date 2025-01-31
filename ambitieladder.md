@@ -67,7 +67,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 > * Alles op basis van goed vertrouwen.
 > * Wordt het vertrouwen geschaad, dan wordt er door de host ingegrepen.
 
-# Inhoud
+# Inhoud 
 
 > [!Note] Waarom de links niet werken
 > 
@@ -91,6 +91,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 * [Bijdragers](#bijdragers)
 
 # Introductie
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 > [!Note] 
 > Dit document heeft als doel samen na te denken over de ambitieladder voor open source in aanbestedingen of inhuur. Het is in eerste aanzet opgesteld door Maurice Hendriks (Senior CIO-Adviseur bij MinVWS). De kennis komt voort uit concrete ervaringen met open source aanbesteden binnen de Rijksoverheid.
@@ -138,6 +139,7 @@ De licentie bepaald ook dat verbeteringen op dit document ook weer onder de EUPL
 :::
 
 # Voordelen van opensourcewerken
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 De voordelen van opensourcewerken zijn in vier categorieën onderverdeeld. Dat wil niet zeggen dat elk voordeel voor elke situatie even belangrijk is of vanuit hetzelfde ideaal nagestreefd zou moeten worden. Per voordeel zijn dus ambities of opties te formuleren. Deze kan je vrij combineren om je eigen variant samen te stellen. Het is wel aan te raden om zo volledig mogelijk te zijn en dus aandacht aan alle voordelen te besteden. Zo voorkom je dat zo  min mogelijk ter interpretatie open blijft. Al is het maar om kenbaar te maken dat er op een bepaald voordeel lage verwachtingen zijn.
 
@@ -153,6 +155,7 @@ De voordelen van opensourcewerken zijn in vier categorieën onderverdeeld. Dat w
 In zijn algemeenheid is het goed om na te denken over hoe de doelstellingen eruit zien op korte, middellange en lange termijn? Welke samenwerking met stakeholders (leveranciers, partners en/of overige geïnteresseerden) is daarvoor nodig over 1, 5 en 10 jaar?
 
 # Voordelen van open source aanbesteden
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Open source aanbesteden brengt een groot aantal voordelen met zich mee. Niet alleen voor de opdrachtgever, maar zeker ook voor de opdrachtnemer.
 
@@ -174,6 +177,7 @@ Hoe hoger het open source ambitieniveau binnen een aanbesteding hoe groter de ka
 # Tekstsuggesties
 
 ## Algemene teksten
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Een aanbesteding bestaat uit allerlei samenhangende documenten. Het is van belang om in al die documenten op de juiste manier aandacht te besteden aan de eisen die aan het opensourcewerken worden gesteld. Een voorbeeld zin die in het *Selectiedocument* gebruikt kan worden:
 
@@ -188,6 +192,7 @@ Alle eisen die onder categorie 1, 2 en 3 staan beschreven zijn bedoeld om op te 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat <span class="variabele">[enige mate|een hoge standaard|hoogste standaard]</span> van opensourcewerken wordt toegepast. Dat wil zeggen dat: 
 
 ## 1. Efficiëntie en Onafhankelijkheid
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Voor dit voordeel kan je minder spreken over ambities. Het gaat eerder over opties. Voor dit voordeel is het nodig om de aanbesteding vanaf begin af aan op een bepaalde manier in de markt te zetten. Zodat je al tijdens de marktconsultatie aangeeft of je de aanbesteding wel of niet 'verkavelt'; een chique woord voor opknippen. Dat je bijv. een de (door)ontwikkeling en/of integratie en/of technische/functioneel beheer, hosting etc. allemaal bij dezelfde leverancier wil beleggen of juist bewust van verschillende leveranciers wil afnemen.
 
@@ -204,6 +209,7 @@ De aanbesteding wordt bewust verkaveld. Er is nagedacht uit welke (onafhankelijk
 Voor de aanbesteding wordt door (één van de) leveranciers of door de opdrachtgevers een gezamenlijke backlog bijgehouden waaraan opdrachtnemende partijen zich commiteren. De uitvoering gebeurt niet op basis van op voorhand volledig uitgedachte werkzaamheden, maar op basis van globale functionele wensen.
 
 ## 2. Veiligheid en Betrouwbaarheid
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Zoals eerder vermeld wordt er in dit voordeel geen consessies gedaan. Maak gebruik van onderstaande teksten om op een veilige en betrouwbare manier open source software in te kopen.
 
@@ -228,6 +234,7 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk (openbaar) veilig te stellen op een eigen platform.
 
 ## 3. Transparantie en Vertrouwen
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 ### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
 
@@ -247,6 +254,7 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 1. <span class="nieuw">Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.</span>
 
 ## 4. Samenwerking en Innovatie
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 ### Ambitie 1. Externe bijdragen worden niet behandeld
 
@@ -268,6 +276,7 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 # Voorbeelden
 
 ## Laagste ambitie
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Oftewel, de basis van optie 1 *Efficiëntie en Onafhankelijk* + *Veiligheid en Betrouwbaar* + ambitie 1 van *Transparantie en Vertrouwen* + ambitie 1 van *Samenwerken en Innovatie*.
 
@@ -301,6 +310,7 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 > 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 ## Hoogste ambitie
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Oftewel, de basis van optie 3 *Efficiëntie en Onafhankelijk* + *Veiligheid en Betrouwbaar* + ambitie 3 van *Transparantie en Vertrouwen* + ambitie 3 van *Samenwerken en Innovatie*.
 
@@ -340,6 +350,7 @@ Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 > 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 # Veel gestelde vragen door opdrachtnemers
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende gelegenheden tot het stellen van vragen in de vorm van een *Nota van Inlichtingen*. De meest gestelde vragen staat hier gedeeld inclusief antwoord suggesties.
 
@@ -364,6 +375,7 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
    Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
    
 # Bijdragers
+Ga naar boven: [:arrow_up_small:](#inhoud)
 
 Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
 
