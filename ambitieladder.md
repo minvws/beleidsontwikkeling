@@ -52,7 +52,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 > :phone: https://meet.jit.si/OpenSourceBeleidsontwikkeling
 > \
 > \
-> :date: In elke oneven weken op woensdag om 13:30
+> :date: In elke oneven weken op woensdag om 13:30 - 14:30
 > \
 > \
 > :grey_question: Tijdens deze bijeenkomst worden alle commentaren en verbetersuggesties besproken op volgorde van binnenkomst. Mocht je dus iets willen bespreken, zet dat dan 'op de agenda' met een concrete opmerking, vraag of verbetersuggestie. Gewoon meepraten kan natuurlijk ook.
