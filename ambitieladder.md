@@ -88,6 +88,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
   * [Laagste ambitie](#laagste-ambitie)
   * [Hoogste ambitie](#hoogste-ambitie)
 * [Veel gestelde vragen door opdrachtnemers](#veel-gestelde-vragen-door-opdrachtnemers)
+* [Aanbevelingen](#aanbevelingen)
 * [Bijdragers](#bijdragers)
 
 # Introductie
@@ -111,23 +112,9 @@ Ondanks dat de teksten zijn geschreven met een aanbesteding in het achterhoofd k
 :::
 
 :::info
-:bulb: **Doorontwikkeling?**
-
-Alle ambities zijn geschreven vanuit het uitgangspunt van een volledig maatwerk ontwikkelde oplossing of component. Natuurlijk wordt er ook doorontwikkeld op bestaande (open source) oplossingen of componenten. Het wordt aanbevolen om in geval van doorontwikkeling op bestaande open source dit te laten plaatsvinden op een kopie. Zo wordt niet alleen de continuïteit zoveel als mogelijk gewaarborgd, maar geeft dit ook de ontwikkelaar alle regie op het (door) te ontwikkelen product en bijbehorende repositories. De ambitie kan dan gewoon gevraagd worden alsof er volledig maatwerk wordt ontwikkeld. Verbeteringen op de kopie dienen natuurlijk wel conform de ambitie terug te vloeien naar de gemeenschap achter het oorspronkelijke werk. Wanneer er door wordt ontwikkeld op een closed source product, dan kan die doorontwikkeling beschouwd worden als een losstaande open source ontwikkeling.
-:::
-
-:::info
 :bulb: **Eigen menu samenstellen?**
 
 In dit document worden suggesties gedaan die je kunt hergebruiken in een aanbesteding. Het zijn expliciet suggesties en geen wetmatigheden. Voel de vrijheid om selectief in deze suggesties te shoppen door bepaalde suggesties te negeren, anders te formuleren, ze anders te combineren of wat voor jouw specifieke situatie het beste werkt. 
-:::
-
-:::warning
-:heavy_exclamation_mark: **Het beteugelen van strong-copyleft**
-
-Wanneer er voor een *strong-copyleft* open source licentie wordt gekozen is het goed om oog te houden voor het *virale* effect van deze licentiegroep. Het is wijs de invloed van de licentie beperkt te houden tot wat je zelf kan overzien. Concreet betekent dit dat je probeert te voorkomen dat er onvoorziene effecten ontstaan door de toepassing van dit type licentie. Daarvoor zou deze zin gebruikt kunnen worden:
-
-*In de uitwerking van de verschillende architecturen wordt rekening gehouden met de virale werking van de gekozen sterk wederkerige (strong-copyleft) licentie. Dat wil zeggen dat de architecturen zo worden ontworpen dat deze doorwerking beperkt blijft tot de prestatie die vanuit deze aanbesteding wordt gevraagd en geen invloed heeft op het gebruik van de prestatie of op de diensten die eventueel op de prestatie worden aangesloten.*
 :::
 
 :::info
@@ -373,7 +360,59 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
    Opdrachtnemers krijgen betaald voor alle ontwikkeling die in het kader van deze aanbesteding worden gevraagd. Het intellectueel eigendom van de werken die in opdracht van deze aanbesteding worden ontwikkeld liggen bij de Opdrachtgever. Het staat Opdrachtnemers natuurlijk vrij om, gezien het open source karakter van deze aanbesteding, de ontwikkelde broncode her te gebruiken in welke andere (commerciële) context dan ook.
 * **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
    Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
-   
+
+# Aanbevelingen
+
+In dit hoofdstuk zijn twee type aanbevelingen te vinden. Aanbevelingen die bedoeld zijn als suggestie en diegene die bedoeld zijn als waarschuwing. In de suggesties staan tips die ter overweging meegenomen kunnen worden in de opdracht. In de waarschuwingen staan overwegingen die bedoeld zijn om opdrachtgever bewust te maken van belangrijke overwegingen die zwaarwegende consequenties kunnen hebben.
+
+## :bulb: Doorontwikkeling
+[Ga naar boven](#inhoud)
+
+Alle ambities zijn geschreven vanuit het uitgangspunt van een volledig maatwerk ontwikkelde oplossing of component. Natuurlijk wordt er ook doorontwikkeld op bestaande (open source) oplossingen of componenten. Het verdient de voorkeur om bij doorontwikkeling zoveel mogelijk aansluiting te zoeken bij de achterliggende community. Dat is de snelste manier om nieuwe ontwikkelingen ten goede te laten komen van het algemeen belang.
+
+Mocht dat om redenen niet lukken, denk aan doorlooptijd om wijzigingen verwerkt te krijgen, onwillendheid mee te werken of simpelweg gebrek aan kennis en kunde, dan kan doorontwikkeling op bestaande open source ook plaatsvinden op een kopie. Zo kan de continuïteit van de opdracht alsnog gewaarborgd blijven en het geeft de opdrachtnemer alle regie op het (door) te ontwikkelen product en bijbehorende repositories. Het nadeel van het werken op een kopie is dan weer wel dat de opdrachtnemer (mede-)verantwoordelijk wordt voor het onderhoud, de documentatie, veiligheid etc. van die kopie.
+
+Ook bij doorontwikkeling op een kopie is het de bedoeling dat verbeteringen conform de ambitie ten goede komen van de gemeenschap achter het oorspronkelijke werk. Door ze in ieder geval op de hoogte te stellen van alle ontwikkelingen en medewerking aan te bieden wanneer er (alsnog) bereidheid ontstaat de wijzigingen door te voeren. Zodat idealiter de noodzaak voor de kopie verdwijnt. Hier moet bij de ontwikkeling op die kopie natuurlijk wel rekening mee gehouden worden. Dat er een ingebouwde flexibiliteit is om makkelijk te wisselen tussen versies; kopie of oorspronkelijke (bijgewerkte) oplossing of component.
+
+Wanneer er door wordt ontwikkeld op een closed source product, dan kan die doorontwikkeling beschouwd worden als een losstaande open source ontwikkeling.
+
+## :bulb: Sponsoren van open source (componenten)
+[Ga naar boven](#inhoud)
+
+Open source software kan alleen bestaan door de community die samen aan de software werkt en er ook het beheer op doet. Daarbij kan het gaan om vrijwilligers, maar ook commerciële (non-profit) organisaties. Dat neemt niet weg dat je bij het gebruik van open source ook op een of andere manier de morele plicht hebt eraan bij te dragen. Dat kan in natura zoals voorgesteld in de huidige eisen. Wanneer er verbeteringen worden doorgevoerd op bestaande broncode, dan moeten deze terugvloeien naar de achterliggende communities. Je zet dus concrete ontwikkelcapaciteit in ten behoeve van de doorontwikkeling van bestaande code. Een andere manier is via een financiële bijdrage.
+
+Een financiële bijdrage leveren aan een specifiek open source project is alleen een uitdaging. De overheid kent in zijn algemeenheid maar twee manieren om geld uit te geven. Via een aanbesteding of via een subsidie. Het 'nadeel' van beide methoden is dat je er niet mee mag discrimineren. Je kan niet bepaalde partijen op voorhand aanspraak laten maken op een aanbesteding of subsidie. Wanneer je dus een subsidieregeling wil starten voor open source, dan maken alle open source projecten daar aanspraak op. Je geld kan dan terecht komen bij ontwikkelaars die helemaal niet werken aan componenten in gebruik in je project. Of je dat als een probleem ervaart is een tweede.
+
+Er is wel een andere manier. Dat is het gebruiken van de opdrachtnemer als een proxy voor de financiële gelden. Dat is wat er nu ook gebeurt bij de [*social return*](https://www.rijksinkoopsamenwerking.nl/inkoop-themas/social-return). Het is gangbaar 2% van de opdrachtwaarde ten gunste te laten komen van *social return*. Het is dan aan de opdrachtnemer te bepalen waar het geld dan naartoe gaat, zolang het maar doelen zijn die ten gunste komen van de *social return* eisen. Op dezelfde manier kan je een opdrachtnemer vragen een X percentale van de opdrachtwaarde evenwichtig te doneren aan de open source projecten waar de opdrachtnemer gebruik van maakt. Een andere mogelijkheid is doneren aan fondsen die open source projecten ondersteunen zoals [NLnet](https://nlnet.nl/) of de [Sovereign Tech Agency](https://www.sovereign.tech/).
+
+Stel nu dat je een open source donatie percentage afspreekt van 2%, er € 15 miljoen is gemoeid met de opdracht en er 500 open source componenten worden gebruikt, dan zou elk component € 600,- ontvangen als donatie. Om nu aan 500 verschillende open source projecten te doneren geeft gelijk een aanzienlijke werklast, dus daarin is te variëren. Het is aan de opdrachtgever om creatief te zijn in hoe je deze eis stelt. Een voorbeeld:
+
+> Opdrachtgever verwacht dat opdrachtnemer van de totale waarde van deze opdracht 2% ten goede laat komen aan de open source componenten die opdrachtnemer gebruikt voor de ontwikkeling van de gevraagde prestatie. Het staat opdrachtnemer vrij om dit bedrag naar eigen inzicht te verdelen. De enige aanvullende eis is dat er aan tenminste 10 open source projecten wordt gedoneerd die ondersteund worden door een erkende non-profit stichting of vereniging (in het engels foundation).
+
+In dit geval ontvangen de 10 open source projecten elk € 30.000,-. Voor veel open source projecten een aanzienlijk bedrag.
+
+## :heavy_exclamation_mark: Het beteugelen van strong-copyleft
+[Ga naar boven](#inhoud)
+
+Wanneer er voor een *strong-copyleft* open source licentie wordt gekozen is het goed om oog te houden voor het *virale* effect van deze licentiegroep. Het is wijs de invloed van de licentie beperkt te houden tot wat je zelf kan overzien. Concreet betekent dit dat je probeert te voorkomen dat er onvoorziene effecten ontstaan door de toepassing van dit type licentie. Daarvoor zou deze zin gebruikt kunnen worden:
+
+> In de uitwerking van de verschillende architecturen wordt rekening gehouden met de virale werking van de gekozen sterk wederkerige (strong-copyleft) licentie. Dat wil zeggen dat de architecturen zo worden ontworpen dat deze doorwerking beperkt blijft tot de prestatie die vanuit deze aanbesteding wordt gevraagd en geen invloed heeft op het gebruik van de prestatie of op de diensten die eventueel op de prestatie worden aangesloten.
+
+## :heavy_exclamation_mark: Wel of geen Contributors License Agreement?
+[Ga naar boven](#inhoud)
+
+Een Contributors License Agreement (CLA) staat voor een overeenkomst getekent door een bijdragers (in de vorm van een rechtspersoon) aan een project. In de overeenkomst staan meestal wat aanvullende vrijheden die een project van een bijdrager verlangt. Welke dat precies zijn kan van project tot project verschillen.
+
+Het oorspronkelijke doel van een CLA was het voorkomen van een *license lock-in*. Een bijdrager aan een open source project behoud het intellectueel eigendom (IE) van zijn bijdrage. Zo is dat geregeld in de auteurswet. Een bijdrager kan dat IE-recht wel overdragen, maar daar is bij open source meestal geen noodzaak toe.
+
+Door een bijdrage te doen gaat de bijdrager impliciet akkoord met de voorwaarde van het project waaraan hij bijdraagt. Die voorwaarden staan bij een open source project vastgelegd in de gekozen open source licentie. De voorwaarden waaronder iemand het werk waarover hij het IE-recht bezit beschikbaar stelt, mag alleen de IE-recht houder veranderen. Dus op het moment dat je bijdrages van derden accepteert, kan je die voorwaarden dus niet meer veranderen zonder toestemming van alle bijdragers. Afhankelijk van het aantal bijdragen en de wereldwijde schaal ervan is dit meer of minder haalbaar. Het vastzitten aan een open source licentie door de onbereikbaarheid of onwillenheid van bijdragers om de licentie te veranderen heet *license lock-in*. Je zit dan als project dus vast een aan gekozen licentie. Een andere manier om de licentie veranderd te krijgen is door alle bijdragen van onbereikbare of weigerende bijdragers te herschrijven of verwijderen.
+
+Overigens is het dan weer niet zo dat je specifiek de broncode waar je als opdrachtgever zelf de IE-rechten van bezit niet alsnog onder een andere open source licentie vrij kan geven. Zolang dat maar niet in samenhang gebeurt met de broncode van externe bijdragers. Oftewel, component A1 + component B1 wordt oplossing C1. Je mag nu niet de licentie van 1 veranderen in 2, oftewel C1 veranderen in C2. De ontwikkelaar B1 is immers alleen akkoord gegaan met de opname van zijn bijdragen onder licentie 1. Wat je wel kan doen is enkel de code die A1 maakte beschikbaar stellen als A2, maar A2 + B1 blijft C1.
+
+De meeste CLA's hebben een expliciete clausule waarin ze de vrijheid vragen aan bijdragers om van licentie te mogen wisselen. Zolang het project dan maar wel open source blijft.
+
+Je kan prima afzien van een CLA. Het is alleen wel belangrijk goed nagedacht te hebben over je open source licentie. Of na te denken over de het wel of niet accepteren van externe bijdragen.
+
 # Bijdragers
 [Ga naar boven](#inhoud)
 
@@ -384,8 +423,10 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Joeri Bekker (Maykin)
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
+* Rutger Haagsma (Ritense)
 * Marlena van Ooijen (Logius)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
+* Job Spierings (Amsterdams Fonds voor de Kunst)
 
 ---
 
