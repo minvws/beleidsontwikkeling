@@ -218,10 +218,10 @@ Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open sou
    1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Responsible Vulnerability Disclosure beleid verwacht mag worden.
    1. Bij het gebruik van deze componenten dient de opdrachtnemer ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
 Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
-1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
+1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
-   1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
+   1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan bijvoorbeeld door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld, door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost of door het betreffende component te vervangen door een component met vergelijkbare functionaliteit.
 1. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
@@ -294,10 +294,10 @@ Voor in de **Programma van Eisen**:
 >    1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Responsible Vulnerability Disclosure beleid verwacht mag worden.
 >    1. Bij het gebruik van deze componenten dient de opdrachtgever ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
 Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
-> 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
+> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
 >    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
 >    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
->    1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
+>    1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan bijvoorbeeld door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld, door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost of door het betreffende component te vervangen door een component met vergelijkbare functionaliteit.
 > 1. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 > 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
@@ -334,10 +334,10 @@ is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
 >    1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Responsible Vulnerability Disclosure beleid verwacht mag worden.
 >    1. Bij het gebruik van deze componenten dient de opdrachtgever ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
 Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
-> 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode. 
+> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
 >    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
 >    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
->    1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
+>    1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan bijvoorbeeld door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld, door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost of door het betreffende component te vervangen door een component met vergelijkbare functionaliteit.
 > 1. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 > 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
@@ -360,8 +360,8 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
     Er is bewust gekozen voor een *strong-copyleft* licentie. Dat betekent inderdaad dat de software waarbinnen de doorontwikkeling plaatsvind onder dezelfde licentie openbaar open source gemaakt dient te worden.
 * **Mogen we componenten van derden gebruiken waar wij als Opdrachtnemer het intellectueel eigendom niet van hebben?** \
   Dat mag zeker en we moedigen het gebruik van beproefde open source componenten zelfs aan. Uit welke componenten de voor deze opdracht ontwikkelde werken zijn opgebouwd zal inzichtelijk moeten worden gemaakt als onderdeel van de gevraagde documentatie. Het is wel de verantwoordelijkheid van de Opdrachtnemer om ervoor te zorgen dat er geen licentieconflicten ontstaan onder deze overeenkomst ontwikkelde werk en dat de voorwaarden waarop bestaande open source componenten beschikbaar zijn gesteld worden nageleefd.
-* **Zijn we ook verantwoordelijk voor kwetsbaarheden die worden gevonden in compenten van derden?** \
-  Opdrachtgever gaat er vanuit dat het geleverde werk vrij is van kwetsbaarheden. Worden er toch kwetsbaarheden gevonden, dan zorgt Opdrachtnemer dat er direct passende maatregelen worden genomen. Dit betekent in ieder geval dat alle relevante partijen direct op de hoogte worden gesteld waaronder in de Opdrachtgever. Zie voor verdere details de Programma van Eisen.
+* **Zijn we ook verantwoordelijk voor kwetsbaarheden die worden gevonden in componenten van derden?** \
+  Opdrachtgever gaat er vanuit dat het geleverde werk vrij is van kwetsbaarheden. Worden er toch kwetsbaarheden gevonden, dan zorgt Opdrachtnemer dat er direct passende maatregelen worden genomen. Dit betekent in ieder geval dat alle relevante partijen direct op de hoogte worden gesteld waaronder in de Opdrachtgever. Zie voor verdere details het Programma van Eisen.
 * **Waar ligt het intellectueel eigendom van de opgeleverde broncode?** \
    Voor deze aanbesteding zijn de <span class="variabele">[ARBIT|ARVODI|GIBIT|andere algemene inkoopvoorwaarden]</span> van toepassing. Daarin is bepaald dat het intellectueel eigendom van al het onder deze overeenkomst ontwikkelde maatwerk Opdrachtgever toekomt.
 * **Mag iedereen met het open source beschikbare werk doen wat die wil?** \
@@ -513,8 +513,10 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Rutger Haagsma (Ritense)
 * David Heijkamp (Naturalis)
 * Marlena van Ooijen (Logius)
+* Nico Rikken (Alliander)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
 * Job Spierings (Amsterdams Fonds voor de Kunst)
+* Manfred Zielinski (Ministerie van Binnelandse Zaken en Koninkrijksrelaties)
 
 ---
 
