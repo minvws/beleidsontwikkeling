@@ -89,6 +89,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
   * [Hoogste ambitie](#hoogste-ambitie)
 * [Veel gestelde vragen door opdrachtnemers](#veel-gestelde-vragen-door-opdrachtnemers)
 * [Aanbevelingen](#aanbevelingen)
+* [Rationale](#rationale)
 * [Bijdragers](#bijdragers)
 
 # Introductie
@@ -413,6 +414,83 @@ De meeste CLA's hebben een expliciete clausule waarin ze de vrijheid vragen aan 
 
 Je kan prima afzien van een CLA. Het is alleen wel belangrijk goed nagedacht te hebben over je open source licentie. Of na te denken over de het wel of niet accepteren van externe bijdragen.
 
+# Rationale
+
+Op het moment van schrijven van dit document is het niet mogelijk om commentaar uit HackMD te exporteren. Het is dus niet makkelijk inzichtelijk te maken welke interacties (met wie) tot een bepaalde wijziging hebben geleid. Om die informatie niet verloren te laten gaan zal een samenvatting van die gesprekken, en de eventuele wijzigingen waartoe ze geleid hebben, hier weergegeven worden.
+
+## Ambities vanuit opensource werken
+[Ga naar boven](#inhoud)
+
+15 januari 2025
+
+In de eerste aanzet van de ambitieladder was het idee om alle eisen te variëren in een oplopende schaal van 1 tot 10. Of het 10 ambities moesten worden stond overigens niet op voorhand vast. Het was vooral bedoeld om met elkaar over na te gaan denken. Ambitie 1 en 8, 9 en 10 waren daarvan al uitgewerkt. Een goede invulling geven op de tussenliggende ambities bleek moeilijker. Vanuit de community werden de volgende opmerkingen gemaakt over deze opzet:
+- Zitten er in de ambities niet impliciet assen verscholen? In deze eerste opzet wordt gevarieerd over de assen transparantie en samenwerking.
+- Als je die assen kan expliciteren, dan kan je vervolgens per as ambities maken die samengevoegd tot een set van eisen leiden.
+- Is het niet handiger aan te sluiten bij de vier categorieën van opensourcewerken?
+
+We waren het er snel over eens dat het definiëren van teveel assen en teveel ambities niet werkbaar zouden. In de huidige opzet van 3 opties x 3 ambities x 3 ambities x 1 vaste set krijg je al 27 potentieel verschillende varienten. Het aansluiten bij de vier categorieën van opensourcewerken was daarin een compromie. Genoeg variatie zonder teveel verschillende samengestelde varianten te krijgen. En ook, eenduidige communicatie over opensourcewerken vanuit de Rijksoverheid. Op drie van de categorieën zijn nu dus 3 ambities/opties geformuleerd vanuit het idee van de assen. De combinatie van die ambities/opties leiden dan tot een zeker ambitieniveau en daarmee een samenhangende set aan eisen.
+
+## Waarom een Contributors License Agreement (CLA)?
+[Ga naar boven](#inhoud)
+
+15 januari 2025
+
+In de basisset aan eisen is de volgende eis opgenomen:
+> Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
+
+Deze eis leidde vanzelfsprekend tot discussie. Een CLA schrikt sommige ontwikkelaars af en er organisaties die als beleidsuitgangspunt hebben dat ze niet ontwikkelen aan projecten waar een CLA wordt gevraagd. De reden om de eis toch op te nemen in de basisset is meerledig:
+
+1. Het gaat hier om een eis aan derden. Aan degene die willen bijdragen aan broncode die uit de opdracht is ontstaan. Het is geen richtsnoer voor de eigen ontwikkelaars in geval zij bijdragen aan projecten van derden.
+2. Het goed doorzien van de consequenties van een licentiekeuze vraagt enige mate van expertise. Helemaal in relatie tot het accepteren van bijdragen van derden. De ambitieladder moet toepasbaar zijn voor ICT-generalisten. *Better safe than sorry*.
+3. Het stopzetten van verplichtstelling van de CLA kan wel, terwijl het achteraf invoeren ervan geen zin heeft. Tenminste, niet als er al bijdragen van derden zijn geaccepteerd. Zodra een project enige volwassenheid heeft bereikt kan altijd voor het afschaffen van verplichtstelling worden gekozen.
+
+Er is gekozen om onder aanbevelingen extra uitleg te geven over de toepassing van de CLA.
+
+## Welke mate van veiligheid kan een leverancier garanderen?
+[Ga naar boven](#inhoud)
+
+2 februari 2025
+
+In de ambitieladder staan de volgende eisen waar het gaat over veilige code:
+> 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
+>    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
+>    2. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
+
+Hierop werd gereageerd dat het onduidelijk is wie verantwoordelijk is voor het daadwerkelijk oplossen van de kwetsbaarheid. Dit werd in de eerste versie teveel geïmpliceerd vanuit de tekst "direct passende maatregelen". De feedbackgever stelde terecht de vraag wie het probleem dan op moet lossen en wie er dan voor zou moeten betalen. Stel je jezelf volledig afhankelijk op van de community? Moet de opdrachtgever het zelf oplossen of mag die daarvoor ook iemand inhuren? Waarbij de bij inhuren ook aan leden van de community gedacht kan worden. Daarop is de volgende regel toegevoegd:
+
+>    3. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
+
+Op deze eisen kwam vervolgens een algemener commentaar. Namelijk dat je er niet vanuit kan gaan dat het geleverde werk zonder kwetsbaarheden is. Met de tekstsuggesties:
+> Opdrachtgever en opdrachtnemer zijn er zich van bewust dat er nog onbekende kwetsbaarheden in het geleverde werk aanwezig zullen zijn.
+
+De kern is volgens de feedbackgever dat altijd alles kwetsbaarheden bevat, deze veelal nog onbekend zijn, en het er dus om gaat hoe opdrachtgever en -nemer samen afspraken maken over hoe om te gaan met deze wetenschap. Dat dat niet iets is wat je alleen bij de opdrachtnemer neer kan leggen, maar wat een gezamenlijke inspanning vereist.
+
+Verder gaf de feedbackgever aan dat een respectvolle communicatie ook van belang is. Als software toch kwetsbaarheden blijkt te bevatten, dan moet dat niet leiden tot een schuldvraag. Dat iemand gefaald zou hebben. De schuldvraag komt pas om de hoek wanneer opdrachtnemer zijn (afgesproken) professionele verantwoordelijkheid niet heeft genomen.
+
+Tot aanpassing van het document heeft deze feedback nog niet geleid.
+
+## Doorontwikkeling in een fork of niet?
+[Ga naar boven](#inhoud)
+
+2 februari 2025
+
+Vanuit de community kwam de vraag of je ambitieladder alleen kunt gebruiken bij een volledige nieuw te ontwikkelen maatwerk of ook bij doorontwikkeling van bestaand (closed source) oplossingen? Daarop is het informatieblokje toegevoegd aan de introductietekst. Daarin staat vermeld dat wanneer doorontwikkeling plaatsvind in een fork dit gezien kan worden als de ontwikkeling van een kant en klaar product. De opdrachtnemer heeft immers zelf de volledige regie op de fork en je maakt je niet afhankelijk van de achterliggende community als het gaat om bedrijfscontinuïteit.
+
+Niet iedereen was het eens met de die logica. Immers, als je doorontwikkeld op een fork, dan is nog maar de vraag of de wijzigingen ook daadwerkelijk terugvloeien naar de achterliggende community. Daarbij werd de volgende tekstsuggestie gedaan:
+> Het wordt aanbevolen om in geval van doorontwikkeling op bestaande open source dit te laten plaatsvinden als bijdrage op de bestaande codebase. Zo wordt de open source code base en community verder versterkt, door niet alleen te gebruiken wat er al is, maar ook bij te dragen in de bestaande codebase.
+
+Het probleem is alleen dat de achterliggende communities niet altijd wijzigingen aan de bestaande codebase overnemen. Kan dan verschillende redenen hebben:
+1. De wijzigingen worden niet als verbetering gezien omdat het bijv. niet past bij de visie van de community of te context specifiek is.
+2. De community heeft niet de kennis en kunde in huis om de nieuwe wijzigingen ook te kunnen beheren.
+3. De community heeft niet de capaciteit om de verbeteringen te beoordelen in het tempo dat de opdracht verlangt.
+
+Het werken op een fork geeft de meeste zekerheden dat de doorontwikkeling ook daadwerkelijk leidt tot het doel dat de opdrachtgever voor ogen had. In de ambitieladder zelf staat vervolgens de eis:
+> Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities.
+
+Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen ook ten gunste van de achterliggende community laat zijn. Maar dan wel los van de vraag wat hoe de community dit zelf beoordeeld.
+
+Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
+
 # Bijdragers
 [Ga naar boven](#inhoud)
 
@@ -424,6 +502,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
 * Rutger Haagsma (Ritense)
+* David Heijkamp (Naturalis)
 * Marlena van Ooijen (Logius)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
 * Job Spierings (Amsterdams Fonds voor de Kunst)
