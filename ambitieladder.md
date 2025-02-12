@@ -67,7 +67,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 > * Alles op basis van goed vertrouwen.
 > * Wordt het vertrouwen geschaad, dan wordt er door de host ingegrepen.
 
-# Inhoud 
+# Inhoud
 
 > [!Note] Waarom de links niet werken
 > 
