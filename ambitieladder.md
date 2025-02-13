@@ -52,7 +52,7 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 > :phone: https://meet.jit.si/OpenSourceBeleidsontwikkeling
 > \
 > \
-> :date: In elke oneven weken op woensdag om 13:30 - 14:30
+> :date: In alle oneven weken op woensdag om 13:30 - 14:30
 > \
 > \
 > :grey_question: Tijdens deze bijeenkomst worden alle commentaren en verbetersuggesties besproken op volgorde van binnenkomst. Mocht je dus iets willen bespreken, zet dat dan 'op de agenda' met een concrete opmerking, vraag of verbetersuggestie. Gewoon meepraten kan natuurlijk ook.
@@ -106,10 +106,11 @@ Het doel van de ambitieladder is een handvat bieden in de toepassing van open so
 > Dit laatste punt is vaker door feedbackgevers aangedragen. Waarom alleen gericht op ontwikkeling van software en niet op de dienstverlening? Ik (Maurice Hendriks) heb zelf geen ervaring in die vormen van aanbesteden, dus kan daar moeilijk uit putten. De uitnodiging is natuurlijk om vanuit dat perspectief kennis te delen.
 >
 > Ik zie daarin voor me dat we toewerken naar een algemeen document "open source aanbesteden". Waarin binnen dat document de verschillende perspectieven worden beschreven waaronder dus:
-> * aanbesteden van (maatwerk) ontwikkeling
-> * aanbesteden van ondersteuning of dienstverlening
+> * aanbesteden van (maatwerk) ontwikkeling (dit document)
+> * [aanbesteden van ondersteuning of dienstverlening](https://hackmd.io/Un-vnRnBRcOAtQ1jAeYz8g)
+> * [aanbesteden van standaardsoftware](https://hackmd.io/NbYC48GJRx-KIuVX5sHGeg)
 >
-> Als iemand bereid is het voortouw te nemen in het tweede hoofdstuk, dan staat [hier](https://hackmd.io/Un-vnRnBRcOAtQ1jAeYz8g) een HackMD note klaar.
+> Als iemand bereid is het voortouw te nemen in de andere hoofdstukken, dan staan daar onder de linkjes de documenten voor klaar.
 
 Het is goed te realiseren dat een hoger ambitieniveau normaliter ook meer van de eigen organisatie vraagt waar het gaat om de regierol, benodigde financien, kennis en expertise van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is.
 
@@ -366,10 +367,24 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
    Voor deze aanbesteding zijn de <span class="variabele">[ARBIT|ARVODI|GIBIT|andere algemene inkoopvoorwaarden]</span> van toepassing. Daarin is bepaald dat het intellectueel eigendom van al het onder deze overeenkomst ontwikkelde maatwerk Opdrachtgever toekomt.
 * **Mag iedereen met het open source beschikbare werk doen wat die wil?** \
    Opdrachtgever laat het een ieder vrij om de uit deze overeenkomst ontwikkelde werken her te gebruiken in welke (commerciële) context dan ook, zoals ook ganbaar is bij open source ontwikkeling. Voor het hergebruik binnen de context van deze aanbesteding gelden natuurlijk de daarvoor geldende waarborgen.
-* **Hoe verwacht Opdrachtgever dat opdrachtnemers geld kunnen verdienen aan open source ontwikkelde code?** \
-   Opdrachtnemers krijgen betaald voor alle ontwikkeling die in het kader van deze aanbesteding worden gevraagd. Het intellectueel eigendom van de werken die in opdracht van deze aanbesteding worden ontwikkeld liggen bij de Opdrachtgever. Het staat Opdrachtnemers natuurlijk vrij om, gezien het open source karakter van deze aanbesteding, de ontwikkelde broncode her te gebruiken in welke andere (commerciële) context dan ook.
+* **Hoe verwacht opdrachtgever dat opdrachtnemers geld kunnen verdienen aan open source ontwikkelde code?** \
+   Opdrachtnemer krijgen betaald voor alle ontwikkeling die in het kader van deze aanbesteding worden gevraagd. Het intellectueel eigendom van de werken die in opdracht van deze aanbesteding worden ontwikkeld liggen bij de Opdrachtgever. Het staat Opdrachtnemers natuurlijk vrij om, gezien het open source karakter van deze aanbesteding, de ontwikkelde broncode her te gebruiken in welke andere (commerciële) context dan ook.
 * **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
-   Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
+   Het staat opdrachtnemer vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
+* **Kunnen jullie meer details geven over hoe de publieke open source repository vanaf dag één wordt beheerd? Specifieker op de beveilingseisen.** \
+  Wat betreft de beveiliging van de openbare repository verwachten we minimaal:
+  * Toegang tot de repository loopt via functioneel beheer van opdrachtgever.
+  * Alle commits moeten gesigned worden.
+  * Wijzigingen gebeuren alleen via Pull Requests met twee approvals.
+  * Gebruik van GitHub Advanced Security: Code Scanning, Secret Scanning en Dependency Review
+* **Welke risico’s zien jullie zelf in de gekozen aanpak van publieke open source ontwikkeling, en hoe zijn deze tot nu toe gemitigeerd?** \
+   We zien daarbij twee soorten risico's: beveiligingsrisico en imago-risico. Beveiligingsrisico in de zin dat een publieke repository een extra informatiebron is voor kwaadwillenden. Wij vinden echter de beveiligingsrisico’s van closed source groter dan die van open source, omdat kwetsbaarheden langer onder de radar kunnen blijven. Imago-risico in de zin dat ondermaats werk de reputatie van de opdrachtgever en daarmee het vertrouwen in het gebruik van het product schaadt.
+
+   Beide risico's worden gemitigeerd, door het aantal dependencies te beperken, door technische keuzes te documenteren en door mensen uit de community uit te nodigen feedback te geven en door professioneel en secuur te werken.
+* **Zijn er specifieke eisen of richtlijnen met betrekking tot het beheren van bijdragen van derden (bijvoorbeeld pull requests) aan de openbare repository?** \
+   Er moet een (minimaal) proces worden ingericht. Voornaamste onderdeel van dat proces is dat externe partijen een CLA (Contributor License Agreement) moeten ondertekenen. Voor het beoordelen en goedkeuren van de wijzigingen is de aanname dat hiervoor hetzelfde proces gevolgd wordt als voor bijdrages van binnen het team.
+* **Zijn er alternatieven overwogen voor volledige open-source publicatie vanaf de start? Zo ja, waarom zijn deze afgewezen?** \
+   Er is overwogen om pas tot open-source publicatie over te gaan na een opstart-fase. Dit is afgewezen, om te voorkomen dat er eerst een opschoningsactie nodig geacht wordt, voordat er tot publicatie over gegaan kan worden.
 
 # Aanbevelingen
 
@@ -460,23 +475,29 @@ Er is gekozen om onder aanbevelingen extra uitleg te geven over de toepassing va
 
 2 februari 2025
 
-In de ambitieladder staan de volgende eisen waar het gaat over veilige code:
+In de ambitieladder stonden de volgende eisen waar het gaat over veilige code:
 > 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 >    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
 >    2. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
 
-Hierop werd gereageerd dat het onduidelijk is wie verantwoordelijk is voor het daadwerkelijk oplossen van de kwetsbaarheid. Dit werd in de eerste versie teveel geïmpliceerd vanuit de tekst "direct passende maatregelen". De feedbackgever stelde terecht de vraag wie het probleem dan op moet lossen en wie er dan voor zou moeten betalen. Stel je jezelf volledig afhankelijk op van de community? Moet de opdrachtgever het zelf oplossen of mag die daarvoor ook iemand inhuren? Waarbij de bij inhuren ook aan leden van de community gedacht kan worden. Daarop is de volgende regel toegevoegd:
+Hierop werd gereageerd dat het onduidelijk is wie verantwoordelijk is voor het daadwerkelijk oplossen van de kwetsbaarheid. Dit werd in de eerste versie teveel geïmpliceerd vanuit de tekst *direct passende maatregelen*. De feedbackgever stelde terecht de vraag wie het probleem dan op moet lossen en wie er dan voor zou moeten betalen. Stel je jezelf volledig afhankelijk op van de community? Moet de opdrachtgever het zelf oplossen of mag die daarvoor ook iemand inhuren? Waarbij bij inhuren ook aan leden van de community zelf gedacht kan worden. Daarop is de volgende regel toegevoegd:
 
 >    3. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
 
-Op deze eisen kwam vervolgens een algemener commentaar. Namelijk dat je er niet vanuit kan gaan dat het geleverde werk zonder kwetsbaarheden is. Met de tekstsuggesties:
+Op deze toevoeging kwam vervolgens weer een aanvulling dat de opdrachtgever ook de mogelijkheid heeft om het betreffende component in zijn geheel te vervangen door een component met vergelijkbare functionaliteiten. Die is vervolgens ook toegevoegd. Waarbij al snel de conclusie was dat een uitputtend lijstje van mogelijkheden nooit gegeven kan worden. De punten onder 3 zijn vervolgens vertaald naar suggesties. Zo is duidelijk aan welke maatregelen opdrachtgever zoal denkt.
+
+Op de hele set aan eisen rond veilige broncode ontstond een abstractere discussie. Namelijk dat je er niet vanuit kan gaan dat het geleverde werk zonder kwetsbaarheden is. Met de tekstsuggesties:
 > Opdrachtgever en opdrachtnemer zijn er zich van bewust dat er nog onbekende kwetsbaarheden in het geleverde werk aanwezig zullen zijn.
 
 De kern is volgens de feedbackgever dat altijd alles kwetsbaarheden bevat, deze veelal nog onbekend zijn, en het er dus om gaat hoe opdrachtgever en -nemer samen afspraken maken over hoe om te gaan met deze wetenschap. Dat dat niet iets is wat je alleen bij de opdrachtnemer neer kan leggen, maar wat een gezamenlijke inspanning vereist.
 
 Verder gaf de feedbackgever aan dat een respectvolle communicatie ook van belang is. Als software toch kwetsbaarheden blijkt te bevatten, dan moet dat niet leiden tot een schuldvraag. Dat iemand gefaald zou hebben. De schuldvraag komt pas om de hoek wanneer opdrachtnemer zijn (afgesproken) professionele verantwoordelijkheid niet heeft genomen.
 
-Tot aanpassing van het document heeft deze feedback nog niet geleid.
+13 februari 2025
+
+De uiteindelijke conclusie is dat veiligheid niet iets is wat binnen de scope van open source inkoopeisen valt. Het is aan informatiebeveiliging om specifieker in te gaan op de normen en instrumenten die specifiek gaan over de veiligheid van broncode. Waar open source een aanvulling op doet is het relationele aspect. Dat je bij het gebruik van vrije software componenten ook een plicht hebt om er waar mogelijk eraan bij te dragen. Die bijdrage kan allerlei vormen aannemen. Van het melden van een bug tot het daadwerkelijk aandragen van een oplossing ervoor, een financiële bijdrage doen of daadwerkelijk onderdeel worden van die community. Uiteindelijk is dit vertaald naar de term ketenverantwoordelijkheid.
+
+> 3. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
 
 ## Doorontwikkeling in een fork of niet?
 [Ga naar boven](#inhoud)
