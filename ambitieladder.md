@@ -367,10 +367,24 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
    Voor deze aanbesteding zijn de <span class="variabele">[ARBIT|ARVODI|GIBIT|andere algemene inkoopvoorwaarden]</span> van toepassing. Daarin is bepaald dat het intellectueel eigendom van al het onder deze overeenkomst ontwikkelde maatwerk Opdrachtgever toekomt.
 * **Mag iedereen met het open source beschikbare werk doen wat die wil?** \
    Opdrachtgever laat het een ieder vrij om de uit deze overeenkomst ontwikkelde werken her te gebruiken in welke (commerciële) context dan ook, zoals ook ganbaar is bij open source ontwikkeling. Voor het hergebruik binnen de context van deze aanbesteding gelden natuurlijk de daarvoor geldende waarborgen.
-* **Hoe verwacht Opdrachtgever dat opdrachtnemers geld kunnen verdienen aan open source ontwikkelde code?** \
-   Opdrachtnemers krijgen betaald voor alle ontwikkeling die in het kader van deze aanbesteding worden gevraagd. Het intellectueel eigendom van de werken die in opdracht van deze aanbesteding worden ontwikkeld liggen bij de Opdrachtgever. Het staat Opdrachtnemers natuurlijk vrij om, gezien het open source karakter van deze aanbesteding, de ontwikkelde broncode her te gebruiken in welke andere (commerciële) context dan ook.
+* **Hoe verwacht opdrachtgever dat opdrachtnemers geld kunnen verdienen aan open source ontwikkelde code?** \
+   Opdrachtnemer krijgen betaald voor alle ontwikkeling die in het kader van deze aanbesteding worden gevraagd. Het intellectueel eigendom van de werken die in opdracht van deze aanbesteding worden ontwikkeld liggen bij de Opdrachtgever. Het staat Opdrachtnemers natuurlijk vrij om, gezien het open source karakter van deze aanbesteding, de ontwikkelde broncode her te gebruiken in welke andere (commerciële) context dan ook.
 * **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
-   Het staat Opdrachtnemers vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
+   Het staat opdrachtnemer vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
+* **Kunnen jullie meer details geven over hoe de publieke open source repository vanaf dag één wordt beheerd? Specifieker op de beveilingseisen.** \
+  Wat betreft de beveiliging van de openbare repository verwachten we minimaal:
+  * Toegang tot de repository loopt via functioneel beheer van opdrachtgever.
+  * Alle commits moeten gesigned worden.
+  * Wijzigingen gebeuren alleen via Pull Requests met twee approvals.
+  * Gebruik van GitHub Advanced Security: Code Scanning, Secret Scanning en Dependency Review
+* **Welke risico’s zien jullie zelf in de gekozen aanpak van publieke open source ontwikkeling, en hoe zijn deze tot nu toe gemitigeerd?** \
+   We zien daarbij twee soorten risico's: beveiligingsrisico en imago-risico. Beveiligingsrisico in de zin dat een publieke repository een extra informatiebron is voor kwaadwillenden. Wij vinden echter de beveiligingsrisico’s van closed source groter dan die van open source, omdat kwetsbaarheden langer onder de radar kunnen blijven. Imago-risico in de zin dat ondermaats werk de reputatie van de opdrachtgever en daarmee het vertrouwen in het gebruik van het product schaadt.
+
+   Beide risico's worden gemitigeerd, door het aantal dependencies te beperken, door technische keuzes te documenteren en door mensen uit de community uit te nodigen feedback te geven en door professioneel en secuur te werken.
+* **Zijn er specifieke eisen of richtlijnen met betrekking tot het beheren van bijdragen van derden (bijvoorbeeld pull requests) aan de openbare repository?** \
+   Er moet een (minimaal) proces worden ingericht. Voornaamste onderdeel van dat proces is dat externe partijen een CLA (Contributor License Agreement) moeten ondertekenen. Voor het beoordelen en goedkeuren van de wijzigingen is de aanname dat hiervoor hetzelfde proces gevolgd wordt als voor bijdrages van binnen het team.
+* **Zijn er alternatieven overwogen voor volledige open-source publicatie vanaf de start? Zo ja, waarom zijn deze afgewezen?** \
+   Er is overwogen om pas tot open-source publicatie over te gaan na een opstart-fase. Dit is afgewezen, om te voorkomen dat er eerst een opschoningsactie nodig geacht wordt, voordat er tot publicatie over gegaan kan worden.
 
 # Aanbevelingen
 
