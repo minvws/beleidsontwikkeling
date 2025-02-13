@@ -475,23 +475,29 @@ Er is gekozen om onder aanbevelingen extra uitleg te geven over de toepassing va
 
 2 februari 2025
 
-In de ambitieladder staan de volgende eisen waar het gaat over veilige code:
+In de ambitieladder stonden de volgende eisen waar het gaat over veilige code:
 > 1. Opdrachtnemer draagt zorg voor het opleveren van veilige broncode.
 >    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
 >    2. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
 
-Hierop werd gereageerd dat het onduidelijk is wie verantwoordelijk is voor het daadwerkelijk oplossen van de kwetsbaarheid. Dit werd in de eerste versie teveel geïmpliceerd vanuit de tekst "direct passende maatregelen". De feedbackgever stelde terecht de vraag wie het probleem dan op moet lossen en wie er dan voor zou moeten betalen. Stel je jezelf volledig afhankelijk op van de community? Moet de opdrachtgever het zelf oplossen of mag die daarvoor ook iemand inhuren? Waarbij de bij inhuren ook aan leden van de community gedacht kan worden. Daarop is de volgende regel toegevoegd:
+Hierop werd gereageerd dat het onduidelijk is wie verantwoordelijk is voor het daadwerkelijk oplossen van de kwetsbaarheid. Dit werd in de eerste versie teveel geïmpliceerd vanuit de tekst *direct passende maatregelen*. De feedbackgever stelde terecht de vraag wie het probleem dan op moet lossen en wie er dan voor zou moeten betalen. Stel je jezelf volledig afhankelijk op van de community? Moet de opdrachtgever het zelf oplossen of mag die daarvoor ook iemand inhuren? Waarbij bij inhuren ook aan leden van de community zelf gedacht kan worden. Daarop is de volgende regel toegevoegd:
 
 >    3. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld of door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost.
 
-Op deze eisen kwam vervolgens een algemener commentaar. Namelijk dat je er niet vanuit kan gaan dat het geleverde werk zonder kwetsbaarheden is. Met de tekstsuggesties:
+Op deze toevoeging kwam vervolgens weer een aanvulling dat de opdrachtgever ook de mogelijkheid heeft om het betreffende component in zijn geheel te vervangen door een component met vergelijkbare functionaliteiten. Die is vervolgens ook toegevoegd. Waarbij al snel de conclusie was dat een uitputtend lijstje van mogelijkheden nooit gegeven kan worden. De punten onder 3 zijn vervolgens vertaald naar suggesties. Zo is duidelijk aan welke maatregelen opdrachtgever zoal denkt.
+
+Op de hele set aan eisen rond veilige broncode ontstond een abstractere discussie. Namelijk dat je er niet vanuit kan gaan dat het geleverde werk zonder kwetsbaarheden is. Met de tekstsuggesties:
 > Opdrachtgever en opdrachtnemer zijn er zich van bewust dat er nog onbekende kwetsbaarheden in het geleverde werk aanwezig zullen zijn.
 
 De kern is volgens de feedbackgever dat altijd alles kwetsbaarheden bevat, deze veelal nog onbekend zijn, en het er dus om gaat hoe opdrachtgever en -nemer samen afspraken maken over hoe om te gaan met deze wetenschap. Dat dat niet iets is wat je alleen bij de opdrachtnemer neer kan leggen, maar wat een gezamenlijke inspanning vereist.
 
 Verder gaf de feedbackgever aan dat een respectvolle communicatie ook van belang is. Als software toch kwetsbaarheden blijkt te bevatten, dan moet dat niet leiden tot een schuldvraag. Dat iemand gefaald zou hebben. De schuldvraag komt pas om de hoek wanneer opdrachtnemer zijn (afgesproken) professionele verantwoordelijkheid niet heeft genomen.
 
-Tot aanpassing van het document heeft deze feedback nog niet geleid.
+13 februari 2025
+
+De uiteindelijke conclusie is dat veiligheid niet iets is wat binnen de scope van open source inkoopeisen valt. Het is aan informatiebeveiliging om specifieker in te gaan op de normen en instrumenten die specifiek gaan over de veiligheid van broncode. Waar open source een aanvulling op doet is het relationele aspect. Dat je bij het gebruik van vrije software componenten ook een plicht hebt om er waar mogelijk eraan bij te dragen. Die bijdrage kan allerlei vormen aannemen. Van het melden van een bug tot het daadwerkelijk aandragen van een oplossing ervoor, een financiële bijdrage doen of daadwerkelijk onderdeel worden van die community. Uiteindelijk is dit vertaald naar de term ketenverantwoordelijkheid.
+
+> 3. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
 
 ## Doorontwikkeling in een fork of niet?
 [Ga naar boven](#inhoud)
