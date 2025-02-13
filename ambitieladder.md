@@ -106,10 +106,11 @@ Het doel van de ambitieladder is een handvat bieden in de toepassing van open so
 > Dit laatste punt is vaker door feedbackgevers aangedragen. Waarom alleen gericht op ontwikkeling van software en niet op de dienstverlening? Ik (Maurice Hendriks) heb zelf geen ervaring in die vormen van aanbesteden, dus kan daar moeilijk uit putten. De uitnodiging is natuurlijk om vanuit dat perspectief kennis te delen.
 >
 > Ik zie daarin voor me dat we toewerken naar een algemeen document "open source aanbesteden". Waarin binnen dat document de verschillende perspectieven worden beschreven waaronder dus:
-> * aanbesteden van (maatwerk) ontwikkeling
-> * aanbesteden van ondersteuning of dienstverlening
+> * aanbesteden van (maatwerk) ontwikkeling (dit document)
+> * [aanbesteden van ondersteuning of dienstverlening](https://hackmd.io/Un-vnRnBRcOAtQ1jAeYz8g)
+> * [aanbesteden van standaardsoftware](https://hackmd.io/NbYC48GJRx-KIuVX5sHGeg)
 >
-> Als iemand bereid is het voortouw te nemen in het tweede hoofdstuk, dan staat [hier](https://hackmd.io/Un-vnRnBRcOAtQ1jAeYz8g) een HackMD note klaar.
+> Als iemand bereid is het voortouw te nemen in de andere hoofdstukken, dan staan daar onder de linkjes de documenten voor klaar.
 
 Het is goed te realiseren dat een hoger ambitieniveau normaliter ook meer van de eigen organisatie vraagt waar het gaat om de regierol, benodigde financien, kennis en expertise van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is.
 
