@@ -9,8 +9,8 @@ Deze repositoriy bevat allerlei documenten die tot stand zijn gekomen en worden 
 | Link | Omschrijving |
 |------|-------------|
 | [HackMD.io](https://hackmd.io/) | Om open samen te werken zijn alle documenten beschikbaar via een eigen HackMD.io link.|
-| [github.com/mauricehendriks/beleidsontwikkeling/](https://github.com/mauricehendriks/beleidsontwikkeling/) | Alle documenten staan onder versiebeheer via deze Github repository. |
-| **[mauricehendriks.github.io/beleidsontwikkeling/](https://mauricehendriks.github.io/beleidsontwikkeling/)** | Hier zijn alle documenten op een gebruikersvriendelijke manier beschikbaar. |
+| [github.com/minvws/beleidsontwikkeling/](https://github.com/minvws/beleidsontwikkeling/) | Alle documenten staan onder versiebeheer via deze Github repository. |
+| **[minvws.github.io/beleidsontwikkeling/](https://minvws.github.io/beleidsontwikkeling/)** | Hier zijn alle documenten op een gebruikersvriendelijke manier beschikbaar. |
 
 Beleidsinstrumenten:
 
