@@ -48,15 +48,6 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 >[!Tip]Github account?
 >:star: Voor iedereen met een github account. Je kan hier inloggen via dat account zodat je bijdragen traceerbaar zijn.
 
-> [!Note] Community call
-> :phone: https://meet.jit.si/OpenSourceBeleidsontwikkeling
-> \
-> \
-> :date: In alle oneven weken op woensdag om 13:30 - 14:30
-> \
-> \
-> :grey_question: Tijdens deze bijeenkomst worden alle commentaren en verbetersuggesties besproken op volgorde van binnenkomst. Mocht je dus iets willen bespreken, zet dat dan 'op de agenda' met een concrete opmerking, vraag of verbetersuggestie. Gewoon meepraten kan natuurlijk ook.
-
 > [!Important] Regels van de bijeenkomsten
 > * Allereerst de [Chatham House Rules](https://en.wikipedia.org/wiki/Chatham_House_Rule).
 > * De beheerder van dit document is ook de host van de online bijeenkomst.
