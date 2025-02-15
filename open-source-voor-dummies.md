@@ -111,7 +111,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ## Varianten open source licenties
 
-- Toegevelijke licenties (*permissive*) \
+- Toegeeflijke licenties (*permissive*) \
   Verbeteringen mogen gesloten gehouden worden.
 - Zwak-wederkerige licenties (*weak copyleft*) \
   Verbeteringen moeten onder dezelfde voorwaarden ook beschikbaar worden gesteld.
@@ -159,9 +159,9 @@ Het ROM-pedaal wordt bedacht door een persoon die geen commercieel doel heeft, m
 
 ## Licentie advies
 
-Vanuit dit belang is het logisch om een *toegevelijke* licentie te kiezen. Fabrikanten kunnen met het idee aan de slag zonder zelf openheid van zaken te hoeven geven over het productieproces of verbeteringen.
+Vanuit dit belang is het logisch om een *toegeeflijke* licentie te kiezen. Fabrikanten kunnen met het idee aan de slag zonder zelf openheid van zaken te hoeven geven over het productieproces of verbeteringen.
 
-Het is met sommige *toegevelijke* licentie smaken wel mogelijk om naamsvermelding af te dwingen. De fabrikant moet dan in de handleiding of in communicatie duidelijk maken wie het ROM-pedaal heeft bedacht en/of eraan hebben bijgedragen. 
+Het is met sommige *toegeeflijke* licentie smaken wel mogelijk om naamsvermelding af te dwingen. De fabrikant moet dan in de handleiding of in communicatie duidelijk maken wie het ROM-pedaal heeft bedacht en/of eraan hebben bijgedragen.
 
 ---
 
@@ -187,7 +187,7 @@ Degene die het ROM-pedaal heeft bedacht heeft dat vanuit idealisme gedaan. Hij w
 
 Vanuit dit belang is het logisch een *sterk wederkerige* licentie te kiezen.
 
-De individuele componenten die een minder ambitieuze licentie (*toegevelijk* of *zwak wederkerig*) hebben mogen wel in een andere context onder die licentie worden gebruikt. 
+De individuele componenten die een minder ambitieuze licentie (*toegeeflijk* of *zwak wederkerig*) hebben mogen wel in een andere context onder die licentie worden gebruikt.
 
 ---
 
@@ -202,10 +202,10 @@ In geval van een fiets gaat het alleen om de fiets als geheel, maar niet over ho
 ## Voorbeeld 1
 
 - Fiets (*sterk wederkerig*)
-- Snelbinders (*toegevelijk*) + \
+- Snelbinders (*toegeeflijk*) + \
   \=
 - Fiets incl. snelbinders (*sterk wederkerig*)
-- Snelbinders apart (*toegevelijk*)
+- Snelbinders apart (*toegeeflijk*)
 
 \
 Een *sterk wederkerige* licentie overtroefd altijd andere licenties.
@@ -214,7 +214,7 @@ Een *sterk wederkerige* licentie overtroefd altijd andere licenties.
 
 ## Voorbeeld 2
 
-- Fiets (*toegevelijk*)
+- Fiets (*toegeeflijk*)
 - Snelbinders (*sterk wederkerig*) + \
   \=
 - Fiets incl. snelbinders (*sterk wederkerig*)
@@ -228,13 +228,13 @@ Een *sterk wederkerig* onderdeel zorgt dat het samengestelde product ook *sterk 
 ## Voorbeeld 3
 
 - Fiets (*sterk wederkerig*)
-- Losse fietstassen (*toegevelijk*) + \
+- Losse fietstassen (*toegeeflijk*) + \
   \=
 - Fiets incl. fietstassen (*sterk wederkerig*)
-- Losse fietstassen (*toegevelijk*)
+- Losse fietstassen (*toegeeflijk*)
 
 \
-De kennis om tot het totaalproduct te komen wordt *sterk wederkerig* beschikbaar gesteld. Het losse onderdeel kan nog steeds in een andere context *toegevelijk* worden gebruikt.
+De kennis om tot het totaalproduct te komen wordt *sterk wederkerig* beschikbaar gesteld. Het losse onderdeel kan nog steeds in een andere context *toegeeflijk* worden gebruikt.
 
 ---
 
@@ -254,13 +254,13 @@ Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het t
 ## Voorbeeld 5
 
 - Fiets (*zwak wederkerig*)
-- Losse fietstassen (*toegevelijk*) + \
+- Losse fietstassen (*toegeeflijk*) + \
   \=
 - Fiets incl fietstassen (*zwak wederkerig*)
-- Losse fietstassen (*toegevelijk*)
+- Losse fietstassen (*toegeeflijk*)
 
 \
-*zwak wederkerige* en *toegevelijke* licenties overtroeven de licenties van andere onderdelen niet.
+*zwak wederkerige* en *toegeeflijke* licenties overtroeven de licenties van andere onderdelen niet.
 
 ---
 
@@ -312,15 +312,15 @@ Je doet verbeteringen op een *zwak wederkerig* product, alle verbeteringen moete
 ## Voorbeeld 9
 
 - Fiets (*gesloten licentie*)
-- Fietslamp vast aan de fiets (*toegevelijk*) +
+- Fietslamp vast aan de fiets (*toegeeflijk*) +
 - Verbeteringen op de fietslamp + \
   \=
 - Fiets (*gesloten licentie*)
-- Fietslamp (*toegevelijk*)
+- Fietslamp (*toegeeflijk*)
 - Verbeteringen mogen gesloten blijven
 
 \
-Je doet verbeteringen op een *toegevelijk* product, alle verbeteringen mogen ook beschikbaar gesteld worden, maar dat hoeft niet. De *toegevelijke* licentie heeft ook geen invloed op de licentie van het samengestelde product.
+Je doet verbeteringen op een *toegeeflijk* product, alle verbeteringen mogen ook beschikbaar gesteld worden, maar dat hoeft niet. De *toegeeflijke* licentie heeft ook geen invloed op de licentie van het samengestelde product.
 
 ---
 
@@ -356,7 +356,7 @@ Zoals in alle voorbeelden te zien kan een open source licentie dienen als een st
 
 ---
 
-## Wanneer *toegevelijk*?
+## Wanneer *toegeeflijk*?
 
 - Wanneer een publieke instelling een nieuwe markt wil stimuleren met nieuwe innovaties/ functionaliteiten zonder publieke belang.
 - Wanneer een publieke instelling zelf ontwikkelt aan functies zonder publiek belang, zoals een Design System.
