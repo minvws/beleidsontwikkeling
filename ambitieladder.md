@@ -394,7 +394,7 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
    Beide risico's worden gemitigeerd, door het aantal dependencies te beperken, door technische keuzes te documenteren en door mensen uit de community uit te nodigen feedback te geven en door professioneel en secuur te werken.
 * **Zijn er specifieke eisen of richtlijnen met betrekking tot het beheren van bijdragen van derden (bijvoorbeeld pull requests) aan de openbare repository?** \
    Er moet een (minimaal) proces worden ingericht. Voornaamste onderdeel van dat proces is dat externe partijen een CLA (Contributor License Agreement) moeten ondertekenen. Voor het beoordelen en goedkeuren van de wijzigingen is de aanname dat hiervoor hetzelfde proces gevolgd wordt als voor bijdrages van binnen het team.
-* **Zijn er alternatieven overwogen voor volledige open-source publicatie vanaf de start? Zo ja, waarom zijn deze afgewezen?** \
+* **Zijn er alternatieven overwogen voor volledige open source publicatie vanaf de start? Zo ja, waarom zijn deze afgewezen?** \
    Er is overwogen om pas tot open source publicatie over te gaan na een opstart-fase. Dit is afgewezen, om te voorkomen dat er eerst een opschoningsactie nodig geacht wordt, voordat er tot publicatie over gegaan kan worden.
 
 # Aanbevelingen
