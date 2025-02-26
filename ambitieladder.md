@@ -232,6 +232,16 @@ Zoals eerder vermeld wordt er in dit voordeel geen consessies gedaan. Maak gebru
 1. Broncode en de onderliggende data gescheiden wordt gehouden.
 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk (openbaar) veilig te stellen op een eigen platform.
 
+:::warning
+:heavy_exclamation_mark: **Contributors License Agreement**
+
+Door sommige organisaties wordt een CLA verplicht gesteld voor alle in openbaar open source ontwikkelde broncode. Mocht dat in jouw organisatie het geval zijn, dan is onderstaande zin te gebruiken:
+
+*Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.*
+
+Binnen het Ministerie van Volksgezondheid, Welzijn en Sport wordt de CLA verplicht gesteld. Binnen het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties en het Ministerie van Volkshuisvesting en Ruimtelijke Ordening wordt de toepassing van de CLA juist afgeraden.
+:::
+
 ## 3. Transparantie en Vertrouwen
 [Ga naar boven](#inhoud)
 
