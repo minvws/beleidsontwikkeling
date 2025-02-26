@@ -91,7 +91,13 @@ Open source ambitieladder in maatwerk aanbesteding of opdracht
 >
 > De ervaring leert dat iemand met enige hulp goed in staat is te verwoorden welke doelstellingen en ambitie ze zelf zien bij de toepassing met open source. Maar wat uiteindelijk ontbreekt zijn concrete handvatten om het toe te passen in de praktijk, van in dit geval aanbesteding of inhuur, en ervaringen van anderen om de koudwatervrees weg te nemen.
 
-Het doel van de ambitieladder is een handvat bieden in de toepassing van open source in een aanbesteding, inhuur, opdracht of zelfs vacature. Je kan het ook gebruiken als ambitie richting je projectteam. Op basis van dat ambitieniveau biedt deze ambitieladder concrete tekst(suggesties) in de toepassing van die ambitie. Het gaat hier specifiek over het aanbesteden van (maatwerk) ontwikkeling. Bij het aanbesteden rond open source kan je natuurlijk ook denken aan dienstverlening en onderhoud. Daarvoor is dit document niet bedoeld.
+Met deze ambitieladder krijgen aanbestedende diensten handvatten om digitalisering, vanuit allerlei waardegedreven doelen, als maatwerk te laten ontwikkelen. Het aanbesteden van dienstverlening of open source standaard software is buiten scope van dit document. Daar wordt in andere documenten aan gewerkt.
+
+Binnen aanbesteding spelen een veelheid aan niet-functionele eisen een rol. Daarbinnen kan je grofweg een onderscheid maken tussen harde compliance eisen en waardegedreven eisen. Bij harde compliance eisen voldoe je duidelijk wel of niet. Denk daarbij aan open standaarden of informatiebeveiliging. Bij open source gaat het net als bij social return of duurzaamheid om waardegedreven eisen. Er is geen duidelijk normenkader waaraan je moet voldoen zoals de Baseline Informatiebeveiling Overheid of de verschillende verplichtende lijsten van Forum Standaardisatie dat wel zijn voor hun eigen onderdeel. Wet- en regelgeving geeft wel een inspanningsverplichtingen voor de toepassing van open source als het middel om de transparantie en hergebruikbarheid van digitalisering mee te vergroten. Open source kan alleen aan meer doelen bijdragen. Denk ook aan leveranciersonafhankelijkheid, soevereiniteit, navolgbaarheid, verkleinen van marktmacht.
+
+Er is dus geen eenduidige set aan eisen neer te leggen waaraan alle aanbestedingen moeten voldoet. Bij open source vraagt dit om bewuste overweging langs de verschillende doelen die je met open source in je aanbesteding zou willen bereiken en in welke mate. Uit die maat blijkt de uiteindelijk ambitie. In dit document zijn die doelen uitgesplitst naar de [4 voordelen van opensourcewerken](https://opensourcewerken.nl/).
+
+Dat neemt overigens niet weg dat je het hier beschreven laagste ambitieniveau kan zien als een minimale norm. De minimale eisen om te voldoen aan de inspanningsverplichting uit de Wet open overheid en de Wet hergebruik overheidsinformatie.
 
 > [!Note] Waarom alleen ontwikkeling en geen dienstverlening?
 > Dit laatste punt is vaker door feedbackgevers aangedragen. Waarom alleen gericht op ontwikkeling van software en niet op de dienstverlening? Ik (Maurice Hendriks) heb zelf geen ervaring in die vormen van aanbesteden, dus kan daar moeilijk uit putten. De uitnodiging is natuurlijk om vanuit dat perspectief kennis te delen.
@@ -103,10 +109,6 @@ Het doel van de ambitieladder is een handvat bieden in de toepassing van open so
 >
 > Als iemand bereid is het voortouw te nemen in de andere hoofdstukken, dan staan daar onder de linkjes de documenten voor klaar.
 
-Het is goed te realiseren dat een hoger ambitieniveau normaliter ook meer van de eigen organisatie vraagt waar het gaat om de regierol, benodigde financien, kennis en expertise van de medewerkers, maar ook van de leveranciers of ZZP'ers. Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is.
-
-Per ambitieniveau staan tekst suggesties die gebruikt kunnen worden in de *Programma van Eisen* van een aanbesteding. Per ambitieniveau veranderen ook de eisen in verwoording, komen er eisen bij of vallen er eisen af. Hoe de eisen verschillen tussen ambitieniveaus is met rood (vervalt) en groen (komt erbij) inzichtelijk gemaakt.
-
 :::info
 :bulb: **Aanbesteding, opdracht of vacature?**
 
@@ -117,6 +119,14 @@ Ondanks dat de teksten zijn geschreven met een aanbesteding in het achterhoofd k
 :bulb: **Eigen menu samenstellen?**
 
 In dit document worden suggesties gedaan die je kunt hergebruiken in een aanbesteding. Het zijn expliciet suggesties en geen wetmatigheden. Voel de vrijheid om selectief in deze suggesties te shoppen door bepaalde suggesties te negeren, anders te formuleren, ze anders te combineren of wat voor jouw specifieke situatie het beste werkt. 
+:::
+
+:::info
+:bulb: **Gratis of vrij?**
+
+*Free as in free speech, not as in free beer - Richard Stallman*
+
+Net zoals open source software niet staat voor gratis software, maar voor vrije software is het nastreven van een hoger ambitieniveau niet gratis. Het nastreven van een hoger ambitieniveau heeft consequenties voor jou als aanbestedende dienst. Het vraagt normaliter meer van de eigen organisatie waar het gaat om bijv. de regierol, benodigde financien, kennis en expertise van de medewerkers, maar ook van de opdrachtnemer(s). Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is, maar je krijgt er wel meer vrijheid voor terug.
 :::
 
 :::info
@@ -164,6 +174,8 @@ Open source aanbesteden brengt een groot aantal voordelen met zich mee. Niet all
 Hoe hoger het open source ambitieniveau binnen een aanbesteding hoe groter de kans dat bovenstaande voordelen worden gehaald. Zo zorgt een publieke software aanbesteding niet alleen voor een praktische IT-oplossing voor de opdrachtgever in kwestie, maar leidt de inkoop van nieuwe software ook tot beleidsmatige, publieke, financiële en zelfs commerciële meerwaarde.
 
 # Tekstsuggesties
+
+Per ambitieniveau staan tekst suggesties die gebruikt kunnen worden in de *Programma van Eisen* van een aanbesteding. Per ambitieniveau veranderen ook de eisen in verwoording, komen er eisen bij of vallen er eisen af. Hoe de eisen verschillen tussen ambitieniveaus is met rood (vervalt) en groen (komt erbij) inzichtelijk gemaakt.
 
 ## Algemene teksten
 [Ga naar boven](#inhoud)
