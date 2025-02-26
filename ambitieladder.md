@@ -5,15 +5,15 @@ layout: default
 <style>
 .oud, .nieuw {
 }
-    
-.oud {     
+
+.oud {
     background: rgb(255, 200, 200);
 }
-    
-.nieuw {     
+
+.nieuw {
     background: rgb(200, 255, 200);
 }
-    
+
 .variabele {
     background: rgb(225, 225, 225);
     color: rgb(100, 100, 100);
