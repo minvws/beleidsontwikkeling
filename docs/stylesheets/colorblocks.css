@@ -1,5 +1,5 @@
 .colorblock-alert {
-    padding: 0.25rem 1rem 1rem 1rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     margin-bottom: 1rem;
     color: inherit;
 }
@@ -28,13 +28,11 @@
 }
 
 .colorblock-alert.colorblock-alert-info {
-    border-left: .25em solid #0284c7;
-    background: #e0f2fe;
-    color: #0284c7;
+    border-left: .25em solid #01689b;
+    background: #cce7f4;
 }
 
 .colorblock-alert.colorblock-alert-warning {
-    border-left: .25em solid #f59e0b;
-    background: #fef3c799;
-    color: #f59e0b;
+    border-left: .25em solid #e89440;
+    background: #fef4db;
 }
