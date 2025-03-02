@@ -21,8 +21,8 @@ theme:
         - navigation.footer
         - navigation.prune
         - navigation.path
-        - search.highlight
-        - search.suggest
+        # - search.highlight
+        # - search.suggest
         - content.tooltips
         - content.tabs.link
     icon:
@@ -55,8 +55,8 @@ extra_css:
   - stylesheets/footer.css
 
 plugins:
-    - glightbox
-    - search
+    # - glightbox
+    # - search
     - git-revision-date-localized:
         timezone: Europe/Amsterdam
         locale: nl

@@ -15,5 +15,12 @@
           <a href="https://open.minvws.nl/">Open.minvws.nl</a>
         </div>
       </div>
-    </div>
+
+      <!-- Repository information -->
+      {% if config.repo_url %}
+        <div class="md-header__source">
+          {% include "partials/source.html" %}
+        </div>
+      {% endif %}
+      </div>
   </footer>

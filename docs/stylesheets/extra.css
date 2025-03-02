@@ -26,16 +26,71 @@ body{
 }
 
 .md-header__button.md-logo {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin: 0 auto;
+  padding-top: -2px;
 }
+
+/* .md-search { */
+  /* position: absolute; */
+  /* top: 110px; */
+  /* right: 350px; */
+/* } */
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
   height: 100%;
   width: 100%;
+  padding-left: 211px;
+  margin-top: -25px;
+}
+
+.md-header__button:hover {
+  opacity: 1;
+}
+
+@media (min-width: 1220px) {
+  .md-search__inner {
+    position: absolute;
+    z-index: 100;
+    top: -38px;
+    right: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .md-search__inner {
+    position: absolute;
+    z-index: 100;
+    top: -41px;
+    right: 16px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .md-search__inner {
+    position: absolute;
+    z-index: 100;
+    top: -45px;
+    right: 16px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .md-search__inner {
+    position: absolute;
+    z-index: 100;
+    top: -41px;
+    right: 16px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .md-search__inner {
+    position: absolute;
+    z-index: 100;
+    top: -42px;
+    right: 16px;
+  }
 }
 
 @media screen and (max-width: 76.2344em) {
@@ -45,9 +100,17 @@ body{
   }
 }
 
+.md-nav__item a {
+  text-decoration: none;
+}
+
+.md-nav__item a:hover {
+  text-decoration: underline;
+}
+
 .git-revision-date-localized-plugin-date {
   font-size: 0.6rem;
-  color: #154273;
+  color: #000;
 }
 
 blockquote p, blockquote * {
@@ -114,13 +177,17 @@ blockquote p, blockquote * {
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  color: #154273;
+h1, h2, h3, h4, h5, h6 {
+  color: #01689b;
 }
 
-h1 {
-  color: #154273;
+p {
+  color: #000;
 }
+
+/* p strong { */
+  /* color: #01689b; */
+/* } */
 
 /* Stijlen voor de tabel */
 table {
@@ -164,7 +231,7 @@ tr {
 }
 
 tbody tr td a {
-  color: #154273;
+  color: #01689b;
   text-decoration: underline;
 }
 
@@ -173,7 +240,7 @@ tbody tr td a:hover {
 }
 
 .float-container a {
-  color: #154273;
+  color: #01689b;
   text-align: left; 
   text-decoration: underline;
 }
@@ -216,13 +283,13 @@ tbody tr td a:hover {
 
 .info-section h2 {
   font-size: 1.5em;
-  color: #154273;
+  color: #01689b;
   margin: 0 0 10px;
   text-align: left; /* Ensure left alignment */
 }
 
 .subheader a {
-  color: #154273;
+  color: #01689b;
   text-decoration: underline;
   text-align: left;
 }
@@ -283,13 +350,13 @@ padding-bottom: 8px;
 
 .float-child-title{
   width: 100%;
-  border-bottom: solid 2px #154273;
+  border-bottom: solid 2px #01689b;
 }
 
 .styled-list ul li::before {
   content: '\203A'; /* Unicode arrow symbol */
   margin-right: 8px;
-  color: #154273;
+  color: #01689b;
   font-weight: bold;
 }
 
@@ -297,7 +364,7 @@ padding-bottom: 8px;
 .show-more {
   margin-top: auto; /* Push the "Bekijk alle" link to the bottom */
   text-decoration: underline;
-  color: #154273;
+  color: #01689b;
   font-weight: bold;
 }
 
@@ -311,12 +378,12 @@ padding-bottom: 8px;
 
 .footer-section h2 {
   font-size: 1.5em;
-  color: #154273;
+  color: #01689b;
   text-align: left;
 }
 
 .footer-section a {
-  color: #154273;
+  color: #01689b;
   font-weight: bold;
   text-align: left;
 
@@ -330,7 +397,7 @@ padding-bottom: 8px;
 /* Full Width Outline Block */
 .full-width-outline-block {
   width: 100%;
-  border: 1px solid #154273; /* Kleur van de outline */
+  border: 1px solid #01689b; /* Kleur van de outline */
   border-radius: 5px;
   padding: 20px;
   box-sizing: border-box;
@@ -340,7 +407,7 @@ padding-bottom: 8px;
 
 .full-width-header {
   font-size: 1.5em;
-  color: #154273;
+  color: #01689b;
   margin: 0 0 10px;
   text-align: left;
 }
@@ -359,7 +426,7 @@ padding-bottom: 8px;
 
 .show-more-link {
   font-weight: bold;
-  color: #154273;
+  color: #01689b;
   text-decoration: none;
   text-align: left;
 }
@@ -460,7 +527,7 @@ padding-bottom: 8px;
 .version-label {
   font-size: 0.85em;
   background-color: #B1D5EC;
-  color: #154273;
+  color: #01689b;
   padding: 4px;
   border-radius: 3px;
   font-weight: 500;
@@ -495,13 +562,13 @@ padding-bottom: 8px;
 
 .subheader {
   font-size: 1.2em;
-  color: #154273;
+  color: #01689b;
   margin-left: 0;
   text-align: left;
 }
 
 .md-container li{
-  color: #154273;
+  color: #000;
 }
 
 /* .md-source-file{ */
@@ -534,7 +601,7 @@ padding-bottom: 8px;
   object-fit: cover;     /* Snijdt de afbeelding bij om het blok volledig te vullen */
 }
 
-.md-icon svg{
+.md-footer .md-icon svg{
   color: #154273;
 }
 
@@ -547,12 +614,24 @@ padding-bottom: 8px;
   font-weight: 600;
 }
 
+.md-grid {
+  max-width: 1200px;
+}
+
+.md-typeset a {
+  color: #000;
+}
+
 .md-typeset a:hover{
   color: #316fb3;
 }
 
-a{
+a {
   text-decoration: underline;
+}
+
+.md-sidebar {
+  display: none;
 }
 
 .md-sidebar__scrollwrap{
@@ -564,7 +643,7 @@ a{
 }
 
 .button-primary {
-  background-color: #154273;
+  background-color: #01689b;
   color: #fff;
   border: 1px solid transparent;
   /* Ensure it doesn't go full width */
@@ -599,7 +678,7 @@ a{
 .float-child-content{
 padding:.3em 0 .2em 0;
 width: 85%;
-color: #154273;
+color: #01689b;
 }
 
 [data-md-color-accent=indigo]{
