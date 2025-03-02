@@ -1,6 +1,6 @@
 # Documenten vanuit open samenwerking
 
-[![Deploy Jekyll site to Pages](https://github.com/minvws/beleidsontwikkeling/actions/workflows/jekyll.yml/badge.svg)](https://github.com/minvws/beleidsontwikkeling/actions/workflows/jekyll.yml)
+[![Deploy mkdocs site to Pages](https://github.com/minvws/beleidsontwikkeling/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/minvws/beleidsontwikkeling/actions/workflows/mkdocs.yml)
 
 Deze repository bevat allerlei documenten die tot stand zijn gekomen en worden doorontwikkeld in een open samenwerking. Het doel is te komen tot generieke documenten die bijdragen aan de adoptatie van open source in de publieke sector.
 
@@ -8,4 +8,4 @@ Gebruikersvriendelijke versies van deze documenten zijn hier te vinden: **[minvw
 
 ## Licentie
 
-Alle documenten zijn beschikbaar onder de EUPL v1.2 of hoger licentie.
+Alle bestanden in de repository zijn beschikbaar onder de EUPL v1.2 of hoger licentie.
