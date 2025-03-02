@@ -34,8 +34,15 @@ body{
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-nav__title .md-nav__button.md-logo img,
+  .md-nav__title .md-nav__button.md-logo svg {
+    height: 5rem;
+  }
 }
 
 .git-revision-date-localized-plugin-date {
