@@ -2,18 +2,18 @@
 
 /* Tabs Styling */
 .md-tabs {
-  background-color: #007bc7;
+  background-color: #01689b;
   color: white !important;
-  border-bottom: 6px solid #B2D7EE;
+  height: 75px;
 }
 
 .md-tabs .md-grid {
-  background-color: #007bc7;
+  background-color: #01689b;
   color: white;
 }
 
 .md-tabs__item--active {
-  background-color: #B2D7EE;
+  background-color: #01689b;
 }
 
 .md-tabs__link {
@@ -24,6 +24,8 @@
   width: 100%;         /* Vul de volledige breedte van de <li> */
   height: 100%;        /* Vul de volledige hoogte van de <li> */
   text-align: center;  /* Optioneel, zorgt dat tekst gecentreerd blijft */
+  font-size: 1.1rem;
+  padding-top: 5px;
 }
 
 /* Header Styling */
@@ -34,11 +36,11 @@
 }
 
 h1{
-  color: #154273 !important;
+  color: #01689b !important;
 }
 
 .md-header__inner {
-  height: 110px;
+  height: 125px;
 }
 
 .md-header--shadow {
@@ -56,47 +58,47 @@ h1{
 
 /* Ensure hover effect is applied to the link itself */
 .md-tabs__list .md-tabs__item .md-tabs__link:hover {
-  color: #154273 !important; /* Same color as active */
-  background-color: #B2D7EE !important;
+  color: #fff !important; /* Same color as active */
+  background-color: #01689b !important;
 }
 
 /* Apply color and background on both link and item on hover */
 .md-tabs__item:hover,
 .md-tabs__item:hover .md-tabs__link,
 .md-tabs__link:hover {
-  color: #154273 !important; /* Set text color to blue */
-  background-color: #B2D7EE !important; /* Set background color to light blue */
+  color: #fff !important; /* Set text color to blue */
+  background-color: #01689b !important; /* Set background color to light blue */
 }
 
 .md-tabs__item:hover .md-tabs__link {
-  color: #154273 !important; /* Zorgt ervoor dat de link blauw blijft als je over het tab-item zweeft */
+  color: #fff !important; /* Zorgt ervoor dat de link blauw blijft als je over het tab-item zweeft */
 }
 
 .md-tabs__item:hover {
-  background-color: #B2D7EE; /* Achtergrondkleur bij hover op het hele tab-item */
-  color: #154273 !important;
+  background-color: #01689b; /* Achtergrondkleur bij hover op het hele tab-item */
+  color: #fff !important;
 }
 
 /* Apply hover effect to the tab item */
 .md-tabs__item:hover {
-  background-color: #B2D7EE !important;
-  color: #154273 !important;
+  background-color: #01689b !important;
+  color: #fff !important;
 }
 /* Active tab styling */
 .md-tabs .md-tabs__list .md-tabs__item--active .md-tabs__link {
-  color: #154273 !important; /* Active color */
-  background-color: #B2D7EE !important; /* Active background */
+  color: #fff !important; /* Active color */
+  background-color: #01689b !important; /* Active background */
 }
 
 .md-search__input{
   background: #fff;
-  color: #154273;
-  border: #154273 solid 1px;
+  color: #01689b;
+  border: #01689b solid 1px;
   border-radius: 5px;
 }
 
 .md-search__form{
-  color: #154273;
+  color: #01689b;
 }
 
 .md-search__input::placeholder {
@@ -111,32 +113,32 @@ h1{
 }
 
 .md-search__suggest{
-  color: #154273;
+  color: #01689b;
 }
 
 
 .md-header__source{
-  color: #154273;
+  color: #01689b;
 }
 
 .md-search__overlay{
-  color: #154273;
+  color: #01689b;
 }
 
 .md-typeset a {
-  color: #154273;
+  color: #01689b;
 }
 
 .md-ellipsis{
-  color: #154273;
+  color: #01689b;
 }
 
 :root {
-  --md-typeset-a-color: #154273;
+  --md-typeset-a-color: #01689b;
 }
 
 .md-nav__title{
-  color: #154273;
+  color: #01689b;
 }
 
 .md-nav--primary .md-nav__title[for=__drawer] {
@@ -152,19 +154,19 @@ h1{
 }
 
 .md-source__repository .md-source__repository--active{
-  color: #154273;
+  color: #01689b;
 }
 
 @media screen and (max-width: 76.2344em) {
   .md-nav--primary .md-nav__item--active>.md-nav__link {
-      color: #154273;
+      color: #01689b;
   }
 }
 
 @media screen and (max-width: 76.2344em) {
   .md-nav--primary .md-nav__title {
       background-color: #fff;
-      color: #154273;
+      color: #01689b;
       cursor: pointer;
       height: 5.6rem;
       line-height: 2.4rem;

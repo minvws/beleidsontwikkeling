@@ -36,3 +36,7 @@
     border-left: .25em solid #e89440;
     background: #fef4db;
 }
+
+.colorblock-alert p, .colorblock-warning p {
+  color: #154273;
+}
