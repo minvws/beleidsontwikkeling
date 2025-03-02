@@ -1,0 +1,77 @@
+# Existing mkdocs.yml content
+site_name: Open beleidsontwikkeling
+site_description: Open beleid van het Ministerie van Volksgezondheid, Welzijn en Sport
+
+theme: 
+    name: material
+    custom_dir: src/overrides
+    language: nl
+    palette:
+        primary: custom
+    logo: assets/logo.svg
+    favicon: assets/favicon.ico
+    font: false 
+    features:
+        - navigation.indexes
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+        - navigation.tracking
+        - navigation.instant
+        - navigation.footer
+        - navigation.prune
+        - navigation.path
+        - search.highlight
+        - search.suggest
+        - content.tooltips
+        - content.tabs.link
+    icon:
+        logo: fontawesome/solid/house
+        annotation: fontawesome/solid/circle-info
+
+nav:
+    - 'Open beleidsontwikkeling' : "index.md"
+
+# Extra opties
+markdown_extensions:
+    - md_in_html
+    - toc:
+        toc_depth: 2
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Extra opties voor footer
+extra: 
+    social:
+        - icon: fontawesome/brands/github 
+          link: https://github.com/mauricehendriks/beleidsontwikkeling
+
+extra_css:
+  # - stylesheets/admonition.css
+  - stylesheets/colorblocks.css
+  - stylesheets/navigation.css
+  - stylesheets/extra.css
+  - stylesheets/footer.css
+
+plugins:
+    - glightbox
+    - search
+    - git-revision-date-localized:
+        timezone: Europe/Amsterdam
+        locale: nl
+        exclude:
+          - index.md
+    - awesome-pages:
+        collapse_single_pages: true
+
+hooks:
+    - src/overrides/hooks/admonition.py
+    - src/overrides/hooks/colorblocks.py
+    - src/overrides/hooks/newlines.py
+    - src/overrides/hooks/escapes.py
+
+# Link naar GitHub repo
+repo_url: https://github.com/mauricehendriks/beleidsontwikkeling
+site_url: https://mauricehendriks.github.io/beleidsontwikkeling/
+edit_uri: edit/main/docs/

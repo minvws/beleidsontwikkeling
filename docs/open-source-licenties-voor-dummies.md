@@ -1,5 +1,9 @@
 ---
-layout: default
+title: Open source licenties voor dummies
+summary: Uitleg over open source licenties aan de hand van een fiets\
+hide:
+  - navigation
+  - toc
 ---
 
 <style>
@@ -380,7 +384,5 @@ Zoals in alle voorbeelden te zien kan een open source licentie dienen als een st
 
 ---
 
-<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small> \
-<small>Laatst gesynchroniseerd op {{:date:}}</small>
-
+Deze tekst is beschikbaar onder de EUPL v1.2 of hoger \
 [![hackmd-github-sync-badge](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA/badge)](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA)
