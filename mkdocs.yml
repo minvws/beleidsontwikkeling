@@ -45,7 +45,7 @@ markdown_extensions:
 extra: 
     social:
         - icon: fontawesome/brands/github 
-          link: https://github.com/mauricehendriks/beleidsontwikkeling
+          link: https://github.com/minvws/beleidsontwikkeling
 
 extra_css:
   # - stylesheets/admonition.css
@@ -72,6 +72,6 @@ hooks:
     - src/overrides/hooks/escapes.py
 
 # Link naar GitHub repo
-repo_url: https://github.com/mauricehendriks/beleidsontwikkeling
-site_url: https://mauricehendriks.github.io/beleidsontwikkeling/
+repo_url: https://github.com/minvws/beleidsontwikkeling
+site_url: https://minvws.github.io/beleidsontwikkeling/
 edit_uri: edit/main/docs/
