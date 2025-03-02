@@ -1,6 +1,6 @@
 ---
-title: Open source beleidsontwikkeling
-summary: Open source beleidsontwikkeling van het Ministerie van Volksgezondheid, Welzijn en Sport
+title: Open beleidsontwikkeling
+summary: Open beleidsontwikkeling van het Ministerie van Volksgezondheid, Welzijn en Sport
 hide:
   - navigation
   - toc
