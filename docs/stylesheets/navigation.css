@@ -16,6 +16,10 @@
   background-color: #01689b;
 }
 
+.md-header .md-icon svg {
+  fill: #01689b;
+}
+
 .md-tabs__link {
   text-decoration:none;
   color: #FFFFFF;
