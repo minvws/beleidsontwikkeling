@@ -28,8 +28,41 @@
   width: 100%;         /* Vul de volledige breedte van de <li> */
   height: 100%;        /* Vul de volledige hoogte van de <li> */
   text-align: center;  /* Optioneel, zorgt dat tekst gecentreerd blijft */
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding-top: 5px;
+}
+
+@media (min-width: 1220px) {
+  .md-tabs__link {
+    font-size: 1.2rem;
+    padding-top: 7px;
+  }
+
+  .md-tabs__item {
+    height: 2.7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .md-tabs__link {
+    font-size: 1.1rem;
+    padding-top: 5px;
+  }
+
+  .md-tabs__item {
+    height: 2.7rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .md-tabs__link {
+    font-size: 1.0rem;
+    padding-top: 4px;
+  }
+
+  .md-tabs__item {
+    height: 2.7rem;
+  }
 }
 
 /* Header Styling */
