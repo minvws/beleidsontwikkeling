@@ -52,16 +52,16 @@
       {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
 
-    <!-- Button to open search modal -->
-    <!-- {% if "material/search" in config.plugins %} -->
-      <!-- <label class="md-header__button md-icon" for="__search"> -->
-        <!-- {% set icon = config.theme.icon.search or "material/magnify" %} -->
-        <!-- {% include ".icons/" ~ icon ~ ".svg" %} -->
-      <!-- </label> -->
+    Button to open search modal
+    {% if "material/search" in config.plugins %}
+      <label class="md-header__button md-icon" for="__search">
+        {% set icon = config.theme.icon.search or "material/magnify" %}
+        {% include ".icons/" ~ icon ~ ".svg" %}
+      </label>
 
-      <!-- <!-- Search interface --> -->
-      <!-- {% include "partials/search.html" %} -->
-    <!-- {% endif %} -->
+      Search interface
+      {% include "partials/search.html" %}
+    {% endif %}
   </nav>
 
   <!-- Navigation tabs (sticky) -->
