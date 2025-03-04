@@ -21,7 +21,7 @@ theme:
         - navigation.footer
         - navigation.prune
         - navigation.path
-        # - search.highlight
+        - search.highlight
         # - search.suggest
         - content.tooltips
         - content.tabs.link
@@ -56,7 +56,7 @@ extra_css:
 
 plugins:
     # - glightbox
-    # - search
+    - search
     - git-revision-date-localized:
         timezone: Europe/Amsterdam
         locale: nl

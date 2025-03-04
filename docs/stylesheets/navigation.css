@@ -34,19 +34,19 @@
 
 @media (min-width: 1220px) {
   .md-tabs__link {
-    font-size: 1.2rem;
-    padding-top: 7px;
+    font-size: 22px;
+    padding-top: 9px;
   }
 
   .md-tabs__item {
-    height: 2.7rem;
+    height: 3.7rem;
   }
 }
 
 @media (min-width: 1600px) {
   .md-tabs__link {
-    font-size: 1.1rem;
-    padding-top: 5px;
+    font-size: 25px;
+    padding-top: 3px;
   }
 
   .md-tabs__item {
@@ -56,8 +56,8 @@
 
 @media (min-width: 2000px) {
   .md-tabs__link {
-    font-size: 1.0rem;
-    padding-top: 4px;
+    font-size: 25px;
+    padding-top: 2px;
   }
 
   .md-tabs__item {
