@@ -225,7 +225,7 @@ Oftewel, de basis van optie 1 *Efficiëntie en Onafhankelijk* + *Veiligheid en B
 
 Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document**:
 
-> De aanbestende dienst zoekt één leverancier en verwacht van die leverancier dat alle broncode eenmalig open source zal worden na afronden van de aanbesteding waarbij duidelijk wordt gemaakt dat externe bijdragen niet worden behandeld.
+> De aanbestedende dienst zoekt één leverancier en verwacht van die leverancier dat alle broncode eenmalig open source zal worden na afronden van de aanbesteding waarbij duidelijk wordt gemaakt dat externe bijdragen niet worden behandeld.
 
 Voor in de **Programma van Eisen**:
 
@@ -456,6 +456,14 @@ Het werken op een fork geeft de meeste zekerheden dat de doorontwikkeling ook da
 Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen ook ten gunste van de achterliggende community laat zijn. Maar dan wel los van de vraag wat hoe de community dit zelf beoordeeld.
 
 Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
+
+## Projecten
+
+Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
+
+| Project | Organisatie | Aanbestedingswaarde  |
+| -------- | -------- | -------- |
+| Persoonlijke Gezondheidsomgeving | Ministerie van Volksgezondheid, Welzijn en Sport | € 15,- miljoen |
 
 ## Bijdragers
 
