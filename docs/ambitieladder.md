@@ -225,7 +225,7 @@ Oftewel, de basis van optie 1 *Efficiëntie en Onafhankelijk* + *Veiligheid en B
 
 Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document**:
 
-> De aanbestende dienst zoekt één leverancier en verwacht van die leverancier dat alle broncode eenmalig open source zal worden na afronden van de aanbesteding waarbij duidelijk wordt gemaakt dat externe bijdragen niet worden behandeld.
+> De aanbestedende dienst zoekt één leverancier en verwacht van die leverancier dat alle broncode eenmalig open source zal worden na afronden van de aanbesteding waarbij duidelijk wordt gemaakt dat externe bijdragen niet worden behandeld.
 
 Voor in de **Programma van Eisen**:
 
