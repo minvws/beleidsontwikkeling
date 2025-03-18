@@ -457,6 +457,14 @@ Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen o
 
 Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
 
+## Projecten
+
+Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
+
+| Project | Organisatie | Aanbestedingswaarde  |
+| -------- | -------- | -------- |
+| Persoonlijke Gezondheidsomgeving | Ministerie van Volksgezondheid, Welzijn en Sport | € 15,- miljoen |
+
 ## Bijdragers
 
 Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
