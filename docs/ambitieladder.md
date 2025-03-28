@@ -387,6 +387,7 @@ Op het moment van schrijven van dit document is het niet mogelijk om commentaar 
 15 januari 2025
 
 In de eerste aanzet van de ambitieladder was het idee om alle eisen te variëren in een oplopende schaal van 1 tot 10. Of het 10 ambities moesten worden stond overigens niet op voorhand vast. Het was vooral bedoeld om met elkaar over na te gaan denken. Ambitie 1 en 8, 9 en 10 waren daarvan al uitgewerkt. Een goede invulling geven op de tussenliggende ambities bleek moeilijker. Vanuit de community werden de volgende opmerkingen gemaakt over deze opzet:
+
 - Zitten er in de ambities niet impliciet assen verscholen? In deze eerste opzet wordt gevarieerd over de assen transparantie en samenwerking.
 - Als je die assen kan expliciteren, dan kan je vervolgens per as ambities maken die samengevoegd tot een set van eisen leiden.
 - Is het niet handiger aan te sluiten bij de vier categorieën van opensourcewerken?
@@ -446,6 +447,7 @@ Niet iedereen was het eens met de die logica. Immers, als je doorontwikkeld op e
 > Het wordt aanbevolen om in geval van doorontwikkeling op bestaande open source dit te laten plaatsvinden als bijdrage op de bestaande codebase. Zo wordt de open source code base en community verder versterkt, door niet alleen te gebruiken wat er al is, maar ook bij te dragen in de bestaande codebase.
 
 Het probleem is alleen dat de achterliggende communities niet altijd wijzigingen aan de bestaande codebase overnemen. Kan dan verschillende redenen hebben:
+
 1. De wijzigingen worden niet als verbetering gezien omdat het bijv. niet past bij de visie van de community of te context specifiek is.
 2. De community heeft niet de kennis en kunde in huis om de nieuwe wijzigingen ook te kunnen beheren.
 3. De community heeft niet de capaciteit om de verbeteringen te beoordelen in het tempo dat de opdracht verlangt.
