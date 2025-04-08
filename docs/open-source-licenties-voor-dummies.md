@@ -11,7 +11,7 @@ p {
     text-align: left; 
     padding: 0px 35px 0px 35px;
 }
-    
+
 ul {
     width: 100%;
     padding: 0px 0px 0px 0px;
@@ -384,5 +384,5 @@ Zoals in alle voorbeelden te zien kan een open source licentie dienen als een st
 
 ---
 
-Deze tekst is beschikbaar onder de EUPL v1.2 of hoger \
+Deze tekst is beschikbaar onder de CC-BY-4.0 of hoger \
 [![hackmd-github-sync-badge](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA/badge)](https://hackmd.io/brT6XtlGRzmDOLPGXLTGvA)
