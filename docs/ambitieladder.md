@@ -69,14 +69,6 @@ In dit document worden suggesties gedaan die je kunt hergebruiken in een aanbest
 Net zoals open source software niet staat voor gratis software, maar voor vrije software is het nastreven van een hoger ambitieniveau niet gratis. Het nastreven van een hoger ambitieniveau heeft consequenties voor jou als aanbestedende dienst. Het vraagt normaliter meer van de eigen organisatie waar het gaat om bijv. de regierol, benodigde financiën, kennis en expertise van de medewerkers, maar ook van de opdrachtnemer(s). Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is, maar je krijgt er wel meer vrijheid voor terug.
 :::
 
-:::info
-:bulb: **De licentie van dit document**
-
-Dit document is openbaar beschikbaar onder de European Public License (EUPL) versie 1.2 of hoger. Dat betekent dat het iedereen vrij staat de kennis te gebruiken, te verbeteren en/of verder te verspreiden. Er zijn geen garanties dat met de toepassing van de kennis ook de daadwerkelijk vooraf gestelde doelen worden gehaald. Daar wordt geen verantwoordelijkheid voor genomen.
-
-De licentie bepaald ook dat verbeteringen op dit document ook weer onder de EUPL v1.2 of hoger openbaar gemaakt moeten worden. Idealiter gebeurt dat natuurlijk in dit document zelf.
-:::
-
 ## Voordelen van opensourcewerken
 
 De voordelen van opensourcewerken zijn in vier categorieën onderverdeeld. Dat wil niet zeggen dat elk voordeel voor elke situatie even belangrijk is of vanuit hetzelfde ideaal nagestreefd zou moeten worden. Per voordeel zijn dus ambities of opties te formuleren. Deze kan je vrij combineren om je eigen variant samen te stellen. Het is wel aan te raden om zo volledig mogelijk te zijn en dus aandacht aan alle voordelen te besteden. Zo voorkom je dat zo  min mogelijk ter interpretatie open blijft. Al is het maar om kenbaar te maken dat er op een bepaald voordeel lage verwachtingen zijn.
@@ -482,5 +474,5 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 
 ---
 
-Deze tekst is beschikbaar onder de EUPL v1.2 of hoger \
+Deze tekst is beschikbaar onder de CC-BY-4.0 \
 [![hackmd-github-sync-badge](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ/badge)](https://hackmd.io/Tjg38n_-SyiuuHdX8TyxqQ)

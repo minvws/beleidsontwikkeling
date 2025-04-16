@@ -8,4 +8,4 @@ Gebruikersvriendelijke versies van deze documenten zijn hier te vinden: **[minvw
 
 ## Licentie
 
-Alle bestanden in de repository zijn beschikbaar onder de EUPL v1.2 of hoger licentie.
+Alle bestanden in de repository zijn beschikbaar onder de CC-BY-4.0.
