@@ -431,9 +431,10 @@ Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmoni
 
 Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
 
-| Project | Organisatie | Aanbestedingswaarde  |
+| Project | Organisatie | Waarde  |
 | -------- | -------- | -------- |
 | Persoonlijke Gezondheidsomgeving | Ministerie van Volksgezondheid, Welzijn en Sport | € 15,- miljoen |
+| CumuluZ subsidie t.b.v. het Landelijk Dekkend Netwerk | Ministerie van Volksgezondheid, Welzijn en Sport | € 11,- miljoen |
 
 ## Bijdragers
 
