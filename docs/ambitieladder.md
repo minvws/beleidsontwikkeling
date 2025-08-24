@@ -164,7 +164,7 @@ Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebru
 1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
 1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 
-#### Ambitie 3. Het vanaf begin volledig openbaar open source ontwikkeling van de broncode
+#### Ambitie 3. Het volledig openbaar open source ontwikkeling van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
@@ -241,7 +241,7 @@ Oftewel, de basis van optie 3 *Efficiëntie en Onafhankelijk* + *Veiligheid en B
 
 Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document**:
 
-> De aanbestedende dienst wil bereiken dat leveranciers, maatschappelijke partners en/of andere geïnteresseerden samen (kunnen blijven) werken. Er wordt dus verwacht dat de broncode vanaf begin volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
+> De aanbestedende dienst wil bereiken dat leveranciers, maatschappelijke partners en/of andere geïnteresseerden samen (kunnen blijven) werken. Er wordt dus verwacht dat de broncode volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
 
 Voor in de **Programma van Eisen**:
 
