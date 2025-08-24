@@ -344,19 +344,7 @@ Wanneer er voor een *strong-copyleft* open source licentie wordt gekozen is het 
 
 > In de uitwerking van de verschillende architecturen wordt rekening gehouden met de virale werking van de gekozen sterk wederkerige (strong-copyleft) licentie. Dat wil zeggen dat de architecturen zo worden ontworpen dat deze doorwerking beperkt blijft tot de prestatie die vanuit deze aanbesteding wordt gevraagd en geen invloed heeft op het gebruik van de prestatie of op de diensten die eventueel op de prestatie worden aangesloten.
 
-### :exclamation: Wel of geen Contributors License Agreement?
-
-Een Contributors License Agreement (CLA) staat voor een overeenkomst getekend door een bijdragers (in de vorm van een rechtspersoon) aan een project. In de overeenkomst staan meestal wat aanvullende vrijheden die een project van een bijdrager verlangt. Welke dat precies zijn kan van project tot project verschillen.
-
-Het oorspronkelijke doel van een CLA was het voorkomen van een *license lock-in*. Een bijdrager aan een open source project behoud het intellectueel eigendom (IE) van zijn bijdrage. Zo is dat geregeld in de auteurswet. Een bijdrager kan dat IE-recht wel overdragen, maar daar is bij open source meestal geen noodzaak toe.
-
-Door een bijdrage te doen gaat de bijdrager impliciet akkoord met de voorwaarde van het project waaraan hij bijdraagt. Die voorwaarden staan bij een open source project vastgelegd in de gekozen open source licentie. De voorwaarden waaronder iemand het werk waarover hij het IE-recht bezit beschikbaar stelt, mag alleen de IE-recht houder veranderen. Dus op het moment dat je bijdrages van derden accepteert, kan je die voorwaarden dus niet meer veranderen zonder toestemming van alle bijdragers. Afhankelijk van het aantal bijdragen en de wereldwijde schaal ervan is dit meer of minder haalbaar. Het vastzitten aan een open source licentie door de onbereikbaarheid of onwelwillenheid van bijdragers om de licentie te veranderen heet *license lock-in*. Je zit dan als project dus vast een aan gekozen licentie. Een andere manier om de licentie veranderd te krijgen is door alle bijdragen van onbereikbare of weigerende bijdragers te herschrijven of verwijderen.
-
-Overigens is het dan weer niet zo dat je specifiek de broncode waar je als opdrachtgever zelf de IE-rechten van bezit niet alsnog onder een andere open source licentie vrij kan geven. Zolang dat maar niet in samenhang gebeurt met de broncode van externe bijdragers. Oftewel, component A1 + component B1 wordt oplossing C1. Je mag nu niet de licentie van 1 veranderen in 2, oftewel C1 veranderen in C2. De ontwikkelaar B1 is immers alleen akkoord gegaan met de opname van zijn bijdragen onder licentie 1. Wat je wel kan doen is enkel de code die A1 maakte beschikbaar stellen als A2, maar A2 + B1 blijft C1.
-
-De meeste CLA's hebben een expliciete clausule waarin ze de vrijheid vragen aan bijdragers om van licentie te mogen wisselen. Zolang het project dan maar wel open source blijft.
-
-Je kan prima afzien van een CLA. Het is alleen wel belangrijk goed nagedacht te hebben over je open source licentie. Of na te denken over de het wel of niet accepteren van externe bijdragen.
+{%hackmd x6SENhJxT7GaATRdlW9ekw %}
 
 ## Rationale
 
