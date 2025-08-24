@@ -39,16 +39,6 @@ Er is dus geen eenduidige set aan eisen neer te leggen waaraan alle aanbesteding
 
 Dat neemt overigens niet weg dat je het hier beschreven laagste ambitieniveau kan zien als een minimale norm. De minimale eisen om te voldoen aan de inspanningsverplichting uit de Wet open overheid en de Wet hergebruik overheidsinformatie.
 
-> [!Note] Waarom alleen ontwikkeling en geen dienstverlening?
-> Dit laatste punt is vaker door feedbackgevers aangedragen. Waarom alleen gericht op ontwikkeling van software en niet op de dienstverlening? Ik (Maurice Hendriks) heb zelf geen ervaring in die vormen van aanbesteden, dus kan daar moeilijk uit putten. De uitnodiging is natuurlijk om vanuit dat perspectief kennis te delen.
->
-> Ik zie daarin voor me dat we toewerken naar een algemeen document "open source aanbesteden". Waarin binnen dat document de verschillende perspectieven worden beschreven waaronder dus:
-> * aanbesteden van (maatwerk) ontwikkeling (dit document)
-> * [aanbesteden van ondersteuning of dienstverlening](https://hackmd.io/Un-vnRnBRcOAtQ1jAeYz8g)
-> * [aanbesteden van standaardsoftware](https://hackmd.io/NbYC48GJRx-KIuVX5sHGeg)
->
-> Als iemand bereid is het voortouw te nemen in de andere hoofdstukken, dan staan daar onder de linkjes de documenten voor klaar.
-
 :::info
 :bulb: **Aanbesteding, opdracht of vacature?**
 
