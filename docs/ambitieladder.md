@@ -31,23 +31,13 @@ hide:
 >
 > De ervaring leert dat iemand met enige hulp goed in staat is te verwoorden welke doelstellingen en ambitie ze zelf zien bij de toepassing met open source. Maar wat uiteindelijk ontbreekt zijn concrete handvatten om het toe te passen in de praktijk, van in dit geval aanbesteding of inhuur, en ervaringen van anderen om de koudwatervrees weg te nemen.
 
-Met deze ambitieladder krijgen aanbestedende diensten handvatten om digitalisering, vanuit allerlei waardegedreven doelen, als maatwerk te laten ontwikkelen. Het aanbesteden van dienstverlening of open source standaard software is buiten scope van dit document. Daar wordt in andere documenten aan gewerkt.
+Dit document biedt met de 'open source ambitieladder' een praktisch hulpmiddel voor aanbestedende diensten die een opdracht voor maatwerksoftware of dienstverlening in de markt zetten. De ladder helpt je om de gewenste mate van 'open source' te bepalen en te specificeren, afhankelijk van de strategische doelen. Denk hierbij aan doelstellingen zoals het vergroten van de transparantie, het bevorderen van hergebruik of het waarborgen van digitale soevereiniteit. De focus ligt hierbij specifiek op het laten ontwikkelen van software op maat. De inkoop van dienstverlening rondom open source, of de aanschaf van bestaande standaardpakketten, zijn andere disciplines die in toekomstige documenten aan bod zullen komen.
 
 Binnen aanbesteding spelen een veelheid aan niet-functionele eisen een rol. Daarbinnen kan je grofweg een onderscheid maken tussen harde compliance eisen en waardegedreven eisen. Bij harde compliance eisen voldoe je duidelijk wel of niet. Denk daarbij aan open standaarden of informatiebeveiliging. Bij open source gaat het net als bij social return of duurzaamheid om waardegedreven eisen. Er is geen duidelijk normenkader waaraan je moet voldoen zoals de Baseline Informatiebeveiliging Overheid of de verschillende verplichtende lijsten van Forum Standaardisatie dat wel zijn voor hun eigen onderdeel. Wet- en regelgeving geeft wel een inspanningsverplichtingen voor de toepassing van open source als het middel om de transparantie en herbruikbaarheid van digitalisering mee te vergroten. Open source kan alleen aan meer doelen bijdragen. Denk ook aan leveranciersonafhankelijkheid, soevereiniteit, navolgbaarheid, verkleinen van marktmacht.
 
 Er is dus geen eenduidige set aan eisen neer te leggen waaraan alle aanbestedingen moeten voldoen. Bij open source vraagt dit om bewuste overweging langs de verschillende doelen die je met open source in je aanbesteding zou willen bereiken en in welke mate. Uit die maat blijkt de uiteindelijk ambitie. In dit document zijn die doelen uitgesplitst naar de [4 voordelen van opensourcewerken](https://opensourcewerken.nl/).
 
 Dat neemt overigens niet weg dat je het hier beschreven laagste ambitieniveau kan zien als een minimale norm. De minimale eisen om te voldoen aan de inspanningsverplichting uit de Wet open overheid en de Wet hergebruik overheidsinformatie.
-
-> [!Note] Waarom alleen ontwikkeling en geen dienstverlening?
-> Dit laatste punt is vaker door feedbackgevers aangedragen. Waarom alleen gericht op ontwikkeling van software en niet op de dienstverlening? Ik (Maurice Hendriks) heb zelf geen ervaring in die vormen van aanbesteden, dus kan daar moeilijk uit putten. De uitnodiging is natuurlijk om vanuit dat perspectief kennis te delen.
->
-> Ik zie daarin voor me dat we toewerken naar een algemeen document "open source aanbesteden". Waarin binnen dat document de verschillende perspectieven worden beschreven waaronder dus:
-> * aanbesteden van (maatwerk) ontwikkeling (dit document)
-> * [aanbesteden van ondersteuning of dienstverlening](https://hackmd.io/Un-vnRnBRcOAtQ1jAeYz8g)
-> * [aanbesteden van standaardsoftware](https://hackmd.io/NbYC48GJRx-KIuVX5sHGeg)
->
-> Als iemand bereid is het voortouw te nemen in de andere hoofdstukken, dan staan daar onder de linkjes de documenten voor klaar.
 
 :::info
 :bulb: **Aanbesteding, opdracht of vacature?**
@@ -108,6 +98,8 @@ Hoe hoger het open source ambitieniveau binnen een aanbesteding hoe groter de ka
 ## Tekstsuggesties
 
 Per ambitieniveau staan tekst suggesties die gebruikt kunnen worden in de *Programma van Eisen* van een aanbesteding. Per ambitieniveau veranderen ook de eisen in verwoording, komen er eisen bij of vallen er eisen af. Hoe de eisen verschillen tussen ambitieniveaus is met rood (vervalt) en groen (komt erbij) inzichtelijk gemaakt.
+
+Elk ambitieniveau verwoord een intentie. Ook als er discussie is over de specifieke eisen dan is altijd terug te grijpen op de intentie. Om daarmee alsnog samen met je leverancier tot afspraken te komen die zorgen dat er aan de intentie wordt voldaan.
 
 ### Algemene teksten
 
@@ -172,7 +164,7 @@ Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebru
 1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
 1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 
-#### Ambitie 3. Het vanaf begin volledig openbaar open source ontwikkeling van de broncode
+#### Ambitie 3. Het volledig openbaar open source ontwikkeling van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
@@ -249,7 +241,7 @@ Oftewel, de basis van optie 3 *Efficiëntie en Onafhankelijk* + *Veiligheid en B
 
 Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document**:
 
-> De aanbestedende dienst wil bereiken dat leveranciers, maatschappelijke partners en/of andere geïnteresseerden samen (kunnen blijven) werken. Er wordt dus verwacht dat de broncode vanaf begin volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
+> De aanbestedende dienst wil bereiken dat leveranciers, maatschappelijke partners en/of andere geïnteresseerden samen (kunnen blijven) werken. Er wordt dus verwacht dat de broncode volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
 
 Voor in de **Programma van Eisen**:
 
@@ -352,19 +344,7 @@ Wanneer er voor een *strong-copyleft* open source licentie wordt gekozen is het 
 
 > In de uitwerking van de verschillende architecturen wordt rekening gehouden met de virale werking van de gekozen sterk wederkerige (strong-copyleft) licentie. Dat wil zeggen dat de architecturen zo worden ontworpen dat deze doorwerking beperkt blijft tot de prestatie die vanuit deze aanbesteding wordt gevraagd en geen invloed heeft op het gebruik van de prestatie of op de diensten die eventueel op de prestatie worden aangesloten.
 
-### :exclamation: Wel of geen Contributors License Agreement?
-
-Een Contributors License Agreement (CLA) staat voor een overeenkomst getekend door een bijdragers (in de vorm van een rechtspersoon) aan een project. In de overeenkomst staan meestal wat aanvullende vrijheden die een project van een bijdrager verlangt. Welke dat precies zijn kan van project tot project verschillen.
-
-Het oorspronkelijke doel van een CLA was het voorkomen van een *license lock-in*. Een bijdrager aan een open source project behoud het intellectueel eigendom (IE) van zijn bijdrage. Zo is dat geregeld in de auteurswet. Een bijdrager kan dat IE-recht wel overdragen, maar daar is bij open source meestal geen noodzaak toe.
-
-Door een bijdrage te doen gaat de bijdrager impliciet akkoord met de voorwaarde van het project waaraan hij bijdraagt. Die voorwaarden staan bij een open source project vastgelegd in de gekozen open source licentie. De voorwaarden waaronder iemand het werk waarover hij het IE-recht bezit beschikbaar stelt, mag alleen de IE-recht houder veranderen. Dus op het moment dat je bijdrages van derden accepteert, kan je die voorwaarden dus niet meer veranderen zonder toestemming van alle bijdragers. Afhankelijk van het aantal bijdragen en de wereldwijde schaal ervan is dit meer of minder haalbaar. Het vastzitten aan een open source licentie door de onbereikbaarheid of onwelwillenheid van bijdragers om de licentie te veranderen heet *license lock-in*. Je zit dan als project dus vast een aan gekozen licentie. Een andere manier om de licentie veranderd te krijgen is door alle bijdragen van onbereikbare of weigerende bijdragers te herschrijven of verwijderen.
-
-Overigens is het dan weer niet zo dat je specifiek de broncode waar je als opdrachtgever zelf de IE-rechten van bezit niet alsnog onder een andere open source licentie vrij kan geven. Zolang dat maar niet in samenhang gebeurt met de broncode van externe bijdragers. Oftewel, component A1 + component B1 wordt oplossing C1. Je mag nu niet de licentie van 1 veranderen in 2, oftewel C1 veranderen in C2. De ontwikkelaar B1 is immers alleen akkoord gegaan met de opname van zijn bijdragen onder licentie 1. Wat je wel kan doen is enkel de code die A1 maakte beschikbaar stellen als A2, maar A2 + B1 blijft C1.
-
-De meeste CLA's hebben een expliciete clausule waarin ze de vrijheid vragen aan bijdragers om van licentie te mogen wisselen. Zolang het project dan maar wel open source blijft.
-
-Je kan prima afzien van een CLA. Het is alleen wel belangrijk goed nagedacht te hebben over je open source licentie. Of na te denken over de het wel of niet accepteren van externe bijdragen.
+{%hackmd x6SENhJxT7GaATRdlW9ekw %}
 
 ## Rationale
 
@@ -451,9 +431,10 @@ Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmoni
 
 Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
 
-| Project | Organisatie | Aanbestedingswaarde  |
+| Project | Organisatie | Waarde  |
 | -------- | -------- | -------- |
 | Persoonlijke Gezondheidsomgeving | Ministerie van Volksgezondheid, Welzijn en Sport | € 15,- miljoen |
+| CumuluZ subsidie t.b.v. het Landelijk Dekkend Netwerk | Ministerie van Volksgezondheid, Welzijn en Sport | € 11,- miljoen |
 
 ## Bijdragers
 
