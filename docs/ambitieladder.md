@@ -323,12 +323,11 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
 * **Welke eisen worden er gesteld aan de manier waarop we in de openbaarheid open source moeten werken?** \
    Het staat opdrachtnemer vrij om keuzes te maken te passen bij de eigen werkwijze. Zolang er maar voldaan wordt aan wat er in de Programma van Eisen wordt gevraagd.
 * **Kan opdrachtgever aangeven welke beveiligingseisen er worden gesteld aan de repository waarin alle open source ontwikkeling dient plaats te vinden?** \
-
   Wat betreft de beveiliging van de openbare repository verwachten we minimaal:
     * Toegang tot de repository loopt via functioneel beheer van opdrachtgever.
     * Alle commits moeten geverifieerd gesigned worden.
     * Wijzigingen gebeuren alleen via Pull Requests met twee approvals.
-    * Gebruik van GitHub Advanced Security: Code Scanning, Secret Scanning en Dependency Review
+    * Schakel codescanning, scanning naar secrets en afhankelijkheden in en onderhoud deze (met bijv. GitHub Advanced Security of vergelijkbare programmatuur).
 * **Welke risico’s zien jullie zelf in de gekozen aanpak van publieke open source ontwikkeling, en hoe zijn deze tot nu toe gemitigeerd?** \
    We zien daarbij twee soorten risico's: beveiligingsrisico en imago-risico. Beveiligingsrisico in de zin dat een publieke repository een extra informatiebron is voor kwaadwillenden. Wij vinden echter de beveiligingsrisico’s van closed source groter dan die van open source, omdat kwetsbaarheden langer onder de radar kunnen blijven. Imago-risico in de zin dat ondermaats werk de reputatie van de opdrachtgever en daarmee het vertrouwen in het gebruik van het product schaadt. \
    \
