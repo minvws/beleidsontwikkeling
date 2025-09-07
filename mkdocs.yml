@@ -64,6 +64,9 @@ plugins:
           - index.md
     - awesome-pages:
         collapse_single_pages: true
+    - redirects:
+        redirect_maps:
+            'ambitieladder.md': 'open-source-ambitieladder-voor-maatwerk-aanbesteding-of-opdracht.md'
 
 hooks:
     - src/overrides/hooks/admonition.py
