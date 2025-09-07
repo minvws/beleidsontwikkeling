@@ -228,7 +228,7 @@ Binnen het Ministerie van Volksgezondheid, Welzijn en Sport wordt de CLA verplic
 1. <span class="oud">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
 1. <span class="nieuw">Middels een goed documenteerde governance, conventies, projectdoelstellingen en communicatiekanalen duidelijk wordt gemaakt hoe andere geïnteresseerden kunnen participeren in de samenwerking.</span>
 1. <span class="nieuw">Met open documentatie over de werking van de software en ontwerpkeuzes van de achterliggende broncode wordt onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk gefaciliteerd.</span>
-1. Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
+1. Er een Contributors License Agreement aanwezig is waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 
 # Voorbeelden
 
@@ -395,7 +395,7 @@ We waren het er snel over eens dat het definiëren van teveel assen en teveel am
 15 januari 2025
 
 In de basisset aan eisen is de volgende eis opgenomen:
-> Er een Contributors License Agreement wordt opgesteld waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
+> Er een Contributors License Agreement aanwezig is waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
 
 Deze eis leidde vanzelfsprekend tot discussie. Een CLA schrikt sommige ontwikkelaars af en er organisaties die als beleidsuitgangspunt hebben dat ze niet ontwikkelen aan projecten waar een CLA wordt gevraagd. De reden om de eis toch op te nemen in de basisset is meerledig:
 
