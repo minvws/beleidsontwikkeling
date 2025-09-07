@@ -176,9 +176,9 @@ Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebru
 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
-1. Broncode en de onderliggende data gescheiden wordt gehouden.
 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk (openbaar) veilig te stellen op een eigen platform.
     1. Alle gevoelige informatie moet door de opdrachtnemer actief worden bewaakt.
+1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
 
 ## 3. Transparantie en Vertrouwen
 
@@ -260,7 +260,7 @@ Voor in de **Programma van Eisen**:
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
 >     1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
-> 1. Broncode en de onderliggende data gescheiden wordt gehouden.
+> 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
 > 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 ## Hoogste ambitie
@@ -296,7 +296,7 @@ Voor in de **Programma van Eisen**:
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
 >     1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
-> 1. Broncode en de onderliggende data gescheiden wordt gehouden.
+> 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
 > 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 # Veel gestelde vragen door opdrachtnemers
