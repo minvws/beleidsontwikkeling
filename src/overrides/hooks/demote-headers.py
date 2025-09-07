@@ -22,14 +22,13 @@ from mkdocs.structure.pages import Page
 from re import Match
 import markdown
 
-# @todo
 def on_page_markdown(mark: str, *, page: Page, config: MkDocsConfig, files: Files):
-
     def replace(_: Match):
-        return _[1] + "<br />";
+        hashes = _[1];
+        return "#" + hashes + " "  # add one more '#'
 
     mark = re.sub(
-        r'(.*)\\\n',
+        r'^(#{1,6})\s',
         lambda match: replace(match),
         mark,
         flags=re.I | re.M,

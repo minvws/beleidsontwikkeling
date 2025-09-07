@@ -73,6 +73,8 @@ hooks:
     - src/overrides/hooks/colorblocks.py
     - src/overrides/hooks/newlines.py
     - src/overrides/hooks/escapes.py
+    - src/overrides/hooks/title.py
+    - src/overrides/hooks/demote-headers.py
 
 # Link naar GitHub repo
 repo_url: https://github.com/minvws/beleidsontwikkeling

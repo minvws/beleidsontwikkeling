@@ -25,14 +25,6 @@ import markdown
 # @todo
 def on_page_markdown(mark: str, *, page: Page, config: MkDocsConfig, files: Files):
 
-    def replace(_: Match):
-        return _[1] + "<br />";
+    mark = "<h1 class=\"title\">" + page.title + "</h1>\n" + mark;
 
-    mark = re.sub(
-        r'(.*)\\\n',
-        lambda match: replace(match),
-        mark,
-        flags=re.I | re.M,
-    )
-
-    return mark
+    return mark;
