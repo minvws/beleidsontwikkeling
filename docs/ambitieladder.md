@@ -22,8 +22,6 @@ hide:
 }
 </style>
 
-# Open source ambitieladder in maatwerk aanbesteding of opdracht
-
 ## Introductie
 
 > [!Note] 
