@@ -64,6 +64,9 @@ plugins:
           - index.md
     - awesome-pages:
         collapse_single_pages: true
+    - redirects:
+        redirect_maps:
+            'ambitieladder.md': 'open-source-ambitieladder-voor-maatwerk-aanbesteding-of-opdracht.md'
 
 hooks:
     - src/overrides/hooks/includes.py
@@ -71,6 +74,8 @@ hooks:
     - src/overrides/hooks/colorblocks.py
     - src/overrides/hooks/newlines.py
     - src/overrides/hooks/escapes.py
+    - src/overrides/hooks/title.py
+    - src/overrides/hooks/demote-headers.py
 
 # Link naar GitHub repo
 repo_url: https://github.com/minvws/beleidsontwikkeling
