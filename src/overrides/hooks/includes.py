@@ -32,19 +32,22 @@ def on_page_markdown(mark: str, *, page: Page, config: MkDocsConfig, files: File
 # Replace callback
     def replace(_: Match):
         try:
-            response = requests.get("".join(["https://hackmd.io/", _[1], "/download"]) , timeout=3);
+            response = requests.get("".join(["https://hackmd.io/", _[2], "/download"]) , timeout=3);
         except requests.exceptions.RequestException as e:
-            log.warning("".join(["Failed to download HackMD file: ", _[1]]));
+            log.warning("".join(["Failed to download HackMD file: ", _[2]]));
             return "";
 
         if response.status_code == 200:
-            return response.text;
+            output = "";
+            for line in response.text.splitlines():
+                output += _[1] + line + "\n";
+            return output;
         else:
-            log.warning("".join(["Failed to download HackMD file: ", _[1]]));
+            log.warning("".join(["Failed to download HackMD file: ", _[2]]));
             return "";
 
     mark = re.sub(
-        r'{%hackmd (.*) %}',
+        r'(.*){%hackmd (.*) %}',
         lambda match: replace(match),
         mark,
         flags=re.I | re.M,
