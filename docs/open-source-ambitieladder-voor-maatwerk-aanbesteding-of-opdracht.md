@@ -1,5 +1,23 @@
 ---
 title: Open source ambitieladder in maatwerk aanbesteding of opdracht
+author:
+- Maurice Hendriks
+- In samenwerking met alle bijdragers
+toc: true
+toc-depth: 2
+toc-title: "Inhoud"
+toc-own-page: true
+footer-left: "Open source ambitieladder in maatwerk aanbesteding of opdracht"
+header-left: "​"
+header-center: "​"
+header-right: "​"
+titlepage: true
+titlepage-background: ./docs/assets/img/cover.pdf
+titlepage-rule-color: 'ffffff'
+page-background: ./docs/assets/img/cover.pdf
+page-background-opacity: 1
+license: Creative Commons Naamsvermelding 4.0 Internationaal
+
 hide: 
 - path
 ---

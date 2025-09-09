@@ -1,6 +1,7 @@
 # build files
 site
 .venv/
+*.pdf
 
 #  python cache
 **/__pycache__/**
