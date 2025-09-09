@@ -15,16 +15,22 @@
 # limitations under the Licence.
 #
 
-import re
+import os
 from mkdocs.config.defaults import MkDocsConfig
-from mkdocs.structure.files import File, Files
 from mkdocs.structure.pages import Page
-from re import Match
-import markdown
+from mkdocs.structure.files import Files
+from mkdocs.utils import get_relative_url
 
 # @todo
 def on_page_markdown(mark: str, *, page: Page, config: MkDocsConfig, files: Files):
 
-    mark = "<h1 class=\"title\">" + page.title + "</h1>\n" + mark;
+    # Get the source filename (e.g., "guide/intro.md")
+    pdf_url = get_relative_url(os.path.splitext(os.path.basename(page.file.abs_src_path))[0] + ".pdf", page.url);
+    icon_url = get_relative_url("assets/img/pdf.svg", page.url);
+
+    if(os.path.isfile(page.file.abs_src_path.replace('.md', '.pdf'))):
+        mark = "<h1 class=\"title\">" + page.title + "&nbsp;<a href=\"" + pdf_url + "\"><img src=\"" + icon_url + "\" width=\"30\" /></a></h1>\n" + mark;
+    else:
+        mark = "<h1 class=\"title\">" + page.title + "</h1>\n" + mark;
 
     return mark;
