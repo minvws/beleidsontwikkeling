@@ -8,8 +8,8 @@ theme:
     language: nl
     palette:
         primary: custom
-    logo: assets/logo.svg
-    favicon: assets/favicon.ico
+    logo: assets/img/logo.svg
+    favicon: assets/img/favicon.ico
     font: false 
     features:
         - navigation.indexes
