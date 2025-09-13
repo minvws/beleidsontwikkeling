@@ -1,6 +1,7 @@
 ---
 title: Open beleidsontwikkeling
 summary: Open beleidsontwikkeling van het Ministerie van Volksgezondheid, Welzijn en Sport
+pdf: false
 hide:
   - navigation
   - toc

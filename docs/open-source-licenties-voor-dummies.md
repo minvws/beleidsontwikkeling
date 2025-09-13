@@ -4,6 +4,22 @@ summary: Uitleg over open source licenties aan de hand van een fiets\
 hide:
   - navigation
   - toc
+author:
+- Maurice Hendriks
+- In samenwerking met alle bijdragers
+toc-depth: 2
+toc-title: "Inhoud"
+toc-own-page: true
+footer-left: "Open source licenties voor dummies"
+header-left: "​"
+header-center: "​"
+header-right: "​"
+titlepage: true
+titlepage-background: ./docs/assets/img/cover.pdf
+titlepage-rule-color: 'ffffff'
+page-background: ./docs/assets/img/cover.pdf
+page-background-opacity: 1
+license: Creative Commons Naamsvermelding 4.0 Internationaal
 ---
 
 <style>
@@ -48,12 +64,7 @@ ul {
 }
 </style>
 
-Open source licenties voor dummies
-===
-
----
-
-## Introductie
+# Introductie
 
 Het doel van deze presentatie is om met de fiets als voorbeeld uit te leggen wat open source is en welke rol open source licenties spelen in software ontwikkeling.
 
@@ -61,7 +72,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Wat is software?
+# Wat is software?
 
 - Software is een samenhang van opdrachten die een computer vertelt wat die moet doen.
 - Die opdrachten worden geschreven in broncode.
@@ -70,7 +81,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Wat is software?
+# Wat is software?
 
 - Software voor een standaard Windows computer draait niet zomaar op een standaard Apple computer, omdat beide computers verschillende talen spreken.
 - Voor beide computers moet vaak een aparte vertaling gemaakt worden van de broncode.
@@ -78,7 +89,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Hoe is software opgebouwd?
+# Hoe is software opgebouwd?
 
 - Veel gebruikte functies zijn gestandaardiseerd en kunnen worden hergebruikt.
 - Een logische samenhang aan functies wordt ook wel een software component genoemd.
@@ -86,7 +97,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Hoe is software opgebouwd?
+# Hoe is software opgebouwd?
 - Software ontwikkeling is daarmee:
   - Het samenbrengen van bestaande componenten.
   - Het eventueel ontwikkelen van een nieuw component.
@@ -94,7 +105,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Wat zegt de auteurswet?
+# Wat zegt de auteurswet?
 
 - Creatief werk is automatisch beschermd vanuit de auteurswet.
 - De maker heeft automatisch het intellectueel eigendom.
@@ -103,7 +114,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Wat is een open source licentie?
+# Wat is een open source licentie?
 
 - Open source licenties zijn gestandaardiseerde contracten.
 - Ze geven derden vrijwel alle rechten op de broncode.
@@ -113,7 +124,7 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Varianten open source licenties
+# Varianten open source licenties
 
 - Toegeeflijke licenties (*permissive*) \
   Verbeteringen mogen gesloten gehouden worden.
@@ -124,13 +135,13 @@ Open source gaat natuurlijk niet over fietsen, maar over broncode van software. 
 
 ---
 
-## Over open source licenties
+# Over open source licenties
 
 Open source licenties gaan expliciet over de broncode. Hoe de software wordt gebruikt die met de broncode is gemaakt wordt er niet door beïnvloed.
 
 ---
 
-## Nuance: Auteurswet en overheid
+# Nuance: Auteurswet en overheid
 
 - Voor overheden geldt een uitzondering.
 - Openbaar gemaakt werk vanuit de overheid mag, zonder expliciete gebruikersvoorwaarden, vrij worden gebruikt en gekopieerd door derden zonder dat dit als auteursrechtschending wordt gezien (Auteurswet Art. 15b), maar de overheid behoudt het auteursrecht.
@@ -138,7 +149,7 @@ Open source licenties gaan expliciet over de broncode. Hoe de software wordt geb
 
 ---
 
-## In de context van de fiets
+# In de context van de fiets
 
 - Een fiets bestaat uit allerlei gestandaardiseerde componenten.
 - Denk aan een trappers, tandwielen, een ketting, stuur, wielen.
@@ -147,7 +158,7 @@ Open source licenties gaan expliciet over de broncode. Hoe de software wordt geb
 
 ---
 
-## Voorbeeld cases
+# Voorbeeld cases
 
 We nemen als voorbeeld het ROM-pedaal. Het ROM-pedaal maakt het mogelijk om te fietsen met een minimale kniebuiging. Handig voor mensen met een aandoening zoals artrose.
 
@@ -155,13 +166,13 @@ Een ROM-pedaal past op elke gangbare fiets, want de componenten van een fiets zi
 
 ---
 
-## Motivatie A
+# Motivatie A
 
 Het ROM-pedaal wordt bedacht door een persoon die geen commercieel doel heeft, maar enkel wil dat hijzelf of zijn geliefde kan blijven fietsen. Hij beschrijft het doel van het ROM-pedaal, maakt eventueel zelf een prototype en publiceert dit online.
 
 ---
 
-## Licentie advies
+# Licentie advies
 
 Vanuit dit belang is het logisch om een *toegeeflijke* licentie te kiezen. Fabrikanten kunnen met het idee aan de slag zonder zelf openheid van zaken te hoeven geven over het productieproces of verbeteringen.
 
@@ -169,25 +180,25 @@ Het is met sommige *toegeeflijke* licentie smaken wel mogelijk om naamsvermeldin
 
 ---
 
-## Motivatie B
+# Motivatie B
 
 Degene die het ROM-pedaal heeft bedacht wil graag dat de verbeteringen op het pedaal ook openbaar gedeeld worden. Hij heeft tenslotte zelf zijn kennis vrij beschikbaar gesteld, dus wil hij ook dat anderen dat doen. Zo kunnen de verbeteringen die door de ene leverancier worden gedaan ook benut worden door de anderen. Je werkt dan samen aan meer kennis.
 
 ---
 
-## Licentie advies
+# Licentie advies
 
 Vanuit dit belang is het logisch een *zwak wederkerige* licentie te kiezen.
 
 ---
 
-## Motivatie C
+# Motivatie C
 
 Degene die het ROM-pedaal heeft bedacht heeft dat vanuit idealisme gedaan. Hij wil wel dat leveranciers de productie ervan doen, maar alleen als dat vanuit hetzelfde idealisme en/of motivatie gebeurt. Om het ROM-pedaal te mogen gebruiken moeten ook andere onderdelen met dezelfde motivatie zijn gemaakt. Oftewel, de kennis om tot het totaalproduct te komen moet onder dezelfde voorwaarden beschikbaar worden gesteld.
 
 ---
 
-## Licentie advies
+# Licentie advies
 
 Vanuit dit belang is het logisch een *sterk wederkerige* licentie te kiezen.
 
@@ -195,7 +206,7 @@ De individuele componenten die een minder ambitieuze licentie (*toegeeflijk* of 
 
 ---
 
-## Het gebruik van de fiets
+# Het gebruik van de fiets
 
 Zoals eerder is genoemd gaat het bij een open source licentie alleen over de broncode en niet over hoe de software wordt gebruikt. 
 
@@ -203,7 +214,7 @@ In geval van een fiets gaat het alleen om de fiets als geheel, maar niet over ho
 
 ---
 
-## Voorbeeld 1
+# Voorbeeld 1
 
 - Fiets (*sterk wederkerig*)
 - Snelbinders (*toegeeflijk*) + \
@@ -216,7 +227,7 @@ Een *sterk wederkerige* licentie overtroefd altijd andere licenties.
 
 ---
 
-## Voorbeeld 2
+# Voorbeeld 2
 
 - Fiets (*toegeeflijk*)
 - Snelbinders (*sterk wederkerig*) + \
@@ -229,7 +240,7 @@ Een *sterk wederkerig* onderdeel zorgt dat het samengestelde product ook *sterk 
 
 ---
 
-## Voorbeeld 3
+# Voorbeeld 3
 
 - Fiets (*sterk wederkerig*)
 - Losse fietstassen (*toegeeflijk*) + \
@@ -242,7 +253,7 @@ De kennis om tot het totaalproduct te komen wordt *sterk wederkerig* beschikbaar
 
 ---
 
-## Voorbeeld 4
+# Voorbeeld 4
 
 - Fiets (*zwak wederkerig*)
 - Losse fietstassen (*sterk wederkerig*) + \
@@ -255,7 +266,7 @@ Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het t
 
 ---
 
-## Voorbeeld 5
+# Voorbeeld 5
 
 - Fiets (*zwak wederkerig*)
 - Losse fietstassen (*toegeeflijk*) + \
@@ -268,7 +279,7 @@ Sommige *sterk wederkerige* smaken zorgen er ook in deze situatie voor dat het t
 
 ---
 
-## Voorbeeld 6
+# Voorbeeld 6
 
 - Fiets (*sterk wederkerig*)
 - Mandje op het stuur (*sterk wederkerig*) +
@@ -283,7 +294,7 @@ De snelbinders worden niet geraakt door de licenties van de fiets en mandje, wan
 
 ---
 
-## Voorbeeld 7
+# Voorbeeld 7
 
 - Fiets (*sterk wederkerig*)
 - Fietslamp vast aan de fiets (*sterk wederkerig*) +
@@ -298,7 +309,7 @@ Je doet verbeteringen op een *sterk wederkerig* product, alle verbeteringen moet
 
 ---
 
-## Voorbeeld 8
+# Voorbeeld 8
 
 - Fiets (*gesloten licentie*)
 - Fietslamp vast aan de fiets (*zwak wederkerig*) +
@@ -313,7 +324,7 @@ Je doet verbeteringen op een *zwak wederkerig* product, alle verbeteringen moete
 
 ---
 
-## Voorbeeld 9
+# Voorbeeld 9
 
 - Fiets (*gesloten licentie*)
 - Fietslamp vast aan de fiets (*toegeeflijk*) +
@@ -328,7 +339,7 @@ Je doet verbeteringen op een *toegeeflijk* product, alle verbeteringen mogen ook
 
 ---
 
-## Voorbeeld 10
+# Voorbeeld 10
 
 - Fiets (*gesloten licentie*)
 - Fietslamp (*sterk wederkerig*) + \
@@ -341,7 +352,7 @@ Een *sterk wederkerig* onderdeel zorgt er ook hier voor dat het totale product *
 
 ---
 
-## Voorbeeld 11
+# Voorbeeld 11
 
 - Fiets (*sterk wederkerig*)
 - Fiets wordt vervoerd in een vrachtwagen (*gesloten licentie*) + \
@@ -354,13 +365,13 @@ Het vervoeren van de fiets in een vrachtwagen heeft geen invloed op de vrachtwag
 
 ---
 
-## Een strategisch beleidsinstrument
+# Een strategisch beleidsinstrument
 
 Zoals in alle voorbeelden te zien kan een open source licentie dienen als een strategisch beleidsinstrument. Met licenties kan je op meer of mindere mate afdwingen dat (het geheel aan) ontwikkelingen open en transparant blijven.
 
 ---
 
-## Wanneer *toegeeflijk*?
+# Wanneer *toegeeflijk*?
 
 - Wanneer een publieke instelling een nieuwe markt wil stimuleren met nieuwe innovaties/ functionaliteiten zonder publieke belang.
 - Wanneer een publieke instelling zelf ontwikkelt aan functies zonder publiek belang, zoals een Design System.
@@ -368,7 +379,7 @@ Zoals in alle voorbeelden te zien kan een open source licentie dienen als een st
 
 ---
 
-## Wanneer *zwak wederkerig*?
+# Wanneer *zwak wederkerig*?
 
 - Wanneer het nodig is door te ontwikkelen op bestaand producten.
 - Wanneer een publieke instelling een nieuwe markt wil stimuleren met nieuwe innovaties/ functionaliteiten met weinig publieke belang.
@@ -377,7 +388,7 @@ Zoals in alle voorbeelden te zien kan een open source licentie dienen als een st
 
 ---
 
-## Wanneer *sterk wederkerig*?
+# Wanneer *sterk wederkerig*?
 
 - Bij de ontwikkeling van stelsels en/of infrastructuren die een duidelijk publiek belang dienen, zoals basisregistraties.
 - Bij software die sterk gekoppeld is aan de fundamenten van onze liberale democratische samenleving, zoals verkiezingssoftware.
