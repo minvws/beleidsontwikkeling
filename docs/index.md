@@ -22,7 +22,7 @@ hide:
 
 <h3>Beleidsinstrumenten</h3>
 
-- [Open source ambitieladder in maatwerk aanbesteding of opdracht](open-source-ambitieladder-voor-maatwerk-aanbesteding-of-opdracht) [<img src="assets/img/pdf.svg" width="20" />](open-source-ambitieladder-voor-maatwerk-aanbesteding-of-opdracht.pdf)
+- [Open source ambitieladder in maatwerk aanbesteding of opdracht](open-source-ambitieladder-voor-maatwerk-aanbesteding-of-opdracht)
 
 <h3>Presentaties</h3>
 
