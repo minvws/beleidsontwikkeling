@@ -37,6 +37,8 @@
     background: #fef4db;
 }
 
-.colorblock-alert p, .colorblock-warning p {
-  color: #154273;
+.colorblock-alert p, .colorblock-warning p,
+.colorblock-alert li, .colorblock-warning li,
+.colorblock-alert a, .colorblock-warning a {
+		color: #154273!important;
 }
