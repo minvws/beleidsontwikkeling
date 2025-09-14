@@ -84,6 +84,8 @@ Er is dus geen eenduidige set aan eisen neer te leggen waaraan alle aanbesteding
 
 Dat neemt overigens niet weg dat je het hier beschreven laagste ambitieniveau kan zien als een minimale norm. De minimale eisen om te voldoen aan de inspanningsverplichting uit de Wet open overheid en de Wet hergebruik overheidsinformatie.
 
+{%hackmd fYmMl7qjRZuDchyw0xC1RQ %}
+
 :::info
 :bulb: **Aanbesteding, opdracht of vacature?**
 
@@ -228,7 +230,7 @@ Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebru
 1. <span class="oud">Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.</span>
 1. <span class="nieuw">De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.</span>
 1. <span class="nieuw">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
-1. <span class="nieuw">Er een Contributors License Agreement wordt aanwezig is waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.</span>
+1. <span class="nieuw">Alle bijdragen vereisen een ondertekende Contributor License Agreement (CLA) of een geaccordeerde Developer Certificate of Origin (DCO) voordat ze worden geaccepteerd.</span>
 
 :::warning
 :exclamation: **Contributors License Agreement**
@@ -246,7 +248,7 @@ Binnen het Ministerie van Volksgezondheid, Welzijn en Sport wordt de CLA verplic
 1. <span class="oud">Er goed gedocumenteerd is hoe andere geïnteresseerden een bijdrage kunnen doen aan of vragen kunnen stellen over de broncode en/of documentatie.</span>
 1. <span class="nieuw">Middels een goed documenteerde governance, conventies, projectdoelstellingen en communicatiekanalen duidelijk wordt gemaakt hoe andere geïnteresseerden kunnen participeren in de samenwerking.</span>
 1. <span class="nieuw">Met open documentatie over de werking van de software en ontwerpkeuzes van de achterliggende broncode wordt onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk gefaciliteerd.</span>
-1. Er een Contributors License Agreement aanwezig is waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
+1. Alle bijdragen vereisen een ondertekende Contributor License Agreement (CLA) of een geaccordeerde Developer Certificate of Origin (DCO) voordat ze worden geaccepteerd.
 
 # Voorbeelden
 
@@ -299,7 +301,7 @@ Voor in de **Programma van Eisen**:
 > 1. De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.
 > 1. Middels een goed documenteerde governance, conventies, projectdoelstellingen en communicatiekanalen duidelijk wordt gemaakt hoe andere geïnteresseerden kunnen participeren in de samenwerking.
 > 1. Met open documentatie over de werking van de software en ontwerpkeuzes van de achterliggende broncode wordt onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk gefaciliteerd.
-> 1. Er een Contributors License Agreement aanwezig is waarbij er aantoonbaar geen bijdragen worden geaccepteerd zonder dat de achterliggende rechtspersoon de CLA heeft ondertekend.
+> 1. Alle bijdragen vereisen een ondertekende Contributor License Agreement (CLA) of een geaccordeerde Developer Certificate of Origin (DCO) voordat ze worden geaccepteerd.
 > 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
 > 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
 >     1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
@@ -421,6 +423,10 @@ Deze eis leidde vanzelfsprekend tot discussie. Een CLA schrikt sommige ontwikkel
 3. Het stopzetten van verplichtstelling van de CLA kan wel, terwijl het achteraf invoeren ervan geen zin heeft. Tenminste, niet als er al bijdragen van derden zijn geaccepteerd. Zodra een project enige volwassenheid heeft bereikt kan altijd voor het afschaffen van verplichtstelling worden gekozen.
 
 Er is gekozen om onder aanbevelingen extra uitleg te geven over de toepassing van de CLA.
+
+13 september 2025
+
+De CLA heeft in de basis twee doelen: het voorkomen van *license lock-in* en auteursrechtschendingen. Voor het voorkomen van dat tweede is er echter ook een vriendelijker document, namelijk de Developer Certificate of Origin (DCO). Een DCO hoeft niet officieel ondertekend te worden, maar kan simpelweg geaccordeerd worden. Dat maakt de DCO algemeen breder geaccepteerd door ontwikkelaars of organisaties. De DCO is om die reden aangevuld als alternatief instrument van de CLA met een aanvullende uitleg in de aanbevelingen. De DCO voorkomt echter niet dat je in een *license lock-in* situatie terecht kan komen.
 
 ## Welke mate van veiligheid kan een leverancier garanderen?
 
