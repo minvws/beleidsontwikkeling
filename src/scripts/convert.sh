@@ -12,6 +12,10 @@ MONTH=$(echo $TIMESTAMP | xargs -I{} date -d @{} +'%-m');
 YEAR=$(echo $TIMESTAMP | xargs -I{} date -d @{} +'%-Y');
 DATE="$DAY ${MONTHS[$MONTH]} $YEAR";
 
+sed -n '/---/,/---/p' $i  | grep -Eiq '^pdf: false';
+
+	if ! [ $? -eq 0 ]; then
+
 echo "Converting $i to $DIR/$FILE.pdf";
 
 docker run --rm \
@@ -38,5 +42,11 @@ docker run --rm \
   -V pdfproducer="" \
   -V pdfcreator="" \
   -H /data/src/filters/include.tex
+
+	else
+
+echo "Skipping $i";
+
+	fi
 
 done

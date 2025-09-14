@@ -1,6 +1,7 @@
 ---
 title: Open beleidsontwikkeling
 summary: Open beleidsontwikkeling van het Ministerie van Volksgezondheid, Welzijn en Sport
+pdf: false
 hide:
   - navigation
   - toc
@@ -22,7 +23,7 @@ hide:
 <h3>Beleidsinstrumenten</h3>
 
 - [Open source ambitieladder in maatwerk aanbesteding of opdracht](open-source-ambitieladder-voor-maatwerk-aanbesteding-of-opdracht)
-- [Open source ambitieladder voor opensourcewerken in projecten](open-source-ambitieladder-voor-opensourcewerken-in-projecten.md)
+- [Open source ambitieladder voor opensourcewerken in projecten](open-source-ambitieladder-voor-opensourcewerken-in-projecten)
 
 <h3>Presentaties</h3>
 

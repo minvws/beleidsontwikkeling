@@ -79,6 +79,7 @@ hooks:
     - src/overrides/hooks/escapes.py
     - src/overrides/hooks/title.py
     - src/overrides/hooks/demote-headers.py
+    - src/overrides/hooks/pdflinks.py
 
 # Link naar GitHub repo
 repo_url: https://github.com/minvws/beleidsontwikkeling
