@@ -107,7 +107,15 @@ In dit document worden suggesties gedaan die je kunt hergebruiken in een aanbest
 
 *Free as in free speech, not as in free beer - Richard Stallman*
 
-Net zoals open source software niet staat voor gratis software, maar voor vrije software is het nastreven van een hoger ambitieniveau niet gratis. Het nastreven van een hoger ambitieniveau heeft consequenties voor jou als aanbestedende dienst. Het vraagt normaliter meer van de eigen organisatie waar het gaat om bijv. de regierol, benodigde financiën, kennis en expertise van de medewerkers, maar ook van de opdrachtnemer(s). Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is, maar je krijgt er wel meer vrijheid voor terug.
+Open source software is geen gratis software, maar vrije software. In het Engels staat *free* zowel voor gratis als vrij. De vrijheid waar het hier over gaat, is dat gebruikers van open source software het recht hebben op inzage in de broncode waaruit deze is opgebouwd. Zij mogen deze bestuderen, aanpassen en verder mogen verspreiden.
+
+Een ander voorbeeld dat vaak wordt gegeven, is dat van *gratis puppy's*. Bij een gratis puppy zal er nog steeds geïnvesteerd moeten worden in faciliteiten zoals een voederbak, hondenlijn, slaapmand, maar ook in voedsel, dierenarts of puppytraining. De broncode is dan misschien wel vrij beschikbaar, maar er zal nog steeds geïnvesteerd moeten worden om deze te kunnen inzetten.
+
+Net zoals open source niet staat voor gratis software, is het nastreven naar een hoger ambitieniveau niet zonder kosten. Zo heeft het nastreven van een hoger ambitieniveau consequenties voor jou als aanbestedende dienst. Het vraagt normaliter meer van de eigen organisatie, bijvoorbeeld op het vlak van de regierol, benodigde financiën, kennis en expertise van de medewerkers, maar ook van de opdrachtnemer(s). Evenzo zullen gesloten softwarebedrijven een hogere prijs vragen wanneer de gestelde eisen hoger zijn.
+
+Hoe hoger de eisen die je stelt, hoe minder keuze je hebt. Dat is bij softwareaanbestedingen niet anders dan bij andere producten of diensten. Het is dan ook niet uit te sluiten dat de vijver waaruit je kunt vissen bij een hoger ambitieniveau kleiner is, maar je krijgt er wel meer vrijheid voor terug.
+
+Voor niets gaat de zon op. Niet bij open software, niet bij gesloten software.
 :::
 
 # Voordelen van opensourcewerken
