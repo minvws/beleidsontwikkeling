@@ -210,23 +210,28 @@ Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebru
 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
     1. Alle gevoelige informatie moet door de opdrachtnemer actief worden bewaakt.
 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
-1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 
 ## 3. Transparantie en Vertrouwen
 
 ### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
+1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 
 ### Ambitie 2. Op vaste momenten open source publiceren van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="oud">na afronding van de opdracht</span> worden gepubliceerd op een openbaar git ondersteunend platform.
+1. De opdrachtnemer garandeert, <span class="nieuw">tijdens de contractperiode en specifiek</span> bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
 1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 
 ### Ambitie 3. Het volledig openbaar open source ontwikkeling van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
+1. De opdrachtnemer garandeert<span class="oud">, tijdens de contractperiode en specifiek bij oplevering</span> <span class="nieuw">doorlopend</span>, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 1. <span class="oud">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 1. <span class="nieuw">Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.</span>
@@ -277,6 +282,8 @@ Voor in de **Programma van Eisen**:
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat een zekere mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
 > 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
+> 1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
 > 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
 > 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
@@ -293,7 +300,6 @@ Voor in de **Programma van Eisen**:
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
 >     1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
 > 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
-> 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 ## Hoogste ambitie
 
@@ -308,6 +314,8 @@ Voor in de **Programma van Eisen**:
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat hoogste standaard van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
 > 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden ontwikkeld op een openbaar git ondersteunend platform.
+> 1. De opdrachtnemer garandeert doorlopend, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 > 1. Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
 > 1. De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.
@@ -489,6 +497,22 @@ Het werken op een fork geeft de meeste zekerheden dat de doorontwikkeling ook da
 Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen ook ten gunste van de achterliggende community laat zijn. Maar dan wel los van de vraag wat hoe de community dit zelf beoordeeld.
 
 Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
+
+## Portability of the development
+
+22 september 2025
+
+Open source wordt algemeen gewaardeerd vanwege zijn portabiliteit. Omdat open source-oplossingen niet aan één enkele leverancier gebonden zijn, sluiten ze gebruikers meestal niet op in één ecosysteem. Als een oplossing nog niet beschikbaar is op een ander platform, kan deze over het algemeen gemakkelijk worden aangepast om daarop te werken.
+
+Een duidelijk voorbeeld hiervan zijn cloudtools. Cloud-native tooling kan je aan één aanbieder binden, terwijl open source-technologieën zoals PostgreSQL, NGINX, Terraform en containers het mogelijk maken om tussen aanbieders te wisselen.
+
+Portabiliteit gaat echter niet alleen over de uiteindelijke oplossing. Het geldt ook voor de kennis die nodig is om deze te ontwikkelen, inclusief broncode, assets en documentatie. Bij maatwerk-aanbestedingen bouwt de initiële opdrachtnemer vanzelfsprekend een voorsprong op in kennis. Zonder de juiste maatregelen kan dit kennisvoordeel anderen ontmoedigen om de ontwikkeling voort te zetten, wat een vorm van vendor lock-in creëert — ook wanneer de software zelf open source is.
+
+Om dit te voorkomen, moeten aanbestedingen de portabiliteit van zowel de oplossing als de onderliggende kennis waarborgen. Door alle relevante code, assets en documentatie toegankelijk en begrijpelijk te maken, kunnen andere opdrachtnemers of interne teams bijdragen, het werk overnemen of de ontwikkeling voortzetten met minimale kennisachterstand.
+
+Om deze reden is een aanvullende eis geïntroduceerd:
+
+> De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 
 # Projecten
 
