@@ -523,7 +523,7 @@ Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
 | Persoonlijke Gezondheidsomgeving | Ministerie van Volksgezondheid, Welzijn en Sport | € 15,- miljoen |
 | CumuluZ subsidie t.b.v. het Landelijk Dekkend Netwerk | Ministerie van Volksgezondheid, Welzijn en Sport | € 11,- miljoen |
 | PoC's en Pilots t.b.v. Generieke Functies | Ministerie van Volksgezondheid, Welzijn en Sport | € 10,- miljoen |
-| Elektronisch Kandidaatstellingssysteem (e-KS) | De Kiesraad | € 3 tot 5,- miljoen
+| Elektronisch Kandidaatstellingssysteem (e-KS) | De Kiesraad | € 3 tot 5,- miljoen |
 
 # Bijdragers
 
