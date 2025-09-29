@@ -65,6 +65,10 @@ hide:
 >[!Tip]Github account?
 >:star: Voor iedereen met een github account. Je kan hier inloggen via dat account zodat je bijdragen traceerbaar zijn.
 
+> [!Note] Community call
+>
+> {%hackmd JVxu_GGTQHaO9Btzpp6zPg %}
+
 >[!Note] Open source instrumenten
 >
 > {%hackmd VpVAKaW1TlurfOu_nAKjXw %}
