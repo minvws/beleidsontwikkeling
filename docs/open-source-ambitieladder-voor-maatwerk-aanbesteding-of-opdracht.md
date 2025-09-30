@@ -65,6 +65,10 @@ hide:
 >[!Tip]Github account?
 >:star: Voor iedereen met een github account. Je kan hier inloggen via dat account zodat je bijdragen traceerbaar zijn.
 
+> [!Note] Community call
+>
+> {%hackmd JVxu_GGTQHaO9Btzpp6zPg %}
+
 >[!Note] Open source instrumenten
 >
 > {%hackmd VpVAKaW1TlurfOu_nAKjXw %}
@@ -103,7 +107,15 @@ In dit document worden suggesties gedaan die je kunt hergebruiken in een aanbest
 
 *Free as in free speech, not as in free beer - Richard Stallman*
 
-Net zoals open source software niet staat voor gratis software, maar voor vrije software is het nastreven van een hoger ambitieniveau niet gratis. Het nastreven van een hoger ambitieniveau heeft consequenties voor jou als aanbestedende dienst. Het vraagt normaliter meer van de eigen organisatie waar het gaat om bijv. de regierol, benodigde financiën, kennis en expertise van de medewerkers, maar ook van de opdrachtnemer(s). Het is ook niet uit te sluiten dat de vijver waaruit je kan vissen bij een hoger ambitieniveau kleiner is, maar je krijgt er wel meer vrijheid voor terug.
+Open source software is geen gratis software, maar vrije software. In het Engels staat *free* zowel voor gratis als vrij. De vrijheid waar het hier over gaat, is dat gebruikers van open source software het recht hebben op inzage in de broncode waaruit deze is opgebouwd. Zij mogen deze bestuderen, aanpassen en verder mogen verspreiden.
+
+Een ander voorbeeld dat vaak wordt gegeven, is dat van *gratis puppy's*. Bij een gratis puppy zal er nog steeds geïnvesteerd moeten worden in faciliteiten zoals een voederbak, hondenlijn, slaapmand, maar ook in voedsel, dierenarts of puppytraining. De broncode is dan misschien wel vrij beschikbaar, maar er zal nog steeds geïnvesteerd moeten worden om deze te kunnen inzetten.
+
+Net zoals open source niet staat voor gratis software, is het nastreven naar een hoger ambitieniveau niet zonder kosten. Zo heeft het nastreven van een hoger ambitieniveau consequenties voor jou als aanbestedende dienst. Het vraagt normaliter meer van de eigen organisatie, bijvoorbeeld op het vlak van de regierol, benodigde financiën, kennis en expertise van de medewerkers, maar ook van de opdrachtnemer(s). Evenzo zullen gesloten softwarebedrijven een hogere prijs vragen wanneer de gestelde eisen hoger zijn.
+
+Hoe hoger de eisen die je stelt, hoe minder keuze je hebt. Dat is bij softwareaanbestedingen niet anders dan bij andere producten of diensten. Het is dan ook niet uit te sluiten dat de vijver waaruit je kunt vissen bij een hoger ambitieniveau kleiner is, maar je krijgt er wel meer vrijheid voor terug.
+
+Voor niets gaat de zon op. Niet bij open software, niet bij gesloten software.
 :::
 
 # Voordelen van opensourcewerken
@@ -198,23 +210,28 @@ Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebru
 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
     1. Alle gevoelige informatie moet door de opdrachtnemer actief worden bewaakt.
 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
-1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 
 ## 3. Transparantie en Vertrouwen
 
 ### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
+1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 
 ### Ambitie 2. Op vaste momenten open source publiceren van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="oud">na afronding van de opdracht</span> worden gepubliceerd op een openbaar git ondersteunend platform.
+1. De opdrachtnemer garandeert, <span class="nieuw">tijdens de contractperiode en specifiek</span> bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
 1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 
 ### Ambitie 3. Het volledig openbaar open source ontwikkeling van de broncode
 
 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
+1. De opdrachtnemer garandeert<span class="oud">, tijdens de contractperiode en specifiek bij oplevering</span> <span class="nieuw">doorlopend</span>, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 1. <span class="oud">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 1. <span class="nieuw">Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.</span>
@@ -265,6 +282,8 @@ Voor in de **Programma van Eisen**:
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat een zekere mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
 > 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
+> 1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
 > 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
 > 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
@@ -281,7 +300,6 @@ Voor in de **Programma van Eisen**:
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
 >     1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
 > 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
-> 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 ## Hoogste ambitie
 
@@ -296,6 +314,8 @@ Voor in de **Programma van Eisen**:
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat hoogste standaard van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
 > 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden ontwikkeld op een openbaar git ondersteunend platform.
+> 1. De opdrachtnemer garandeert doorlopend, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 > 1. Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
 > 1. De conventies waaronder code-style, versie nummering, git workflow e.d. inzichtelijk zijn gemaakt.
@@ -478,6 +498,22 @@ Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen o
 
 Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
 
+## Portability of the development
+
+22 september 2025
+
+Open source wordt algemeen gewaardeerd vanwege zijn portabiliteit. Omdat open source-oplossingen niet aan één enkele leverancier gebonden zijn, sluiten ze gebruikers meestal niet op in één ecosysteem. Als een oplossing nog niet beschikbaar is op een ander platform, kan deze over het algemeen gemakkelijk worden aangepast om daarop te werken.
+
+Een duidelijk voorbeeld hiervan zijn cloudtools. Cloud-native tooling kan je aan één aanbieder binden, terwijl open source-technologieën zoals PostgreSQL, NGINX, Terraform en containers het mogelijk maken om tussen aanbieders te wisselen.
+
+Portabiliteit gaat echter niet alleen over de uiteindelijke oplossing. Het geldt ook voor de kennis die nodig is om deze te ontwikkelen, inclusief broncode, assets en documentatie. Bij maatwerk-aanbestedingen bouwt de initiële opdrachtnemer vanzelfsprekend een voorsprong op in kennis. Zonder de juiste maatregelen kan dit kennisvoordeel anderen ontmoedigen om de ontwikkeling voort te zetten, wat een vorm van vendor lock-in creëert — ook wanneer de software zelf open source is.
+
+Om dit te voorkomen, moeten aanbestedingen de portabiliteit van zowel de oplossing als de onderliggende kennis waarborgen. Door alle relevante code, assets en documentatie toegankelijk en begrijpelijk te maken, kunnen andere opdrachtnemers of interne teams bijdragen, het werk overnemen of de ontwikkeling voortzetten met minimale kennisachterstand.
+
+Om deze reden is een aanvullende eis geïntroduceerd:
+
+> De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+
 # Projecten
 
 Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
@@ -487,7 +523,7 @@ Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
 | Persoonlijke Gezondheidsomgeving | Ministerie van Volksgezondheid, Welzijn en Sport | € 15,- miljoen |
 | CumuluZ subsidie t.b.v. het Landelijk Dekkend Netwerk | Ministerie van Volksgezondheid, Welzijn en Sport | € 11,- miljoen |
 | PoC's en Pilots t.b.v. Generieke Functies | Ministerie van Volksgezondheid, Welzijn en Sport | € 10,- miljoen |
-| Elektronisch Kandidaatstellingssysteem (e-KS) | De Kiesraad | € 3 tot 5,- miljoen
+| Elektronisch Kandidaatstellingssysteem (e-KS) | De Kiesraad | € 3 tot 5,- miljoen |
 
 # Bijdragers
 
@@ -496,11 +532,12 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
 * [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Kadaster)
 * Joeri Bekker (Maykin)
-* [Mike Gifford (CivicActions)](https://www.linkedin.com/in/mgifford/)
+* [Mike Gifford (CivicAction)](https://www.linkedin.com/in/mgifford/)
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
 * Rutger Haagsma (Ritense)
 * David Heijkamp (Naturalis)
+* Michael Meagher (Open Ireland Network)
 * Marlena van Ooijen (Logius)
 * Nico Rikken (Alliander)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
