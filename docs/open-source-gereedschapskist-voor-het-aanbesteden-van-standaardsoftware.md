@@ -274,7 +274,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 ---
 
 Deze tekst is beschikbaar onder de CC-BY-4.0 \
-[![hackmd-github-sync-badge](https://hackmd.io/537IPMl9Ty66bCRqU6f5TA/badge)](https://hackmd.io/537IPMl9Ty66bCRqU6f5TA)
+[![hackmd-github-sync-badge](https://hackmd.io/NbYC48GJRx-KIuVX5sHGeg/badge)](https://hackmd.io/NbYC48GJRx-KIuVX5sHGeg)
 
 >[!Note]Licentie
 >
