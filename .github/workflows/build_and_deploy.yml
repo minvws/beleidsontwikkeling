@@ -75,6 +75,8 @@ jobs:
           name: pdfs
           path: docs/
 
+      - run: rm docs/assets/fonts/cantarell.tar.gz && rm docs/assets/fonts/noto-emoji.tar.gz
+
       - run: mkdocs build -d _site
 
       - name: Upload site artifact
