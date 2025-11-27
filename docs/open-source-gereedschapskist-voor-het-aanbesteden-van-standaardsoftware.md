@@ -102,7 +102,7 @@ Kenmerken:
 - **Interoperabiliteit**: componenten zijn uitwisselbaar via standaarden.
 - **Samenwerking**: innovatie en probleemoplossing door co-creatie.
 
-Software zoals LibreOffice en NextCloud illustreert dit goed. LibreOffice wordt beheerd door The Document Foundation, een non-profitorganisatie die governance, certificering en financiën verzorgt. Ontwikkelaars, bedrijven en individuen dragen vrijwillig bij aan doorontwikkeling en verbetering van het product. NextCloud werkt vanuit een steward-owned model, waarbij de open source missie en visie stevig verankerd zijn in de organisatie. Voor zowel beiden bestaat een netwerk van dienstverleners dat voor zorgt voor implementatie, beheer en support.
+Software zoals LibreOffice en NextCloud illustreert dit goed. LibreOffice wordt beheerd door The Document Foundation, een non-profitorganisatie die governance, certificering en financiën verzorgt. Ontwikkelaars, bedrijven en individuen dragen vrijwillig bij aan doorontwikkeling en verbetering van het product. NextCloud ontwikkeld zelf - maar samen met een grote community - hun software volledig open source. NextCloud biedt dienstverlening aan, maar doet zelf geen hosting. Zo zorgen ze ervoor dat de data volledig onder controle van de klant blijft. Bij NextCloud is de open source missie en visie stevig verankerd in de organisatie. Voor producten beiden bestaat een netwerk van dienstverleners dat (mede) zorgt voor implementatie, beheer en support.
 
 In tegenstelling tot gesloten ecosystemen, waarin software vaak alleen optimaal samenwerkt binnen de suite van één leverancier en waarin wijzigingen en onderhoud afhankelijk zijn van die leverancier, biedt het open ecosysteem vrijheid. Organisaties kunnen zelf kiezen welke dienstverlener ze inzetten, welke aanpassingen worden gedaan en hoe software wordt geïntegreerd. Bovendien kunnen doorontwikkelingen ten goede komen aan de gehele gemeenschap, zoals het geval was toen [Defensie](https://tweakers.net/nieuws/109699/ministerie-van-defensie-maakte-sha256-hashes-mogelijk-in-libreoffice.html) de SHA-256 hashing toevoegde aan LibreOffice.
 
@@ -142,7 +142,7 @@ Deze methode van open source software verwerven werd voor het eerste beschreven 
 
 ICT-aanbestedingen bestaan vrijwel altijd uit een combinatie van software en bijbehorende diensten (zoals implementatie, beheer, onderhoud, support, scholing). Door de opdracht te verkavelen kan de aanbesteding toegankelijk worden gemaakt voor zowel gesloten ecosysteem-partijen als partijen die binnen een open ecosysteem werken. Binnen open ecosystemen leveren verschillende dienstverleners vaak slechts een deel van de dienstverlening. Verkavelen bevordert daarmee concurrentie en innovatie.
 
-De Aanbestedingswet schrijft voor dat opdrachten dat niet onnodig mogen worden samengevoegd (Art. 1.5 Aw 2012), tenzij dit niet doelmatig is. Aanbestedingen mogen ook niet onnodig worden gesplitst met de intentie onder de Europese aanbestedingsgrens te blijven.
+De Aanbestedingswet schrijft voor dat opdrachten dat niet onnodig mogen worden samengevoegd (Art. 1.5 Aw 2012), tenzij dit niet doelmatig is. Aanbestedingen mogen ook niet onnodig worden gesplitst met de intentie onder de Europese aanbestedingsgrens te blijven. Deze drempelbedragen verschillen per type aanbestedingen en veranderen enige regelmaat. Voor de actuele drempelwaarden zie [deze](https://www.pianoo.nl/nl/regelgeving/drempelbedragen-europees-aanbesteden) pagina van PIANOo.
 
 Het is aan te bevelen je aanbesteding in logische deelopdrachten te splitsen. Denk aan het in vieren opdelen van de aanbesteding:
 
@@ -151,7 +151,7 @@ Het is aan te bevelen je aanbesteding in logische deelopdrachten te splitsen. De
 3. Doorontwikkeling
 4. Scholing
 
-Stel de percelen zo samen zodat zowel open ecosysteem als gesloten ecosysteem dienstverleners zich op afzonderlijke percelen of het geheel kunnen richten.  Als bepaalde percelen niet succesvol worden ingevuld, kan alsnog een inschrijver worden geselecteerd die het totaalpakket levert. Zo wordt binnen één aanbesteding een uitvraag gedaan die beide routes integreert en wordt voorkomen dat een nieuw traject moet worden opgestart.
+Stel de percelen zo samen zodat zowel open ecosysteem als gesloten ecosysteem dienstverleners zich op afzonderlijke percelen of het geheel kunnen richten. Als bepaalde percelen niet succesvol worden ingevuld, kan alsnog een inschrijver worden geselecteerd die het totaalpakket levert. Zo wordt binnen één aanbesteding een uitvraag gedaan die beide routes integreert en wordt voorkomen dat een nieuw traject moet worden opgestart.
 
 Ook hier is het van belang goed uit te leggen (Art. 2.10 Aw 2012):
 
@@ -167,7 +167,12 @@ Daarbij voldoet software vrijwel nooit exact aan 100% van de gestelde eisen en w
 
 De Aanbestedingswet biedt ruimte om hiermee pragmatisch om te gaan. Het is toegestaan om alleen die eisen als knock-out te formuleren die daadwerkelijk onmisbaar zijn voor directe werking. Aanvullende functionaliteiten kunnen in een roadmap worden opgenomen, mits deze vooraf transparant wordt gecommuniceerd (Art. 1.9 Aw 2012).
 
-Het opnemen van een groeipad in contracten maakt het mogelijk om bepaalde (niet-)functionele eisen gefaseerd te realiseren. Denk aan de migratie van een trans-Atlantische naar een Europese soevereine cloudleverancier, het geleidelijk invoeren van open standaarden of het toevoegen van specifieke functionaliteiten zoals Defensie in 2016 deed met de SHA-256 hashing in LibreOffice.
+Het opnemen van een groeipad in contracten maakt het mogelijk om bepaalde (niet-)functionele eisen gefaseerd te realiseren. Denk aan:
+
+* de migratie van een trans-Atlantische naar een Europese soevereine cloudleverancier;
+* het geleidelijk invoeren van pas toe, leg uit open standaarden;
+* het toevoegen van specifieke functionaliteiten zoals Defensie in 2016 deed met de SHA-256 hashing in LibreOffice;
+* het verkrijgen van de benodigde certificeringen.
 
 Het voordeel van investeren in de doorontwikkeling van open source software is dat verbeteringen niet alleen jouw organisatie, maar ook andere gebruikers direct ten goede komen. Een oplossing die vandaag 80% van de behoefte dekt, kan zo dankzij gezamenlijke investering snel doorgroeien naar 90% of meer. Daarmee ontstaat een duurzame keten van wederzijdse versterking binnen het open ecosysteem.
 
@@ -235,14 +240,14 @@ De voordelen van het omarmen van open source om MVOI-doelstellingen mee te behal
 * **Inclusiviteit**: Vrij beschikbare software verlaagt de drempel voor deelname aan de digitale samenleving en biedt kansen voor iedereen, ongeacht financiële middelen.
 * **Duurzaamheid**: Open source software kan de levensduur van hardware verlengen, doordat het vaak op oudere apparaten kan draaien. Dit draagt bij aan de circulaire economie en vermindert e-waste.
 * **Ketenverantwoordelijkheid**: Het open en collaboratieve karakter van open source bevordert een gedeelde verantwoordelijkheid voor de kwaliteit en veiligheid van software.
-* **Economische Waarde**: Een studie van de Europese Unie heeft aangetoond dat elke miljard euro geïnvesteerd in open source een rendement van 65 tot 95 miljard euro genereert. Door het bestaan van open source zijn leveranciers 3,5 keer minder geld kwijt aan het ontwikkelen van software.
+* **Economische Waarde**: Een studie van de Europese Unie heeft aangetoond dat elke miljard euro geïnvesteerd in open source een rendement van [65 tot 95 miljard euro](https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and) genereert. Door het bestaan van open source zijn leveranciers 3,5 keer minder geld kwijt aan het ontwikkelen van software.
 
 Het integreren van open source in aanbestedingen kan op een vergelijkbare manier als Social Return on Investment (SROI). In plaats van een percentage van de opdrachtwaarde te reserveren voor SROI, kan een percentage worden gereserveerd voor bijdragen aan de open source gemeenschap. Dit kan op verschillende manieren, zoals:
 
 * **Donaties**: Financiële steun aan stichtingen die open source projecten ondersteunen, zoals de [NLnet Foundation](https://https://nlnet.nl/) of de [Sovereign Tech Fund](https://www.sovereign.tech/).
-* **Openbaarmaking**: Het openbaar maken van de broncode van de eigen software.
+* **Openbaarmaking**: Open source publiceren van de broncode van de eigen software.
 * **Ontwikkelcapaciteit**: Het ter beschikking stellen van ontwikkelaars om te werken aan bestaande open source projecten, bijvoorbeeld door het oplossen van bugs of het toevoegen van nieuwe functionaliteiten.
-* **Educatie**: Het organiseren van workshops en trainingen over het gebruik van open source software, bijvoorbeeld in bibliotheken of scholen.
+* **Educatie**: Het organiseren van workshops en trainingen over het gebruik van open source software, bijvoorbeeld in bibliotheken of het mede-financieren van opleidingsprogramma's zodat het open source-curriculum uitgebreid kan worden.
 
 Met open source als MVOI-instrument krijgen leveranciers een aanvullend doel om hun MVOI-doelen mee te bereiken. Een instrument dat ook is toegespitst op ICT-markt. Tegelijkertijd biedt het een laagdrempelige manier voor bedrijven om bij te dragen aan maatschappelijke doelen en te profiteren van de voordelen van open source. Zonder leveranciers een verplichting op te leggen open source te gebruiken.
 
@@ -270,6 +275,7 @@ Deze tips laten zien dat het mogelijk is een gelijk speelveld te creëren. Op di
 Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
 
 * Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
+* Mike Gifford (CivicAction)
 
 ---
 
