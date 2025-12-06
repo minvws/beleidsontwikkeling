@@ -499,7 +499,7 @@ Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen o
 
 Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
 
-## Portability of the development
+## Portabiliteit van het ontwikkelde werk
 
 22 september 2025
 
