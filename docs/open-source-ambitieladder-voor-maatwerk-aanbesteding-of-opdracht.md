@@ -158,7 +158,7 @@ Hoe hoger het open source ambitieniveau binnen een aanbesteding hoe groter de ka
 
 # Tekstsuggesties
 
-Per ambitieniveau staan tekst suggesties die gebruikt kunnen worden in de *Programma van Eisen* van een aanbesteding. Per ambitieniveau veranderen ook de eisen in verwoording, komen er eisen bij of vallen er eisen af. Hoe de eisen verschillen tussen ambitieniveaus is met rood (vervalt) en groen (komt erbij) inzichtelijk gemaakt.
+Per ambitieniveau staan tekstsuggesties die gebruikt kunnen worden in het *Programma van Eisen* van een aanbesteding. Per ambitieniveau veranderen ook de eisen in verwoording, komen er eisen bij of vallen er eisen af. Hoe de eisen verschillen tussen ambitieniveaus is met rood (vervalt) en groen (komt erbij) inzichtelijk gemaakt.
 
 Elk ambitieniveau verwoord een intentie. Ook als er discussie is over de specifieke eisen dan is altijd terug te grijpen op de intentie. Om daarmee alsnog samen met je leverancier tot afspraken te komen die zorgen dat er aan de intentie wordt voldaan.
 
@@ -172,7 +172,7 @@ Later kan die zin in het *Beschrijvend document* verder gespecificeerd worden zo
 
 > De, specifiek voor deze Overeenkomst ontwikkelde software, inclusief achterliggende broncode en documentatie, zonder belemmeringen en kosteloos tijdens de opdracht ter beschikking stellen middels resp. de European Union Public License (EUPL) v1.2 of hoger en de Creative Common Attribution Share Alike (CC BY-SA).
 
-Alle eisen die onder categorie 1, 2 en 3 staan beschreven zijn bedoeld om op te nemen in de Programma van Eisen. Het is goed om die eisen in samenhang in te leiden met een introducerende zin.
+Alle eisen die onder categorie 1, 2 en 3 staan beschreven zijn bedoeld om op te nemen in het Programma van Eisen. Het is goed om die eisen in samenhang in te leiden met een introducerende zin.
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat <span class="variabele">[enige mate|een hoge standaard|hoogste standaard]</span> van opensourcewerken wordt toegepast. Dat wil zeggen dat: 
 
@@ -278,7 +278,7 @@ Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document*
 
 > De aanbestedende dienst zoekt één leverancier en verwacht van die leverancier dat alle broncode eenmalig open source zal worden na afronden van de aanbesteding waarbij duidelijk wordt gemaakt dat externe bijdragen niet worden behandeld.
 
-Voor in de **Programma van Eisen**:
+Voor in het **Programma van Eisen**:
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat een zekere mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
@@ -310,7 +310,7 @@ Suggestie voor in het **Selectiedocument** en/of in het **Beschrijvend document*
 
 > De aanbestedende dienst wil bereiken dat leveranciers, maatschappelijke partners en/of andere geïnteresseerden samen (kunnen blijven) werken. Er wordt dus verwacht dat de broncode volledig openbaar open source wordt ontwikkelt waarbij met open documentatie onmiddellijk hergebruik of toekomstige doorontwikkeling zo optimaal mogelijk wordt gefaciliteerd. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
 
-Voor in de **Programma van Eisen**:
+Voor in het **Programma van Eisen**:
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat hoogste standaard van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
