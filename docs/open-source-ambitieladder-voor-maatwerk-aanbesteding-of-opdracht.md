@@ -533,7 +533,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
 * [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Kadaster)
 * Joeri Bekker (Maykin)
-* [Mike Gifford (CivicAction)](https://www.linkedin.com/in/mgifford/)
+* [Mike Gifford](https://www.linkedin.com/in/mgifford/) (CivicAction)
 * Johan Groenen (Tiltshift)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
 * Rutger Haagsma (Ritense)
