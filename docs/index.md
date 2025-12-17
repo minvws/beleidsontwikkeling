@@ -24,6 +24,7 @@ hide:
 
 - [Open source ambitieladder in maatwerk aanbesteding of opdracht](open-source-ambitieladder-voor-maatwerk-aanbesteding-of-opdracht)
 - [Open source gereedschapskist voor het aanbesteden van standaardsoftware](open-source-gereedschapskist-voor-het-aanbesteden-van-standaardsoftware)
+- [Open source ambitieladder voor opensourcewerken in projecten](open-source-ambitieladder-voor-opensourcewerken-in-projecten)
 
 <h3>Presentaties</h3>
 
