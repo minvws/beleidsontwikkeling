@@ -737,6 +737,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Anne Jan Brouwer (Ministerie van Volksgezondheid, Welzijn en Sport)
 * Mitch Hak (Ministerie van Volksgezondheid, Welzijn en Sport)
 * Paul Hoogland (Stichting MedMij)
+* Walter van Holst (Hooghiemstra & Partners)
 * Ivo Jansch (Dawn Technology/HCI)
 * Mark Janssen (Ministerie van Volksgezondheid, Welzijn en Sport)
 * Bert van Kammen (Quli/HCI)
