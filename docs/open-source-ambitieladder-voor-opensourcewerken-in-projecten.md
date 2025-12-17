@@ -66,25 +66,11 @@ show:
 
 >[!Important]Beheerder
 >:cop: Maurice Hendriks
+> Open source expert MinVWS
 
 > [!Note] Community call
-> Registratie is niet nodig, iedereen is welkom.
-> \
-> :phone: https://meet.jit.si/OpenSourceBeleidsontwikkeling
-> \
-> :date: Elke even weken op maandag om 16:00 - 16:45, vanaf 1 september.
-> \
-> :grey_question: Tijdens deze bijeenkomst worden alle commentaren en verbetersuggesties besproken op volgorde van binnenkomst. Mocht je dus iets willen bespreken, zet dat dan 'op de agenda' met een concrete opmerking, vraag of verbetersuggestie. Gewoon meepraten kan natuurlijk ook.
-
-> [!Important] Regels van de bijeenkomsten
-> * Allereerst de [Chatham House Rules](https://en.wikipedia.org/wiki/Chatham_House_Rule).
-> * De beheerder van dit document is ook de host van de online bijeenkomst.
-> * Je participeert, omdat je goede ideeën hebt.
-> * Er vind geen kennismaking plaats om mensen zonder aanziens des persoon de kans te geven te participeren.
-> * Het staat iedereen vrij zijn echte naam te gebruiken of een pseudoniem.
-> * Je bent herkenbaar in beeld.
-> * Alles op basis van goed vertrouwen.
-> * Wordt het vertrouwen geschaad, dan wordt er door de host ingegrepen.
+>
+> {%hackmd JVxu_GGTQHaO9Btzpp6zPg %}
 
 >[!Note] Open source instrumenten
 >
