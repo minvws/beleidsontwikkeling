@@ -136,7 +136,13 @@ In zijn algemeenheid is het goed om na te denken over hoe de doelstellingen erui
 
 # Overwegingen
 
-Per voordeel staan 3 ambitieniveaus geformuleerd. Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuzer. Als een onderdeel in een opvolgende ambitie hetzelfde blijft, dan wordt deze herhaald. Als er een onderdeel bijkomt, er een veranderd of vervalt, dan wordt dit met de rood/groen verduidelijkt. Er wordt bewust gekozen om telkens in herhaling te vallen zodat het makkelijker is direct in te prikken op een hoger ambitieniveau, zonder eerst alle eisen bij elkaar te moeten sprokkelen.
+Per voordeel staan drie ambitieniveaus geformuleerd, die grofweg het volgende groeimodel volgen:
+
+1. Basishygiëne
+2. Samenwerken met anderen
+3. Volledig opensourcewerken
+
+Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuzer. Als een onderdeel in een opvolgende ambitie hetzelfde blijft, dan wordt deze herhaald. Als er een onderdeel bijkomt, er een veranderd of vervalt, dan wordt dit met de rood/groen verduidelijkt. Er wordt bewust gekozen om telkens in herhaling te vallen zodat het makkelijker is direct in te prikken op een hoger ambitieniveau, zonder eerst alle eisen bij elkaar te moeten sprokkelen.
 
 > [!Note]
 > In dit document zijn sommige punten uitgebreider beschreven dan je van een puntenlijstje mag verwachten. In de uiteindelijke versie moet dit anders worden opgemaakt. Het is idee om de punten kort weer te geven om vervolgens te verwijzen naar aanvullende informatie op aparte pagina's. Voor nu maakt de uitgebreidere beschrijving het makkelijker om samen dit document te verbeteren.
