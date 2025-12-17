@@ -280,7 +280,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
 
 ### Ambitie 1. Externe bijdragen worden niet behandeld
 
-* De broncode is wel in openbaarheid voor hergebruik gepubliceerd, maar het team staat niet open voor feedback van buiten.
+* De broncode is wel in openbaarheid voor hergebruik gepubliceerd, maar het team staat niet open voor feedback of verbetersuggesties van buiten.
     * **Versiebeheer**
         * [ ] Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
     * **Documentatie**
@@ -293,7 +293,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
 
 ### Ambitie 2. Externe bijdragen worden behandeld maar niet actief gezocht
 
-* De broncode is <span class="oud">wel</span> in openbaarheid voor hergebruik gepubliceerd<span class="oud">, maar</span> <span class="nieuw">en</span> het team staat <span class="oud">niet</span> open voor feedback van buiten <span class="nieuw">maar zoekt deze niet actief op</span>.
+* De broncode is <span class="oud">wel</span> in openbaarheid voor hergebruik gepubliceerd<span class="oud">, maar</span> <span class="nieuw">en</span> het team staat <span class="oud">niet</span> open voor feedback of verbetersuggesties van buiten <span class="nieuw">maar zoekt deze niet actief op</span>.
      * **Versiebeheer**
         * [ ] <span class="oud">Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.</span>
         * [ ] <span class="nieuw">Als wijzigingen in de broncode of documentatie een opvolging zijn van een of meer gestelde vragen, wordt daar een referentie van opgenomen in het wijzigingsbericht. Er wordt daarmee erkenning gegeven aan degene die met de vraag of mogelijke verbeterpunten is gekomen.</span>
@@ -321,7 +321,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
 
 ### Ambitie 3. Actief samenwerken
 
-* De broncode is in openbaarheid voor hergebruik gepubliceerd en het team <span class="oud">staat open voor feedback van buiten</span> <span class="nieuw">spant zich ervoor in om een community samenwerking op gang te brengen en te houden</span>.
+* De broncode is in openbaarheid voor hergebruik gepubliceerd en het team <span class="oud">staat open voor feedback of verbetersuggesties van buiten</span> <span class="nieuw">spant zich ervoor in om een community samenwerking op gang te brengen en te houden</span>.
      * **Versiebeheer**
         * [ ] Als wijzigingen in de broncode of documentatie een opvolging zijn van een of meer gestelde vragen, wordt daar een referentie van opgenomen in het wijzigingsbericht. Er wordt daarmee erkenning gegeven aan degene die met de vraag of mogelijke verbeterpunten is gekomen.
      * **Documentatie**
@@ -536,37 +536,37 @@ In zulke situaties kan broncode worden gepubliceerd zonder open-sourcelicentie, 
 */
 ```
 
-In sommige situaties kan een open-sourcepublicatie worden aangemerkt als marktinterventie door de overheid. Dat betekent dat de overheid vanuit haar positie oneerlijk zou kunnen concurreren met marktpartijen. De Wet Markt en Overheid (M&O) schrijft daarom voor dat de overheid alleen broncode openbaar mag maken als de integrale kosten worden doorberekend aan de eindgebruiker. Het gaat daarbij om kosten voor het ontwikkeling en publiceren van de broncode. Het doorberekenen daarvan is echter moeilijk te verenigen met de uitgangspunten van open source, namelijk kosteloze beschikbaarheid en het teruggeven aan de community.
-    
-De Wet M&O geldt alleen voor software die niet onder de primaire taken van de overheid valt. Denk bijvoorbeeld aan boekhouding, financiële of personele administratie; dit zijn generieke processen die in veel sectoren voorkomen. Publicatie van broncode van dergelijke software kan marktverstorend werken. Dit ligt anders bij software die ondersteunend is aan een primaire overheidstaak, zoals software voor basisregistraties of systemen voor orde en handhaving.
-    
-Een nadere analyse laat zien dat de Wet M&O niet altijd een fundamentele belemmering vormt voor publicatie van broncode. Ten eerste kunnen integrale kosten worden uitgesplitst in ontwikkelingskosten en publicatiekosten. Publicatiekosten zijn doorgaans beperkt en vaak verwaarloosbaar. Ten tweede kan een beroep worden gedaan op de wettelijke verplichtingen tot openbaarmaking van broncode, omdat broncode volgens de Woo en de Who onder het documentenbegrip van overheidsinformatie valt en dus in beginsel openbaar moet worden gemaakt. Bij twijfel is het raadzaam een juridische analyse uit te voeren, omdat de Woo, Who en Wet M&O elkaar in specifieke situaties kunnen overlappen of zelfs tegenstrijdig lijken. Belangrijk is bovendien dat de Wet M&O pas van toepassing is wanneer broncode actief voor hergebruik beschikbaar wordt gesteld. Bij enkel openbaarmaking ter inzage – dus zonder open-sourcelicentie – is geen sprake van marktinterventie.
+Bij het via open source beschikbaar stellen van software moet o.a. gekeken worden naar de Wet Markt en Overheid (Wet M&O). De overheid kan door het beschikbaar stellen van software concurreren met reeds in de markt aanwezige software. Als dit het geval is, moet de overheid zich houden aan de vier gedragsregels om concurrentievervalsing te voorkomen. Een van die gedragsregels schrijft voor dat de overheid alleen de broncode openbaar mag maken via open source als de integrale kosten worden doorberekend aan de eindgebruiker. Met de integrale kosten wordt bedoeld alle kosten die samenhangen met het aanbieden van de software aan de eindgebruiker. Denk daarbij aan bijvoorbeeld publicatie – en ontwikkelingskosten.
+
+Of de overheid zich moet houden aan de (vier gedragsregels uit de) Wet M&O zal per geval onderbouwd moeten worden. Daarbij zal de Wet M&O sneller van toepassing zijn als de overheid de broncode als product op de markt exploiteert dan wanneer de overheid de broncode enkel openbaar maakt ter inzage. Mocht er sprake zijn van een wettelijke verplichting voor de overheid tot openbaarmaking van de broncode op grond van de Wet open overheid (Woo) of de Wet hergebruik van overheidsinformatie (Who) zal goed gekeken moeten worden naar de onderlinge verhouding tussen deze wetten enerzijds en de Wet M&O anderzijds.
+
+In sommige gevallen kan software die door een overheidsorgaan in het kader van haar overheidstaak wordt gebruikt buiten de werking van de Wet M&O vallen. Artikel 25h, tweede lid, van de Mededingingswet, biedt namelijk een mogelijke uitzondering voor levering van goederen of diensten door bestuursorganen als deze zijn bestemd voor de uitvoering van een publiekrechtelijke taak. Of bepaalde software daadwerkelijk onder deze uitzonderingsgrond valt, en derhalve open source beschikbaar kan worden gesteld, dient ook weer per geval onderbouwd te worden en bij twijfel altijd te worden beoordeeld door een jurist.
+
+Tot slot is het van belang om te benoemen dat er op dit moment een wetsvoorstel ligt om hoofdstuk 4b van de Mededingingswet (waarin de Wet M&O is opgenomen) aan te passen zodoende dat het aanbieden van open source software wordt uitgezonderd van de gedragsregel integrale kostendoorberekening. Achtergrond van deze wijziging is dat overheden gemakkelijker de broncode van open software kunnen publiceren waarmee maatschappelijke voordelen gerealiseerd kunnen worden. Omdat open source software per definitie gratis is kan de gedragsregel ‘integrale kostprijs doorberekening’ een belemmering vormen voor een bestuursorgaan om daadwerkelijk tot publicatie over te gaan (bron: Memorie van toelichting, Wijziging van de Mededingingswet in verband met aanpassing van de bepalingen over de markt en overheid, 35985-1). Op dit moment is het onduidelijk of en wanneer deze wetswijziging wordt doorgevoerd.
 
 ## :exclamation: Wie bezit de IE-rechten?
 
-Vanuit de Auteurswet bezit de maker van creatief werk automatisch het intellectueel eigendom, tenzij hierover expliciet andere afspraken zijn gemaakt. Broncode valt onder creatief werk, dus het is belangrijk om goed vast te leggen wie juridisch eigenaar is van de geleverde broncode. Alleen de eigenaar kan namelijk beslissen hoe (zijn deel van) de broncode gepubliceerd mag worden.
-    
-Daarnaast bestaan veel grote softwareprojecten uit verschillende componenten. Elk component kan verschillende ontwikkelaars hebben en die weer allemaal een deel van de IE-rechten bezitten.
+Vanuit de Auteurswet bezit de maker van creatief werk automatisch het auteursrecht, tenzij hierover expliciet andere afspraken zijn gemaakt. Broncode valt onder creatief werk, dus het is belangrijk om goed vast te leggen wie (auteursrechtelijk) rechthebbende is van de geleverde broncode. Alleen de rechthebbende kan namelijk beslissen hoe (zijn deel van) de broncode gepubliceerd mag worden. Bedenk dat naast het auteursrecht met name ook het merkenrecht en databankenrecht in het spel kunnen zijn. In dit stuk wordt geconcentreerd op het auteursrecht, aangezien veel open source licenties het merkenrecht ook standaard al meenemen in hun voorwaarden.
 
-Veel grote softwareprojecten bestaan uit verschillende componenten. Elk component kan meerdere ontwikkelaars hebben, die elk een deel van de IE-rechten bezitten. Het is daarom essentieel om inzicht te hebben in de IE-rechten op de broncode of in ieder geval zekerheid te hebben dat alle onderdelen onder een open source licentie zijn vrijgegeven. Zo worden auteursrechtschendingen zoveel mogelijk voorkomen.
+Veel grote softwareprojecten bestaan uit verschillende componenten. Elk component kan meerdere ontwikkelaars hebben, die elk een deel van de (auteurs)rechten bezitten. Het is daarom essentieel om inzicht te hebben in de (auteurs)rechten op de broncode of in ieder geval zekerheid te hebben dat alle onderdelen onder een open source licentie zijn vrijgegeven. Zo worden (auteursrecht)schendingen zoveel mogelijk voorkomen.
 
 Hou in ieder geval rekening met de volgende aandachtspunten als je aan de slag gaat met opensourcewerken:
 
-**Externe medewerkers**
-Wanneer externen werken aan broncode, huur hen dan in via de standaard contractuele voorwaarden van je organisatie. Voor de Rijksoverheid zijn dat bijvoorbeeld de ARBIT en ARVODI. Door deze voorwaarden te volgen, worden de IE-rechten van de ontwikkelde broncode standaard overgedragen aan de opdrachtgever.
+* **Externe medewerkers**
+  Wanneer externen werken aan broncode, maak dan expliciet dat de volledige rechten (auteursrechten en eventuele merkenrechten, databankrechten en octrooirechten) bij de opdrachtgever komen te liggen. Bepalingen uit de standaard (inkoop)voorwaarden bieden daar onvoldoende juridische basis voor ([bron](https://www.eerstekamer.nl/behandeling/20241205/gewijzigd_voorstel_van_wet)).
 
-**Overdracht van broncode**
-Zorg dat bij de overdracht van broncode ook de IE-rechten worden overgedragen of dat er een open source licentie aan de broncode verbonden is. De overdracht van IE-rechten moet altijd schriftelijk gebeuren met een getekende overeenkomst, tenzij dit al via de inkoopvoorwaarden is geregeld. Als IE-rechten eerder niet zijn overgedragen, maar dat wel gewenst was, probeer deze alsnog te verkrijgen of een open source licentie aan de broncode te verbinden.
+* **Overdracht van broncode**
+  Zorg dat je beschikt over de volledige rechten (auteursrechten en eventuele merkenrechten, databankrechten en octrooirechten) als je de broncode wil overdragen of wanneer je broncode overgedragen krijgt. Uitzondering is die broncode waar een open source licentie aan de broncode verbonden is. De overdracht van genoemde rechten moet altijd schriftelijk gebeuren daar waar van toepassing met een getekende overeenkomst en/of inschrijving in een relevant register. Als de rechten eerder niet zijn overgedragen, maar dat wel gewenst was, probeer deze alsnog te verkrijgen of een open source licentie aan de broncode te verbinden.
 
-## :exclamation: Anonimiteit van ontwikkelaars
+## :exclamation: Pseudonieme ontwikkelaars
 
-Bij open source ontwikkelen in openbaarheid is het belangrijk goed na te denken over de herleidbaarheid van ontwikkelaars. Spreek vooraf duidelijk af of ontwikkelaars wel of niet herleidbaar willen zijn.
+Bij open source ontwikkelen in openbaarheid is het belangrijk goed na te denken over openbare bekendheid van ontwikkelaars.
 
-Ook bij het achteraf publiceren is het belangrijk hierover afspraken te maken. Ontwikkelaars kunnen vanaf het begin onder een pseudoniem of nickname werken, of – als dat is vergeten – achteraf worden geanonimiseerd via de commit history. Let er bij achteraf anonimiseren op dat de commit history buiten de anonimiseringsslag intact blijft.
+Ook bij het achteraf publiceren is het belangrijk hierover afspraken te maken. Ontwikkelaars kunnen vanaf het begin onder een pseudoniem of nickname werken, of – als dat is vergeten – achteraf worden gepseudonimiseerd via de commit history. Let er bij achteraf pseudonimiseren op dat de commit history buiten de pseudonimiseringsslag intact blijft.
 
-Gebruik pseudoniemen consequent binnen één project en zorg dat deze intern wel herleidbaar zijn tot een specifieke ontwikkelaar. Let op: per project betekent niet hetzelfde als per repository.
+Gebruik pseudoniemen consequent binnen één project en zorg dat deze intern wel herleidbaar zijn tot een specifieke ontwikkelaar of (recht)spersoon. Mocht er rond een specifiek onderdeel van de broncode een geschil ontstaan, dan is het belangrijk te weten welke (rechts)persoon verantwoordelijk was voor dat onderdeel. Let op: per project betekent niet hetzelfde als per repository.
 
-Ontwikkelen in openbaarheid biedt veel ontwikkelaars bovendien de kans om een openbaar portfolio op te bouwen. Ga er daarom niet automatisch van uit dat zij anonimiteit willen; sommige ontwikkelaars vinden het juist waardevol om onder hun eigen naam te werken.
+Ontwikkelen in openbaarheid biedt veel ontwikkelaars bovendien de kans om een openbaar portfolio op te bouwen. Ga er daarom niet automatisch van uit dat zij onder een pseudoniem willen werken; sommige ontwikkelaars vinden het juist waardevol om onder hun eigen naam bekend te staan.
 
 ## :warning: Gelijkblijvende of stijgende test-coverage
 
