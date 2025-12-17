@@ -79,7 +79,7 @@ show:
 # Introductie
 
 > [!Note]
-> Dit document heeft als doel samen na te denken over de ambitieladder voor open source publicatie door ontwikkelteams. Het is in eerste aanzet opgesteld door Maurice Hendriks (Senior CIO-Adviseur bij MinVWS). De kennis komt voort uit concrete ervaringen met open source ontwikkelen binnen de Rijksoverheid.
+> Dit document heeft als doel samen na te denken over de ambitieladder voor open source publicatie door ontwikkelteams. Het is in eerste aanzet opgesteld door Maurice Hendriks (Open source expert bij MinVWS). De kennis komt voort uit concrete ervaringen met open source ontwikkelen binnen de Rijksoverheid.
 >
 > De ervaring leert dat iemand met enige hulp goed in staat is te verwoorden welke doelstellingen en ambitie ze zelf zien bij de toepassing met open source. Maar wat uiteindelijk ontbreekt zijn concrete handvatten om het toe te passen in de praktijk, van in dit geval het opensourcewerken aan broncode, en ervaringen van anderen om de koudwatervrees weg te nemen.
 
