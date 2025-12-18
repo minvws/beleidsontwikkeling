@@ -140,7 +140,7 @@ Deze methode van open source software verwerven werd voor het eerste beschreven 
 
 ## Overweeg je aanbesteding op te delen in losse kavels
 
-ICT-aanbestedingen bestaan vrijwel altijd uit een combinatie van software en bijbehorende diensten (zoals implementatie, beheer, onderhoud, support, scholing). Door de opdracht te verkavelen kan de aanbesteding toegankelijk worden gemaakt voor zowel gesloten ecosysteem-partijen als partijen die binnen een open ecosysteem werken. Binnen open ecosystemen leveren verschillende dienstverleners vaak slechts een deel van de dienstverlening. Verkavelen bevordert daarmee concurrentie en innovatie.
+ICT-aanbestedingen bestaan vrijwel altijd uit een combinatie van software en bijbehorende diensten (zoals implementatie, beheer, onderhoud, support, training). Door de opdracht te verkavelen kan de aanbesteding toegankelijk worden gemaakt voor zowel gesloten ecosysteem-partijen als partijen die binnen een open ecosysteem werken. Binnen open ecosystemen leveren verschillende dienstverleners vaak slechts een deel van de dienstverlening. Verkavelen bevordert daarmee concurrentie en innovatie.
 
 De Aanbestedingswet schrijft voor dat opdrachten dat niet onnodig mogen worden samengevoegd (Art. 1.5 Aw 2012), tenzij dit niet doelmatig is. Aanbestedingen mogen ook niet onnodig worden gesplitst met de intentie onder de Europese aanbestedingsgrens te blijven. Deze drempelbedragen verschillen per type aanbestedingen en veranderen enige regelmaat. Voor de actuele drempelwaarden zie [deze](https://www.pianoo.nl/nl/regelgeving/drempelbedragen-europees-aanbesteden) pagina van PIANOo.
 
@@ -149,7 +149,7 @@ Het is aan te bevelen je aanbesteding in logische deelopdrachten te splitsen. De
 1. Licenties of contracten
 2. Beheer, implementatie, onderhoud en support
 3. Doorontwikkeling
-4. Scholing
+4. Training
 
 Stel de percelen zo samen zodat zowel open ecosysteem als gesloten ecosysteem dienstverleners zich op afzonderlijke percelen of het geheel kunnen richten. Als bepaalde percelen niet succesvol worden ingevuld, kan alsnog een inschrijver worden geselecteerd die het totaalpakket levert. Zo wordt binnen één aanbesteding een uitvraag gedaan die beide routes integreert en wordt voorkomen dat een nieuw traject moet worden opgestart.
 
