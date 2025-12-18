@@ -140,7 +140,7 @@ Deze methode van open source software verwerven werd voor het eerste beschreven 
 
 ## Overweeg je aanbesteding op te delen in losse kavels
 
-ICT-aanbestedingen bestaan vrijwel altijd uit een combinatie van software en bijbehorende diensten (zoals implementatie, beheer, onderhoud, support, scholing). Door de opdracht te verkavelen kan de aanbesteding toegankelijk worden gemaakt voor zowel gesloten ecosysteem-partijen als partijen die binnen een open ecosysteem werken. Binnen open ecosystemen leveren verschillende dienstverleners vaak slechts een deel van de dienstverlening. Verkavelen bevordert daarmee concurrentie en innovatie.
+ICT-aanbestedingen bestaan vrijwel altijd uit een combinatie van software en bijbehorende diensten (zoals implementatie, beheer, onderhoud, support, training). Door de opdracht te verkavelen kan de aanbesteding toegankelijk worden gemaakt voor zowel gesloten ecosysteem-partijen als partijen die binnen een open ecosysteem werken. Binnen open ecosystemen leveren verschillende dienstverleners vaak slechts een deel van de dienstverlening. Verkavelen bevordert daarmee concurrentie en innovatie.
 
 De Aanbestedingswet schrijft voor dat opdrachten dat niet onnodig mogen worden samengevoegd (Art. 1.5 Aw 2012), tenzij dit niet doelmatig is. Aanbestedingen mogen ook niet onnodig worden gesplitst met de intentie onder de Europese aanbestedingsgrens te blijven. Deze drempelbedragen verschillen per type aanbestedingen en veranderen enige regelmaat. Voor de actuele drempelwaarden zie [deze](https://www.pianoo.nl/nl/regelgeving/drempelbedragen-europees-aanbesteden) pagina van PIANOo.
 
@@ -149,7 +149,7 @@ Het is aan te bevelen je aanbesteding in logische deelopdrachten te splitsen. De
 1. Licenties of contracten
 2. Beheer, implementatie, onderhoud en support
 3. Doorontwikkeling
-4. Scholing
+4. Training
 
 Stel de percelen zo samen zodat zowel open ecosysteem als gesloten ecosysteem dienstverleners zich op afzonderlijke percelen of het geheel kunnen richten. Als bepaalde percelen niet succesvol worden ingevuld, kan alsnog een inschrijver worden geselecteerd die het totaalpakket levert. Zo wordt binnen één aanbesteding een uitvraag gedaan die beide routes integreert en wordt voorkomen dat een nieuw traject moet worden opgestart.
 
@@ -158,6 +158,14 @@ Ook hier is het van belang goed uit te leggen (Art. 2.10 Aw 2012):
 * waarom je specifiek voor deze splitsing kiest en hoe dit past bij deze aanbesteding;
 * dat leverenciers zich voor één of meer percelen mogen inschrijven;
 * volgens welke regels je de beoordeling doet.
+
+:::warning
+:exclamation: **Afstemmingsproblemen**
+
+Het gunnen van verschillende dienstverleners voor de verschillende kavels kent het risico van afstemmingsproblemen. Als er een probleem ontstaat in de levering van een dienst, dan wil je er zeker van zijn dat alle dienstverleners zich in gelijke mate verantwoordelijk voelen voor het geheel. Zorg dat je daarvoor al in de Programma van Eisen duidelijke afspraken over maakt.
+
+Het doel is dat partijen zich onderdeel gaan voelen van een robuust en volwassen open ecosysteem van dienstverleners. De uitruil is meer regie tegenover minder leveranciersafhankelijkheid.
+:::
 
 ## Gebruik een groeipad voor (niet-)functionele eisen
 
