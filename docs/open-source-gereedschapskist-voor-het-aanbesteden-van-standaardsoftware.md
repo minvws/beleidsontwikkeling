@@ -159,6 +159,14 @@ Ook hier is het van belang goed uit te leggen (Art. 2.10 Aw 2012):
 * dat leverenciers zich voor één of meer percelen mogen inschrijven;
 * volgens welke regels je de beoordeling doet.
 
+:::warning
+:exclamation: **Afstemmingsproblemen**
+
+Het gunnen van verschillende dienstverleners voor de verschillende kavels kent het risico van afstemmingsproblemen. Als er een probleem ontstaat in de levering van een dienst, dan wil je er zeker van zijn dat alle dienstverleners zich in gelijke mate verantwoordelijk voelen voor het geheel. Zorg dat je daarvoor al in de Programma van Eisen duidelijke afspraken over maakt.
+
+Het doel is dat partijen zich onderdeel gaan voelen van een robuust en volwassen open ecosysteem van dienstverleners. De uitruil is meer regie tegenover minder leveranciersafhankelijkheid.
+:::
+
 ## Gebruik een groeipad voor (niet-)functionele eisen
 
 Na afronding van een aanbesteding kost het vaak veel inspanning en tijd om daadwerkelijk tot een succesvolle levering te komen: implementatie, scholing, datamigratie en configuratie volgen pas na de contractering.
