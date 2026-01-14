@@ -247,7 +247,7 @@ De voordelen van het omarmen van open source om MVOI-doelstellingen mee te behal
 
 * **Inclusiviteit**: Vrij beschikbare software verlaagt de drempel voor deelname aan de digitale samenleving en biedt kansen voor iedereen, ongeacht financiële middelen.
 * **Duurzaamheid**: Open source software kan de levensduur van hardware verlengen, doordat het vaak op oudere apparaten kan draaien. Dit draagt bij aan de circulaire economie en vermindert e-waste.
-* **Ketenverantwoordelijkheid**: Het open en collaboratieve karakter van open source bevordert een gedeelde verantwoordelijkheid voor de kwaliteit en veiligheid van software.
+* **Ketenverantwoordelijkheid**: Het open en collaboratieve karakter van open source bevordert de transparantie en de aantoonbaarheid van de kwaliteit en veiligheid van software.
 * **Economische Waarde**: Een studie van de Europese Unie heeft aangetoond dat elke miljard euro geïnvesteerd in open source een rendement van [65 tot 95 miljard euro](https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and) genereert. Door het bestaan van open source zijn leveranciers 3,5 keer minder geld kwijt aan het ontwikkelen van software.
 
 Het integreren van open source in aanbestedingen kan op een vergelijkbare manier als Social Return on Investment (SROI). In plaats van een percentage van de opdrachtwaarde te reserveren voor SROI, kan een percentage worden gereserveerd voor bijdragen aan de open source gemeenschap. Dit kan op verschillende manieren, zoals:
