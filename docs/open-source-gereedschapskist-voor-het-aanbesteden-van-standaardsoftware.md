@@ -284,6 +284,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 
 * Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
 * Mike Gifford (CivicAction)
+* Walter van Holst (Hooghiemstra & Partners)
 
 ---
 
