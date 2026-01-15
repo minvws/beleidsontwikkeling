@@ -102,7 +102,7 @@ Kenmerken:
 - **Interoperabiliteit**: componenten zijn uitwisselbaar via standaarden.
 - **Samenwerking**: innovatie en probleemoplossing door co-creatie.
 
-Software zoals LibreOffice en NextCloud illustreert dit goed. LibreOffice wordt beheerd door The Document Foundation, een non-profitorganisatie die governance, certificering en financiën verzorgt. Ontwikkelaars, bedrijven en individuen dragen vrijwillig bij aan doorontwikkeling en verbetering van het product. NextCloud ontwikkeld zelf - maar samen met een grote community - hun software volledig open source. NextCloud biedt dienstverlening aan, maar doet zelf geen hosting. Zo zorgen ze ervoor dat de data volledig onder controle van de klant blijft. Bij NextCloud is de open source missie en visie stevig verankerd in de organisatie. Voor producten beiden bestaat een netwerk van dienstverleners dat (mede) zorgt voor implementatie, beheer en support.
+Software zoals LibreOffice en NextCloud illustreren dit goed. LibreOffice wordt beheerd door The Document Foundation, een non-profitorganisatie die governance, certificering en financiën verzorgt. Ontwikkelaars, bedrijven en individuen dragen vrijwillig bij aan doorontwikkeling en verbetering van het product. NextCloud ontwikkeld zelf - maar samen met een grote community - hun software volledig open source. NextCloud biedt dienstverlening aan, maar doet zelf geen hosting. Zo zorgen ze ervoor dat de data volledig onder controle van de klant blijft. Bij NextCloud is de open source missie en visie stevig verankerd in de organisatie. Voor producten beiden bestaat een netwerk van dienstverleners dat (mede) zorgt voor implementatie, beheer en support.
 
 In tegenstelling tot gesloten ecosystemen, waarin software vaak alleen optimaal samenwerkt binnen de suite van één leverancier en waarin wijzigingen en onderhoud afhankelijk zijn van die leverancier, biedt het open ecosysteem vrijheid. Organisaties kunnen zelf kiezen welke dienstverlener ze inzetten, welke aanpassingen worden gedaan en hoe software wordt geïntegreerd. Bovendien kunnen doorontwikkelingen ten goede komen aan de gehele gemeenschap, zoals het geval was toen [Defensie](https://tweakers.net/nieuws/109699/ministerie-van-defensie-maakte-sha256-hashes-mogelijk-in-libreoffice.html) de SHA-256 hashing toevoegde aan LibreOffice.
 
@@ -190,7 +190,7 @@ Wanneer meerdere inschrijvingen voldoen aan de minimale functionele en niet-func
 
 Subgunningscriteria zijn kwaliteitsaspecten die meespelen in de beoordeling. Voorbeelden zijn: planning, plan van aanpak, duurzaamheid, service, esthetische kenmerken of innovatieve capaciteiten. De opdrachtgever bepaalt de criteria, de bijbehorende score en het gewicht van elk criterium. Zo kan worden voorkomen dat alleen de prijs de gunning bepaalt. [bron: PIANOo](https://www.pianoo.nl/nl/inkoopproces/fase-1-voorbereiden/keuze-gunningscriterium-en-opstellen-subgunningscriteria) Het is overigens goed te realiseren dat prijs en kwaliteit beiden ook een gunningscriteria zijn.
 
-Door subgunningscriteria slim in te zetten, kan open source meer tot uitdrukking komen. De voordelen van open source zijn bijvoorbeeld te vertalen in het sneller opgelost krijgen van bugs, dat het sneller kwalitatievere softwareontwikkeling mogelijk maakt, meer mogelijkheden heeft tot samenwerking met je leverancier, transparanter is over de werking van het product, etc. Closed source leveranciers kunnen zich op hun beurt profileren met kant-en-klare oplossingen en de volledige ontzorging door één partij. Het is van belangrijk dat de subgunningscriteria passen bij je aanbesteding en er een direct belang mee is gediend.
+Door subgunningscriteria slim in te zetten, kan open source meer tot uitdrukking komen. De voordelen van open source en closed source kunnen op verschillende vlakken zitten. Denk aan het sneller opgelost krijgen van bugs, het sneller kwalitatievere softwareontwikkeling mogelijk maken, meer mogelijkheden heeft tot samenwerking met je leverancier, transparanter is over de werking van het product t.o.v. de mogelijke bestaande kant-en-klaar oplossingen die volledige ontzorgd kunnen worden aangeboden door één partij of een collectief van partijen. Het is van belangrijk dat de subgunningscriteria passen bij je aanbesteding en er een direct belang mee is gediend.
 
 :::info
 **Praktijkvoorbeeld – PGO-aanbesteding MinVWS**
@@ -247,7 +247,7 @@ De voordelen van het omarmen van open source om MVOI-doelstellingen mee te behal
 
 * **Inclusiviteit**: Vrij beschikbare software verlaagt de drempel voor deelname aan de digitale samenleving en biedt kansen voor iedereen, ongeacht financiële middelen.
 * **Duurzaamheid**: Open source software kan de levensduur van hardware verlengen, doordat het vaak op oudere apparaten kan draaien. Dit draagt bij aan de circulaire economie en vermindert e-waste.
-* **Ketenverantwoordelijkheid**: Het open en collaboratieve karakter van open source bevordert een gedeelde verantwoordelijkheid voor de kwaliteit en veiligheid van software.
+* **Ketenverantwoordelijkheid**: Het open en collaboratieve karakter van open source bevordert de transparantie en de aantoonbaarheid van de kwaliteit en veiligheid van software.
 * **Economische Waarde**: Een studie van de Europese Unie heeft aangetoond dat elke miljard euro geïnvesteerd in open source een rendement van [65 tot 95 miljard euro](https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and) genereert. Door het bestaan van open source zijn leveranciers 3,5 keer minder geld kwijt aan het ontwikkelen van software.
 
 Het integreren van open source in aanbestedingen kan op een vergelijkbare manier als Social Return on Investment (SROI). In plaats van een percentage van de opdrachtwaarde te reserveren voor SROI, kan een percentage worden gereserveerd voor bijdragen aan de open source gemeenschap. Dit kan op verschillende manieren, zoals:
@@ -284,6 +284,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 
 * Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
 * Mike Gifford (CivicAction)
+* Walter van Holst (Hooghiemstra & Partners)
 
 ---
 
