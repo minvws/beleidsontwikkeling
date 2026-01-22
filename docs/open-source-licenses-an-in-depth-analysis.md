@@ -4,7 +4,7 @@ author:
 - Maurice Hendriks
 - In cooperation with all contributors
 toc: true
-toc-depth: 3
+toc-depth: 2
 toc_depth: 3
 toc-title: "Content"
 toc-own-page: true
