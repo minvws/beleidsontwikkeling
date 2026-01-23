@@ -160,7 +160,8 @@ In some situations, it may be safer to release source code under an explicit ope
 
 The classification into permissive, weak copyleft, and strong copyleft is a greatly simplified representation of the differences between license types. To apply licenses correctly, it is important to have a more detailed understanding of the differences between the main licenses or at least to understand what specific licenses themselves entail.
 
-However, Before conducting a thorough analysis, there are some principles to keep in mind when choosing a license:
+However, before conducting a thorough analysis, there are some principles to keep in mind when choosing a license:
+
 * If the source code to be distributed is intended to be integrated into a large number of works and requires no maintenance, or if it can be given to anyone to be integrated even into programs that will become the exclusive property of third parties who can resell them under their own terms, a permissive license is the best choice. MIT or BSD licenses are preferable to putting the code in the public domain.
 * If the source code to be distributed demonstrates specific expertise and you want to know about and benefit from any improvements made by third parties, you should choose a copyleft license. This is particularly justified for source code funded by public money, to avoid having to purchase improved versions of the program.
 * Most licenses do not consider remote access (SaaS or Software as a service) to be a distribution, even though this mode of distribution is becoming very common.
