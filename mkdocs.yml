@@ -36,7 +36,7 @@ nav:
 markdown_extensions:
     - md_in_html
     - toc:
-        toc_depth: 2
+        toc_depth: 3
     - pymdownx.tasklist:
         custom_checkbox: true
         clickable_checkbox: true

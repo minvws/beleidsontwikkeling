@@ -26,8 +26,7 @@ hide:
 - [Open source gereedschapskist voor het aanbesteden van standaardsoftware](open-source-gereedschapskist-voor-het-aanbesteden-van-standaardsoftware)
 - [Open source ambitieladder voor opensourcewerken in projecten](open-source-ambitieladder-voor-opensourcewerken-in-projecten)
 
-<h3>Presentaties</h3>
-
-- [Open source licenties voor dummies](open-source-licenties-voor-dummies)
+- [Open Source Licenses: An In-Depth Analysis](open-source-licenses-an-in-depth-analysis) \
+<i><small>Dit instrument is alleen nog maar in zijn Engelse vertaling door een open source juridisch expert gereviewed.</small></i>
 
 <br><br><br>

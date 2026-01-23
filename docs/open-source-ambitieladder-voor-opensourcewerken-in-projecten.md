@@ -5,6 +5,7 @@ author:
 - In samenwerking met alle bijdragers
 toc: true
 toc-depth: 2
+toc_depth: 2
 toc-title: "Inhoud"
 toc-own-page: true
 footer-left: "Open source ambitieladder voor opensourcewerken in projecten"
