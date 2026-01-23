@@ -513,7 +513,7 @@ For more information: [Why the EUPL is NOT a Viral Licence?](https://interoperab
 
 Thanks to everyone mentioned by name here, as well as all the contributors who wish to remain anonymous.
 
-* Maurice Hendriks (Main author; Ministerie van Volksgezondheid, Welzijn en Sport)
+* Maurice Hendriks (Main author; Dutch Ministry of Health, Welfare and Sport)
 * Jonas van den Bogaard (Alliander)
 * Patrice-Emmanuel Schmitz (External European Commission advisor)
 
