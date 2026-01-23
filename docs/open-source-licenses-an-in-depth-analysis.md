@@ -169,9 +169,9 @@ The different degrees of copyleft will be compared below in the in-depth analysi
 
 ## Permissive
 
-The MIT, BSD*, and Apache v2.0 licenses are permissive open-source licenses without strong copyleft effects, but they differ in scope, specific rights, and protections. The MIT License originates from the Massachusetts Institute of Technology and is known for its simplicity and flexible, form-free application. The BSD* license descends from the Berkeley Software Distribution and applies strictly to software, imposing as few obligations as possible. The Apache v2.0 license was developed by the Apache Software Foundation and, in addition to permissive conditions, offers extra legal assurances such as explicit patent protection and rules for contributions and sublicensing.
+The MIT, BSD\*, and Apache v2.0 licenses are permissive open-source licenses without strong copyleft effects, but they differ in scope, specific rights, and protections. The MIT License originates from the Massachusetts Institute of Technology and is known for its simplicity and flexible, form-free application. The BSD\* license descends from the Berkeley Software Distribution and applies strictly to software, imposing as few obligations as possible. The Apache v2.0 license was developed by the Apache Software Foundation and, in addition to permissive conditions, offers extra legal assurances such as explicit patent protection and rules for contributions and sublicensing.
 
-| Feature | MIT | BSD* | Apache v2.0 |
+| Feature | MIT | BSD\* | Apache v2.0 |
 | --- | --- | --- | --- |
 | **Scope** | Software + accompanying documentation as a whole | Software only (source and binary form) | Software, documentation, and configuration independently |
 | **Contributions & sublicensing** | Sublicensing explicitly allowed; relicensing not | Sublicensing implicit; relicensing not | Sublicensing explicit; contributions automatically under Apache v2.0; relicensing not |
@@ -180,15 +180,15 @@ The MIT, BSD*, and Apache v2.0 licenses are permissive open-source licenses with
 | **Liability** | *As-is* | *As-is* | *As-is*, with nuance for local law and third-party commercial warranties |
 | **Characteristic** | Maximum simplicity and freedom | Minimal coverage, strictly limited | Comprehensive protection and legal certainty |
 
-The MIT License is the simplest and most flexible: it covers software and its accompanying documentation as a whole, explicitly allows sublicensing, and imposes few additional obligations. BSD* is more limited and applies only to software; documentation and configuration are excluded, and sublicensing is only implicitly covered. Apache v2.0 is the most extensive: it covers software, documentation, and configuration independently, automatically licenses contributions under the same terms, and provides explicit protection against patent claims.
+The MIT License is the simplest and most flexible: it covers software and its accompanying documentation as a whole, explicitly allows sublicensing, and imposes few additional obligations. BSD\* is more limited and applies only to software; documentation and configuration are excluded, and sublicensing is only implicitly covered. Apache v2.0 is the most extensive: it covers software, documentation, and configuration independently, automatically licenses contributions under the same terms, and provides explicit protection against patent claims.
 
 What all three have in common is that SaaS (Software as a Service) is not considered distribution, and relicensing of the original work is not allowed. Liability is limited in all three by an as-is clause, with Apache v2.0 allowing some flexibility for local legislation and third-party commercial warranties.
 
-In short: MIT for maximum simplicity and freedom, BSD* for minimal software-only coverage, and Apache v2.0 for legal certainty, contribution protection, and broad file-type coverage.
+In short: MIT for maximum simplicity and freedom, BSD\* for minimal software-only coverage, and Apache v2.0 for legal certainty, contribution protection, and broad file-type coverage.
 
 ### The BSD Variants
 
-There are several variants of the BSD license. The differences mainly concern how attribution of authors and copyright is handled. In all other respects, the BSD variants are the same. That’s why in comparisons, the BSD license is referred to as BSD*.
+There are several variants of the BSD license. The differences mainly concern how attribution of authors and copyright is handled. In all other respects, the BSD variants are the same. That’s why in comparisons, the BSD license is referred to as BSD\*.
 
 | Variant | Additional conditions / notes |
 | --- | --- |
@@ -200,81 +200,81 @@ There are several variants of the BSD license. The differences mainly concern ho
 
 ### Scope
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”) [...]* | *Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met [...]* | *"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.*
-| The MIT License applies to software and its accompanying documentation; standalone documentation or configuration is not covered. | The BSD* License applies only to software in source and binary form. | The Apache v2.0 License allows each component (software, documentation, configuration) to be licensed and distributed independently. |
+| The MIT License applies to software and its accompanying documentation; standalone documentation or configuration is not covered. | The BSD\* License applies only to software in source and binary form. | The Apache v2.0 License allows each component (software, documentation, configuration) to be licensed and distributed independently. |
 
-The BSD* license has the narrowest scope—it applies exclusively to software, excluding documentation and configuration. The MIT license is broader than BSD*, as it covers both software and its accompanying documentation, though only when part of the software package; standalone documentation or configuration are still excluded. The Apache v2.0 license has the broadest scope. It encompasses software, documentation, and configuration, all of which can be used and distributed independently. This makes Apache 2.0 more flexible for projects that contain multiple types of files.
+The BSD\* license has the narrowest scope—it applies exclusively to software, excluding documentation and configuration. The MIT license is broader than BSD\*, as it covers both software and its accompanying documentation, though only when part of the software package; standalone documentation or configuration are still excluded. The Apache v2.0 license has the broadest scope. It encompasses software, documentation, and configuration, all of which can be used and distributed independently. This makes Apache 2.0 more flexible for projects that contain multiple types of files.
 
 ### Degree of Copyleft
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *[...] to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions [...]* | *Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met [...]* | *"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).* |
 | Distribution of the complete bundle, whether source code, documentation, or configuration. | Distribution as source code or binaries. | Distribution as object form or source code. |
 
-The MIT license is the most extensive and form-agnostic in this respect; it makes no distinction between distributing software as source code, standalone binaries, or as a complete package including documentation and configuration. It is intentionally phrased broadly so that all forms of distribution are covered. In contrast, the BSD* and Apache v2.0 licenses explicitly define the forms in which software may be distributed, limiting them to source code and binaries. Apache v2.0 further adds object form as an allowed distribution format.
+The MIT license is the most extensive and form-agnostic in this respect; it makes no distinction between distributing software as source code, standalone binaries, or as a complete package including documentation and configuration. It is intentionally phrased broadly so that all forms of distribution are covered. In contrast, the BSD\* and Apache v2.0 licenses explicitly define the forms in which software may be distributed, limiting them to source code and binaries. Apache v2.0 further adds object form as an allowed distribution format.
 
 ### Distribution and SaaS
 
-The MIT, BSD*, and Apache v2.0 licenses all lack a specific clause regarding SaaS. When software is offered exclusively as SaaS, none of these three licenses consider that to count as distribution. This means that the obligations imposed by the licenses—such as including copyright notices, disclaimers, and the license text upon distribution—do not automatically apply in the case of SaaS, since no copy of the software is being transferred.
+The MIT, BSD\*, and Apache v2.0 licenses all lack a specific clause regarding SaaS. When software is offered exclusively as SaaS, none of these three licenses consider that to count as distribution. This means that the obligations imposed by the licenses—such as including copyright notices, disclaimers, and the license text upon distribution—do not automatically apply in the case of SaaS, since no copy of the software is being transferred.
 
 ### Patents
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *None* | *None* | *Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that* |
 | | | Apache v2.0 automatically grants a royalty-free patent license for using the work when, without this patent grant, the work could not be used. |
 
-It is important to note that MIT and BSD* provide no protection against potential patent infringement. Anyone using software under MIT or BSD* runs the risk of inadvertently infringing third-party patents. Apache 2.0 offers additional assurance in this regard, because each contribution from a licensor comes with an automatic royalty-free patent license, as long as it is necessary to use the work.
+It is important to note that MIT and BSD\* provide no protection against potential patent infringement. Anyone using software under MIT or BSD\* runs the risk of inadvertently infringing third-party patents. Apache 2.0 offers additional assurance in this regard, because each contribution from a licensor comes with an automatic royalty-free patent license, as long as it is necessary to use the work.
 
 ### Relicensing and Compatibility
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *[...] including without limitation the rights to [...] sublicense [...]* | *None* | *Subject to the terms and conditions of this License, each Contributor [...] sublicense [...]* |
 
 All three licenses impose no restrictions on the context in which the work may be used. For example, a derivative work may be published under a different open-source license or even included in a proprietary project. The original work, however, always remains available under its original license.
 
-It is important to note that BSD* does not explicitly mention this right of sublicensing; it is inferred from the general intent of the license to maximize freedom. This interpretation is supported by the BSD* assessment by the community and organizations such as the Open Source Initiative (OSI) and SPDX. For those seeking unambiguous certainty regarding sublicensing, MIT or Apache 2.0 is the safer choice.
+It is important to note that BSD\* does not explicitly mention this right of sublicensing; it is inferred from the general intent of the license to maximize freedom. This interpretation is supported by the BSD\* assessment by the community and organizations such as the Open Source Initiative (OSI) and SPDX. For those seeking unambiguous certainty regarding sublicensing, MIT or Apache 2.0 is the safer choice.
 
 None of these three licenses allow relicensing of the original work. You may not redistribute the work unchanged under a license other than the original license.
 
-In general, open-source licenses are not automatically compatible with derivative works under a more permissive license. Concretely, this means that software under Apache v2.0 cannot be included in a derivative work that is published under MIT or BSD*. The reverse is possible. Overall, these three permissive licenses are generally compatible with stricter licenses, whether weak or strong copyleft.
+In general, open-source licenses are not automatically compatible with derivative works under a more permissive license. Concretely, this means that software under Apache v2.0 cannot be included in a derivative work that is published under MIT or BSD\*. The reverse is possible. Overall, these three permissive licenses are generally compatible with stricter licenses, whether weak or strong copyleft.
 
-One important exception is compatibility with GPL v2.0: Apache v2.0 is not compatible with GPL v2.0, but it is compatible with GPL v3.0. This is because GPL v2.0 does not allow the imposition of additional restrictions. GPL v2.0 lacks a patent clause, while Apache v2.0 includes an explicit patent clause. That additional restriction makes Apache v2.0 incompatible with GPL v2.0. The MIT and BSD* are both fully compatible with both the GPL v2.0 and v3.0.
+One important exception is compatibility with GPL v2.0: Apache v2.0 is not compatible with GPL v2.0, but it is compatible with GPL v3.0. This is because GPL v2.0 does not allow the imposition of additional restrictions. GPL v2.0 lacks a patent clause, while Apache v2.0 includes an explicit patent clause. That additional restriction makes Apache v2.0 incompatible with GPL v2.0. The MIT and BSD\* are both fully compatible with both the GPL v2.0 and v3.0.
 
-To avoid *license lock-in*, a Contributor License Agreement (CLA) can be useful. At the same time, the fear of *license lock-in* is somewhat less relevant when choosing a permissive license; by selecting MIT, BSD*, or Apache v2.0, you are intentionally releasing your source code as freely as possible.
+To avoid *license lock-in*, a Contributor License Agreement (CLA) can be useful. At the same time, the fear of *license lock-in* is somewhat less relevant when choosing a permissive license; by selecting MIT, BSD\*, or Apache v2.0, you are intentionally releasing your source code as freely as possible.
 
 ### Later License Versions
 
-The MIT, BSD*, and Apache v2.0 licenses all lack a specific clause regarding new versions of the license. This means that the original work, without modifications, cannot simply be released under a new version of the respective license. You are therefore bound by the exact version of the license under which the work was originally published.
+The MIT, BSD\*, and Apache v2.0 licenses all lack a specific clause regarding new versions of the license. This means that the original work, without modifications, cannot simply be released under a new version of the respective license. You are therefore bound by the exact version of the license under which the work was originally published.
 
 ### Chain of Authorship
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *Afwezig* | *Afwezig* | **Art. 5** *Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.* |
 | | | By submitting a request to include a contribution under Apache v2.0, the contributor declares that this is done under the same terms as this license. Exceptions are only permitted with the explicit consent of the original licensor. |
 
-The MIT and BSD* licenses say nothing about the chain of authorship; Apache v2.0, on the other hand, does. Licenses such as MPL and EUPL go even further by explicitly stating that the contributor must actually have the IP-rights to include the work in the respective project. Apache v2.0 only requires that a contribution fall under the same terms and implicitly assumes that the contributor possesses the necessary IP-rights.
+The MIT and BSD\* licenses say nothing about the chain of authorship; Apache v2.0, on the other hand, does. Licenses such as MPL and EUPL go even further by explicitly stating that the contributor must actually have the IP-rights to include the work in the respective project. Apache v2.0 only requires that a contribution fall under the same terms and implicitly assumes that the contributor possesses the necessary IP-rights.
 
 In all three cases, it can be useful to include a Developer Certificate of Origin (DCO). This explicitly confirms that the contributor owns the IP-rights to their contribution and provides additional legal certainty for the project.
 
 ### Disclaimer of Warranty and Limitation of Liability
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | --- | --- | --- |
 | *THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, [...]* | *THIS SOFTWARE IS PROVIDED BY [Name of Organization] “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES [...] ARE DISCLAIMED. IN NO EVENT SHALL [Name of Organisation] BE LIABLE [...].* | **Art. 7** *[...] Licensor provides the Work [...] on an “AS IS” BASIS, WITHOUT WARRANTIES [...].* **Art. 8** *In no event [...] unless required by applicable law [...] shall any Contributor be liable to You for damages* |
 
-All three licenses include the standard as-is clause, which fully disclaims liability. Apache v2.0 is slightly more nuanced: it allows for exceptions where local law does not permit complete exclusion of liability. Thus, the liability disclaimer under Apache v2.0 is not absolute, but in practice it is broadly comparable to that of the MIT and BSD* licenses.
+All three licenses include the standard as-is clause, which fully disclaims liability. Apache v2.0 is slightly more nuanced: it allows for exceptions where local law does not permit complete exclusion of liability. Thus, the liability disclaimer under Apache v2.0 is not absolute, but in practice it is broadly comparable to that of the MIT and BSD\* licenses.
 
 Permissive licenses generally aim to protect the developer or the licensor with a total exclusion of liability. However, in many EU Member States, such total exclusions are not fully enforceable. This means that statutory product liability protections cannot be waived or overridden by contractual terms, even if the license explicitly seeks to exclude all liability. So, these licenses do not protect open source software developers when they have the explicit intention to do harm. No liability exclusion can exempt licensors from the new obligations under recent regulations. These obligations mainly concern cybersecurity. They apply when open source software is placed on the market or commercially offered. See Chapter II of the EU Cyber Resilience Act (CRA).
 
 ### Additional Agreements
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *Afwezig* | *Afwezig* | **Art. 9** *You may choose to offer  and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. [...] You may act only on Your own behalf and on Your sole responsibility* |
 
@@ -282,7 +282,7 @@ Only under Apache v2.0 may users or service providers offer additional services 
 
 ### Inability to Comply
 
-| MIT | BSD* | Apache v2.0 |
+| MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *None* | *None* | *None* |
 
