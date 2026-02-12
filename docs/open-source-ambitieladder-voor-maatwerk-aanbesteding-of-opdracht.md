@@ -172,13 +172,9 @@ Elk ambitieniveau verwoord een intentie. Ook als er discussie is over de specifi
 
 ## Algemene teksten
 
-Een aanbesteding bestaat uit allerlei samenhangende documenten. Het is van belang om in al die documenten op de juiste manier aandacht te besteden aan de eisen die aan het opensourcewerken worden gesteld. Een voorbeeld zin die in het *Selectiedocument* gebruikt kan worden:
+Een aanbesteding bestaat uit allerlei samenhangende documenten. Het is van belang om in al die documenten op de juiste manier aandacht te besteden aan de eisen die aan het opensourcewerken worden gesteld. Een voorbeeldzin die in het *Beschrijvend document* gebruikt kan worden:
 
-> De, specifiek voor deze Overeenkomst ontwikkelde software, inclusief achterliggende broncode en documentatie, zonder belemmeringen en kosteloos tijdens en na de opdracht ter beschikking te stellen middels resp. een nog nader te bepalen open source (een door de [Open Source Initiative](https://opensource.org/) goedgekeurd) en creative commons licentie.
-
-Later kan die zin in het *Beschrijvend document* verder gespecificeerd worden zodra duidelijk is onder welke licentie die ontwikkelingen moeten gebeuren:
-
-> De, specifiek voor deze Overeenkomst ontwikkelde software, inclusief achterliggende broncode en documentatie, zonder belemmeringen en kosteloos tijdens de opdracht ter beschikking stellen middels resp. de European Union Public License (EUPL) v1.2 of hoger en de Creative Common Attribution Share Alike (CC BY-SA).
+> Opdrachtgever wenst dat de onder deze overeenkomst ontwikkelde software en documentatie kosteloos en zonder belemmering gebruikt kunnen worden door zowel opdrachtgever, inschrijver of andere ontvangers. Hiermee wordt met deze aanbesteding *by-design* voldaan aan de Wet hergebruik overheidsinformatie (Who) en wordt leveranciersafhankelijkheid verminderd. Dit in aanvulling op de auteursrechtoverdracht die voortvloeit uit de inkoopvoorwaarde of het uiteindelijke contract. Dit betekent dat de ontwikkelde software en documentatie geen elementen bevatten die zich hiertegen verzetten.
 
 Alle eisen die onder categorie 1, 2 en 3 staan beschreven zijn bedoeld om op te nemen in het Programma van Eisen. Het is goed om die eisen in samenhang in te leiden met een introducerende zin.
 
