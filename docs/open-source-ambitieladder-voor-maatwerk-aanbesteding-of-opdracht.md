@@ -497,21 +497,21 @@ Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen o
 
 Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
 
-## Portabiliteit van het ontwikkelde werk
+## Herbruikbaarheid van het ontwikkelde werk
 
 22 september 2025
 
-Open source wordt algemeen gewaardeerd vanwege zijn portabiliteit. Omdat open source-oplossingen niet aan één enkele leverancier gebonden zijn, sluiten ze gebruikers meestal niet op in één ecosysteem. Als een oplossing nog niet beschikbaar is op een ander platform, kan deze over het algemeen gemakkelijk worden aangepast om daarop te werken.
+Open source wordt algemeen gewaardeerd vanwege zijn herbruikbaarheid, ook op andere platforms. Omdat open source-oplossingen niet aan één enkele leverancier gebonden zijn, sluiten ze gebruikers meestal niet op in één ecosysteem. Als een oplossing nog niet beschikbaar is op een ander platform, kan deze over het algemeen gemakkelijk worden aangepast om daarop te werken.
 
 Een duidelijk voorbeeld hiervan zijn cloudtools. Cloud-native tooling kan je aan één aanbieder binden, terwijl open source-technologieën zoals PostgreSQL, NGINX, Terraform en containers het mogelijk maken om tussen aanbieders te wisselen.
 
-Portabiliteit gaat echter niet alleen over de uiteindelijke oplossing. Het geldt ook voor de kennis die nodig is om deze te ontwikkelen, inclusief broncode, assets en documentatie. Bij maatwerk-aanbestedingen bouwt de initiële opdrachtnemer vanzelfsprekend een voorsprong op in kennis. Zonder de juiste maatregelen kan dit kennisvoordeel anderen ontmoedigen om de ontwikkeling voort te zetten, wat een vorm van vendor lock-in creëert — ook wanneer de software zelf open source is.
+Herbruikbaarheid gaat echter niet alleen over de uiteindelijke oplossing. Het geldt ook voor de kennis die nodig is om deze te ontwikkelen, inclusief broncode, assets en documentatie. Bij maatwerk-aanbestedingen bouwt de initiële opdrachtnemer vanzelfsprekend een voorsprong op in kennis. Zonder de juiste maatregelen kan dit kennisvoordeel anderen ontmoedigen om de ontwikkeling voort te zetten, wat een vorm van vendor lock-in creëert — ook wanneer de software zelf open source is.
 
-Om dit te voorkomen, moeten aanbestedingen de portabiliteit van zowel de oplossing als de onderliggende kennis waarborgen. Door alle relevante code, assets en documentatie toegankelijk en begrijpelijk te maken, kunnen andere opdrachtnemers of interne teams bijdragen, het werk overnemen of de ontwikkeling voortzetten met minimale kennisachterstand.
+Om dit te voorkomen, moeten aanbestedingen de herbruikbaarheid van zowel de oplossing als de onderliggende kennis waarborgen. Door alle relevante code, assets en documentatie toegankelijk en begrijpelijk te maken, kunnen andere opdrachtnemers of interne teams bijdragen, het werk overnemen of de ontwikkeling voortzetten met minimale kennisachterstand.
 
 Om deze reden is een aanvullende eis geïntroduceerd:
 
-> De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> De opdrachtnemer waarborgt, bij oplevering, de volledige herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 
 # Projecten
 
