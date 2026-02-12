@@ -219,22 +219,25 @@ Zoals eerder vermeld wordt er ten aanzien van dit voordeel geen concessies gedaa
 
 ### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
 
-1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
-1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, moeten na afronding van de opdracht op een hiervoor gangbaar openbaar git ondersteunend platform worden gedeeld.
+1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie na afronding van de opdracht gepubliceerd zal worden door inschrijver als onderdeel van de opdracht van opdrachtgever. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+1. De opdrachtnemer waarborgt, bij oplevering, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 
 ### Ambitie 2. Op vaste momenten open source publiceren van de broncode
 
-1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="oud">na afronding van de opdracht</span> worden gepubliceerd op een openbaar git ondersteunend platform.
-1. De opdrachtnemer garandeert, <span class="nieuw">tijdens de contractperiode en specifiek</span> bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, <span class="oud">moeten na afronding van de opdracht</span> op een openbaar git ondersteunend platform worden gedeeld.
+1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie <span class="oud">na afronding van</span> <span class="nieuw">tijdens</span> de opdracht gepubliceerd zal worden. De licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+1. De opdrachtnemer waarborgt, <span class="nieuw">tijdens de contractperiode en specifiek</span> bij oplevering, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
 1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 
 ### Ambitie 3. Het volledig openbaar open source ontwikkeling van de broncode
 
-1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
-1. De opdrachtnemer garandeert<span class="oud">, tijdens de contractperiode en specifiek bij oplevering</span> <span class="nieuw">doorlopend</span>, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, op een openbaar git ondersteunend platform <span class="nieuw">worden ontwikkeld</span> <span class="oud">worden gedeeld</span>.
+1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie <span class="oud">tijdens de opdracht gepubliceerd</span> <span class="nieuw">in openbaarheid ontwikkeld</span> zal worden. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+1. De opdrachtnemer waarborgt<span class="oud">, tijdens de contractperiode en specifiek bij oplevering</span> <span class="nieuw">doorlopend</span>, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 1. <span class="oud">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
@@ -285,8 +288,9 @@ Voor in het **Programma van Eisen**:
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat een zekere mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
-> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
-> 1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, moeten na afronding van de opdracht op een hiervoor gangbaar openbaar git ondersteunend platform worden gedeeld.
+> 1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie na afronding van de opdracht gepubliceerd zal worden door inschrijver als onderdeel van de opdracht van opdrachtgever. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+> 1. De opdrachtnemer waarborgt, bij oplevering, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 > 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
 > 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
@@ -313,8 +317,9 @@ Voor in het **Programma van Eisen**:
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat hoogste standaard van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
-> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden ontwikkeld op een openbaar git ondersteunend platform.
-> 1. De opdrachtnemer garandeert doorlopend, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, op een openbaar git ondersteunend platform worden ontwikkeld.
+> 1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie in openbaarheid ontwikkeld zal worden. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+> 1. De opdrachtnemer waarborgt doorlopend, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 > 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 > 1. Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
@@ -333,7 +338,6 @@ Voor in het **Programma van Eisen**:
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
 >     1. Alle gevoelige informatie moet door de opdrachtnemer actief worden bewaakt.
 > 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
-> 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 # Veel gestelde vragen door opdrachtnemers
 
