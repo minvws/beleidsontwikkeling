@@ -441,7 +441,7 @@ Er is gekozen om onder aanbevelingen extra uitleg te geven over de toepassing va
 
 13 september 2025
 
-De CLA heeft in de basis twee doelen: het voorkomen van *license lock-in* en auteursrechtschendingen. Voor het voorkomen van dat tweede is er echter ook een vriendelijker document, namelijk de Developer Certificate of Origin (DCO). Een DCO hoeft niet officieel ondertekend te worden, maar kan simpelweg geaccordeerd worden. Dat maakt de DCO algemeen breder geaccepteerd door ontwikkelaars of organisaties. De DCO is om die reden aangevuld als alternatief instrument van de CLA met een aanvullende uitleg in de aanbevelingen. De DCO voorkomt echter niet dat je in een *license lock-in* situatie terecht kan komen.
+De CLA heeft in de basis twee doelen: het voorkomen van *license lock-in* en auteursrechtschendingen. Voor het voorkomen van dat tweede is er echter ook een vriendelijker document, namelijk de Developer Certificate of Origin (DCO). Een DCO hoeft niet officieel ondertekend te worden, maar kan simpelweg geaccordeerd worden. Dat maakt de DCO algemeen breder geaccepteerd door ontwikkelaars of organisaties. De DCO is om die reden aangevuld als alternatief voor de CLA met een aanvullende uitleg in de aanbevelingen. De DCO voorkomt echter niet dat je in een *license lock-in* situatie terecht kan komen.
 
 ## Welke mate van veiligheid kan een leverancier garanderen?
 
