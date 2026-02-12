@@ -537,6 +537,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Rutger Haagsma (Ritense)
 * David Heijkamp (Naturalis)
 * Michael Meagher (Open Ireland Network)
+* Walter van Holst (Hooghiemstra & Partners)
 * Marlena van Ooijen (Logius)
 * Nico Rikken (Alliander)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
