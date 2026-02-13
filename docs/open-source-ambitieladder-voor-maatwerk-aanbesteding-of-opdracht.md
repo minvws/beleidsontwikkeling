@@ -29,6 +29,13 @@ hide:
 
 .oud {
     background: #f9dfdd;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .nieuw {
@@ -165,13 +172,9 @@ Elk ambitieniveau verwoord een intentie. Ook als er discussie is over de specifi
 
 ## Algemene teksten
 
-Een aanbesteding bestaat uit allerlei samenhangende documenten. Het is van belang om in al die documenten op de juiste manier aandacht te besteden aan de eisen die aan het opensourcewerken worden gesteld. Een voorbeeld zin die in het *Selectiedocument* gebruikt kan worden:
+Een aanbesteding bestaat uit allerlei samenhangende documenten. Het is van belang om in al die documenten op de juiste manier aandacht te besteden aan de eisen die aan het opensourcewerken worden gesteld. Een voorbeeldzin die in het *Beschrijvend document* gebruikt kan worden:
 
-> De, specifiek voor deze Overeenkomst ontwikkelde software, inclusief achterliggende broncode en documentatie, zonder belemmeringen en kosteloos tijdens en na de opdracht ter beschikking te stellen middels resp. een nog nader te bepalen open source (een door de [Open Source Initiative](https://opensource.org/) goedgekeurd) en creative commons licentie.
-
-Later kan die zin in het *Beschrijvend document* verder gespecificeerd worden zodra duidelijk is onder welke licentie die ontwikkelingen moeten gebeuren:
-
-> De, specifiek voor deze Overeenkomst ontwikkelde software, inclusief achterliggende broncode en documentatie, zonder belemmeringen en kosteloos tijdens de opdracht ter beschikking stellen middels resp. de European Union Public License (EUPL) v1.2 of hoger en de Creative Common Attribution Share Alike (CC BY-SA).
+> Opdrachtgever wenst dat de onder deze overeenkomst ontwikkelde software en documentatie kosteloos en zonder belemmering gebruikt kunnen worden door zowel opdrachtgever, inschrijver of andere ontvangers. Hiermee wordt met deze aanbesteding *by-design* voldaan aan de Wet hergebruik overheidsinformatie (Who) en wordt leveranciersafhankelijkheid verminderd. Dit in aanvulling op de auteursrechtoverdracht die voortvloeit uit de inkoopvoorwaarde of het uiteindelijke contract. Dit betekent dat de ontwikkelde software en documentatie geen elementen bevatten die zich hiertegen verzetten.
 
 Alle eisen die onder categorie 1, 2 en 3 staan beschreven zijn bedoeld om op te nemen in het Programma van Eisen. Het is goed om die eisen in samenhang in te leiden met een introducerende zin.
 
@@ -183,30 +186,29 @@ Voor dit voordeel kan je minder spreken over ambities. Het gaat eerder over opti
 
 ### Optie 1. Er wordt één opdrachtnemer aanbesteed om alle dienstverlening te leveren
 
-Er worden geen aanvullende eisen gesteld aan de aanbesteding. Er wordt één opdrachtnemer gezocht voor alle dienstverlening.
+1. De inschrijver draagt er zorg voor dat de oplossing en documentatie op die manier is ontwikkeld dat het voor andere leveranciers makkelijk is er dienstverlening op aan te bieden waaronder het onderhoud of verder ontwikkelen van de software.
+  1. Inschrijver zorgt voor leesbare en uniform opgezette documentatie en broncode voor de in de specifieke *tech-stack* gangbare formaten en code-stijlen.
+  1. Inschrijver staat open voor het extern laten toetsing van de onderhoudbaarheid van de broncode.
+1. De inschrijvers waarborgen dat de verschillende onderdelen en de totaaloplossing niet leunen op componenten met onderling conflicterende licenties.
 
 ### Optie 2. Er worden meerdere opdrachtnemers aanbesteed om verschillende onderdelen uit de dienstverlening op zich te nemen
 
-De aanbesteding wordt bewust verkaveld. Er is nagedacht uit welke (onafhankelijke) onderdelen deze aanbesteding bestaat. Het wordt aan potentiële opdrachtnemers duidelijk gemaakt op welke onderdelen ze zich mogen inschrijven. Ook wordt duidelijk gemaakt of opdrachtnemers meerdere onderdelen in de aanbesteding mogen uitvoeren.
+1. Opdrachtnemer vraagt van inschrijvers om samen te werken aan de oplossing en gezamenlijk de sturing zo te richten dat die samenwerking optimaal wordt gefaciliteerd.
 
 ### Optie 3. Leveranciers, maatschappelijke partners en/of andere geïnteresseerden werken samen en kunnen blijven samenwerken. Ook nieuwe partners moeten in staat worden gesteld om zich makkelijk bij de samenwerking aan te sluiten.
 
-Voor de aanbesteding wordt door (één van de) leveranciers of door de opdrachtgevers een gezamenlijke backlog bijgehouden waaraan opdrachtnemende partijen zich commiteren. De uitvoering gebeurt niet op basis van op voorhand volledig uitgedachte werkzaamheden, maar op basis van globale functionele wensen.
+1. Opdrachtnemer wenst van inschrijver dat hij het voortouw neemt in de ontwikkeling en opzet van een oplossing die (in een later stadium) ook door inschrijver naar een maatschappelijke samenwerking wordt opgetild. Dit betekent dat inschrijver niet alleen de oplossing levert, maar ook bijdraagt aan het mogelijk maken dat een gemeenschap rond de oplossing ontstaat die in gezamenlijkheid de oplossing onderhoudt en uitbreidt.
 
 ## 2. Veiligheid en Betrouwbaarheid
 
-Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebruik van onderstaande teksten om op een veilige en betrouwbare manier open source software in te kopen.
+Zoals eerder vermeld wordt er ten aanzien van dit voordeel geen concessies gedaan. Maak gebruik van onderstaande teksten om op een veilige en betrouwbare manier open source software in te kopen.
 
 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
     1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
     1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities (als upstream verbeteringen).
     1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Coordinated Vulnerability Disclosure beleid van opdrachtgever verwacht mag worden.
-    1. Bij het gebruik van deze componenten dient de opdrachtnemer ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
-1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
-    1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
-    1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
-    1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan bijvoorbeeld door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld, door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost of door het betreffende component te vervangen door een component met vergelijkbare functionaliteit.
+1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten de rol van fabrikant als bedoeld in hoofdstuk II van Verordening Cyberweerbaarheid  (Verordening 2024/2847/EU) op zich neemt.
 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
@@ -217,22 +219,25 @@ Zoals eerder vermeld wordt er in dit voordeel geen concessies gedaan. Maak gebru
 
 ### Ambitie 1. Het eenmalig open source publiceren van alle broncode na afronden van de aanbesteding
 
-1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
-1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, moeten na afronding van de opdracht op een hiervoor gangbaar openbaar git ondersteunend platform worden gedeeld.
+1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie na afronding van de opdracht gepubliceerd zal worden door inschrijver als onderdeel van de opdracht van opdrachtgever. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+1. De opdrachtnemer waarborgt, bij oplevering, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 
 ### Ambitie 2. Op vaste momenten open source publiceren van de broncode
 
-1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="oud">na afronding van de opdracht</span> worden gepubliceerd op een openbaar git ondersteunend platform.
-1. De opdrachtnemer garandeert, <span class="nieuw">tijdens de contractperiode en specifiek</span> bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="nieuw">op afgesproken intervallen of op sleutelmomenten</span>, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, <span class="oud">moeten na afronding van de opdracht</span> op een openbaar git ondersteunend platform worden gedeeld.
+1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie <span class="oud">na afronding van</span> <span class="nieuw">tijdens</span> de opdracht gepubliceerd zal worden. De licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+1. De opdrachtnemer waarborgt, <span class="nieuw">tijdens de contractperiode en specifiek</span> bij oplevering, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. <span class="nieuw">Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.</span>
 1. <span class="nieuw">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
 
 ### Ambitie 3. Het volledig openbaar open source ontwikkeling van de broncode
 
-1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten <span class="nieuw">worden ontwikkeld</span> op een openbaar git ondersteunend platform.
-1. De opdrachtnemer garandeert<span class="oud">, tijdens de contractperiode en specifiek bij oplevering</span> <span class="nieuw">doorlopend</span>, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+1. Alle onder de overeenkomst ontwikkelde broncode en documentatie <span class="oud">op afgesproken intervallen of op sleutelmomenten</span> <span class="nieuw">in openbaarheid</span>, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, op een openbaar git ondersteunend platform <span class="nieuw">worden ontwikkeld</span> <span class="oud">worden gedeeld</span>.
+1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie <span class="oud">tijdens de opdracht gepubliceerd</span> <span class="nieuw">in openbaarheid ontwikkeld</span> zal worden. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+1. De opdrachtnemer waarborgt<span class="oud">, tijdens de contractperiode en specifiek bij oplevering</span> <span class="nieuw">doorlopend</span>, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 1. <span class="oud">In de documentatie wordt duidelijk gemaakt wat de verschillen zijn tussen twee gepubliceerde versies.</span>
@@ -283,24 +288,21 @@ Voor in het **Programma van Eisen**:
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat een zekere mate van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
-> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder resp. <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden na afronding van de opdracht op een openbaar git ondersteunend platform worden gedeeld.
-> 1. De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, moeten na afronding van de opdracht op een hiervoor gangbaar openbaar git ondersteunend platform worden gedeeld.
+> 1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie na afronding van de opdracht gepubliceerd zal worden door inschrijver als onderdeel van de opdracht van opdrachtgever. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+> 1. De opdrachtnemer waarborgt, bij oplevering, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 > 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Gepubliceerde versies zijn van elkaar te onderscheiden door consequente versienummering.
 > 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
 > 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
 >     1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
->     1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities.
+>     1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities (als upstream verbeteringen).
 >     1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Coordinated Vulnerability Disclosure beleid van opdrachtgever verwacht mag worden.
->     1. Bij het gebruik van deze componenten dient de opdrachtgever ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
-> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
->     1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
->     1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
->     1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan bijvoorbeeld door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld, door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost of door het betreffende component te vervangen door een component met vergelijkbare functionaliteit.
+> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten de rol van fabrikant als bedoeld in hoofdstuk II van Verordening Cyberweerbaarheid  (Verordening 2024/2847/EU) op zich neemt.
 > 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
-> 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
->     1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
+> 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
+>     1. Alle gevoelige informatie moet door de opdrachtnemer actief worden bewaakt.
 > 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
 
 ## Hoogste ambitie
@@ -315,8 +317,9 @@ Voor in het **Programma van Eisen**:
 
 > Bij de ontwikkeling van de prestatie verwacht opdrachtgever dat hoogste standaard van opensourcewerken wordt toegepast. Dat wil zeggen dat:
 >
-> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder resp. de <span class="variabele">[open source licentie]</span> en <span class="variabele">[documentatie licentie]</span>, moeten worden ontwikkeld op een openbaar git ondersteunend platform.
-> 1. De opdrachtnemer garandeert doorlopend, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> 1. Alle onder de overeenkomst ontwikkelde broncode en documentatie in openbaarheid, onder een nader overeen te komen door de Open Source Initiave (OSI) opgevoerde open source licentie en documentatie licentie uit de Creative Commons familie, op een openbaar git ondersteunend platform worden ontwikkeld.
+> 1. Inschrijver doet een voorstel onder welke licenties alle broncode en documentatie in openbaarheid ontwikkeld zal worden. De uiteindelijke licentiekeuzes zal door opdrachtgever worden bepaald en onderdeel uitmaken van de uiteindelijke overeenkomst.
+> 1. De opdrachtnemer waarborgt doorlopend, de volledige technische en juridische herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 > 1. Voordat gepubliceerde werken of repositories uit openbaarheid worden gehaald, moet de opdrachtnemer de opdrachtgever een zo volledig mogelijk archief van de repository en de bijbehorende metadata verstrekken, zodat de opdrachtgever deze op zijn eigen platform kan veiligstellen.
 > 1. Opdrachtnemer het volledige beheer van de software repositories voor zijn rekening neemt.
 > 1. Zowel de historie en de voortgang van de ontwikkeling volledig te volgen is inclusief de ontwerpkeuzes die tijdens de ontwikkeling zijn gemaakt.
@@ -327,37 +330,27 @@ Voor in het **Programma van Eisen**:
 > 1. De licenties en de auteursrechthebbende helder worden gecommuniceerd door de gehele broncode en documentatie zoals daarvoor gangbaar is.
 > 1. Er wordt zoveel als mogelijk gebruik gemaakt van bestaande en beproefde open source componenten. 
 >     1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
->     1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities.
+>     1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities (als upstream verbeteringen).
 >     1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Coordinated Vulnerability Disclosure beleid van opdrachtgever verwacht mag worden.
->     1. Bij het gebruik van deze componenten dient de opdrachtgever ervoor te zorgen dat er geen licentieconflicten ontstaan en dat de voorwaarden waarop ze beschikbaar zijn gesteld correct worden nageleefd.
-> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
->     1. Mochten er kwetsbaarheden boven tafel komen, dan dient opdrachtnemer direct passende maatregelen te nemen - met een minimale impact op de gebruikers van de dienst - om mogelijk misbruik te voorkomen.
->     1. Wanneer een kwetsbaarheid zich voordoet, dan dienen belanghebbenden via passende kanalen direct op de hoogte te worden gesteld waaronder in ieder geval de opdrachtgever.
->     1. De kwetsbaarheid dient zo spoedig mogelijk verholpen te worden. Dat kan bijvoorbeeld door het doorvoeren van patches die door de achterliggende community al beschikbaar zijn gesteld, door zelf zorg te dragen voor het (laten) ontwikkelen van een patch die de kwetsbaarheid oplost of door het betreffende component te vervangen door een component met vergelijkbare functionaliteit.
+> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten de rol van fabrikant als bedoeld in hoofdstuk II van Verordening Cyberweerbaarheid  (Verordening 2024/2847/EU) op zich neemt.
 > 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
-> 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden.
->     1. Om welke gevoelige informatie het gaat wordt inzichtelijk gemaakt en actief bijgehouden.
+> 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
+>     1. Alle gevoelige informatie moet door de opdrachtnemer actief worden bewaakt.
 > 1. Houd de broncode van de applicatie strikt gescheiden van operationele en authenticatiegegevens.
-> 1. Mochten er voornemens zijn de gepubliceerde werken of achterliggende repositories uit de openbaarheid te onttrekken, dan moet de opdrachtgever in de gelegenheid worden gesteld om deze zo volledige mogelijk veilig te stellen op een eigen platform.
 
 # Veel gestelde vragen door opdrachtnemers
 
 Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende gelegenheden tot het stellen van vragen in de vorm van een *Nota van Inlichtingen*. De meest gestelde vragen staat hier gedeeld inclusief antwoord suggesties.
 
 * **De aanbesteding vraagt om doorontwikkeling. Betekent dit dat we ook bestaande broncode openbaar open source beschikbaar moeten stellen?**
-    * In geval van een *Permissive* licentie? \
-      Er is bewust gekozen voor een *permissive* licentie. Dat betekent dat dit in zijn geheel geen invloed heeft op bestaande broncode van opdrachtnemers. De bestaande broncode hoeft dus niet openbaar open source gemaakt te worden.
-    * In geval van een *Weak-copyleft* licentie? \
-      Er is bewust gekozen voor een *weak-copyleft* licentie. Dat betekent dat dit in zijn geheel geen invloed heeft op bestaande broncode van opdrachtnemers. De bestaande broncode hoeft dus niet openbaar open source gemaakt te worden.
-    * In geval van een *Strong-copyleft* licentie? \
-      Er is bewust gekozen voor een *strong-copyleft* licentie. Dat betekent inderdaad dat de software waarbinnen de doorontwikkeling plaatsvind onder dezelfde licentie openbaar open source gemaakt dient te worden. Dit heeft dus inderdaad zijn doorwerking op de bestaande broncode, die daarmee dus openbaar open source gemaakt moet worden.
+Onafhankelijk van welke open source licentie er in deze aanbesteding is gekozen, zijn ook de *strong-copyleft* licenties zoals de (A)GPL niet zo strikt als men vaak denkt. Ook de (A)GPL zorgt er niet voor dat bestaande software die gebruik maakt van gesloten componenten volledig onbruikbaar wordt bij de doorontwikkeling onder de (A)GPL. Je mag hier pragmatisch mee om te gaan. Het blijven gebruiken van die gesloten componenten wordt is mogelijk. De (A)GPL verplicht je wel hier volledig transparant over te zijn, zodat bij toekomstig hergebruik anderen weten welke consessies er zijn gedaan. Zo bevat de (A)GPL een system library exceptie en geeft deze ruimte voor aanvullende excepties. Doel is vooral dat een ontvanger van de software niet van de leverancier afhankelijk is om zelf de verdere ontwikkeling en onderhoud ter hand te kunnen nemen. Het uiteindelijke streven moet wel zijn van deze situatie weg te migreren. [Bron](https://www.gnu.org/licenses/gpl-faq.html#FSWithNFLibs)
 * **Mogen we componenten van derden gebruiken waar wij als opdrachtnemer het intellectueel eigendom niet van hebben?** \
   U mag bestaande beproefde open source componenten gewoon gebruiken. Dat moedigen we ook aan. Uit welke componenten de voor deze opdracht ontwikkelde werken zijn opgebouwd zal u inzichtelijk moeten maken als onderdeel van de gevraagde documentatie. Het is wel de verantwoordelijkheid van de opdrachtnemer om ervoor te zorgen dat er geen licentieconflicten ontstaan onder deze overeenkomst ontwikkelde werk en dat de voorwaarden waarop bestaande open source componenten beschikbaar zijn gesteld worden nageleefd.
 * **Zijn we ook verantwoordelijk voor kwetsbaarheden die worden gevonden in componenten van derden?** \
-  Opdrachtnemer heeft een ketenverantwoordelijkheid om (samen met de community) de kwetsbaarheid zo snel mogelijk op te lossen en de mogelijk gevolgen te minimaliseren. Verdere details staan in het Programma van Eisen onder het thema open source. Welke specifieke maatregelen er worden verwacht en welke normen er moeten worden gevolgd om de veiligheid van de broncode op voorhand zoveel mogelijk te garanderen staat verder gespecificeerd in het Programma van Eisen onder het thema informatiebeveiliging.
+  Opdrachtnemer heeft een verantwoordelijkheid voor de eigen achterliggende toeleveringsketen om (samen met de community) de kwetsbaarheid zo snel mogelijk op te lossen en de mogelijk gevolgen te minimaliseren. Verdere details staan in het Programma van Eisen onder het thema open source. Welke specifieke maatregelen er worden verwacht en welke normen er moeten worden gevolgd om de veiligheid van de broncode op voorhand zoveel mogelijk te garanderen staat verder gespecificeerd in het Programma van Eisen onder het thema informatiebeveiliging.
 * **Waar ligt het intellectueel eigendom van de opgeleverde broncode?** \
-   Bij het afsluiten van een overeenkomst wordt bepaald dat de intellectuele eigendomsrechten van al het maatwerk dat onder deze overeenkomst wordt ontwikkeld, toebehoort aan de opdrachtgever. Dit omvat het volledige recht voor iedereen om de broncode te gebruiken, te wijzigen en te distribueren (inclusief het openbaar maken ervan als open source), zonder verdere toestemming of vergoeding aan de opdrachtnemer.
+   Bij het afsluiten van een overeenkomst wordt bepaald dat de intellectuele eigendomsrechten van al het maatwerk dat onder deze overeenkomst wordt ontwikkeld, toebehoort aan de opdrachtgever. Dit omvat het volledige recht voor iedere ontvanger om de broncode te gebruiken, te wijzigen en te distribueren (inclusief het openbaar maken ervan als open source), zonder verdere toestemming of vergoeding aan de rechthebbende.
 * **Mag iedereen met het open source ontwikkelde werk doen wat die wil?** \
    Opdrachtgever laat het een ieder vrij om de uit deze overeenkomst ontwikkelde werken her te gebruiken in welke (commerciële) context dan ook, zoals ook gangbaar is bij open source ontwikkeling, met naleving van de voorwaarden van de betreffende open source licentie(s). Voor het hergebruik binnen de context van deze aanbesteding gelden natuurlijk de daarvoor geldende eisen.
 * **Hoe verwacht opdrachtgever dat opdrachtnemers geld kunnen verdienen aan open source code?** \
@@ -373,7 +366,7 @@ Tijdens een aanbestedingstraject krijgen opdrachtnemers doorgaans verschillende 
 * **Welke risico’s zien jullie zelf in de gekozen aanpak van publieke open source ontwikkeling, en hoe zijn deze tot nu toe gemitigeerd?** \
    We zien daarbij twee soorten risico's: beveiligingsrisico en imago-risico. Beveiligingsrisico in de zin dat een publieke repository een extra informatiebron is voor kwaadwillenden. Wij vinden echter de beveiligingsrisico’s van closed source groter dan die van open source, omdat kwetsbaarheden langer onder de radar kunnen blijven. Imago-risico in de zin dat ondermaats werk de reputatie van de opdrachtgever en daarmee het vertrouwen in het gebruik van het product schaadt. \
    \
-   Beide risico's worden gemitigeerd, door het aantal dependencies te beperken, door technische keuzes te documenteren en door mensen uit de community uit te nodigen feedback te geven en door professioneel en secuur te werken.
+   Beide risico's worden gemitigeerd, door het aantal afhankelijkheden te beperken, door technische keuzes te documenteren en door mensen uit de community uit te nodigen feedback te geven en door professioneel en secuur te werken.
 * **Zijn er specifieke eisen of richtlijnen met betrekking tot het beheren van bijdragen van derden (bijvoorbeeld pull requests) aan de openbare repository?** \
    Er moet een (minimaal) proces worden ingericht. Voornaamste onderdeel van dat proces is dat externe partijen een CLA (Contributor License Agreement) moeten ondertekenen. Voor het beoordelen en goedkeuren van de wijzigingen is de aanname dat hiervoor hetzelfde proces gevolgd wordt als voor bijdrages van binnen het team.
 * **Zijn er alternatieven overwogen voor volledige open source publicatie vanaf de start? Zo ja, waarom zijn deze afgewezen?** \
@@ -448,7 +441,7 @@ Er is gekozen om onder aanbevelingen extra uitleg te geven over de toepassing va
 
 13 september 2025
 
-De CLA heeft in de basis twee doelen: het voorkomen van *license lock-in* en auteursrechtschendingen. Voor het voorkomen van dat tweede is er echter ook een vriendelijker document, namelijk de Developer Certificate of Origin (DCO). Een DCO hoeft niet officieel ondertekend te worden, maar kan simpelweg geaccordeerd worden. Dat maakt de DCO algemeen breder geaccepteerd door ontwikkelaars of organisaties. De DCO is om die reden aangevuld als alternatief instrument van de CLA met een aanvullende uitleg in de aanbevelingen. De DCO voorkomt echter niet dat je in een *license lock-in* situatie terecht kan komen.
+De CLA heeft in de basis twee doelen: het voorkomen van *license lock-in* en auteursrechtschendingen. Voor het voorkomen van dat tweede is er echter ook een vriendelijker document, namelijk de Developer Certificate of Origin (DCO). Een DCO hoeft niet officieel ondertekend te worden, maar kan simpelweg geaccordeerd worden. Dat maakt de DCO algemeen breder geaccepteerd door ontwikkelaars of organisaties. De DCO is om die reden aangevuld als alternatief voor de CLA met een aanvullende uitleg in de aanbevelingen. De DCO voorkomt echter niet dat je in een *license lock-in* situatie terecht kan komen.
 
 ## Welke mate van veiligheid kan een leverancier garanderen?
 
@@ -478,6 +471,10 @@ De uiteindelijke conclusie is dat veiligheid niet iets is wat binnen de scope va
 
 > 3. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten ook een ketenverantwoordelijkheid op zich neemt. Dat wil zeggen dat hij samen met de community zorg draagt voor de veiligheid van de gebruikte componenten.
 
+12 februari 2026
+
+In opvolging van de eerdergenoemde conclusie dat dit niet per se binnen de reikwijdte van open source inkoopeisen valt, is het tevens zo dat de Verordening Cyberweerbaarheid (Verordening 2024/2847/EU) in hoofdstuk II veel van de vraagstukken van de omgang tussen de "fabrikant" (lees: opdrachtnemer) en de open source communities, na het ontdekken van kwetsbaarheden, regelt. Veel van de bovenstaande eisen zijn daarom in de tekst vervangen door een verwijzing naar dit onderdeel van de Verordening Cyberweerbaarheid (Verordening 2024/2847/EU).
+
 ## Doorontwikkeling in een fork of niet?
 
 2 februari 2025
@@ -500,21 +497,21 @@ Er wordt dus wel degelijk verwacht van de opdrachtgever dat deze verbeteringen o
 
 Desondanks is het ideaal van opensourcewerken natuurlijk dat je in goede harmonie kan samenwerking aan software, met idealiter de achterliggende community. De oorspronkelijke tekst is aangevuld vanuit dit ideaal, maar de kopie als tweede optie.
 
-## Portabiliteit van het ontwikkelde werk
+## Herbruikbaarheid van het ontwikkelde werk
 
 22 september 2025
 
-Open source wordt algemeen gewaardeerd vanwege zijn portabiliteit. Omdat open source-oplossingen niet aan één enkele leverancier gebonden zijn, sluiten ze gebruikers meestal niet op in één ecosysteem. Als een oplossing nog niet beschikbaar is op een ander platform, kan deze over het algemeen gemakkelijk worden aangepast om daarop te werken.
+Open source wordt algemeen gewaardeerd vanwege zijn herbruikbaarheid, ook op andere platforms. Omdat open source-oplossingen niet aan één enkele leverancier gebonden zijn, sluiten ze gebruikers meestal niet op in één ecosysteem. Als een oplossing nog niet beschikbaar is op een ander platform, kan deze over het algemeen gemakkelijk worden aangepast om daarop te werken.
 
 Een duidelijk voorbeeld hiervan zijn cloudtools. Cloud-native tooling kan je aan één aanbieder binden, terwijl open source-technologieën zoals PostgreSQL, NGINX, Terraform en containers het mogelijk maken om tussen aanbieders te wisselen.
 
-Portabiliteit gaat echter niet alleen over de uiteindelijke oplossing. Het geldt ook voor de kennis die nodig is om deze te ontwikkelen, inclusief broncode, assets en documentatie. Bij maatwerk-aanbestedingen bouwt de initiële opdrachtnemer vanzelfsprekend een voorsprong op in kennis. Zonder de juiste maatregelen kan dit kennisvoordeel anderen ontmoedigen om de ontwikkeling voort te zetten, wat een vorm van vendor lock-in creëert — ook wanneer de software zelf open source is.
+Herbruikbaarheid gaat echter niet alleen over de uiteindelijke oplossing. Het geldt ook voor de kennis die nodig is om deze te ontwikkelen, inclusief broncode, assets en documentatie. Bij maatwerk-aanbestedingen bouwt de initiële opdrachtnemer vanzelfsprekend een voorsprong op in kennis. Zonder de juiste maatregelen kan dit kennisvoordeel anderen ontmoedigen om de ontwikkeling voort te zetten, wat een vorm van vendor lock-in creëert — ook wanneer de software zelf open source is.
 
-Om dit te voorkomen, moeten aanbestedingen de portabiliteit van zowel de oplossing als de onderliggende kennis waarborgen. Door alle relevante code, assets en documentatie toegankelijk en begrijpelijk te maken, kunnen andere opdrachtnemers of interne teams bijdragen, het werk overnemen of de ontwikkeling voortzetten met minimale kennisachterstand.
+Om dit te voorkomen, moeten aanbestedingen de herbruikbaarheid van zowel de oplossing als de onderliggende kennis waarborgen. Door alle relevante code, assets en documentatie toegankelijk en begrijpelijk te maken, kunnen andere opdrachtnemers of interne teams bijdragen, het werk overnemen of de ontwikkeling voortzetten met minimale kennisachterstand.
 
 Om deze reden is een aanvullende eis geïntroduceerd:
 
-> De opdrachtnemer garandeert, bij oplevering, de volledige portabiliteit van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
+> De opdrachtnemer waarborgt, bij oplevering, de volledige herbruikbaarheid van het ontwikkelde werk en andere opgeleverde werken door alle assets en documentatie ter beschikking te stellen die nodig zijn voor anderen om het werk voort te zetten.
 
 # Projecten
 
@@ -540,6 +537,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 * Rutger Haagsma (Ritense)
 * David Heijkamp (Naturalis)
 * Michael Meagher (Open Ireland Network)
+* Walter van Holst (Hooghiemstra & Partners)
 * Marlena van Ooijen (Logius)
 * Nico Rikken (Alliander)
 * Eva van Sloten (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties)
