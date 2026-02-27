@@ -32,9 +32,17 @@
     background: #cce7f4;
 }
 
+.colorblock-alert.colorblock-alert-info blockquote {
+    border-left: .1rem solid #01689b!important;
+}
+
 .colorblock-alert.colorblock-alert-warning {
     border-left: .25em solid #e89440;
     background: #fef4db;
+}
+
+.colorblock-alert.colorblock-alert-warning blockquote {
+    border-left: .1rem solid #e89440!important;
 }
 
 .colorblock-alert p, .colorblock-warning p,

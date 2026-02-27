@@ -179,11 +179,35 @@ De Aanbestedingswet biedt ruimte om hiermee pragmatisch om te gaan. Het is toege
 Het opnemen van een groeipad in contracten maakt het mogelijk om bepaalde (niet-)functionele eisen gefaseerd te realiseren. Denk aan:
 
 * de migratie van een trans-Atlantische naar een Europese soevereine cloudleverancier;
-* het geleidelijk invoeren van pas toe, leg uit open standaarden;
+* het geleidelijk invoeren van *Pas toe, Leg uit* open standaarden;
 * het toevoegen van specifieke functionaliteiten zoals Defensie in 2016 deed met de SHA-256 hashing in LibreOffice;
 * het verkrijgen van de benodigde certificeringen.
 
 Het voordeel van investeren in de doorontwikkeling van open source software is dat verbeteringen niet alleen jouw organisatie, maar ook andere gebruikers direct ten goede komen. Een oplossing die vandaag 80% van de behoefte dekt, kan zo dankzij gezamenlijke investering snel doorgroeien naar 90% of meer. Daarmee ontstaat een duurzame keten van wederzijdse versterking binnen het open ecosysteem.
+
+**Tekstsuggestie voor het Programma van Eisen**
+
+* **Europese soevereine cloudleverancier**
+
+    > Opdrachtgever wenst dat inschrijver binnen <span class="variabele">[termijn]</span> migreert naar een cloudomgeving die in Europa gevestigd is, geen dochteronderneming is van een niet-Europees concern en waarvoor de inschrijver niet afhankelijke is voor meer dan 20% van de omzet uit één specifiek land buiten Europa.
+
+    Voor meer fijnmazige criteria zie het [Cloud Sovereignty Framework](https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en) van de Europese Commissie.
+
+* **Open standaarden**
+
+    > Inschrijver committeert zich eraan dat binnen <span class="variabele">[termijn]</span> na gunning van het contract in ieder geval alle wettelijke verplichte open standaarden (in het bijzonder de WCAG) en de informatiebeveiligingsstandaarden zijn doorgevoerd.
+
+* **Toevoeging van functionaliteiten**
+
+    > Inschrijver zorgt ervoor dat binnen een <span class="variabele">[termijn]</span> de oplossing <span class="variabele">[nieuwe functionaliteit]</span> kan bieden. Het staat inschrijver vrij om dit zelf te realiseren, uit te besteden of dit in samenwerking met de achterliggende community te doen.
+
+* **Het verkrijgen van de benodigde certificeringen**
+
+    > Inschrijver zorgt ervoor dat hij binnen <span class="variabele">[termijn]</span> tenminste op de volgende normen is gecertificeerd: <span class="variabele">[...]</span>. Voor de kosten voor het behalen van de benodigde certificering kan een aanbetaling aangevraagd worden. Voorwaarde is dat deze certificering niet al rederlijkerwijs onderdeel had moeten zijn van wat van een onderneming zou mogen worden verlangd.
+
+    Soms geldt voor hetzij de selectiecriteria, hetzij de gunningscriteria dat er partijen respectievelijk oplossingen beschikbaar zijn die potentieel wel aan de eisen zouden kunnen voldoen, maar nog nét niet ver doorgegroeid zijn om dat ten tijde van de aanbesteding te doen. Een kleine tegemoetkoming vanuit inkoop kan die kip-ei situatie doorbreken. Het niet daadwerkelijk doorgroeien moet dan wel als wanprestatie gelden en tot beëindiging van het contract kunnen leiden.
+
+    Een andere optie is het hier functioneel uitvragen van wat de certificering aan zekerheden zou moeten bieden. Zo kan het zijn dat een leverancier niet officieel 27001 gecertificeerd is, maar desondanks wel hetzelfde niveau aan veiligheid kan bieden als een leverancier die dat wel is. In dat geval kan ervoor worden gekozen om de voor de aanbesteding relevante criteria van de certificering in het Programma van Eisen op te nemen, bijvoorbeeld door de informatiebeveiligingsrisico's die gemitigeerd moeten worden te benoemen of te laten zien hoe de aanbestedende dienst deze zelf mitigeert conform de BIO2. Dit is met name relevant voor de kostbare certificeringstrajecten.
 
 ## Verwerk open source voordelen in subgunningscriteria
 
