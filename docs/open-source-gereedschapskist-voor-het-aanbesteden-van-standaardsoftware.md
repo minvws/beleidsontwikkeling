@@ -121,6 +121,7 @@ In tegenstelling tot gesloten ecosystemen, waarin software vaak alleen optimaal 
 De stappen die je moet zetten om je aanbesteding daadwerkelijk open source geschikt te maken zijn relatief klein. De belangrijkste eigenschap die je als opdrachtgever mee moet nemen is flexibiliteit. Als je je als opdrachtgever flexibel kunt opstellen, dan krijg je daar ook flexibiliteit voor terug. Met daarbij een hoge mate van soevereiniteit en autonomie.
 
 * Besteed dienstverlening rond een open source product aan.
+* Heroverweeg selectiecriteria
 * Overweeg je aanbesteding op te delen in losse kavels.
 * Gebruik een groeipad voor (niet-)functionele eisen.
 * Verwerk open source voordelen in subgunningscriteria.
@@ -147,6 +148,20 @@ Zijn er meerdere geschikte oplossingen in de markt beschikbaar? Dan is het aan t
 
 Deze methode van open source software verwerven werd voor het eerste beschreven door Mathieu Paapst en door hem het 'download-scenario' genoemd. Dit scenario kwam ook uitgebreider aan bod in het document [Publieke waarden en rechten bij aanbesteden van ICT](https://open.overheid.nl/documenten/ronl-d51b01162a7e1ba340babc000b570e432fc343c8/pdf).
 :::
+
+## Heroverweeg selectiecriteria
+
+Veel van de selectiecriteria zijn erop gericht te voorkomen dat je in de problemen komt wanneer een leverancier omvalt. Kritisch reflecteren op deze selectiecriteria en het risico dat je ermee wil proberen te voorkomen kan verschil maken in de toegankelijkheid van de aanbesteding voor open ecosysteem leveranciers, zonder afbreuk te doen aan de bestaande gesloten ecosysteem leveranciers.
+
+**Omzetvereisten**
+
+Deze worden vaak gebruikt als financiële zekerheden voor de toekomst. Wanneer een leverancier vanuit het open ecosysteem werkt dan is het risico voor jouw als opdrachtgever echter gereduceerd; de wendbaarheid van de dienst is per definitie al groot. D.w.z. dat het voor andere leveranciers die vanuit hetzelfde ecosysteem werken makkelijk is om de dienstverlening over te nemen en voor te zetten.
+
+Oftewel, met omzetvereisten voorkomen we vooral het risico dat we lopen bij leveranciers waarbij we in een leveranciersafhankelijkheid zitten. Financiële metrieken over het verleden schieten alleen principieel tekort in het voorspellen van de toekomst.
+
+**Hoe lang een leverancier bestaat**
+
+Het aantal jaren dat een leverancier actief is in een bepaalde markt kan inzicht geven in de mate van ervaring die hij heeft in die markt. Maar het is geen garantie dat het expertiseniveau van de leverancier met de jaren is meegegroeid. Dat laatste hangt er vooral vanaf in hoeverre een leverancier bereid was te innoveren. Een alternatief selectiecriterium is bijvoorbeeld hoelang een leverancier al actief participeert in open source ecosystemen. Denk aan mate en tijd waarin een leverancier bijdraagt aan open source gemeenschappen.
 
 ## Overweeg je aanbesteding op te delen in losse kavels
 
