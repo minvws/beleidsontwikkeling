@@ -143,6 +143,10 @@ Het is wel essentieel dat de keuze voor een specifieke open source oplossing obj
 
 Zijn er meerdere geschikte oplossingen in de markt beschikbaar? Dan is het aan te raden via een marktconsultatie te verifiëren of de oplossing inderdaad het beste aansluit bij de (niet-)functionele eisen. Daarmee zorg je ervoor dat de keuze voor de open source oplossing objectief verdedigbaar is en dat de aanbesteding juridisch standhoudt.
 
+Bij het productgericht aanbesteden van dienstverleners is het aan te raden expliciet te benoemen dat een diversiteit aan leveranciers worden uitgenodigd in te schrijven. Je kan zelfs benoemen dat de aanbesteding stil wordt gelegd als er maar één inschrijver is. Daarmee wordt voorkomen dat bij een open source of closed source product alleen de rechthebbende in staat is een aanbesteding gegund te krijgen. En het geeft de aanbestedende dienst de mogelijkheid zich her te bezinnen op de aanbestedingsstrategie.
+
+Soms leiden specifieke selectie- of gunningscriteria bij voorbaat onnodig in de richting van zo'n rechthebbende. Het is aan te bevelen om tijdens een marktconsultatie het potentiële leveranciersveld hierop te bevragen.
+
 :::info
 **Referentie**
 
