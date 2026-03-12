@@ -107,6 +107,15 @@ Software zoals LibreOffice en NextCloud illustreren dit goed. LibreOffice wordt 
 
 In tegenstelling tot gesloten ecosystemen, waarin software vaak alleen optimaal samenwerkt binnen de suite van één leverancier en waarin wijzigingen en onderhoud afhankelijk zijn van die leverancier, biedt het open ecosysteem vrijheid. Organisaties kunnen zelf kiezen welke dienstverlener ze inzetten, welke aanpassingen worden gedaan en hoe software wordt geïntegreerd. Bovendien kunnen doorontwikkelingen ten goede komen aan de gehele gemeenschap, zoals het geval was toen [Defensie](https://tweakers.net/nieuws/109699/ministerie-van-defensie-maakte-sha256-hashes-mogelijk-in-libreoffice.html) de SHA-256 hashing toevoegde aan LibreOffice.
 
+# Voordelen van open ecosysteem aanbesteden
+
+* Geen resellers meer nodig.
+  Het gebruikersrecht van de software heb je automatisch door het enkele feit dat de software open source wordt aangeboden.
+* Voorkomt complexe licentiemodellen.
+  Je hebt nauwelijks meer kennis nodig van complexe licentiemodellen van closed source bedrijven. Wanneer de oplossing functioneel voldoet aan de wensen van de eigen bedrijfsvoering is het achterliggende (open source) licentiemodel nauwelijks meer relevant. Alle open source licenties verlenen namelijk onbeperkte gebruiksrechten.
+* Nauwelijks contract- en leveranciersmanagement nodig.
+  De noodzaak voor en intensiteit van contract- en leveranciersmanagement wordt lager. Het omvallen van een leverancier of ongewenste koerswijzigingen hebben een veel lagere impact Bij open source (i.c.m. open standaarden) heb je de mogelijkheid om makkelijk van leverancier te wisselen.
+
 # Wat kan je doen?
 
 De stappen die je moet zetten om je aanbesteding daadwerkelijk open source geschikt te maken zijn relatief klein. De belangrijkste eigenschap die je als opdrachtgever mee moet nemen is flexibiliteit. Als je je als opdrachtgever flexibel kunt opstellen, dan krijg je daar ook flexibiliteit voor terug. Met daarbij een hoge mate van soevereiniteit en autonomie.
