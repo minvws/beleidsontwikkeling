@@ -107,11 +107,21 @@ Software zoals LibreOffice en NextCloud illustreren dit goed. LibreOffice wordt 
 
 In tegenstelling tot gesloten ecosystemen, waarin software vaak alleen optimaal samenwerkt binnen de suite van één leverancier en waarin wijzigingen en onderhoud afhankelijk zijn van die leverancier, biedt het open ecosysteem vrijheid. Organisaties kunnen zelf kiezen welke dienstverlener ze inzetten, welke aanpassingen worden gedaan en hoe software wordt geïntegreerd. Bovendien kunnen doorontwikkelingen ten goede komen aan de gehele gemeenschap, zoals het geval was toen [Defensie](https://tweakers.net/nieuws/109699/ministerie-van-defensie-maakte-sha256-hashes-mogelijk-in-libreoffice.html) de SHA-256 hashing toevoegde aan LibreOffice.
 
+# Voordelen van open ecosysteem aanbesteden
+
+* Geen resellers meer nodig.
+  Het gebruikersrecht van de software heb je automatisch door het enkele feit dat de software open source wordt aangeboden.
+* Voorkomt complexe licentiemodellen.
+  Je hebt nauwelijks meer kennis nodig van complexe licentiemodellen van closed source bedrijven. Wanneer de oplossing functioneel voldoet aan de wensen van de eigen bedrijfsvoering is het achterliggende (open source) licentiemodel nauwelijks meer relevant. Alle open source licenties verlenen namelijk onbeperkte gebruiksrechten.
+* Nauwelijks contract- en leveranciersmanagement nodig.
+  De noodzaak voor en intensiteit van contract- en leveranciersmanagement wordt lager. Het omvallen van een leverancier of ongewenste koerswijzigingen hebben een veel lagere impact Bij open source (i.c.m. open standaarden) heb je de mogelijkheid om makkelijk van leverancier te wisselen.
+
 # Wat kan je doen?
 
 De stappen die je moet zetten om je aanbesteding daadwerkelijk open source geschikt te maken zijn relatief klein. De belangrijkste eigenschap die je als opdrachtgever mee moet nemen is flexibiliteit. Als je je als opdrachtgever flexibel kunt opstellen, dan krijg je daar ook flexibiliteit voor terug. Met daarbij een hoge mate van soevereiniteit en autonomie.
 
 * Besteed dienstverlening rond een open source product aan.
+* Heroverweeg selectiecriteria
 * Overweeg je aanbesteding op te delen in losse kavels.
 * Gebruik een groeipad voor (niet-)functionele eisen.
 * Verwerk open source voordelen in subgunningscriteria.
@@ -133,11 +143,29 @@ Het is wel essentieel dat de keuze voor een specifieke open source oplossing obj
 
 Zijn er meerdere geschikte oplossingen in de markt beschikbaar? Dan is het aan te raden via een marktconsultatie te verifiëren of de oplossing inderdaad het beste aansluit bij de (niet-)functionele eisen. Daarmee zorg je ervoor dat de keuze voor de open source oplossing objectief verdedigbaar is en dat de aanbesteding juridisch standhoudt.
 
+Bij het productgericht aanbesteden van dienstverleners is het aan te raden expliciet te benoemen dat een diversiteit aan leveranciers worden uitgenodigd in te schrijven. Je kan zelfs benoemen dat de aanbesteding stil wordt gelegd als er maar één inschrijver is. Daarmee wordt voorkomen dat bij een open source of closed source product alleen de rechthebbende in staat is een aanbesteding gegund te krijgen. En het geeft de aanbestedende dienst de mogelijkheid zich her te bezinnen op de aanbestedingsstrategie.
+
+Soms leiden specifieke selectie- of gunningscriteria bij voorbaat onnodig in de richting van zo'n rechthebbende. Het is aan te bevelen om tijdens een marktconsultatie het potentiële leveranciersveld hierop te bevragen.
+
 :::info
 **Referentie**
 
 Deze methode van open source software verwerven werd voor het eerste beschreven door Mathieu Paapst en door hem het 'download-scenario' genoemd. Dit scenario kwam ook uitgebreider aan bod in het document [Publieke waarden en rechten bij aanbesteden van ICT](https://open.overheid.nl/documenten/ronl-d51b01162a7e1ba340babc000b570e432fc343c8/pdf).
 :::
+
+## Heroverweeg selectiecriteria
+
+Veel van de selectiecriteria zijn erop gericht te voorkomen dat je in de problemen komt wanneer een leverancier omvalt. Kritisch reflecteren op deze selectiecriteria en het risico dat je ermee wil proberen te voorkomen kan verschil maken in de toegankelijkheid van de aanbesteding voor open ecosysteem leveranciers, zonder afbreuk te doen aan de bestaande gesloten ecosysteem leveranciers.
+
+**Omzetvereisten**
+
+Deze worden vaak gebruikt als financiële zekerheden voor de toekomst. Wanneer een leverancier vanuit het open ecosysteem werkt dan is het risico voor jouw als opdrachtgever echter gereduceerd; de wendbaarheid van de dienst is per definitie al groot. D.w.z. dat het voor andere leveranciers die vanuit hetzelfde ecosysteem werken makkelijk is om de dienstverlening over te nemen en voor te zetten.
+
+Oftewel, met omzetvereisten voorkomen we vooral het risico dat we lopen bij leveranciers waarbij we in een leveranciersafhankelijkheid zitten. Financiële metrieken over het verleden schieten alleen principieel tekort in het voorspellen van de toekomst.
+
+**Hoe lang een leverancier bestaat**
+
+Het aantal jaren dat een leverancier actief is in een bepaalde markt kan inzicht geven in de mate van ervaring die hij heeft in die markt. Maar het is geen garantie dat het expertiseniveau van de leverancier met de jaren is meegegroeid. Dat laatste hangt er vooral vanaf in hoeverre een leverancier bereid was te innoveren. Een alternatief selectiecriterium is bijvoorbeeld hoelang een leverancier al actief participeert in open source ecosystemen. Denk aan mate en tijd waarin een leverancier bijdraagt aan open source gemeenschappen.
 
 ## Overweeg je aanbesteding op te delen in losse kavels
 
@@ -160,13 +188,21 @@ Ook hier is het van belang goed uit te leggen (Art. 2.10 Aw 2012):
 * dat leverenciers zich voor één of meer percelen mogen inschrijven;
 * volgens welke regels je de beoordeling doet.
 
-:::warning
 :exclamation: **Afstemmingsproblemen**
 
 Het gunnen van verschillende dienstverleners voor de verschillende kavels kent het risico van afstemmingsproblemen. Als er een probleem ontstaat in de levering van een dienst, dan wil je er zeker van zijn dat alle dienstverleners zich in gelijke mate verantwoordelijk voelen voor het geheel. Zorg dat je daarvoor al in de Programma van Eisen duidelijke afspraken over maakt.
 
 Het doel is dat partijen zich onderdeel gaan voelen van een robuust en volwassen open ecosysteem van dienstverleners. De uitruil is meer regie tegenover minder leveranciersafhankelijkheid.
-:::
+
+* **Tekstsuggestie voor het Beschrijvend Document**
+
+   > Inschrijvers gaan ermee dat akkoord dat de verantwoordelijkheid voor conform de gunningseisen leveren van de prestaties in hun eigen kavel zich ook uitstrekt tot het oplossen van vraagstukken die met de onderlinge samenhang van kavels te maken heeft. Neem bijvoorbeeld een interoperabiliteitsprobleem tussen twee kavels. Het uitgangspunt is dat de leveranciers van ieder kavel pro-actief werken aan de oplossing van het probleem. Pas nadat de oplossing gerealiseerd is en is aangetoond dat de grondoorzaak niet in de uitvoering van de werkzaamheden van het eigen kavel gelegen was, mogen hiervoor kosten in rekening worden gebracht. Dit als een nadere uitwerking van artikel 28 ARBIT-voorwaarden.
+
+* **Tekstsuggestie voor in het Contract**
+
+   > In aanvulling op de bepalingen van de ARBIT-voorwaarden geldt het hiernavolgende artikel 12.3a.
+   >
+   > Hiervoorgaande garantie tot herstel van Gebreken strekt zich ook uit tot de diagnose van gebreken in de prestaties van derden die onderdeel uitmaken van een groter geheel waar de Prestatie van Wederpartij eveneens onderdeel uit van maakt en waarvan redelijkerwijze op voorhand niet kan worden uitgesloten dat de oorzaak van dergelijke gebreken gelegen zijn in een Gebrek in de Prestatie van Wederpartij. Indien Wederpartij kan aantonen dat deze gebreken gelegen zijn in de prestaties van derden en niet in Gebreken in de Prestatie van Wederpartij kan Wederpartij extra kosten bij Opdrachtgever in rekening brengen voor diens diagnose-werkzaamheden.
 
 ## Gebruik een groeipad voor (niet-)functionele eisen
 
