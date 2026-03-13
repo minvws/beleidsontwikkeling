@@ -8,7 +8,7 @@ Gebruikersvriendelijke versies van deze documenten zijn hier te vinden: **[minvw
 
 ## Licentie
 
-Documentatie in de repository is beschikbaar onder de [CC-BY-4.0](LICENSE.md) Licentie.
+De informatie in de repository is beschikbaar onder de [CC-BY-4.0](LICENSE.md) licentie.
 
 Deze repository volgt de
 [REUSE Specification v3.2](https://reuse.software/spec/). Zie
