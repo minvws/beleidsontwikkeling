@@ -332,7 +332,7 @@ Voor in het **Programma van Eisen**:
 >     1. Uit welke componenten de ontwikkelde software bestaat, wordt in elke versie inzichtelijk gemaakt middels een volledige ingevulde SBOM volgens de CycloneDX of de SPDX standaard.
 >     1. Alle bevindingen en/of verbeteringen op bestaande open source componenten dienen te worden gemeld en/of teruggegeven aan de betreffende communities (als upstream verbeteringen).
 >     1. In geval van kwetsbaarheden handelt opdrachtnemer zoals vanuit Coordinated Vulnerability Disclosure beleid van opdrachtgever verwacht mag worden.
-> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten de rol van fabrikant als bedoeld in hoofdstuk II van Verordening Cyberweerbaarheid  (Verordening 2024/2847/EU) op zich neemt.
+> 1. Opdrachtgever verwacht van opdrachtnemer dat hij zich ervan bewust is dat hij bij het gebruik van open source componenten de rol van fabrikant als bedoeld in hoofdstuk II van Verordening Cyberweerbaarheid (Verordening 2024/2847/EU) op zich neemt.
 > 1. Elke versie van de broncode een metadata beschrijving bevat volgens de publiccode.yml standaard.
 > 1. Er modulair wordt gewerkt en modules ook zo veel mogelijk worden ontwikkeld om losstaand (her)gebruik te faciliteren.
 > 1. Gevoelige en geheime informatie niet openbaar wordt gedeeld. De oplossing wordt zo ontwikkeld dat de impact hiervan minimaal is. Denk aan het gebruik van onafhankelijke configuratiebestanden waardoor de broncode zelf wel gepubliceerd kan worden.
@@ -348,7 +348,7 @@ Onafhankelijk van welke open source licentie er in deze aanbesteding is gekozen,
 * **Mogen we componenten van derden gebruiken waar wij als opdrachtnemer het intellectueel eigendom niet van hebben?** \
   U mag bestaande beproefde open source componenten gewoon gebruiken. Dat moedigen we ook aan. Uit welke componenten de voor deze opdracht ontwikkelde werken zijn opgebouwd zal u inzichtelijk moeten maken als onderdeel van de gevraagde documentatie. Het is wel de verantwoordelijkheid van de opdrachtnemer om ervoor te zorgen dat er geen licentieconflicten ontstaan onder deze overeenkomst ontwikkelde werk en dat de voorwaarden waarop bestaande open source componenten beschikbaar zijn gesteld worden nageleefd.
 * **Zijn we ook verantwoordelijk voor kwetsbaarheden die worden gevonden in componenten van derden?** \
-  Opdrachtnemer heeft een verantwoordelijkheid voor de eigen achterliggende toeleveringsketen om (samen met de community) de kwetsbaarheid zo snel mogelijk op te lossen en de mogelijk gevolgen te minimaliseren. Verdere details staan in het Programma van Eisen onder het thema open source. Welke specifieke maatregelen er worden verwacht en welke normen er moeten worden gevolgd om de veiligheid van de broncode op voorhand zoveel mogelijk te garanderen staat verder gespecificeerd in het Programma van Eisen onder het thema informatiebeveiliging.
+  Opdrachtnemer heeft een verantwoordelijkheid voor de eigen achterliggende toeleveringsketen om (samen met de community) de kwetsbaarheid zo snel mogelijk op te lossen en de mogelijk gevolgen te minimaliseren. Verdere details staan in het Programma van Eisen onder het thema open source, waarbij opdrachtgever graag extra aandacht vestigt op de verantwoordelijkheden die opdrachtnemer heeft vanuit de Verordening Cyberweerbaarheid. Welke specifieke maatregelen er worden verwacht en welke normen er moeten worden gevolgd om de veiligheid van de broncode op voorhand zoveel mogelijk te garanderen staat verder gespecificeerd in het Programma van Eisen onder het thema informatiebeveiliging.
 * **Waar ligt het intellectueel eigendom van de opgeleverde broncode?** \
    Bij het afsluiten van een overeenkomst wordt bepaald dat de intellectuele eigendomsrechten van al het maatwerk dat onder deze overeenkomst wordt ontwikkeld, toebehoort aan de opdrachtgever. Dit omvat het volledige recht voor iedere ontvanger om de broncode te gebruiken, te wijzigen en te distribueren (inclusief het openbaar maken ervan als open source), zonder verdere toestemming of vergoeding aan de rechthebbende.
 * **Mag iedereen met het open source ontwikkelde werk doen wat die wil?** \
@@ -405,6 +405,27 @@ In dit geval ontvangen de 10 open source projecten elk € 30.000,-. Voor veel o
 Wanneer er voor een *strong-copyleft* open source licentie wordt gekozen is het goed om oog te houden voor het *virale* effect van deze licentiegroep. Het is wijs de invloed van de licentie beperkt te houden tot wat je zelf kan overzien. Concreet betekent dit dat je probeert te voorkomen dat er onvoorziene effecten ontstaan door de toepassing van dit type licentie. Daarvoor zou deze zin gebruikt kunnen worden:
 
 > In de uitwerking van de verschillende architecturen wordt rekening gehouden met de virale werking van de gekozen sterk wederkerige (strong-copyleft) licentie. Dat wil zeggen dat de architecturen zo worden ontworpen dat deze doorwerking beperkt blijft tot de prestatie die vanuit deze aanbesteding wordt gevraagd en geen invloed heeft op het gebruik van de prestatie of op de diensten die eventueel op de prestatie worden aangesloten.
+
+## De Verordening Cyberweerbaarheid / Cyber Resilience Act (CRA)
+
+Het is van belang te vermelden dat met de inwerkingtreding van de Verordening Cyberweerbaarheid (Verordening 2024/2847/EU) een productaansprakelijkheid voor beveiligingslekken in software is ontstaan.
+
+Kort samengevat betekent dit dat bij het op de Europese markt brengen van "producten met digitale elementen" - kortweg alles waar software in zit, ook de software zelf - een productaansprakelijkheid geldt. Deze aansprakelijkheid bestaat onder andere uit de verplichtingen om:
+
+- Ontwerp, ontwikkeling en bouw conform de vereisten voor informatiebeveiliging van Annex I van de CRA;
+- Risico-beoordeling gedurende de gehele levenscyclus van het product ten aanzien van informatiebeveiligingsrisico's;
+- Actualisatie van bovengenoemde risico-beoordeling;
+- Opname van de risico-beoordeling in de productdocumentatie;
+- Het betrachten van gepaste zorg bij de integratie van componenten van derden;
+- Het doorgeven van ontdekte beveiligingskwetsbaarheden in componenten van derden aan die derden (dat kunnen ook zogenaamde "open-source stewards" zijn);
+- Het systematisch documenteren van beveiligingsaspecten van de software;
+- Het effectief afhandelen van beveiligingskwetsbaarheden die gemeld worden;
+- Gedurende ten minste vijf jaar het product ondersteunen in de vorm van beveiligingsupdates;
+- Het gedurende ten minste tien jaar beschikbaar houden van gepubliceerde beveiligingsupdates;
+- Het uitvoeren van conformiteitesbeoordelingen daar waar sprake is van CE-conformiteitschema's;
+- Het melden van beveiligingskwetsbaarheden die daadwerkelijk uitgebuit worden aan nationale autoriteiten (CSIRTS) en de Europese toezichthouder ENISA.
+
+Het voert tever om de hele CRA weer te geven. Voor nu is van belang dat deze productaansprakelijkheid door de Europese wetgever met opzet genuanceerd is voor open source ontwikkelingen, om zo individuele ontwikkelaars hier niet mee te belasten. Daarmee is een nieuw begrip in het Europese productaansprakelijkheidsrecht geïntroduceerd: de "open-source steward". Zij hebben de bijzondere rol om open source ontwikkelaars te beschermen, hetzij individuele, hetzij het MKB dat open source ontwikkeld. Voor andere partijen in de waarde-keten is het model gelijk aan de reguliere productaansprakelijkheidswetgeving, dus "producenten", "importeurs", "distributeurs" blijven onverkort onderhevig aan de eisen van de CRA.
 
 {%hackmd x6SENhJxT7GaATRdlW9ekw %}
 
