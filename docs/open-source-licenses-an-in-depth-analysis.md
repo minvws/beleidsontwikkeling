@@ -177,6 +177,10 @@ The contept of fair source licenses can easily becomes openwashing with the [Fai
 
 Lastly, source available should not be considered open source. Source available means that the author has published the source code online or has made the source code available in another manner, but without an open source license attached to it. Although this allows for other to inspect and study the code, it cannot be reused, built upon or redistributed. That's because the source code is still protected by copyright law.
 
+# Software Patents
+
+Patent law is distinct from copyright law in the sense that it is based on a) registration and b) covers inventions. The debate on whether software can actually be covered by patents has never been sufficiently settled and especially in the USA it is not uncommon to register patents of an algorithmic nature. The strength of such patent registrations remains controversial. The value of a patent infringement claim may at times be more based on the fact that the (unintentional) patent infringers do not want to find themselves in court in the first place, than on legal strength. However, with this adagium in mind, it is relevant to consider open source licenses explicitly that cover patent rights or have patent retaliation clauses, since these add legal certainty.
+
 # An In-Depth Analysis
 
 The classification into permissive, weak copyleft, and strong copyleft is a greatly simplified representation of the differences between license types. To apply licenses correctly, it is good to have a more detailed understanding of the differences between the main licenses or at least to understand what specific licenses themselves entail.
