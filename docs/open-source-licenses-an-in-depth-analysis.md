@@ -72,9 +72,9 @@ An OSS-license covers (to a certain extent) various aspects of IP rights and lia
 
 The goal and effect of an OSS-license is to make software freely available to everyone, enabling others to build upon it, fix bugs, add new functionality, or reuse parts in different applications.
 
-# The Dutch Copyright Law Exception
+# The government specific case of copyright
 
-As described above, source code published without an open source license cannot be reused by others. An important exception is found in Dutch copyright law Article 15b, which specifically covers publications by the Dutch government. It states that published government works can be reused and redistributed by others unless specific reservations are made. Without such a reservation, the reuse of government-published works is not considered copyright infringement.
+As described above, and as a rule, source code published without an open source license cannot be reused by others. An important exception to said rule can be found in article 8 of the so-called PSI-directive (2019/1024/EU, Directive on open data and re-use of public sector information), which in the Dutch context has been transposed into article 15b of the Dutch Copyright Act. This specifically covers publications by the Dutch government. It states that published government works can be reused and redistributed by others unless specific reservations are made. Without such a reservation, the reuse of government-published works is not considered copyright infringement.
 
 Although the government retains the IP rights, these rights cannot be enforced without adding a reservation. When necessary, such a reservation can be as simple as this:
 
@@ -87,7 +87,7 @@ Although the government retains the IP rights, these rights cannot be enforced w
 
 It is recommended to place this reservation in the header of each source code file, together with the copyright notice. This way, reuse of the source code without permission is prohibited.
 
-For Dutch government agencies, using an open source license does not broaden the usage rights—as it does for other authors—but instead imposes a (limited) restriction on reuse. The license specifies the terms and conditions under which others can reuse, modify, or redistribute the works.
+For Dutch government entities, using an open source license does not broaden the usage rights—as it does for other authors—but instead imposes a (limited) restriction on reuse. The license specifies the terms and conditions under which others can reuse, modify, or redistribute the works. The abovementioned article 15b of the Dutch Copyright Act has equivalents in the copyright laws of other EU member states since it is a transposition of the EU directive on open data and the reuse of public-sector information.
 
 # General License Types
 
