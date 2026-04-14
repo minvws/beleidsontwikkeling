@@ -165,6 +165,18 @@ It is good to know that not all countries legally recognize the waiver of copyri
 
 In some situations, it may be safer to release source code under an explicit open source license. This way, clearer agreements exist regarding use, reuse, and liability—which often provides more legal certainty than relying on the public domain.
 
+# Fair Source Licenses
+
+[Fair Source licenses](https://fair.io/licenses/), not to be confused with the [Fair License](https://en.wikipedia.org/wiki/Fair_License), try to bridge between open source and proprietary license. For example by putting a time-limit on its proprietary nature. This is technically not open source, but can indeed become open source if a proper open source license is chosen as the license.
+
+The [Functional Core License](https://fsl.software/) is an example of a fair source license. This license is available in two variant. A MIT and Apache v2.0 variant. It automatically makes source code open source after a period of two years counted from the original publication date.
+
+# Open source washing
+
+The contept of fair source licenses can easily becomes openwashing with the [Fair Core License](https://fcl.dev/) and the [Business Source License](https://mariadb.com/bsl-faq-mariadb/). The former makes a similar promise as the Fair Source License, but only for core functionality. The problem here is similar as with so-called open core business models: there is an incentive for the copyright holder to put key functionality in the proprietary licensed parts and subsequently gain vendor lock-in. The Business Source License goes even further than that: it only promises source availability, similar to concepts like [Shared Source Initiative](https://en.wikipedia.org/wiki/Shared_Source_Initiative) (once pioneered by Microsoft), without actually giving the freedoms a proper open source license gives.
+
+Lastly, source available should not be considered open source. Source available means that the author has published the source code online or has made the source code available in another manner, but without an open source license attached to it. Although this allows for other to inspect and study the code, it cannot be reused, built upon or redistributed. That's because the source code is still protected by copyright law.
+
 # An In-Depth Analysis
 
 The classification into permissive, weak copyleft, and strong copyleft is a greatly simplified representation of the differences between license types. To apply licenses correctly, it is good to have a more detailed understanding of the differences between the main licenses or at least to understand what specific licenses themselves entail.
