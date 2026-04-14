@@ -56,9 +56,11 @@ hide:
 
 # Introduction
 
-According to copyright law, the creator of a creative work automatically owns the intellectual property rights (IP-rights) to that work—unless, explicit agreements state otherwise. Source code is also considered a creative work, so it's essential to properly document who is legally the owner of the delivered source code. Only the IP-right holder can decide how (and if) the source code may be published.
+Under copyright law, the creator of a creative work automatically owns the copyright to that work—unless, exceptions like work-for-hire apply or if the author has transferred the copyrights. Software is also considered a creative work, so it's essential to properly document who is legally the rightsholder of the delivered software. Only the copyright holder can decide how (and if) a work may be copied, transformed and published. This leads to an interesting twist for software since the mere execution of software involves copying and, in case of interpreted and just-in-time compiled programming languages, transformation of the software code, unlike traditional work the intended use of software requires a license from the rightsholder. Fundamentally, this is how software can be licensed on a per-seat, per-processor, named user etc. basis, unlike other copyright-protected works such as books that have no legal limits on the number of people that can read them or the purposes for which they can be used.
 
-Some of the limitations copyright law imposes on the work can be loosened by providing a license—under specific terms and conditions—to indiviuduals or groups. By doing so, others can obtain the rights to use, modify or redistribute it. An open source license (OSS) is a standardized contract that establishes these duties and rights. By using an OSS-license, legal ambiguities are avoided, and they make explicit what users can or cannot do with the source code. Moreover, by using an OSS-license, IP-right holders can express the core values of open source set forth by the Open Source Initiative.
+Under the EU Software Directive (2009/24/EC), there is another twist that sets software more or less apart from other copyright-protected works, namely that preceding works are granted the same copyright protections as the software itself. This means that for example a design document that would technically allow for an easy reimplementation of software is also covered and that such a reimplementation would require the prior consent from the rightsholder.
+
+Some of the above limitations copyright law imposes on use of software can be loosened by the rightsholder by granting a license to individuals or groups. This is typically called a license agreement since the terms and conditions usually include something in return, if only a limitation of liability. Per such a license agreement, others can obtain the rights to use the software, and less commonley, to modify or redistribute it. An open source license (OSS) is a specific type of license agreement for granting all these rights, which sets them apart from so-called proprietary software licenses. By using an OSS-license, rightsholders can rely on common understanding of what users can or cannot do with software and it removes unnecessary restriction on the right to use the software as well as on the distribution of the software. The combination of practically unlimited usage rights and very few restrictions on distribution as well as very few additional duties (no payment for usage) is what sets open source licenses apart from classic software licenses. Moreover, by using an OSS-license, IP-right holders can express the core values of open source set forth by the Open Source Initiative and which are also present in recital 18 of the EU Cyber Resilience Act (2024/2847/EU) as well as recital 14 of the EU Product Liability Directive (2024/2853/EU).
 
 - The right of freely distribute the software
 - The freedom to modify or create derivative works from it.
@@ -66,7 +68,7 @@ Some of the limitations copyright law imposes on the work can be loosened by pro
 - The protection of original authors' integrity.
 - The protection of digital rights.
 
-An OSS-license manages (to a certain extent) various aspects of IP-rights and liability. Without attaching an open source license to source code, the code is not legally considered open source. Openly published source code can still be studied, but cannot be distributed or adapted without the explicit permission of the IP-right holder.
+An OSS-license covers (to a certain extent) various aspects of IP rights and liability (including less well-known IP rights like trademark, patent and sometimes also database rights). Without applying an open source license to source code, the code is not considered open source. Openly published source code that does not come with the freedom to modify and redistribute can still be studied, but is not considered open source software.
 
 The goal and effect of an OSS-license is to make software freely available to everyone, enabling others to build upon it, fix bugs, add new functionality, or reuse parts in different applications.
 
@@ -91,9 +93,9 @@ For Dutch government agencies, using an open source license does not broaden the
 
 Open source licenses mainly differ in the degree of reciprocity they require—a principle known as copyleft. This term is intentionally chosen as the opposite of traditional, restrictive copyright. The type of reciprocity determines the obligations for reuse, redistribution, and adaptation of the source code. There are three well-known categories of open source licenses.
 
-## Permissive
+## Permissive / no reciprocity
 
-Permissive licenses impose only a few requirements on the reuse of source code. You may freely modify the source code, use it, and integrate it into proprietary software without the obligation to publish your changes as open source. Often, there is a requirement to include a reference to the original author and a copy of the original OSS license.
+Permissive licenses impose only a minimalist set of requirements on the reuse of source code, but most importantly, do not require you to pass on the freedoms you receive to subsequent recipients of the software. You may freely modify the source code, use it, and integrate it into proprietary software without the obligation to publish your changes as open source. Often, there is a requirement to credit the original author and a copy of the original OSS license.
 
 Some licenses, such as Apache 2.0, also require you to document all changes made, while others, like MIT-0, do not.
 
