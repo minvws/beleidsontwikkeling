@@ -107,6 +107,12 @@ Well-known examples of permissive licenses include MIT, MIT-0, BSD\*, and Apache
 Proprietary software is software that is licensed in a way that does not allow to freely use, modify and distribute it. Proprietary software licenses typically restrict what users may do with the software.
 :::
 
+:::info
+**Python License, Version 2**
+
+A license specifically developed for the Python language ecosystem. This license is permissive and very similar to the BSD- and MIT-families of licenses. For the sake of prevention of license proliferation, it is not recommended to apply this license on non-Python software. Conversely, if one wants to use a permissive license that is well-known in the Python language ecosystem and is aiming for easy adoption, its mindshare among Python developers may be a reason to use it instead of MIT or BSD\*.
+:::
+
 ## Reciprocal / Weak Copyleft
 
 Reciprocity in open source licenses means that there are some obligations to pass on the freedoms to use, modify and publish the software to subsequent recipients. The obligations typically only takes effect once the modified version, or a product derived from it, is distributed to third parties outside the organization. In case of weak copyleft only the changed open source components themselve fall under these obligations, not the whole software solution in which the components are integrated.
