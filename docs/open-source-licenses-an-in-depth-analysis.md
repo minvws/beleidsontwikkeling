@@ -155,7 +155,7 @@ If you want to completely waive your copyright, this can only be done by dedicat
 
 Of all open source licenses, the BSD-0 license comes closest to the public domain. This extremely permissive license does not even require attribution to the author. However, formally, the code still remains under copyright in this case.
 
-It is good to know that not all countries legally allow the waiver of copyright on a work. In practice, this rarely causes problems as long as the original author does not assert their rights. Nevertheless, it is important to be aware of the legal context, especially if you work with or publish under a license that implies a waiver of rights.
+It is good to know that not all countries legally recognize the waiver of copyright on a work. In practice, this rarely causes problems as long as the original author does not assert their rights. Nevertheless, it is important to be aware of the legal context, especially if you work with or publish under a license that implies a waiver of rights.
 
 In some situations, it may be safer to release source code under an explicit open source license. This way, clearer agreements exist regarding use, reuse, and liability—which often provides more legal certainty than relying on the public domain.
 
