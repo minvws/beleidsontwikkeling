@@ -99,32 +99,33 @@ Permissive licenses impose only a minimalist set of requirements on the reuse of
 
 Some licenses, such as Apache 2.0, also require you to document all changes made, while others, like MIT-0, do not.
 
-Well-known examples of permissive licenses include MIT, MIT-0, BSD, and Apache 2.0.
+Well-known examples of permissive licenses include MIT, MIT-0, BSD\*, and Apache 2.0.
 
 :::info
 **Proprietary software**
 
-Proprietary software is software for which the ownership rights lie with the creator, publisher, or another rights holder. This party determines what users may and may not do with the software. Usually, it is not permitted to modify, copy, or freely distribute the software. In some cases—such as software protected by a strict user agreement (EULA) or by patents—users may only be allowed to use the software in specific ways. [Source](https://en.wikipedia.org/wiki/Proprietary_software)
+Proprietary software is software that is licensed in a way that does not allow to freely use, modify and distribute it. Proprietary software licenses typically restrict what users may do with the software.
 :::
 
 ## Reciprocal / Weak Copyleft
 
-These licenses impose stronger demands: if you change the source code, you are obligated to published the changes under the same open source license. The obligation only takes effect once the modified version, or a product derived from it, is distributed to third parties outside the organization. Only the changed components themselve fall under these obligations, not the whole software solution in which the components are integrated.
+Reciprocity in open source licenses means that there are some obligations to pass on the freedoms to use, modify and publish the software to subsequent recipients. The obligations typically only takes effect once the modified version, or a product derived from it, is distributed to third parties outside the organization. In case of weak copyleft only the changed open source components themselve fall under these obligations, not the whole software solution in which the components are integrated.
 
-This makes weak copyleft licenses useable in both open as closed source software, as long as the open source components themselves follow the terms and conditions of the respective license.
+Like permissive licenses, weak copyleft licensed software have terms that allow for integration in proprietary software, e.g. as library components, sometimes contingent on certain conditions.
 
-Well-known examples of weak-copyleft licenses include Mozilla Public License (MPL v2.0), European Union Public License (EUPL v1.2).
+Well-known examples of weak-copyleft licenses include Mozilla Public License (MPL v2.0), European Union Public License (EUPL v1.2), and the Library GPL (LGPL v3) license.
 
-## Restricted / Strong Copyleft
+## Strong reciprocity / Strong Copyleft
 
-Strong copyleft licenses add an additional inheritance effect. This means that when you use components licensed under such terms (e.g., GPLv3) in your software, the entire software must be published under the same license.
+Strong copyleft licenses add an additional inheritance effect. This means that when you distribute software that relies on the integration of components licensed under such terms (e.g., GPLv3) in your software, the entire software must be published under the same license. By building further we mean not so much the use of networked APIs, but closer integrations like the linking of libraries, extensions and most definitely changes and modifications to the original works.
 
-For example, suppose you are using three components with different open source licenses:
+For example, suppose you are using three components with different open source licenses and integrate them in a way that the whole becomes inseparable from the parts, e.g. the whole cannot function without API-calls to part C:
+
 A: MIT license
 B: EUPL license
 C: GPLv3 license
 
-The combined software (A + B + C) must be published under the GPLv3 license. Components A and B retain their original licenses and can be reused independently under those licenses, but the final combined software must comply with the GPLv3.
+The combined software (A + B + C) must be published under the GPLv3 license. Components A and B retain their original licenses and can be reused independently under those licenses, but the final combined software must comply with the GPLv3, if published.
 
 Therefore, strong copyleft licenses are incompatible with closed source software.
 
@@ -132,7 +133,7 @@ A well-known example of a strong copyleft license is the GNU General Public Lice
 
 A notable derivative is the Lesser GPL (LGPLv3), which is less strict. When you use an LGPL-licensed component as a separate library (soft-linked), the rest of the software does not need to be published under the LGPLv3.
 
-Another derivative is the Affero GPL v3 (AGPLv3), which extends the obligations of the GPLv3 to software offered as a service (SaaS).
+Another derivative is the Affero GPL v3 (AGPLv3), which extends the obligations of the GPLv3 to software offered as a service (SaaS) by expanding the definition of distribution to include online services (to some extent).
 
 ## Sidenotes
 
