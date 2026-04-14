@@ -429,7 +429,7 @@ These concepts have little independent meaning outside the context of computer p
 
 > **5.c. Conveying Modified Source Versions** *You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply [...]to the whole of the work, and all its parts, regardless of how they are packaged. [...]*
 
-This article describes the inheritable (copyleft) effect of the (A)GPL. It requires that any work incorporating GPL code must be distributed as a whole under the (A)GPL. As a result, the entire derivative work inherits the GPL terms. It is precisely this inheritable effect that makes the (A)GPL a strong copyleft license: reuse is permitted, but only while preserving the same freedoms for all subsequent users.
+This article describes the reciprocal (copyleft) effect of the (A)GPL. It requires that any work incorporating GPL code must be distributed as a whole under the (A)GPL. As a result, the entire derivative work inherits the GPL terms. It is precisely this reciprocity that makes the (A)GPL a strong copyleft license: reuse is permitted, but only while preserving the same freedoms for all subsequent users.
 
 ### Distribution and SaaS
 
@@ -441,7 +441,7 @@ Instead, the AGPL adds a separate requirement for remote use:
 
 > **13. Remote Network Interaction; Use with the GNU General Public License.** *Notwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network (if your version supports such interaction) an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software.*
 
-This requirement ensures that for modified software offered over a network (SaaS), users still gain access to the source code, even if they do not receive a copy of the program.
+This requirement ensures that for modified software offered over a network (SaaS), users still have a right of access to the source code, even if they do not receive a copy of the program.
 
 It is important to note that this requirement only applies to modified software. If a program is offered as SaaS without changes, the AGPL does not require additional source code distribution, since that source code should already be accessible through the original author or distributor.
 
@@ -459,13 +459,13 @@ Furthermore, the (A)GPL specifies that a patent license granted to one recipient
 
 Finally, it is important to note that the copyleft or inheritance effect of the (A)GPL applies only to copyright. When (A)GPL code is incorporated into a larger work, the entire work containing the (A)GPL contribution automatically inherits the (A)GPL copyright terms. If that same work also contains parts covered by patents, those patents are not affected by the (A)GPL terms. Users of the combined work are therefore not automatically protected against patent infringement.
 
-### Relicensing and Compatibility
+### Subsequent licensing and Compatibility
 
 > **2. Basic Permissions.** *Sublicensing is not allowed; section 10 makes it unnecessary.* **5.c. Conveying Modified Source Versions** *[...] This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.*
 
 > **13. Use with the GNU Affero General Public License.** *Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.*
 
-The (A)GPL explicitly does not allow a work to be relicensed under another license. In addition, (A)GPL licenses are generally not compatible with other open-source licenses. The only exception is that GPL code can be combined with and relicensed under the AGPL, because the AGPL contains all of the obligations of the GPL, supplemented with an additional requirement for network use, such as in software-as-a-service (SaaS) scenarios.
+The (A)GPL explicitly does not allow a work to be subsequently licensed under another license. In addition, (A)GPL licenses are generally not compatible with other open-source licenses. The only exception is that GPL code can be combined with and subsequently licensed under the AGPL, because the AGPL contains all of the obligations of the GPL, supplemented with an additional requirement for network use, such as in software-as-a-service (SaaS) scenarios.
 
 In the GPL license text, this is explicitly titled **Use with the GNU Affero General Public License.** and in the AGPL it is titled **Remote Network Interaction; Use with the GNU General Public License.** This keeps the articles aligned in numbering for easy cross-reference between the GPL and AGPL.
 
