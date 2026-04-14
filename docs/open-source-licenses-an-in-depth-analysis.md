@@ -304,14 +304,14 @@ The European Union Public License (EUPL) v1.2 and the Mozilla Public License (MP
 | **Copyleft** | Applied at the derivative-work level | Applied at the file level |
 | **SaaS / Distribution** | SaaS explicitly covered | SaaS not covered |
 | **Patents** | Royalty-free patent license | Royalty-free patent license, with limitations if code is removed |
-| **Relicensing** | Possible, flexible, and compatible with many licenses | Possible, but less flexible; specific compatibility rules apply |
+| **Subsequent licensing** | Possible, flexible, and compatible with many licenses | Possible, but less flexible; specific compatibility rules apply |
 | **Copyright chain / contributors** | Declaration of rights transfer required | Declaration of rights transfer required |
 | **Additional agreements / liability** | Functionally similar | Functionally similar |
 | **Force majeure / governing law** | Follows default mandatory law | Contains explicit instructions for governing law and force majeure |
 
 In summary, the key differences are the degree of copyleft and the scope concerning SaaS.
 
-Including SaaS is important because most cloud services from companies like Google (Drive), Microsoft (OneDrive), Apple, and other GAFAM members distribute software as a service without providing access to the source code. Neither the MPL v2.0 nor the GPL v2.0 require developers to share the source code for software offered as a SaaS solution.
+Understanding whether the license affects SaaS is important because most cloud services from companies like Google (Drive), Microsoft (OneDrive), Apple, and other GAFAM members distribute software as a service without providing access to the source code. Neither the MPL v2.0 nor the GPL v2.0 require developers to share the source code for software offered as a SaaS solution.
 
 ### Scope
 
@@ -320,7 +320,7 @@ Including SaaS is important because most cloud services from companies like Goog
 | **Introduction**: *This European Union Public Licence (the ‘EUPL’) applies to the Work (as defined below) which is provided under the terms of this Licence.* | **Art. 1.13**: *Source Code Form: means the form of the work preferred for making modifications.* |
 | The EUPL can be applied to a wide range of works: source code, documents, datasets, and other digital assets. | The MPL is primarily focused on source code and does not cover other digital assets such as documentation or datasets. |
 
-The MPL can only be used for source code. The EUPL can be applied to 'works' in a broader sense; this includes source code, as well as documents, datasets, and other digital assets.
+The MPL focuses on source code as its scope. The EUPL explicitly talks about 'works' in a broader sense; this includes source code, as well as documents, datasets, and other digital assets. From a practical viewpoint, the application of the MPL on other types of works is maybe not ideal but would in either way work just fine.
 
 ### Degree of Copyleft
 
@@ -342,9 +342,9 @@ Example: Consider an open-source encryption library (such as Mbed-TLS or OpenSSL
 | EUPL | MPL  |
 | ---- | ---- |
 | **Art. 1**: *'Distribution' or 'Communication': any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or providing access to its essential functionalities at the disposal of any other natural or legal person.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. [...]* **Art 3.2**: *If You distribute Covered Software in Executable Form [...]* |
-| SaaS use falls under the concept of distribution; no separate license like the AGPL is required. | The MPL regulates the distribution of source code but does not include an explicit provision for SaaS. Online-only availability does not automatically trigger licensing obligations. |
+| SaaS use falls under the concept of distribution; no separate license like the AGPL is required. | The MPL regulates the distribution of source code but does not include an explicit provision for SaaS. Online-only availability does not automatically trigger licensing obligations under the MPL. |
 
-The EUPL is explicitly designed for cloud/SaaS applications; the MPL is limited to traditional source code distribution.
+The EUPL is explicitly designed to cover cloud/SaaS applications; the MPL is limited to traditional source code distribution.
 
 In case of the EUPL, Would the original unmodified source code already be publically available, then there is no obligation to again distribute the unmodified source code.
 
@@ -356,14 +356,14 @@ In case of the EUPL, Would the original unmodified source code already be public
 
 Both licenses automatically grant a royalty-free patent license for the use of the work, when such a patent license is necessary to make use of the work. However, the MPL introduces an important nuance. If parts of the original code are removed, the patent license for those removed portions lapses. If you later add similar functionality that resembles what was removed, you could still infringe on the original contributor’s patent.
 
-### Relicensing and Compatibility
+### Subsequent licensing and Compatibility
 
 | EUPL | MPL  |
 | ---- | ---- |
 | **Art. 5**: *If the Licensee Distributes or Communicates Derivative Works or copies thereof based upon both the Work and another work licensed under a Compatible Licence, this Distribution or Communication can be done under the terms of this Compatible Licence. [...] should the Licensee's obligations under the Compatible Licence conflict with his/her obligations under this Licence, the obligations of the Compatible Licence shall prevail.* | **Art 2.4**: *No Contributor makes additional grants as a result of Your choice to distribute the Covered Software under a subsequent version of this License (see Section 10.2) or under the terms of a Secondary License (if permitted under the terms of Section 3.3).* |
 The EUPL allows derivative works to be distributed under a compatible open source license. These compatible licenses—including the GPL, LGPL, and MPL 2.0—are listed in the annex of the EUPL. This is fundamentally different from the GPL, which does not allow relicensing under other licenses (except for the AGPL, which is stricter regarding SaaS use). The second part of the article means that you can re-release EUPL-licensed work under a stricter or milder copyleft license: a) Distribution under the MPL weakens the copyleft effect to the file level. b) Distribution under the GPL strengthens the copyleft effect to the entire work. | If someone decides to attach a different license when distributing the original MPL code—such as a newer MPL version or one of the compatible licenses—this does not change the freedoms originally granted by the initial licensor to the source code. |
 
-The broad compatibility of both the EUPL and the MPL provides meaningful flexibility when creating or distributing derivative works. However, this flexibility operates differently in each license. The EUPL allows relicensing for Derivative Works or for Combinations with components under a license listed under *Compatible Licence*. The MPL, by contrast, uses file-level copyleft: MPL-covered files must remain under the MPL, but they may be combined with code under any other license within a Larger Work. Relicensing an MPL-covered file itself is only permitted in the cases explicitly defined by the MPL. One such case is distribution under a later version of the MPL. Another is distribution under a license listed under *Secondary License*, which is allowed by default unless the file is marked *Incompatible With Secondary Licenses*. This ensures that the MPL is compatible with strong copyleft licenses.
+The broad compatibility of both the EUPL and the MPL provides flexibility when creating or distributing derivative works. However, this flexibility operates differently in each license. The EUPL allows relicensing for Derivative Works or for Combinations with components under a license listed under *Compatible Licence*. The MPL, by contrast, uses file-level copyleft: MPL-covered files must remain under the MPL, but they may be combined with code under any other license within a Larger Work. Relicensing an MPL-covered file itself is only permitted in the cases explicitly defined by the MPL. One such case is distribution under a later version of the MPL. Another is distribution under a license listed under *Secondary License*, which is allowed by default unless the file is marked *Incompatible With Secondary Licenses*. This ensures that the MPL is compatible with strong copyleft licenses.
 
 In neither the EUPL nor the MPL does this flexibility permit relicensing the original, unmodified work solely to change its primary license. Doing so would exceed the permissions granted and would constitute copyright infringement.
 
@@ -375,7 +375,7 @@ In neither the EUPL nor the MPL does this flexibility permit relicensing the ori
 
 Both the EUPL and the MPL allow works to be distributed under later versions of the license, unless the original author explicitly excludes this. This prevents license lock-in: future changes to the license, for example due to updated European legislation, automatically apply to works without version restrictions.
 
-Not all open source licenses permit new versions to apply automatically. It is also not allowed to retroactively fix works published under EUPL v1.2 or MPL v2.0 to those specific versions if no such version restriction was set at the time of publication.
+Not all open source licenses permit new versions to apply automatically. It is also not allowed to retroactively fixate works published under EUPL v1.2 or MPL v2.0 to those specific versions if no such version restriction was set at the time of publication.
 
 ### Chain of Authorship
 
@@ -409,7 +409,7 @@ Under both the EUPL and the MPL, users or service providers may offer additional
 | ---- | ---- |
 | *None* | **Art. 4**: *If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Software due to statute, judicial order, or regulation then You must: (a) comply [...] to the maximum extent possible; and (b) describe the limitations [...]* |
 
-The MPL contains explicit instructions for situations in which compliance with the license is legally impossible. The EUPL does not include such a provision, but of course also adheres to mandatory legal requirements.
+The MPL contains explicit instructions for situations in which compliance with the license is legally impossible. The EUPL does not include such a provision, but also adheres to mandatory legal requirements.
 
 ## Strong Copyleft
 
