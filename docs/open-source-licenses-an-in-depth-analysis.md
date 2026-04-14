@@ -181,6 +181,10 @@ Lastly, source available should not be considered open source. Source available 
 
 Patent law is distinct from copyright law in the sense that it is based on a) registration and b) covers inventions. The debate on whether software can actually be covered by patents has never been sufficiently settled and especially in the USA it is not uncommon to register patents of an algorithmic nature. The strength of such patent registrations remains controversial. The value of a patent infringement claim may at times be more based on the fact that the (unintentional) patent infringers do not want to find themselves in court in the first place, than on legal strength. However, with this adagium in mind, it is relevant to consider open source licenses explicitly that cover patent rights or have patent retaliation clauses, since these add legal certainty.
 
+# Subsequent licensing
+
+Subsequent licensing should be understood as the scenario in which the licensor is not the same as the rightsholder. This is the case when a distributor distributes the source code under a different license. In case you add improvements to existing source code you are condisered the licensor for those improvements. The licensor can only distribute a source code with a subsequent license without specific approval when the license the source code was distributed under provides the necessary grants to do so.
+
 # An In-Depth Analysis
 
 The classification into permissive, weak copyleft, and strong copyleft is a greatly simplified representation of the differences between license types. To apply licenses correctly, it is good to have a more detailed understanding of the differences between the main licenses or at least to understand what specific licenses themselves entail.
