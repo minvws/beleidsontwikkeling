@@ -56,9 +56,11 @@ hide:
 
 # Introduction
 
-According to copyright law, the creator of a creative work automatically owns the intellectual property rights (IP-rights) to that work—unless, explicit agreements state otherwise. Source code is also considered a creative work, so it's essential to properly document who is legally the owner of the delivered source code. Only the IP-right holder can decide how (and if) the source code may be published.
+Under copyright law, the creator of a creative work automatically owns the copyright to that work—unless, exceptions like work-for-hire apply or if the author has transferred the copyrights. Software is also considered a creative work, so it's essential to properly document who is legally the rightsholder of the delivered software. Only the copyright holder can decide how (and if) a work may be copied, transformed and published. This leads to an interesting twist for software since the mere execution of software involves copying and, in case of interpreted and just-in-time compiled programming languages, transformation of the software code, unlike traditional work the intended use of software requires a license from the rightsholder. Fundamentally, this is how software can be licensed on a per-seat, per-processor, named user etc. basis, unlike other copyright-protected works such as books that have no legal limits on the number of people that can read them or the purposes for which they can be used.
 
-Some of the limitations copyright law imposes on the work can be loosened by providing a license—under specific terms and conditions—to indiviuduals or groups. By doing so, others can obtain the rights to use, modify or redistribute it. An open source license (OSS) is a standardized contract that establishes these duties and rights. By using an OSS-license, legal ambiguities are avoided, and they make explicit what users can or cannot do with the source code. Moreover, by using an OSS-license, IP-right holders can express the core values of open source set forth by the Open Source Initiative.
+Under the EU Software Directive (2009/24/EC), there is another twist that sets software more or less apart from other copyright-protected works, namely that preceding works are granted the same copyright protections as the software itself. This means that for example a design document that would technically allow for an easy reimplementation of software is also covered and that such a reimplementation would require the prior consent from the rightsholder.
+
+Some of the above limitations copyright law imposes on use of software can be loosened by the rightsholder by granting a license to individuals or groups. This is typically called a license agreement since the terms and conditions usually include something in return, if only a limitation of liability. Per such a license agreement, others can obtain the rights to use the software, and less commonley, to modify or redistribute it. An open source license (OSS) is a specific type of license agreement for granting all these rights, which sets them apart from so-called proprietary software licenses. By using an OSS-license, rightsholders can rely on common understanding of what users can or cannot do with software and it removes unnecessary restriction on the right to use the software as well as on the distribution of the software. The combination of practically unlimited usage rights and very few restrictions on distribution as well as very few additional duties (no payment for usage) is what sets open source licenses apart from classic software licenses. Moreover, by using an OSS-license, IP-right holders can express the core values of open source set forth by the Open Source Initiative and which are also present in recital 18 of the EU Cyber Resilience Act (2024/2847/EU) as well as recital 14 of the EU Product Liability Directive (2024/2853/EU).
 
 - The right of freely distribute the software
 - The freedom to modify or create derivative works from it.
@@ -66,13 +68,13 @@ Some of the limitations copyright law imposes on the work can be loosened by pro
 - The protection of original authors' integrity.
 - The protection of digital rights.
 
-An OSS-license manages (to a certain extent) various aspects of IP-rights and liability. Without attaching an open source license to source code, the code is not legally considered open source. Openly published source code can still be studied, but cannot be distributed or adapted without the explicit permission of the IP-right holder.
+An OSS-license covers (to a certain extent) various aspects of IP rights and liability (including less well-known IP rights like trademark, patent and sometimes also database rights). Without applying an open source license to source code, the code is not considered open source. Openly published source code that does not come with the freedom to modify and redistribute can still be studied, but is not considered open source software.
 
 The goal and effect of an OSS-license is to make software freely available to everyone, enabling others to build upon it, fix bugs, add new functionality, or reuse parts in different applications.
 
-# The Dutch Copyright Law Exception
+# The government specific case of copyright
 
-As described above, source code published without an open source license cannot be reused by others. An important exception is found in Dutch copyright law Article 15b, which specifically covers publications by the Dutch government. It states that published government works can be reused and redistributed by others unless specific reservations are made. Without such a reservation, the reuse of government-published works is not considered copyright infringement.
+As described above, and as a rule, source code published without an open source license cannot be reused by others. An important exception to said rule can be found in article 8 of the so-called PSI-directive (2019/1024/EU, Directive on open data and re-use of public sector information), which in the Dutch context has been transposed into article 15b of the Dutch Copyright Act. This specifically covers publications by the Dutch government. It states that published government works can be reused and redistributed by others unless specific reservations are made. Without such a reservation, the reuse of government-published works is not considered copyright infringement.
 
 Although the government retains the IP rights, these rights cannot be enforced without adding a reservation. When necessary, such a reservation can be as simple as this:
 
@@ -85,44 +87,51 @@ Although the government retains the IP rights, these rights cannot be enforced w
 
 It is recommended to place this reservation in the header of each source code file, together with the copyright notice. This way, reuse of the source code without permission is prohibited.
 
-For Dutch government agencies, using an open source license does not broaden the usage rights—as it does for other authors—but instead imposes a (limited) restriction on reuse. The license specifies the terms and conditions under which others can reuse, modify, or redistribute the works.
+For Dutch government entities, using an open source license does not broaden the usage rights—as it does for other authors—but instead imposes a (limited) restriction on reuse. The license specifies the terms and conditions under which others can reuse, modify, or redistribute the works. The abovementioned article 15b of the Dutch Copyright Act has equivalents in the copyright laws of other EU member states since it is a transposition of the EU directive on open data and the reuse of public-sector information.
 
 # General License Types
 
 Open source licenses mainly differ in the degree of reciprocity they require—a principle known as copyleft. This term is intentionally chosen as the opposite of traditional, restrictive copyright. The type of reciprocity determines the obligations for reuse, redistribution, and adaptation of the source code. There are three well-known categories of open source licenses.
 
-## Permissive
+## Permissive / no reciprocity
 
-Permissive licenses impose only a few requirements on the reuse of source code. You may freely modify the source code, use it, and integrate it into proprietary software without the obligation to publish your changes as open source. Often, there is a requirement to include a reference to the original author and a copy of the original OSS license.
+Permissive licenses impose only a minimalist set of requirements on the reuse of source code, but most importantly, do not require you to pass on the freedoms you receive to subsequent recipients of the software. You may freely modify the source code, use it, and integrate it into proprietary software without the obligation to publish your changes as open source. Often, there is a requirement to credit the original author and a copy of the original OSS license.
 
 Some licenses, such as Apache 2.0, also require you to document all changes made, while others, like MIT-0, do not.
 
-Well-known examples of permissive licenses include MIT, MIT-0, BSD, and Apache 2.0.
+Well-known examples of permissive licenses include MIT, MIT-0, BSD\*, and Apache 2.0.
 
 :::info
 **Proprietary software**
 
-Proprietary software is software for which the ownership rights lie with the creator, publisher, or another rights holder. This party determines what users may and may not do with the software. Usually, it is not permitted to modify, copy, or freely distribute the software. In some cases—such as software protected by a strict user agreement (EULA) or by patents—users may only be allowed to use the software in specific ways. [Source](https://en.wikipedia.org/wiki/Proprietary_software)
+Proprietary software is software that is licensed in a way that does not allow to freely use, modify and distribute it. Proprietary software licenses typically restrict what users may do with the software.
+:::
+
+:::info
+**Python License, Version 2**
+
+A license specifically developed for the Python language ecosystem. This license is permissive and very similar to the BSD- and MIT-families of licenses. For the sake of prevention of license proliferation, it is not recommended to apply this license on non-Python software. Conversely, if one wants to use a permissive license that is well-known in the Python language ecosystem and is aiming for easy adoption, its mindshare among Python developers may be a reason to use it instead of MIT or BSD\*.
 :::
 
 ## Reciprocal / Weak Copyleft
 
-These licenses impose stronger demands: if you change the source code, you are obligated to published the changes under the same open source license. The obligation only takes effect once the modified version, or a product derived from it, is distributed to third parties outside the organization. Only the changed components themselve fall under these obligations, not the whole software solution in which the components are integrated.
+Reciprocity in open source licenses means that there are some obligations to pass on the freedoms to use, modify and publish the software to subsequent recipients. The obligations typically only takes effect once the modified version, or a product derived from it, is distributed to third parties outside the organization. In case of weak copyleft only the changed open source components themselve fall under these obligations, not the whole software solution in which the components are integrated.
 
-This makes weak copyleft licenses useable in both open as closed source software, as long as the open source components themselves follow the terms and conditions of the respective license.
+Like permissive licenses, weak copyleft licensed software have terms that allow for integration in proprietary software, e.g. as library components, sometimes contingent on certain conditions.
 
-Well-known examples of weak-copyleft licenses include Mozilla Public License (MPL v2.0), European Union Public License (EUPL v1.2).
+Well-known examples of weak-copyleft licenses include Mozilla Public License (MPL v2.0), European Union Public License (EUPL v1.2), and the Library GPL (LGPL v3) license.
 
-## Restricted / Strong Copyleft
+## Strong reciprocity / Strong Copyleft
 
-Strong copyleft licenses add an additional inheritance effect. This means that when you use components licensed under such terms (e.g., GPLv3) in your software, the entire software must be published under the same license.
+Strong copyleft licenses add an additional inheritance effect. This means that when you distribute software that relies on the integration of components licensed under such terms (e.g., GPLv3) in your software, the entire software must be published under the same license. By building further we mean not so much the use of networked APIs, but closer integrations like the linking of libraries, extensions and most definitely changes and modifications to the original works.
 
-For example, suppose you are using three components with different open source licenses:
+For example, suppose you are using three components with different open source licenses and integrate them in a way that the whole becomes inseparable from the parts, e.g. the whole cannot function without API-calls to part C:
+
 A: MIT license
 B: EUPL license
 C: GPLv3 license
 
-The combined software (A + B + C) must be published under the GPLv3 license. Components A and B retain their original licenses and can be reused independently under those licenses, but the final combined software must comply with the GPLv3.
+The combined software (A + B + C) must be published under the GPLv3 license. Components A and B retain their original licenses and can be reused independently under those licenses, but the final combined software must comply with the GPLv3, if published.
 
 Therefore, strong copyleft licenses are incompatible with closed source software.
 
@@ -130,7 +139,7 @@ A well-known example of a strong copyleft license is the GNU General Public Lice
 
 A notable derivative is the Lesser GPL (LGPLv3), which is less strict. When you use an LGPL-licensed component as a separate library (soft-linked), the rest of the software does not need to be published under the LGPLv3.
 
-Another derivative is the Affero GPL v3 (AGPLv3), which extends the obligations of the GPLv3 to software offered as a service (SaaS).
+Another derivative is the Affero GPL v3 (AGPLv3), which extends the obligations of the GPLv3 to software offered as a service (SaaS) by expanding the definition of distribution to include online services (to some extent).
 
 ## Sidenotes
 
@@ -152,17 +161,37 @@ If you want to completely waive your copyright, this can only be done by dedicat
 
 Of all open source licenses, the BSD-0 license comes closest to the public domain. This extremely permissive license does not even require attribution to the author. However, formally, the code still remains under copyright in this case.
 
-It is good to know that not all countries legally allow the waiver of copyright on a work. In practice, this rarely causes problems as long as the original author does not assert their rights. Nevertheless, it is important to be aware of the legal context, especially if you work with or publish under a license that implies a waiver of rights.
+It is good to know that not all countries legally recognize the waiver of copyright on a work. In practice, this rarely causes problems as long as the original author does not assert their rights. Nevertheless, it is important to be aware of the legal context, especially if you work with or publish under a license that implies a waiver of rights.
 
 In some situations, it may be safer to release source code under an explicit open source license. This way, clearer agreements exist regarding use, reuse, and liability—which often provides more legal certainty than relying on the public domain.
 
+# Fair Source Licenses
+
+[Fair Source licenses](https://fair.io/licenses/), not to be confused with the [Fair License](https://en.wikipedia.org/wiki/Fair_License), try to bridge between open source and proprietary license. For example by putting a time-limit on its proprietary nature. This is technically not open source, but can indeed become open source if a proper open source license is chosen as the license.
+
+The [Functional Core License](https://fsl.software/) is an example of a fair source license. This license is available in two variant. A MIT and Apache v2.0 variant. It automatically makes source code open source after a period of two years counted from the original publication date.
+
+# Open source washing
+
+The contept of fair source licenses can easily becomes openwashing with the [Fair Core License](https://fcl.dev/) and the [Business Source License](https://mariadb.com/bsl-faq-mariadb/). The former makes a similar promise as the Fair Source License, but only for core functionality. The problem here is similar as with so-called open core business models: there is an incentive for the copyright holder to put key functionality in the proprietary licensed parts and subsequently gain vendor lock-in. The Business Source License goes even further than that: it only promises source availability, similar to concepts like [Shared Source Initiative](https://en.wikipedia.org/wiki/Shared_Source_Initiative) (once pioneered by Microsoft), without actually giving the freedoms a proper open source license gives.
+
+Lastly, source available should not be considered open source. Source available means that the author has published the source code online or has made the source code available in another manner, but without an open source license attached to it. Although this allows for other to inspect and study the code, it cannot be reused, built upon or redistributed. That's because the source code is still protected by copyright law.
+
+# Software Patents
+
+Patent law is distinct from copyright law in the sense that it is based on a) registration and b) covers inventions. The debate on whether software can actually be covered by patents has never been sufficiently settled and especially in the USA it is not uncommon to register patents of an algorithmic nature. The strength of such patent registrations remains controversial. The value of a patent infringement claim may at times be more based on the fact that the (unintentional) patent infringers do not want to find themselves in court in the first place, than on legal strength. However, with this adagium in mind, it is relevant to consider open source licenses explicitly that cover patent rights or have patent retaliation clauses, since these add legal certainty.
+
+# Subsequent licensing
+
+Subsequent licensing should be understood as the scenario in which the licensor is not the same as the rightsholder. This is the case when a distributor distributes the source code under a different license. In case you add improvements to existing source code you are condisered the licensor for those improvements. The licensor can only distribute a source code with a subsequent license without specific approval when the license the source code was distributed under provides the necessary grants to do so.
+
 # An In-Depth Analysis
 
-The classification into permissive, weak copyleft, and strong copyleft is a greatly simplified representation of the differences between license types. To apply licenses correctly, it is important to have a more detailed understanding of the differences between the main licenses or at least to understand what specific licenses themselves entail.
+The classification into permissive, weak copyleft, and strong copyleft is a greatly simplified representation of the differences between license types. To apply licenses correctly, it is good to have a more detailed understanding of the differences between the main licenses or at least to understand what specific licenses themselves entail.
 
 However, before conducting a thorough analysis, there are some principles to keep in mind when choosing a license:
 
-* If the source code to be distributed is intended to be integrated into a large number of works and requires no maintenance, or if it can be given to anyone to be integrated even into programs that will become the exclusive property of third parties who can resell them under their own terms, a permissive license is the best choice. MIT or BSD licenses are preferable to putting the code in the public domain.
+* If the source code to be distributed is intended to be integrated into a large number of works and requires no maintenance, or if it can be given to anyone to be integrated even into programs that will become the exclusive property of third parties who can resell them under their own terms, a permissive license is the best choice. MIT or BSD\* licenses are preferable to putting the code in the public domain.
 * If the source code to be distributed demonstrates specific expertise and you want to know about and benefit from any improvements made by third parties, you should choose a copyleft license. This is particularly justified for source code funded by public money, to avoid having to purchase improved versions of the program.
 * Most licenses do not consider remote access (SaaS or Software as a service) to be a distribution, even though this mode of distribution is becoming very common.
 
@@ -170,18 +199,20 @@ The different degrees of copyleft will be compared below in the in-depth analysi
 
 ## Permissive
 
-The MIT, BSD\*, and Apache v2.0 licenses are permissive open-source licenses without strong copyleft effects, but they differ in scope, specific rights, and protections. The MIT License originates from the Massachusetts Institute of Technology and is known for its simplicity and flexible, form-free application. The BSD\* license descends from the Berkeley Software Distribution and applies strictly to software, imposing as few obligations as possible. The Apache v2.0 license was developed by the Apache Software Foundation and, in addition to permissive conditions, offers extra legal assurances such as explicit patent protection and rules for contributions and sublicensing.
+The MIT, BSD\*, and Apache v2.0 licenses are permissive open-source licenses without strong copyleft effects, but they differ in scope, specific rights, and protections. The MIT License originates from the Massachusetts Institute of Technology and is known for its simplicity and flexible, form-free application. The BSD\* license descends from the Berkeley Software Distribution and applies strictly to software, imposing as few obligations as possible. The Apache v2.0 license was developed by the Apache Software Foundation and, in addition to permissive conditions, offers extra legal assurances such as explicit patent protection and rules for contributions and subsequent licensing.
+
+The most important take-away is that the Apache v2.0 license, of the mainstream permissive licenses, is the most recent and embodies the current legal understanding of the mechanics of these licenses. The intent of the license is most explicit in the Apache v2.0 license, in the older licenses this tends to be more implicit.
 
 | Feature | MIT | BSD\* | Apache v2.0 |
 | --- | --- | --- | --- |
 | **Scope** | Software + accompanying documentation as a whole | Software only (source and binary form) | Software, documentation, and configuration independently |
-| **Contributions & sublicensing** | Sublicensing explicitly allowed; relicensing not | Sublicensing implicit; relicensing not | Sublicensing explicit; contributions automatically under Apache v2.0; relicensing not |
-| **Patent protection** | None | None | Royalty-free patent license for contributions |
+| **Contributions & subsequent licensing** | Subsequent licensing explicitly allowed | Subsequent licensing implicit | Subsequent licensing explicit; contributions automatically under Apache v2.0 |
+| **Patent protection** | None | None | Patent retaliation clause |
 | **SaaS** | SaaS not considered distribution | SaaS not considered distribution | SaaS not considered distribution |
 | **Liability** | *As-is* | *As-is* | *As-is*, with nuance for local law and third-party commercial warranties |
 | **Characteristic** | Maximum simplicity and freedom | Minimal coverage, strictly limited | Comprehensive protection and legal certainty |
 
-The MIT License is the simplest and most flexible: it covers software and its accompanying documentation as a whole, explicitly allows sublicensing, and imposes few additional obligations. BSD\* is more limited and applies only to software; documentation and configuration are excluded, and sublicensing is only implicitly covered. Apache v2.0 is the most extensive: it covers software, documentation, and configuration independently, automatically licenses contributions under the same terms, and provides explicit protection against patent claims.
+The MIT License is the simplest and most flexible: it covers software and its accompanying documentation as a whole, explicitly allows subsequent licensing, and imposes few additional obligations. BSD\* generally offers the same freedoms, but more implicit. Apache v2.0 is the most extensive: it covers software, documentation, and configuration independently, automatically licenses contributions under the same terms, and provides explicit protection against patent claims.
 
 What all three have in common is that SaaS (Software as a Service) is not considered distribution, and relicensing of the original work is not allowed. Liability is limited in all three by an as-is clause, with Apache v2.0 allowing some flexibility for local legislation and third-party commercial warranties.
 
@@ -199,6 +230,8 @@ There are several variants of the BSD license. The differences mainly concern ho
 | **BSD-3** | Same as BSD-2, but adds that the names of authors and contributors may not be used in endorsements or promotional expressions without explicit permission. |
 | **BSD-4** | Same as BSD-3, but with the literal addition: This product includes software developed by [the organization]. |
 
+In conclusion none of the BSD-1 to BSD-4 variants differ materially, their only difference is in detail level. Only the BSD-0 license could be considered as close to putting the software in the public domain.
+
 ### Scope
 
 | MIT | BSD\* | Apache v2.0 |
@@ -215,7 +248,7 @@ The BSD\* license has the narrowest scope—it applies exclusively to software, 
 | *[...] to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions [...]* | *Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met [...]* | *"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).* |
 | Distribution of the complete bundle, whether source code, documentation, or configuration. | Distribution as source code or binaries. | Distribution as object form or source code. |
 
-The MIT license is the most extensive and form-agnostic in this respect; it makes no distinction between distributing software as source code, standalone binaries, or as a complete package including documentation and configuration. It is intentionally phrased broadly so that all forms of distribution are covered. In contrast, the BSD\* and Apache v2.0 licenses explicitly define the forms in which software may be distributed, limiting them to source code and binaries. Apache v2.0 further adds object form as an allowed distribution format.
+The three licenses all have a broad scope in what's covered; either source, binaries, documentation, or icons. The only differences are the wording. And the actual scope of a license depends highly on the way they are applied by the rightsholder. E.g, when the rightsholder applies the Appache v2.0 license by indicating that a complete repository falls under it, and that repository includes user manuals, icons and other artwork, it still can safely be assumed that these other types of work are covered by it, even if the license was never meant to be used in this way.
 
 ### Distribution and SaaS
 
@@ -230,7 +263,7 @@ The MIT, BSD\*, and Apache v2.0 licenses all lack a specific clause regarding Sa
 
 It is important to note that MIT and BSD\* provide no protection against potential patent infringement. Anyone using software under MIT or BSD\* runs the risk of inadvertently infringing third-party patents. Apache 2.0 offers additional assurance in this regard, because each contribution from a licensor comes with an automatic royalty-free patent license, as long as it is necessary to use the work.
 
-### Relicensing and Compatibility
+### Subsequent licensing and Compatibility
 
 | MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
@@ -238,7 +271,7 @@ It is important to note that MIT and BSD\* provide no protection against potenti
 
 All three licenses impose no restrictions on the context in which the work may be used. For example, a derivative work may be published under a different open-source license or even included in a proprietary project. The original work, however, always remains available under its original license.
 
-It is important to note that BSD\* does not explicitly mention this right of sublicensing; it is inferred from the general intent of the license to maximize freedom. This interpretation is supported by the BSD\* assessment by the community and organizations such as the Open Source Initiative (OSI) and SPDX. For those seeking unambiguous certainty regarding sublicensing, MIT or Apache 2.0 is the safer choice.
+It is important to note that BSD\* does not explicitly mention this right of subsequent licensing; it is inferred from the general intent of the license to maximize freedom. This interpretation is supported by the BSD\* assessment by the community and organizations such as the Open Source Initiative (OSI) and SPDX. For those seeking unambiguous certainty regarding subsequent licensing, MIT or Apache 2.0 is the safer choice.
 
 None of these three licenses allow relicensing of the original work. You may not redistribute the work unchanged under a license other than the original license.
 
@@ -256,7 +289,7 @@ The MIT, BSD\*, and Apache v2.0 licenses all lack a specific clause regarding ne
 
 | MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
-| *Afwezig* | *Afwezig* | **Art. 5** *Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.* |
+| *Missing* | *Missing* | **Art. 5** *Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.* |
 | | | By submitting a request to include a contribution under Apache v2.0, the contributor declares that this is done under the same terms as this license. Exceptions are only permitted with the explicit consent of the original licensor. |
 
 The MIT and BSD\* licenses say nothing about the chain of authorship; Apache v2.0, on the other hand, does. Licenses such as MPL and EUPL go even further by explicitly stating that the contributor must actually have the IP-rights to include the work in the respective project. Apache v2.0 only requires that a contribution fall under the same terms and implicitly assumes that the contributor possesses the necessary IP-rights.
@@ -277,9 +310,9 @@ Permissive licenses generally aim to protect the developer or the licensor with 
 
 | MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
-| *Afwezig* | *Afwezig* | **Art. 9** *You may choose to offer  and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. [...] You may act only on Your own behalf and on Your sole responsibility* |
+| *Missing* | *Missing* | **Art. 9** *You may choose to offer and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. [...] You may act only on Your own behalf and on Your sole responsibility* |
 
-Only under Apache v2.0 may users or service providers offer additional services or warranties, and always solely under their own name and responsibility. Any liability arising from such offerings rests entirely with them, not with the original licensor or previous contributors. In this way, the standard liability disclaimer of the licensor remains intact, even when third parties provide commercial guarantees.
+Under the Apache v2.0 license users or service providers may offer additional services or warranties, and always solely under their own name and responsibility without having to resort to completely relicensing the work. Any liability arising from such offerings rests entirely with them, not with the original licensor or previous contributors. In this way, the standard liability disclaimer of the licensor remains intact, even when third parties provide commercial guarantees. From a practical perspective however, this does not differ greatly from MIT- or BSD-style licenses since even without this explicit language it would be very difficult for a later distributor or contributor to create a new liability for the original authors anyway.
 
 ### Inability to Comply
 
@@ -297,14 +330,14 @@ The European Union Public License (EUPL) v1.2 and the Mozilla Public License (MP
 | **Copyleft** | Applied at the derivative-work level | Applied at the file level |
 | **SaaS / Distribution** | SaaS explicitly covered | SaaS not covered |
 | **Patents** | Royalty-free patent license | Royalty-free patent license, with limitations if code is removed |
-| **Relicensing** | Possible, flexible, and compatible with many licenses | Possible, but less flexible; specific compatibility rules apply |
+| **Subsequent licensing** | Possible, flexible, and compatible with many licenses | Possible, but less flexible; specific compatibility rules apply |
 | **Copyright chain / contributors** | Declaration of rights transfer required | Declaration of rights transfer required |
 | **Additional agreements / liability** | Functionally similar | Functionally similar |
 | **Force majeure / governing law** | Follows default mandatory law | Contains explicit instructions for governing law and force majeure |
 
 In summary, the key differences are the degree of copyleft and the scope concerning SaaS.
 
-Including SaaS is important because most cloud services from companies like Google (Drive), Microsoft (OneDrive), Apple, and other GAFAM members distribute software as a service without providing access to the source code. Neither the MPL v2.0 nor the GPL v2.0 require developers to share the source code for software offered as a SaaS solution.
+Understanding whether the license affects SaaS is important because most cloud services from companies like Google (Drive), Microsoft (OneDrive), Apple, and other GAFAM members distribute software as a service without providing access to the source code. Neither the MPL v2.0 nor the GPL v2.0 require developers to share the source code for software offered as a SaaS solution.
 
 ### Scope
 
@@ -313,7 +346,7 @@ Including SaaS is important because most cloud services from companies like Goog
 | **Introduction**: *This European Union Public Licence (the ‘EUPL’) applies to the Work (as defined below) which is provided under the terms of this Licence.* | **Art. 1.13**: *Source Code Form: means the form of the work preferred for making modifications.* |
 | The EUPL can be applied to a wide range of works: source code, documents, datasets, and other digital assets. | The MPL is primarily focused on source code and does not cover other digital assets such as documentation or datasets. |
 
-The MPL can only be used for source code. The EUPL can be applied to 'works' in a broader sense; this includes source code, as well as documents, datasets, and other digital assets.
+The MPL focuses on source code as its scope. The EUPL explicitly talks about 'works' in a broader sense; this includes source code, as well as documents, datasets, and other digital assets. From a practical viewpoint, the application of the MPL on other types of works is maybe not ideal but would in either way work just fine.
 
 ### Degree of Copyleft
 
@@ -335,9 +368,9 @@ Example: Consider an open-source encryption library (such as Mbed-TLS or OpenSSL
 | EUPL | MPL  |
 | ---- | ---- |
 | **Art. 1**: *'Distribution' or 'Communication': any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or providing access to its essential functionalities at the disposal of any other natural or legal person.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. [...]* **Art 3.2**: *If You distribute Covered Software in Executable Form [...]* |
-| SaaS use falls under the concept of distribution; no separate license like the AGPL is required. | The MPL regulates the distribution of source code but does not include an explicit provision for SaaS. Online-only availability does not automatically trigger licensing obligations. |
+| SaaS use falls under the concept of distribution; no separate license like the AGPL is required. | The MPL regulates the distribution of source code but does not include an explicit provision for SaaS. Online-only availability does not automatically trigger licensing obligations under the MPL. |
 
-The EUPL is explicitly designed for cloud/SaaS applications; the MPL is limited to traditional source code distribution.
+The EUPL is explicitly designed to cover cloud/SaaS applications; the MPL is limited to traditional source code distribution.
 
 In case of the EUPL, Would the original unmodified source code already be publically available, then there is no obligation to again distribute the unmodified source code.
 
@@ -349,14 +382,14 @@ In case of the EUPL, Would the original unmodified source code already be public
 
 Both licenses automatically grant a royalty-free patent license for the use of the work, when such a patent license is necessary to make use of the work. However, the MPL introduces an important nuance. If parts of the original code are removed, the patent license for those removed portions lapses. If you later add similar functionality that resembles what was removed, you could still infringe on the original contributor’s patent.
 
-### Relicensing and Compatibility
+### Subsequent licensing and Compatibility
 
 | EUPL | MPL  |
 | ---- | ---- |
 | **Art. 5**: *If the Licensee Distributes or Communicates Derivative Works or copies thereof based upon both the Work and another work licensed under a Compatible Licence, this Distribution or Communication can be done under the terms of this Compatible Licence. [...] should the Licensee's obligations under the Compatible Licence conflict with his/her obligations under this Licence, the obligations of the Compatible Licence shall prevail.* | **Art 2.4**: *No Contributor makes additional grants as a result of Your choice to distribute the Covered Software under a subsequent version of this License (see Section 10.2) or under the terms of a Secondary License (if permitted under the terms of Section 3.3).* |
 The EUPL allows derivative works to be distributed under a compatible open source license. These compatible licenses—including the GPL, LGPL, and MPL 2.0—are listed in the annex of the EUPL. This is fundamentally different from the GPL, which does not allow relicensing under other licenses (except for the AGPL, which is stricter regarding SaaS use). The second part of the article means that you can re-release EUPL-licensed work under a stricter or milder copyleft license: a) Distribution under the MPL weakens the copyleft effect to the file level. b) Distribution under the GPL strengthens the copyleft effect to the entire work. | If someone decides to attach a different license when distributing the original MPL code—such as a newer MPL version or one of the compatible licenses—this does not change the freedoms originally granted by the initial licensor to the source code. |
 
-The broad compatibility of both the EUPL and the MPL provides meaningful flexibility when creating or distributing derivative works. However, this flexibility operates differently in each license. The EUPL allows relicensing for Derivative Works or for Combinations with components under a license listed under *Compatible Licence*. The MPL, by contrast, uses file-level copyleft: MPL-covered files must remain under the MPL, but they may be combined with code under any other license within a Larger Work. Relicensing an MPL-covered file itself is only permitted in the cases explicitly defined by the MPL. One such case is distribution under a later version of the MPL. Another is distribution under a license listed under *Secondary License*, which is allowed by default unless the file is marked *Incompatible With Secondary Licenses*. This ensures that the MPL is compatible with strong copyleft licenses.
+The broad compatibility of both the EUPL and the MPL provides flexibility when creating or distributing derivative works. However, this flexibility operates differently in each license. The EUPL allows relicensing for Derivative Works or for Combinations with components under a license listed under *Compatible Licence*. The MPL, by contrast, uses file-level copyleft: MPL-covered files must remain under the MPL, but they may be combined with code under any other license within a Larger Work. Relicensing an MPL-covered file itself is only permitted in the cases explicitly defined by the MPL. One such case is distribution under a later version of the MPL. Another is distribution under a license listed under *Secondary License*, which is allowed by default unless the file is marked *Incompatible With Secondary Licenses*. This ensures that the MPL is compatible with strong copyleft licenses.
 
 In neither the EUPL nor the MPL does this flexibility permit relicensing the original, unmodified work solely to change its primary license. Doing so would exceed the permissions granted and would constitute copyright infringement.
 
@@ -368,7 +401,7 @@ In neither the EUPL nor the MPL does this flexibility permit relicensing the ori
 
 Both the EUPL and the MPL allow works to be distributed under later versions of the license, unless the original author explicitly excludes this. This prevents license lock-in: future changes to the license, for example due to updated European legislation, automatically apply to works without version restrictions.
 
-Not all open source licenses permit new versions to apply automatically. It is also not allowed to retroactively fix works published under EUPL v1.2 or MPL v2.0 to those specific versions if no such version restriction was set at the time of publication.
+Not all open source licenses permit new versions to apply automatically. It is also not allowed to retroactively fixate works published under EUPL v1.2 or MPL v2.0 to those specific versions if no such version restriction was set at the time of publication.
 
 ### Chain of Authorship
 
@@ -402,7 +435,7 @@ Under both the EUPL and the MPL, users or service providers may offer additional
 | ---- | ---- |
 | *None* | **Art. 4**: *If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Software due to statute, judicial order, or regulation then You must: (a) comply [...] to the maximum extent possible; and (b) describe the limitations [...]* |
 
-The MPL contains explicit instructions for situations in which compliance with the license is legally impossible. The EUPL does not include such a provision, but of course also adheres to mandatory legal requirements.
+The MPL contains explicit instructions for situations in which compliance with the license is legally impossible. The EUPL does not include such a provision, but also adheres to mandatory legal requirements.
 
 ## Strong Copyleft
 
@@ -422,7 +455,7 @@ These concepts have little independent meaning outside the context of computer p
 
 > **5.c. Conveying Modified Source Versions** *You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply [...]to the whole of the work, and all its parts, regardless of how they are packaged. [...]*
 
-This article describes the inheritable (copyleft) effect of the (A)GPL. It requires that any work incorporating GPL code must be distributed as a whole under the (A)GPL. As a result, the entire derivative work inherits the GPL terms. It is precisely this inheritable effect that makes the (A)GPL a strong copyleft license: reuse is permitted, but only while preserving the same freedoms for all subsequent users.
+This article describes the reciprocal (copyleft) effect of the (A)GPL. It requires that any work incorporating GPL code must be distributed as a whole under the (A)GPL. As a result, the entire derivative work inherits the GPL terms. It is precisely this reciprocity that makes the (A)GPL a strong copyleft license: reuse is permitted, but only while preserving the same freedoms for all subsequent users.
 
 ### Distribution and SaaS
 
@@ -434,7 +467,7 @@ Instead, the AGPL adds a separate requirement for remote use:
 
 > **13. Remote Network Interaction; Use with the GNU General Public License.** *Notwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network (if your version supports such interaction) an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software.*
 
-This requirement ensures that for modified software offered over a network (SaaS), users still gain access to the source code, even if they do not receive a copy of the program.
+This requirement ensures that for modified software offered over a network (SaaS), users still have a right of access to the source code, even if they do not receive a copy of the program.
 
 It is important to note that this requirement only applies to modified software. If a program is offered as SaaS without changes, the AGPL does not require additional source code distribution, since that source code should already be accessible through the original author or distributor.
 
@@ -452,13 +485,13 @@ Furthermore, the (A)GPL specifies that a patent license granted to one recipient
 
 Finally, it is important to note that the copyleft or inheritance effect of the (A)GPL applies only to copyright. When (A)GPL code is incorporated into a larger work, the entire work containing the (A)GPL contribution automatically inherits the (A)GPL copyright terms. If that same work also contains parts covered by patents, those patents are not affected by the (A)GPL terms. Users of the combined work are therefore not automatically protected against patent infringement.
 
-### Relicensing and Compatibility
+### Subsequent licensing and Compatibility
 
 > **2. Basic Permissions.** *Sublicensing is not allowed; section 10 makes it unnecessary.* **5.c. Conveying Modified Source Versions** *[...] This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.*
 
 > **13. Use with the GNU Affero General Public License.** *Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.*
 
-The (A)GPL explicitly does not allow a work to be relicensed under another license. In addition, (A)GPL licenses are generally not compatible with other open-source licenses. The only exception is that GPL code can be combined with and relicensed under the AGPL, because the AGPL contains all of the obligations of the GPL, supplemented with an additional requirement for network use, such as in software-as-a-service (SaaS) scenarios.
+The (A)GPL explicitly does not allow a work to be subsequently licensed under another license. In addition, (A)GPL licenses are generally not compatible with other open-source licenses. The only exception is that GPL code can be combined with and subsequently licensed under the AGPL, because the AGPL contains all of the obligations of the GPL, supplemented with an additional requirement for network use, such as in software-as-a-service (SaaS) scenarios.
 
 In the GPL license text, this is explicitly titled **Use with the GNU Affero General Public License.** and in the AGPL it is titled **Remote Network Interaction; Use with the GNU General Public License.** This keeps the articles aligned in numbering for easy cross-reference between the GPL and AGPL.
 
@@ -502,10 +535,11 @@ To simplify the evaluation and use of open-source software (OSS) licenses, an OS
 
 ## :bulb: Strong copyleft and EU-law
 
-One of the most prominent aspect of *strong copyleft* is the opinion of the Free Software Foundation that linking (statically or even dynamically) a (A)GPL covered work with any other program creates a *combined derivative* globally covered by the (A)GPL. This opinion is at the origin of qualifying the (A)GPL as "viral". Under the EU law ([Directive 2009/24/EC; On the legal protection of computer programs](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024)) this opinion looks invalid, but at the contrary of the EUPL, the application of the (A)GPL is not specifically covered by the EU law. This means that—due to the absence of explicit grounding in EU law and the lack of settled European case law—the lawfulness of this aspect of the (A)GPL is legally uncertain.
+One of the most prominent aspect of *strong copyleft* is the opinion of the Free Software Foundation that linking (statically or even dynamically) a (A)GPL covered work with any other program creates a *combined derivative* globally covered by the (A)GPL. This opinion is at the origin of qualifying the (A)GPL as "viral". Under the EU law ([2009/24/EC; On the legal protection of computer programs](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024)) and the jurisprudence based on it, this opinion may be unfounded, but contrary to the EUPL, the application of the (A)GPL is not specifically covered by the EU law. In either case, there is too little jurisprudence on accessing (local) APIs and the implications of that for software copyright, specifically on whether this constitutes a derivative work, to be able to consider this question settled in law (that said, especially static linking is widely considered to constitute derivation). Both licenses explicitly rely on copyright concepts of derivation, which are sufficiently fuzzy to be unable to conclude with certainty that linking constitutes derivation, especially in the case of dynamic linking. This is regardless of the matter of interoperability (as discussed hereafter).
 
-So there are two reasons why the EUPL should be considered a moderately (weak) copyleft license:
-1. According to European law, which still applies to the EUPL, linking multiple programs to make them interoperable should always be permitted, regardless of any license. This exception to copyright stems from recitals 10 and 15 of the [Directive 2009/24/EC](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024). This is the main reason why the EUPL is not to be considered as a "viral licence": each component made interoperable through linking retains its original license.
+There are two reasons why the EUPL should be considered a moderately (weak) copyleft license:
+
+1. According to European law, which still applies to the EUPL, linking multiple programs to make them interoperable should always be permitted, regardless of any license. This exception to copyright stems from recitals 10 and 15 of the [2009/24/EC](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024). This is the main reason why the EUPL is not to be considered as a "viral licence": each component made interoperable through linking retains its original license.
 2. Regarding derivative works where source code covered by different licenses is not simply linked but truly merged, the EUPL allows such a combined work to be distributed under a compatible license, and the list includes the "weak copyleft" MPL & LGPL.
 
 For more information: [Why the EUPL is NOT a Viral Licence?](https://interoperable-europe.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l)
@@ -516,6 +550,7 @@ Thanks to everyone mentioned by name here, as well as all the contributors who w
 
 * Maurice Hendriks (Main author; Dutch Ministry of Health, Welfare and Sport)
 * Jonas van den Bogaard (Alliander)
+* Walter van Holst (Hooghiemstra & Partners)
 * Patrice-Emmanuel Schmitz (External European Commission advisor)
 
 ---
