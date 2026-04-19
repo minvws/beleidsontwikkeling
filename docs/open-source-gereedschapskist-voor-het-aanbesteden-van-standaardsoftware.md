@@ -196,13 +196,13 @@ Het doel is dat partijen zich onderdeel gaan voelen van een robuust en volwassen
 
 * **Tekstsuggestie voor het Beschrijvend Document**
 
-   > Inschrijvers gaan ermee dat akkoord dat de verantwoordelijkheid voor conform de gunningseisen leveren van de prestaties in hun eigen kavel zich ook uitstrekt tot het oplossen van vraagstukken die met de onderlinge samenhang van kavels te maken heeft. Neem bijvoorbeeld een interoperabiliteitsprobleem tussen twee kavels. Het uitgangspunt is dat de leveranciers van ieder kavel pro-actief werken aan de oplossing van het probleem. Pas nadat de oplossing gerealiseerd is en is aangetoond dat de grondoorzaak niet in de uitvoering van de werkzaamheden van het eigen kavel gelegen was, mogen hiervoor kosten in rekening worden gebracht. Dit als een nadere uitwerking van artikel 28 ARBIT-voorwaarden.
+    > Inschrijvers gaan ermee dat akkoord dat de verantwoordelijkheid voor conform de gunningseisen leveren van de prestaties in hun eigen kavel zich ook uitstrekt tot het oplossen van vraagstukken die met de onderlinge samenhang van kavels te maken heeft. Neem bijvoorbeeld een interoperabiliteitsprobleem tussen twee kavels. Het uitgangspunt is dat de leveranciers van ieder kavel pro-actief werken aan de oplossing van het probleem. Pas nadat de oplossing gerealiseerd is en is aangetoond dat de grondoorzaak niet in de uitvoering van de werkzaamheden van het eigen kavel gelegen was, mogen hiervoor kosten in rekening worden gebracht. Dit als een nadere uitwerking van artikel 28 ARBIT-voorwaarden.
 
 * **Tekstsuggestie voor in het Contract**
 
-   > In aanvulling op de bepalingen van de ARBIT-voorwaarden geldt het hiernavolgende artikel 12.3a.
-   >
-   > Hiervoorgaande garantie tot herstel van Gebreken strekt zich ook uit tot de diagnose van gebreken in de prestaties van derden die onderdeel uitmaken van een groter geheel waar de Prestatie van Wederpartij eveneens onderdeel uit van maakt en waarvan redelijkerwijze op voorhand niet kan worden uitgesloten dat de oorzaak van dergelijke gebreken gelegen zijn in een Gebrek in de Prestatie van Wederpartij. Indien Wederpartij kan aantonen dat deze gebreken gelegen zijn in de prestaties van derden en niet in Gebreken in de Prestatie van Wederpartij kan Wederpartij extra kosten bij Opdrachtgever in rekening brengen voor diens diagnose-werkzaamheden.
+    > In aanvulling op de bepalingen van de ARBIT-voorwaarden geldt het hiernavolgende artikel 12.3a.
+    >
+    > Hiervoorgaande garantie tot herstel van Gebreken strekt zich ook uit tot de diagnose van gebreken in de prestaties van derden die onderdeel uitmaken van een groter geheel waar de Prestatie van Wederpartij eveneens onderdeel uit van maakt en waarvan redelijkerwijze op voorhand niet kan worden uitgesloten dat de oorzaak van dergelijke gebreken gelegen zijn in een Gebrek in de Prestatie van Wederpartij. Indien Wederpartij kan aantonen dat deze gebreken gelegen zijn in de prestaties van derden en niet in Gebreken in de Prestatie van Wederpartij kan Wederpartij extra kosten bij Opdrachtgever in rekening brengen voor diens diagnose-werkzaamheden.
 
 ## Gebruik een groeipad voor (niet-)functionele eisen
 
