@@ -60,9 +60,9 @@ Under copyright law, the creator of a creative work automatically owns the copyr
 
 Under the EU Software Directive (2009/24/EC), there is another twist that sets software more or less apart from other copyright-protected works, namely that preceding works are granted the same copyright protections as the software itself. This means that for example a design document that would technically allow for an easy reimplementation of software is also covered and that such a reimplementation would require the prior consent from the rightsholder.
 
-Some of the above limitations copyright law imposes on use of software can be loosened by the rightsholder by granting a license to individuals or groups. This is typically called a license agreement since the terms and conditions usually include something in return, if only a limitation of liability. Per such a license agreement, others can obtain the rights to use the software, and less commonley, to modify or redistribute it. An open source license (OSS) is a specific type of license agreement for granting all these rights, which sets them apart from so-called proprietary software licenses. By using an OSS-license, rightsholders can rely on common understanding of what users can or cannot do with software and it removes unnecessary restriction on the right to use the software as well as on the distribution of the software. The combination of practically unlimited usage rights and very few restrictions on distribution as well as very few additional duties (no payment for usage) is what sets open source licenses apart from classic software licenses. Moreover, by using an OSS-license, IP-right holders can express the core values of open source set forth by the Open Source Initiative and which are also present in recital 18 of the EU Cyber Resilience Act (2024/2847/EU) as well as recital 14 of the EU Product Liability Directive (2024/2853/EU).
+Some of the above limitations copyright law imposes on use of software can be loosened by the rightsholder by granting a license to individuals or groups. This is typically called a license agreement since the terms and conditions usually include something in return, if only a limitation of liability. Per such a license agreement, others can obtain the rights to use the software, and less commonly, to modify or redistribute it. An open source software license (OSS) is a specific type of software license agreement for granting all these rights, which sets them apart from so-called proprietary software licenses. By using an OSS-license, rightsholders can rely on common understanding of what users can or cannot do with software and it removes unnecessary restriction on the right to use the software as well as on the distribution of the software. The combination of practically unlimited usage rights and very few restrictions on distribution as well as very few additional duties (no payment for usage) is what sets open source licenses apart from classic software licenses. Moreover, by using an OSS-license, IP-right holders can express the core values of open source set forth by the Open Source Initiative and which are also present in, article 2 of the Interoperable Europe regulation (2024/903/EU), recital 18 of the EU Cyber Resilience Act (2024/2847/EU) as well as recital 14 of the EU Product Liability Directive (2024/2853/EU).
 
-- The right of freely distribute the software
+- The right to freely distribute the software.
 - The freedom to modify or create derivative works from it.
 - The exclusion of responsibility and liability for the misuse of the source.
 - The protection of original authors' integrity.
@@ -74,9 +74,9 @@ The goal and effect of an OSS-license is to make software freely available to ev
 
 # The government specific case of copyright
 
-As described above, and as a rule, source code published without an open source license cannot be reused by others. An important exception to said rule can be found in article 8 of the so-called PSI-directive (2019/1024/EU, Directive on open data and re-use of public sector information), which in the Dutch context has been transposed into article 15b of the Dutch Copyright Act. This specifically covers publications by the Dutch government. It states that published government works can be reused and redistributed by others unless specific reservations are made. Without such a reservation, the reuse of government-published works is not considered copyright infringement.
+As described above, and as a rule, source code published without an open source license cannot be reused by others. An important exception to said rule can be found in article 8 of the so-called PSI-directive (2019/1024/EU, Directive on open data and re-use of public sector information), which in the Dutch context has been transposed into article 15b of the Dutch Copyright Act. This specifically covers publications by the Dutch government. It states that published government works can be reused and redistributed by others unless specific reservations are made. Without such a reservation, the reuse of works the copyrights are held by government is not considered a copyright infringement.
 
-Although the government retains the IP rights, these rights cannot be enforced without adding a reservation. When necessary, such a reservation can be as simple as this:
+Although the government retains their IP rights, these rights cannot be enforced without adding an explicit reservation. When necessary, such a reservation can be as simple as this:
 
 ```c
 /*
@@ -87,7 +87,7 @@ Although the government retains the IP rights, these rights cannot be enforced w
 
 It is recommended to place this reservation in the header of each source code file, together with the copyright notice. This way, reuse of the source code without permission is prohibited.
 
-For Dutch government entities, using an open source license does not broaden the usage rights—as it does for other authors—but instead imposes a (limited) restriction on reuse. The license specifies the terms and conditions under which others can reuse, modify, or redistribute the works. The abovementioned article 15b of the Dutch Copyright Act has equivalents in the copyright laws of other EU member states since it is a transposition of the EU directive on open data and the reuse of public-sector information.
+For Dutch government entities, using an open source license does not broaden the usage rights—as it does for other authors—but instead imposes a (limited) restriction on reuse. The license specifies the terms and conditions under which others can reuse, modify, or redistribute the works. The abovementioned article 15b of the Dutch Copyright Act has equivalents in the copyright laws of other EU member states since it is partly a transposition of the EU directive on open data and the reuse of public-sector information, partly a transposition of the Berne Convention.
 
 # General License Types
 
@@ -119,7 +119,7 @@ Reciprocity in open source licenses means that there are some obligations to pas
 
 Like permissive licenses, weak copyleft licensed software have terms that allow for integration in proprietary software, e.g. as library components, sometimes contingent on certain conditions.
 
-Well-known examples of weak-copyleft licenses include Mozilla Public License (MPL v2.0), European Union Public License (EUPL v1.2), and the Library GPL (LGPL v3) license.
+Well-known examples of weak-copyleft licenses include Mozilla Public License (MPL v2.0), European Union Public License (EUPL v1.2), and the Library (also known as the Lesser) GPL (LGPL v3) license. The EUPL is a special case here, since it grants the right to apply certain weak-copyleft licenses to the same works while some readings of it could consider it a strong copyleft license. Because of that flexibility in relicensing it, it can be considered a weak-copyleft license here.
 
 ## Strong reciprocity / Strong Copyleft
 
@@ -157,33 +157,33 @@ Conversely, source code can be made public without an OSS license attached. In t
 
 As described earlier, an open source license lifts many of the restrictions that normally arise from copyright law (except in the case of government works). This is done in the form of a user license. It is important to note that the open source license does not repeal copyright itself—copyright remains fully in force. The creator remains the legal owner but grants others certain usage rights under specific conditions.
 
-If you want to completely waive your copyright, this can only be done by dedicating the work to the public domain. In that case, the source code is no longer legally owned by anyone and effectively belongs to everyone. There are then no restrictions on use, modification, or distribution, because no one has the legal right to challenge these actions.
+If you want to completely waive your copyright, this can only be done by dedicating the work to the public domain. In that case, the work is no longer legally owned by anyone and effectively belongs to everyone. There are then no restrictions on use, modification, or distribution, because no one has the legal right to challenge these actions. 
 
 Of all open source licenses, the BSD-0 license comes closest to the public domain. This extremely permissive license does not even require attribution to the author. However, formally, the code still remains under copyright in this case.
 
-It is good to know that not all countries legally recognize the waiver of copyright on a work. In practice, this rarely causes problems as long as the original author does not assert their rights. Nevertheless, it is important to be aware of the legal context, especially if you work with or publish under a license that implies a waiver of rights.
+It is good to know that not all jurisdictions, especially European ones, legally recognize the waiver of copyright on a work. In practice, this rarely causes problems as long as the original author does not assert their rights. Nevertheless, it is important to be aware of the legal context, especially if you work with or publish under a license that implies a waiver of rights.
 
-In some situations, it may be safer to release source code under an explicit open source license. This way, clearer agreements exist regarding use, reuse, and liability—which often provides more legal certainty than relying on the public domain.
+In some situations, it may be safer to release source code under an explicit open source license. This way, more clarity is provided regarding use, reuse, and liability—which often provides more legal certainty than relying on the public domain.
 
 # Fair Source Licenses
 
 [Fair Source licenses](https://fair.io/licenses/), not to be confused with the [Fair License](https://en.wikipedia.org/wiki/Fair_License), try to bridge between open source and proprietary license. For example by putting a time-limit on its proprietary nature. This is technically not open source, but can indeed become open source if a proper open source license is chosen as the license.
 
-The [Functional Core License](https://fsl.software/) is an example of a fair source license. This license is available in two variant. A MIT and Apache v2.0 variant. It automatically makes source code open source after a period of two years counted from the original publication date.
+The [Functional Core License](https://fsl.software/) is an example of a fair source license. This license is available in two variants. A MIT and Apache v2.0 variant. It automatically makes source code open source after a period of two years counted from the original publication date.
 
 # Open source washing
 
-The contept of fair source licenses can easily becomes openwashing with the [Fair Core License](https://fcl.dev/) and the [Business Source License](https://mariadb.com/bsl-faq-mariadb/). The former makes a similar promise as the Fair Source License, but only for core functionality. The problem here is similar as with so-called open core business models: there is an incentive for the copyright holder to put key functionality in the proprietary licensed parts and subsequently gain vendor lock-in. The Business Source License goes even further than that: it only promises source availability, similar to concepts like [Shared Source Initiative](https://en.wikipedia.org/wiki/Shared_Source_Initiative) (once pioneered by Microsoft), without actually giving the freedoms a proper open source license gives.
+The concept of fair source licenses can easily becomes openwashing with the [Fair Core License](https://fcl.dev/) and the [Business Source License](https://mariadb.com/bsl-faq-mariadb/). The former makes a similar promise as the Fair Source License, but only for core functionality. The problem here is similar as with so-called open core business models: there is an incentive for the copyright holder to put key functionality in the proprietary licensed parts and subsequently gain vendor lock-in. The Business Source License goes even further than that: it only promises source availability, similar to concepts like [Shared Source Initiative](https://en.wikipedia.org/wiki/Shared_Source_Initiative) (once pioneered by Microsoft), without actually giving the freedoms a proper open source license gives.
 
-Lastly, source available should not be considered open source. Source available means that the author has published the source code online or has made the source code available in another manner, but without an open source license attached to it. Although this allows for other to inspect and study the code, it cannot be reused, built upon or redistributed. That's because the source code is still protected by copyright law.
+Lastly, source available should not be considered open source. Source available means that the author has published the source code online or has made the source code available in another manner, but without an open source license attached to it. Although this allows for others to inspect and study the code, it cannot be reused, built upon or redistributed. That is because the source code is still protected by copyright law.
 
 # Software Patents
 
 Patent law is distinct from copyright law in the sense that it is based on a) registration and b) covers inventions. The debate on whether software can actually be covered by patents has never been sufficiently settled and especially in the USA it is not uncommon to register patents of an algorithmic nature. The strength of such patent registrations remains controversial. The value of a patent infringement claim may at times be more based on the fact that the (unintentional) patent infringers do not want to find themselves in court in the first place, than on legal strength. However, with this adagium in mind, it is relevant to consider open source licenses explicitly that cover patent rights or have patent retaliation clauses, since these add legal certainty.
 
-# Subsequent licensing
+# Subsequent licensing/downstream licensing
 
-Subsequent licensing should be understood as the scenario in which the licensor is not the same as the rightsholder. This is the case when a distributor distributes the source code under a different license. In case you add improvements to existing source code you are condisered the licensor for those improvements. The licensor can only distribute a source code with a subsequent license without specific approval when the license the source code was distributed under provides the necessary grants to do so.
+Subsequent licensing should be understood as the scenario in which the licensor is not the same as the rightsholder. This is the case when a distributor distributes the source code under a different license. In case you add improvements to existing source code you are considered the licensor for those improvements. The licensor can only distribute a source code with a subsequent license without specific approval when the license the source code was distributed under provides the necessary grants to do so. This sometimes also called downstream licensing.
 
 # An In-Depth Analysis
 
@@ -248,7 +248,7 @@ The BSD\* license has the narrowest scope—it applies exclusively to software, 
 | *[...] to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions [...]* | *Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met [...]* | *"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).* |
 | Distribution of the complete bundle, whether source code, documentation, or configuration. | Distribution as source code or binaries. | Distribution as object form or source code. |
 
-The three licenses all have a broad scope in what's covered; either source, binaries, documentation, or icons. The only differences are the wording. And the actual scope of a license depends highly on the way they are applied by the rightsholder. E.g, when the rightsholder applies the Appache v2.0 license by indicating that a complete repository falls under it, and that repository includes user manuals, icons and other artwork, it still can safely be assumed that these other types of work are covered by it, even if the license was never meant to be used in this way.
+The three licenses all have a broad scope in what's covered; either source, binaries, documentation, or icons. The only differences are the wording. And the actual scope of a license depends highly on the way they are applied by the rightsholder. E.g, when the rightsholder applies the Apache v2.0 license by indicating that a complete repository falls under it, and that repository includes user manuals, icons and other artwork, it still can safely be assumed that these other types of work are covered by it, even if the license was never meant to be used in this way.
 
 ### Distribution and SaaS
 
@@ -258,7 +258,7 @@ The MIT, BSD\*, and Apache v2.0 licenses all lack a specific clause regarding Sa
 
 | MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
-| *None* | *None* | *Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that* |
+| *None* | *None* | *Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that [...] * |
 | | | Apache v2.0 automatically grants a royalty-free patent license for using the work when, without this patent grant, the work could not be used. |
 
 It is important to note that MIT and BSD\* provide no protection against potential patent infringement. Anyone using software under MIT or BSD\* runs the risk of inadvertently infringing third-party patents. Apache 2.0 offers additional assurance in this regard, because each contribution from a licensor comes with an automatic royalty-free patent license, as long as it is necessary to use the work.
@@ -300,7 +300,7 @@ In all three cases, it can be useful to include a Developer Certificate of Origi
 
 | MIT | BSD\* | Apache v2.0 |
 | --- | --- | --- |
-| *THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, [...]* | *THIS SOFTWARE IS PROVIDED BY [Name of Organization] “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES [...] ARE DISCLAIMED. IN NO EVENT SHALL [Name of Organisation] BE LIABLE [...].* | **Art. 7** *[...] Licensor provides the Work [...] on an “AS IS” BASIS, WITHOUT WARRANTIES [...].* **Art. 8** *In no event [...] unless required by applicable law [...] shall any Contributor be liable to You for damages* |
+| *THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, [...]* | *THIS SOFTWARE IS PROVIDED BY [Name of Organization] “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES [...] ARE DISCLAIMED. IN NO EVENT SHALL [Name of Organisation] BE LIABLE [...]* | **Art. 7** *[...] Licensor provides the Work [...] on an “AS IS” BASIS, WITHOUT WARRANTIES [...]* **Art. 8** *In no event [...] unless required by applicable law [...] shall any Contributor be liable to You for damages [...]* |
 
 All three licenses include the standard as-is clause, which fully disclaims liability. Apache v2.0 is slightly more nuanced: it allows for exceptions where local law does not permit complete exclusion of liability. Thus, the liability disclaimer under Apache v2.0 is not absolute, but in practice it is broadly comparable to that of the MIT and BSD\* licenses.
 
@@ -310,7 +310,7 @@ Permissive licenses generally aim to protect the developer or the licensor with 
 
 | MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
-| *Missing* | *Missing* | **Art. 9** *You may choose to offer and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. [...] You may act only on Your own behalf and on Your sole responsibility* |
+| *Missing* | *Missing* | **Art. 9** [...] *You may choose to offer and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. [...] You may act only on Your own behalf and on Your sole responsibility [...]* |
 
 Under the Apache v2.0 license users or service providers may offer additional services or warranties, and always solely under their own name and responsibility without having to resort to completely relicensing the work. Any liability arising from such offerings rests entirely with them, not with the original licensor or previous contributors. In this way, the standard liability disclaimer of the licensor remains intact, even when third parties provide commercial guarantees. From a practical perspective however, this does not differ greatly from MIT- or BSD-style licenses since even without this explicit language it would be very difficult for a later distributor or contributor to create a new liability for the original authors anyway.
 
@@ -319,6 +319,16 @@ Under the Apache v2.0 license users or service providers may offer additional se
 | MIT | BSD\* | Apache v2.0 |
 | ---- | ---- | ---- |
 | *None* | *None* | *None* |
+
+### Miscellaneous
+
+It is also worth noting the requirements Apache v2.0 imposes on the distribution (and further development) of the source code:
+
+> **4. Redistribution**
+> 1. You must give any other recipients of the Work or Derivative Works a copy of this License; and
+> 2. You must cause any modified files to carry prominent notices stating that You changed the files; and
+> 3. You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work; and
+> 4. If the Work includes a 'NOTICE' text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file [...]. You may add Your own attribution notices within Derivative Works [...].
 
 ## Weak Copyleft
 
@@ -343,7 +353,7 @@ Understanding whether the license affects SaaS is important because most cloud s
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Introduction**: *This European Union Public Licence (the ‘EUPL’) applies to the Work (as defined below) which is provided under the terms of this Licence.* | **Art. 1.13**: *Source Code Form: means the form of the work preferred for making modifications.* |
+| **Introduction**: *This European Union Public Licence (the ‘EUPL’) applies to the Work (as defined below) which is provided under the terms of this Licence [...] * | **Art. 1.13**: *Source Code Form: means the form of the work preferred for making modifications.* |
 | The EUPL can be applied to a wide range of works: source code, documents, datasets, and other digital assets. | The MPL is primarily focused on source code and does not cover other digital assets such as documentation or datasets. |
 
 The MPL focuses on source code as its scope. The EUPL explicitly talks about 'works' in a broader sense; this includes source code, as well as documents, datasets, and other digital assets. From a practical viewpoint, the application of the MPL on other types of works is maybe not ideal but would in either way work just fine.
@@ -352,7 +362,7 @@ The MPL focuses on source code as its scope. The EUPL explicitly talks about 'wo
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 1**: *The Original Work: the work or software distributed or communicated by the Licensor under this Licence, available as Source Code and also as Executable Code as the case may be.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License.* |
+| **Art. 1**: [...] *'The Original Work': the work or software distributed or communicated by the Licensor under this Licence, available as Source Code and also as Executable Code as the case may be.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License [...]* |
 | The EUPL applies copyleft at the derivative work level: any work derived from EUPL-licensed code must be distributed under the EUPL or a compatible license. | The MPL applies copyleft at the file level: only the files covered by the MPL must be made available in source code form. |
 
 Under the MPL, a component can contain both MPL-licensed files and proprietary code.
@@ -367,22 +377,22 @@ Example: Consider an open-source encryption library (such as Mbed-TLS or OpenSSL
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 1**: *'Distribution' or 'Communication': any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or providing access to its essential functionalities at the disposal of any other natural or legal person.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. [...]* **Art 3.2**: *If You distribute Covered Software in Executable Form [...]* |
+| **Art. 1**: [...] *'Distribution' or 'Communication': any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or providing access to its essential functionalities at the disposal of any other natural or legal person.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. [...]* **Art 3.2**: *If You distribute Covered Software in Executable Form [...]* |
 | SaaS use falls under the concept of distribution; no separate license like the AGPL is required. | The MPL regulates the distribution of source code but does not include an explicit provision for SaaS. Online-only availability does not automatically trigger licensing obligations under the MPL. |
 
 The EUPL is explicitly designed to cover cloud/SaaS applications; the MPL is limited to traditional source code distribution.
 
-In case of the EUPL, Would the original unmodified source code already be publically available, then there is no obligation to again distribute the unmodified source code.
+In case of the EUPL, were the original unmodified source code already to be publicly available, then there is no obligation to distribute the unmodified source code again.
 
 ### Patents
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 2**: *The Licensor hereby grants You a worldwide, royalty-free, non-exclusive, sublicensable licence to do the following, for the duration of copyright vested in the Original Work.* | **Art 1.10**: *'Patent Claims' of a Contributor means any patent claim(s), including without limitation [...] that would be infringed, but for the grant of the License, by the making, using, selling [...] of either its Contributions or its Contributor Version.* **Art. 2.3**: *[...] Notwithstanding Section 2.1(b) above, no patent license is granted by a Contributor [...] under Patent Claims infringed by Covered Software in the absence of its Contributions.*|
+| **Art. 2**: *The Licensor hereby grants You a worldwide, royalty-free, non-exclusive, sublicensable licence to do the following, for the duration of copyright vested in the Original Work.* [...] | **Art 1.10**: *'Patent Claims' of a Contributor means any patent claim(s), including without limitation [...] that would be infringed, but for the grant of the License, by the making, using, selling [...] of either its Contributions or its Contributor Version.* **Art. 2.3**: *[...] Notwithstanding Section 2.1(b) above, no patent license is granted by a Contributor [...] under Patent Claims infringed by Covered Software in the absence of its Contributions.*|
 
 Both licenses automatically grant a royalty-free patent license for the use of the work, when such a patent license is necessary to make use of the work. However, the MPL introduces an important nuance. If parts of the original code are removed, the patent license for those removed portions lapses. If you later add similar functionality that resembles what was removed, you could still infringe on the original contributor’s patent.
 
-### Subsequent licensing and Compatibility
+### Subsequent licensing and compatibility
 
 | EUPL | MPL  |
 | ---- | ---- |
@@ -397,7 +407,7 @@ In neither the EUPL nor the MPL does this flexibility permit relicensing the ori
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 5**: *If the Licensee distributes or communicates copies of the Original Works or Derivative Works, this Distribution or Communication will be done under the terms of this Licence or of a later version of this Licence unless the Original Work is expressly distributed only under this version of the Licence — for example by communicating ‘EUPL v. 1.2 only’. The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence..* | **Art. 10.2**: *You may distribute the Covered Software under the terms of the version of the License under which You originally received the Covered Software, or under the terms of any subsequent version published by the license steward.* |
+| **Art. 5**: [...] *If the Licensee distributes or communicates copies of the Original Works or Derivative Works, this Distribution or Communication will be done under the terms of this Licence or of a later version of this Licence unless the Original Work is expressly distributed only under this version of the Licence — for example by communicating ‘EUPL v. 1.2 only’. The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence..* | **Art. 10.2**: *You may distribute the Covered Software under the terms of the version of the License under which You originally received the Covered Software, or under the terms of any subsequent version published by the license steward.* |
 
 Both the EUPL and the MPL allow works to be distributed under later versions of the license, unless the original author explicitly excludes this. This prevents license lock-in: future changes to the license, for example due to updated European legislation, automatically apply to works without version restrictions.
 
@@ -407,7 +417,7 @@ Not all open source licenses permit new versions to apply automatically. It is a
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 6**: *Each Contributor warrants that the copyright in the modifications he/she brings to the Work are owned by him/her or licensed to him/her and that he/she has the power and authority to grant the Licence. [...] Each time You accept the Licence, the original Licensor and subsequent Contributors grant You a licence to their contributions to the Work, under the terms of this Licence.* | **Art. 2.5**: *Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or it has sufficient rights to grant the rights to its Contributions conveyed by this License.* |
+| **Art. 6**: [...] *Each Contributor warrants that the copyright in the modifications he/she brings to the Work are owned by him/her or licensed to him/her and that he/she has the power and authority to grant the Licence. [...] Each time You accept the Licence, the original Licensor and subsequent Contributors grant You a licence to their contributions to the Work, under the terms of this Licence.* | **Art. 2.5**: *Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or it has sufficient rights to grant the rights to its Contributions conveyed by this License.* |
 
 The provisions in both the EUPL and the MPL serve the same purpose and are comparable to a Developer Certificate of Origin (DCO). Each contributor implicitly declares that their contribution is lawful and that they have the authority to publish it under the respective license. This protects subsequent license holders from liability for any copyright errors or infringements made by earlier contributors.
 
@@ -415,7 +425,7 @@ The provisions in both the EUPL and the MPL serve the same purpose and are compa
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 7**: *[...] This disclaimer of warranty is an essential part of the Licence and a condition for the grant of any rights to the Work.* **Art. 8**: *owever, the Licensor will be liable under statutory product liability laws as far such laws apply to the Work.* | **Art. 6**: *Covered Software is provided under this License on an “as is” basis, without warranty of any kind [...]* **Art. 7**: *any Contributor, or anyone who distributes Covered Software as permitted above, be liable to You* |
+| **Art. 7**: *[...] This disclaimer of warranty is an essential part of the Licence and a condition for the grant of any rights to the Work.* **Art. 8**: [...] *However, the Licensor will be liable under statutory product liability laws as far such laws apply to the Work.* | **Art. 6**: *Covered Software is provided under this License on an “as is” basis, without warranty of any kind [...]* **Art. 7**: [...] *any Contributor, or anyone who distributes Covered Software as permitted above, be liable to You* |
 
 As with almost all open-source licenses, both the EUPL and the MPL exclude warranties and liability.
 
@@ -425,7 +435,7 @@ In the case of the EUPL, this exclusion is not absolute: mandatory legal provisi
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 9**: *While distributing the Work, You may choose to conclude an additional agreement, defining obligations or services consistent with this Licence. [...]* | **Art. 3.5**: *You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations [...] You must make it absolutely clear that any such warranty [...] is offered by You alone.* |
+| **Art. 9**: *While distributing the Work, You may choose to conclude an additional agreement, defining obligations or services consistent with this Licence. [...]* | **Art. 3.5**: *You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations [...] You must make it absolutely clear that any such warranty [...] is offered by You alone [...] * |
 
 Under both the EUPL and the MPL, users or service providers may offer additional services or warranties only on their own behalf and under their own responsibility. Any liability arising from these services rests entirely with them and not with the original licensor or previous contributors. This ensures that the standard exclusion of liability for the licensor remains in effect, even if third parties provide commercial guarantees.
 
@@ -445,7 +455,7 @@ Since both licenses are almost identical, the following analysis primarily focus
 
 ### Scope
 
-> **Preamble** *the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program - to make sure it remains free software for all its users.* **Definition** *"The Program" refers to any copyrightable work licensed under this License.* **Artikel 1. Source Code** *The "source code" for a work means the preferred form of the work for making modifications to it. "Object code" means any non-source form of a work.*
+> **Preamble** [...] *the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program - to make sure it remains free software for all its users.* [...] **Definitions** *"The Program" refers to any copyrightable work licensed under this License.* **Article 1. Source Code** *The "source code" for a work means the preferred form of the work for making modifications to it. "Object code" means any non-source form of a work [...] *
 
 Although the (A)GPL, in the definition of "The Program," formally refers to any copyrightable work, the rest of the license makes clear that it is primarily designed for software. The (A)GPL operates with concepts such as source code, object code, system libraries, and standard interfaces, and it includes provisions regarding installation information and other software-specific aspects.
 
@@ -509,7 +519,7 @@ This clause functions similarly to a Developer Certificate of Origin (DCO). Each
 
 ### Disclaimer of Warranty and Limitation of Liability
 
-> **15. Disclaimer of Warranty.** *THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, [...].* **16. Limitation of Liability.** *IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, [...].*
+> **15. Disclaimer of Warranty.** *THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, [...].* **16. Limitation of Liability.** *IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, [...]*
 
 In the original license, this is written entirely in uppercase.
 
@@ -535,11 +545,11 @@ To simplify the evaluation and use of open-source software (OSS) licenses, an OS
 
 ## :bulb: Strong copyleft and EU-law
 
-One of the most prominent aspect of *strong copyleft* is the opinion of the Free Software Foundation that linking (statically or even dynamically) a (A)GPL covered work with any other program creates a *combined derivative* globally covered by the (A)GPL. This opinion is at the origin of qualifying the (A)GPL as "viral". Under the EU law ([2009/24/EC; On the legal protection of computer programs](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024)) and the jurisprudence based on it, this opinion may be unfounded, but contrary to the EUPL, the application of the (A)GPL is not specifically covered by the EU law. In either case, there is too little jurisprudence on accessing (local) APIs and the implications of that for software copyright, specifically on whether this constitutes a derivative work, to be able to consider this question settled in law (that said, especially static linking is widely considered to constitute derivation). Both licenses explicitly rely on copyright concepts of derivation, which are sufficiently fuzzy to be unable to conclude with certainty that linking constitutes derivation, especially in the case of dynamic linking. This is regardless of the matter of interoperability (as discussed hereafter).
+One of the most prominent aspect of *strong copyleft* is the opinion of the Free Software Foundation that linking (statically or even dynamically) a (A)GPL covered work with any other program creates a *combined derivative* globally covered by the (A)GPL. This opinion is at the origin of qualifying the (A)GPL as "viral". Under EU law ([Directive 2009/24/EC; On the legal protection of computer programs](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024)) and the jurisprudence based on it, this opinion may be unfounded, but contrary to the EUPL, the application of the (A)GPL is not specifically covered by the EU law. In either case, there is too little jurisprudence on accessing (local) APIs and the implications of that for software copyright, specifically on whether this constitutes a derivative work, to be able to consider this question settled in law (that said, especially static linking is widely considered to constitute derivation). Both licenses explicitly rely on copyright concepts of derivation, which are sufficiently fuzzy to be unable to conclude with certainty that linking constitutes derivation, especially in the case of dynamic linking. This is regardless of the matter of interoperability (as discussed hereafter).
 
 There are two reasons why the EUPL should be considered a moderately (weak) copyleft license:
 
-1. According to European law, which still applies to the EUPL, linking multiple programs to make them interoperable should always be permitted, regardless of any license. This exception to copyright stems from recitals 10 and 15 of the [2009/24/EC](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024). This is the main reason why the EUPL is not to be considered as a "viral licence": each component made interoperable through linking retains its original license.
+1. According to European law, which still applies to the EUPL, linking multiple programs to make them interoperable should always be permitted, regardless of any license. This exception to copyright stems from recitals 10 and 15 of the [ Directive 2009/24/EC](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024). This is the main reason why the EUPL is not to be considered as a "viral licence": each component made interoperable through linking retains its original license.
 2. Regarding derivative works where source code covered by different licenses is not simply linked but truly merged, the EUPL allows such a combined work to be distributed under a compatible license, and the list includes the "weak copyleft" MPL & LGPL.
 
 For more information: [Why the EUPL is NOT a Viral Licence?](https://interoperable-europe.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l)
@@ -558,6 +568,6 @@ Thanks to everyone mentioned by name here, as well as all the contributors who w
 This text is available under the CC-BY-4.0 \
 [![hackmd-github-sync-badge](https://hackmd.io/X5TSd1FMTNakvj9Pl8qsCw/badge)](https://hackmd.io/X5TSd1FMTNakvj9Pl8qsCw)
 
->[!Note]License
+>[!Note] License
 >
 > This file is released under a CC-BY license. The main reason is to make clear that this is a MinVWS-specific instrument and not one adopted government-wide. If this instrument ever becomes government-wide policy, the license will change to CC0, as recommended under the Dutch Public Sector Information Reuse Act. At that point, clarifying that it is offered by MinVWS will no longer be necessary.
