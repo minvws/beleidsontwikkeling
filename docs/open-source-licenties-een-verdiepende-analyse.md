@@ -531,4 +531,6 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 This text is available under the CC-BY-4.0 \
 [![hackmd-github-sync-badge](https://hackmd.io/xKaPXWp9RxWZP20OnePz2g/badge)](https://hackmd.io/xKaPXWp9RxWZP20OnePz2g)
 
-[!note] Licentie Dit bestand is gepubliceerd onder een CC-BY licentie. De reden hiervoor is dat dit document een MinVWS-specifiek instrument omvat en niet een die door hele overheid is overgenomen. Als dit instrument ooit rijksbreed beleid wordt, verandert de licentie naar CC0, zoals aanbevolen in de Wet hergebruik van overheidsinformatie. Vanaf dat moment is het niet meer nodig om aan te geven dat dit document wordt aangeboden door MinVWS.
+> [!note] Licentie
+>
+> Dit bestand is gepubliceerd onder een CC-BY licentie. De reden hiervoor is dat dit document een MinVWS-specifiek instrument omvat en niet een die door hele overheid is overgenomen. Als dit instrument ooit rijksbreed beleid wordt, verandert de licentie naar CC0, zoals aanbevolen in de Wet hergebruik van overheidsinformatie. Vanaf dat moment is het niet meer nodig om aan te geven dat dit document wordt aangeboden door MinVWS.
