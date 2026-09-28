@@ -27,6 +27,6 @@ hide:
 - [Open source ambitieladder voor opensourcewerken in projecten](open-source-ambitieladder-voor-opensourcewerken-in-projecten)
 - [Open source licenties: Een verdiepende analyse](open-source-licenties-een-verdiepende-analyse)
 
-- [Open Source Licenses: An In-Depth Analysis](open-source-licenses-an-in-depth-analysis) \
+- [Open Source Licenses: An In-Depth Analysis](open-source-licenses-an-in-depth-analysis)
 
 <br><br><br>
