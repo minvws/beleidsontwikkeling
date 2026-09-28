@@ -523,6 +523,7 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 
 * Maurice Hendriks (Hoofdauteur; Ministerie van Volksgezondheid, Welzijn en Sport)
 * Jonas van den Bogaard (Alliander)
+* Walter van Holst (Hooghiemstra & Partners)
 * Patrice-Emmanuel Schmitz (Externe adviseur Europese Commissie)
 
 ---
