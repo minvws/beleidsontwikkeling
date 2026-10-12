@@ -99,7 +99,7 @@ Voorbeeld: Stel je maakt software die bestaat uit drie componenten met verschill
 
 A: MIT-licentie \
 B: EUPL-licentie \
-C: GPLv3-licentie \
+C: GPLv3-licentie
 
 Dan moet de gehele software (A + B + C) worden gepubliceerd onder de GPLv3-licentie. Componenten A en B behouden wel hun oorspronkelijke licenties en kunnen los daarvan hergebruikt worden, maar binnen de samengestelde software overheerst de GPLv3.
 
@@ -511,11 +511,11 @@ Om de toetsing en het gebruik van OSS licenties makkelijker te maken, kan een OS
 
 ## :bulb: **Strong copyleft en EU-regelgeving**
 
-Een opvallend aspect van *strong copyleft* is de mening van de Free Software Foundation. Volgens hen creëert het linken (statisch of dynamisch) van een werk onder de (A)GPL met een ander programma een gecombineerd afgeleid werk dat nu volledig onder de (A)GPL valt. Daarom wordt de (A)GPL soms een "virale" licentie genoemd. Sommige auteurs zijn van mening dat dit zich moeilijk verhoudt met EU-regelgeving  ([Richtlijn 2009/24/EC; De rechtsbescherming van computerprogramma's](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024)). De (A)GPL is - in tegenstelling tot de EUPL -  niet expliciet in lijn gebracht met EU-wetgeving, al blijkt de rechtspraak in met name Duitsland hier geen moeite mee te hebben.
+Een opvallend aspect van *strong copyleft* is de mening van de Free Software Foundation. Volgens hen creëert het linken (statisch of dynamisch) van een werk onder de (A)GPL met een ander programma een gecombineerd afgeleid werk dat nu volledig onder de (A)GPL valt. Daarom wordt de (A)GPL soms een "virale" licentie genoemd. Sommige auteurs zijn van mening dat dit zich moeilijk verhoudt met EU-regelgeving  ([Richtlijn 2009/24/EC; De rechtsbescherming van computerprogramma's](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024)). De (A)GPL is – in tegenstelling tot de EUPL – niet expliciet in lijn gebracht met EU-wetgeving, al blijkt de rechtspraak in met name Duitsland hier geen moeite mee te hebben.
 
 Er zijn dus twee redenen waarom de EUPL als een matige (weak) copyleft-licentie kan worden gezien:
 
-* Naar Europese regelgeving, die van toepassing is op de EUPL, mag het linken van meerdere programma's om interoperabiliteit te bereiken onder bepaalde omstandigheden. Dit staat los van de licentie. Deze uitzondering op het auteursrecht staat in artikelen 10 en 15 van de [Directive] 2009/24/EC](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024). Dit is de belangrijkste reden waarom de EUPL volgens de hoofdopsteller ervan niet als een „virale licentie” moet worden beschouwd: elk onderdeel dat via koppeling interoperabel wordt gemaakt, behoudt zijn oorspronkelijke licentie.
+* Naar Europese regelgeving, die van toepassing is op de EUPL, mag het linken van meerdere programma's om interoperabiliteit te bereiken onder bepaalde omstandigheden. Dit staat los van de licentie. Deze uitzondering op het auteursrecht staat in artikelen 10 en 15 van de [Directive 2009/24/EC](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024). Dit is de belangrijkste reden waarom de EUPL volgens de hoofdopsteller ervan niet als een "virale licentie" moet worden beschouwd: elk onderdeel dat via koppeling interoperabel wordt gemaakt, behoudt zijn oorspronkelijke licentie.
 * Voor afgeleide werken waarbij broncode onder verschillende licenties samengevoegd wordt, staat de EUPL toe dat het gecombineerde werk onder een verenigbare licentie wordt verspreid. Deze lijst bevat zwakke copyleft-licenties zoals MPL en LGPL.
 
 Meer informatie: [Why the EUPL is NOT a Viral Licence?](https://interoperable-europe.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l)
