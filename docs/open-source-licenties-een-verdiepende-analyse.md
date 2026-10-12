@@ -97,9 +97,9 @@ Sterk wederkerige licenties voegen een zogeheten verervende effect toe. Dit houd
 
 Voorbeeld: Stel je maakt software die bestaat uit drie componenten met verschillende open source licenties en integreert ze zo dat ze onlosmakelijk met elkaar verbonden zijn:
 
-A: MIT-licentie
-B: EUPL-licentie
-C: GPLv3-licentie
+A: MIT-licentie \
+B: EUPL-licentie \
+C: GPLv3-licentie \
 
 Dan moet de gehele software (A + B + C) worden gepubliceerd onder de GPLv3-licentie. Componenten A en B behouden wel hun oorspronkelijke licenties en kunnen los daarvan hergebruikt worden, maar binnen de samengestelde software overheerst de GPLv3.
 
@@ -142,6 +142,7 @@ De Functional Core License is een voorbeeld van een fair source licentie. Deze l
 
 # Open source washing
 Het concept van fair source licenties kan heel makkelijk overgaan in openwashing met de Fair Core License en de Business Source License. De eerste belooft hetzelfde als de Fair Source licenties, maar dan alleen voor kernfunctionaliteit. Dit concept heeft dezelfde problemen als de zogenoemde open core business modellen: er is een sterke motivator voor de rechthebbende om belangrijke functionaliteit in het proprietary gelicentieerde deel op te nemen en daarmee vendor lock-in te verkrijgen bij gebruikers. De Business Source License gaat nog verder: die belooft alleen source availability, vergelijkbaar met het Shared Source Initiative (ooit bedacht door Microsoft), zonder de vrijheden van een echte open source licentie.
+
 Source availability is geen open source. Het betekent alleen dat de auteur de broncode online of op een andere manier beschikbaar heeft gemaakt, maar zonder een open source licentie. Hoewel dit het mogelijk maakt dat anderen de broncode inspecteren en bestuderen, mag die broncode niet worden hergebruikt, doorontwikkeld of verspreid. De broncode wordt namelijk beschermd door het auteursrecht van de rechthebbende.
 
 # Softwareoctrooien (patenten)
@@ -155,6 +156,7 @@ Opvolgende licensering is het scenario waarin de licentiegever niet dezelfde par
 De indeling van permissive, weak-copyleft en strong-copyleft is een sterke versimpelde weergave van de verschillen tussen de typen licenties. Om de licenties op de juiste manier in te zetten is het belangrijk specifieker te begrijpen wat de verschillen tussen de belangrijkste licenties zijn of in ieder geval wat specifieke licenties zelf inhouden.
 
 Voordat een grondige analyse wordt uitgevoerd, zijn er enkele principes om in gedachten te houden bij het kiezen van een licentie:
+
 * Als de broncode breed gebruikt kan worden en geen onderhoud vereist, kies een permissieve licentie. Ze kan door iedereen worden geïntegreerd, ook in programma’s die het exclusieve eigendom van derden worden. Deze derden kunnen de software onder hun eigen voorwaarden licenseren. Licenties zoals MIT of BSD zijn te verkiezen boven het publiek domein.
 * Als de broncode specifieke expertise toont en je wilt profiteren van verbeteringen door derden, kies een copyleft-licentie. Dit is vooral zinvol bij publiek gefinancierde code. Zo hoef je verbeterde versies van het programma niet aan te schaffen.
 * De meeste licenties beschouwen toegang op afstand (SaaS) niet als distributie. Dit wordt echter een steeds gebruikelijker manier waarop software wordt aangeboden.
@@ -341,7 +343,7 @@ Bij de EUPL geldt copyleft voor het volledige afgeleide werk; uitbreiding of toe
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 1**: * [...] 'verspreiding' of 'mededeling': het verkopen, geven, uitlenen, verhuren, verspreiden, mededelen, doorgeven, of op een andere wijze online of offline beschikbaar stellen van kopieën van het werk of het verlenen van toegang tot de essentiële functies ervan ten behoeve van andere natuurlijke of rechtspersonen.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. [...]* **Art 3.2**: *If You distribute Covered Software in Executable Form [...]* |
+| **Art. 1**: *[...] 'verspreiding' of 'mededeling': het verkopen, geven, uitlenen, verhuren, verspreiden, mededelen, doorgeven, of op een andere wijze online of offline beschikbaar stellen van kopieën van het werk of het verlenen van toegang tot de essentiële functies ervan ten behoeve van andere natuurlijke of rechtspersonen.* | **Art. 3.1**: *All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. [...]* **Art 3.2**: *If You distribute Covered Software in Executable Form [...]* |
 | SaaS-gebruik valt onder het begrip verspreiding; er is geen aparte licentie zoals de AGPL nodig. | De MPL reguleert verspreiding van broncode, maar kent geen expliciete bepaling voor SaaS. Online-only beschikbaarstelling valt niet automatisch onder licentieverplichtingen. |
 
 De EUPL is expliciet geschikt voor cloud-/SaaS-toepassing; de MPL beperkt zich tot traditionele broncodeverspreiding.
@@ -360,7 +362,7 @@ Beide licenties verlenen automatisch een royaltyvrije octrooi-licentie voor het 
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 5**: * [...] wanneer de licentiehouder bewerkingen of kopieën ervan verspreidt of mededeelt die zijn gebaseerd op het werk en op een ander werk dat uit hoofde van een verenigbare licentie in licentie is gegeven, kan die verspreiding of mededeling geschieden onder de voorwaarden van deze verenigbare licentie. [...] Indien de verplichtingen van de licentiehouder uit hoofde van de verenigbare licentie in strijd zijn met diens verplichtingen uit hoofde van deze licentie, hebben de verplichtingen van de verenigbare licentie voorrang.* | **Art 2.4**: *No Contributor makes additional grants as a result of Your choice to distribute the Covered Software under a subsequent version of this License (see Section 10.2) or under the terms of a Secondary License (if permitted under the terms of Section 3.3).* | 
+| **Art. 5**: *[...] wanneer de licentiehouder bewerkingen of kopieën ervan verspreidt of mededeelt die zijn gebaseerd op het werk en op een ander werk dat uit hoofde van een verenigbare licentie in licentie is gegeven, kan die verspreiding of mededeling geschieden onder de voorwaarden van deze verenigbare licentie. [...] Indien de verplichtingen van de licentiehouder uit hoofde van de verenigbare licentie in strijd zijn met diens verplichtingen uit hoofde van deze licentie, hebben de verplichtingen van de verenigbare licentie voorrang.* | **Art 2.4**: *No Contributor makes additional grants as a result of Your choice to distribute the Covered Software under a subsequent version of this License (see Section 10.2) or under the terms of a Secondary License (if permitted under the terms of Section 3.3).* | 
 De EUPL staat toe dat afgeleide werken onder een verenigbare open-sourcelicentie worden verspreid. Deze compatibele licenties – waaronder de GPL, LGPL en MPL 2.0 – zijn opgenomen in de bijlage van de EUPL. Dit is wezenlijk anders dan de GPL, die geen herlicentiëring naar andere licenties toestaat (met uitzondering van de AGPL, die juist strenger is bij SaaS-gebruik). Het tweede deel van het artikel betekent dat je EUPL-werk kunt heruitgeven onder een strengere of juist mildere copyleft-licentie: a) Door verspreiding onder de MPL wordt de copyleft-werking afgezwakt tot bestandsniveau. b) Door verspreiding onder de GPL wordt de copyleft-werking juist versterkt tot het gehele werk. | Wanneer iemand besluit om bij het verspreiden een andere licentie te verbinden aan de oorspronkelijke MPL code, zoals een nieuwe MPL versie of een van de verenigbare licentie, dan veranderd dat niets aan de vrijheden die de oorspronkelijke licentiehouder aan de broncode heeft verbonden. |
 
 De brede compatibiliteit van zowel de EUPL als de MPL biedt aanzienlijke flexibiliteit bij het creëren of verspreiden van afgeleide werken. Deze flexibiliteit verschilt echter per licentie. De EUPL staat herlicentiëring toe voor afgeleide werken of voor combinaties met componenten onder een licentie vermeld in de lijst van *Verenigbare licenties*. De MPL maakt gebruik van copyleft op bestandniveau: bestanden onder de MPL moeten onder deze licentie blijven, maar kunnen worden gecombineerd met code onder andere licenties binnen een groter geheel (Larger work).
@@ -373,7 +375,7 @@ Noch de EUPL noch de MPL verleent de bevoegdheid om het originele, ongemodificee
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 5**: * [...] wanneer de licentiehouder kopieën van het oorspronkelijke werk of bewerkingen verspreidt of mededeelt, geschiedt die verspreiding of mededeling onder de voorwaarden van deze licentie of van een latere versie van deze licentie, tenzij het oorspronkelijke werk uitdrukkelijk alleen onder deze versie van de licentie wordt verspreid – bijvoorbeeld door de mededeling 'alleen EUPL v. 1.2'. De licentiehouder (die licentiegever wordt) kan met betrekking tot het werk of de bewerkingen geen aanvullende bepalingen of voorwaarden opleggen of stellen die de voorwaarden van de licentie wijzigen of beperken.* | **Art. 10.2**: *You may distribute the Covered Software under the terms of the version of the License under which You originally received the Covered Software, or under the terms of any subsequent version published by the license steward.* |
+| **Art. 5**: *[...] wanneer de licentiehouder kopieën van het oorspronkelijke werk of bewerkingen verspreidt of mededeelt, geschiedt die verspreiding of mededeling onder de voorwaarden van deze licentie of van een latere versie van deze licentie, tenzij het oorspronkelijke werk uitdrukkelijk alleen onder deze versie van de licentie wordt verspreid – bijvoorbeeld door de mededeling 'alleen EUPL v. 1.2'. De licentiehouder (die licentiegever wordt) kan met betrekking tot het werk of de bewerkingen geen aanvullende bepalingen of voorwaarden opleggen of stellen die de voorwaarden van de licentie wijzigen of beperken.* | **Art. 10.2**: *You may distribute the Covered Software under the terms of the version of the License under which You originally received the Covered Software, or under the terms of any subsequent version published by the license steward.* |
 
 Zowel de EUPL als de MPL maken het mogelijk om werken onder latere versies van de licentie te verspreiden, tenzij de oorspronkelijke auteur dat expliciet uitsluit. Dit voorkomt een license lock-in: toekomstige aanpassingen aan de licentie, bijvoorbeeld vanwege gewijzigde Europese wetgeving, gelden automatisch voor werken zonder versie-beperking. Het is niet bij alle open-sourcelicenties toegestaan om nieuwe versies automatisch van toepassing te laten zijn. Het is ook niet toegestaan om werk dat onder de EUPL v1.2 of MPL v2.0 is gepubliceerd zonder dat deze op deze versie is vastgezet, deze alsnog bij verdere verspreiding vast te zetten.
 
@@ -381,7 +383,7 @@ Zowel de EUPL als de MPL maken het mogelijk om werken onder latere versies van d
 
 | EUPL | MPL  |
 | ---- | ---- |
-| **Art. 6**: * [...] Elke bewerker garandeert dat hij houder is van het auteursrecht op de door hem aan het werk aangebrachte wijzigingen dan wel dat dit hem in licentie is gegeven en dat hij de bevoegdheid heeft de licentie te verlenen. [...] Telkens wanneer u de licentie aanvaardt, verlenen de oorspronkelijke licentiegever en de opeenvolgende bewerkers u een licentie op hun bijdragen.* | **Art. 2.5**: *Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or it has sufficient rights to grant the rights to its Contributions conveyed by this License.* |
+| **Art. 6**: *[...] Elke bewerker garandeert dat hij houder is van het auteursrecht op de door hem aan het werk aangebrachte wijzigingen dan wel dat dit hem in licentie is gegeven en dat hij de bevoegdheid heeft de licentie te verlenen. [...] Telkens wanneer u de licentie aanvaardt, verlenen de oorspronkelijke licentiegever en de opeenvolgende bewerkers u een licentie op hun bijdragen.* | **Art. 2.5**: *Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or it has sufficient rights to grant the rights to its Contributions conveyed by this License.* |
 
 Deze bepalingen in de EUPL en de MPL dienen hetzelfde doel en beiden zijn vergelijkbaar aan een Developer Certificate of Origin (DCO). Iedere bijdrager verklaart impliciet dat zijn bijdragen rechtmatig zijn en dat hij bevoegd is om deze onder de betreffende licentie te publiceren. Op deze manier wordt voorkomen dat latere licentiehouders aansprakelijk worden gesteld voor mogelijke auteursrechtelijke fouten of inbreuken van eerdere bijdragers.
 
@@ -419,7 +421,7 @@ Aangezien beide licenties nagenoeg hetzelfde zijn, is onderstaande analyse voora
 
 ### Toepassingsgebied
 
-**Preamble** * [...] the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program - to make sure it remains free software for all its users.* **Definition** *"The Program" refers to any copyrightable work licensed under this License.* **Artikel 1. Source Code** *The "source code" for a work means the preferred form of the work for making modifications to it. "Object code" means any non-source form of a work [...] *
+**Preamble** *[...] the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program - to make sure it remains free software for all its users.* **Definition** *"The Program" refers to any copyrightable work licensed under this License.* **Artikel 1. Source Code** *The "source code" for a work means the preferred form of the work for making modifications to it. "Object code" means any non-source form of a work [...]*
 
 Hoewel de (A)GPL in de definitiebepaling van "The Program" formeel verwijst naar ieder auteursrechtelijk beschermd werk, blijkt uit de verdere inhoud van de licentie dat zij primair is ontworpen voor software. De (A)GPL werkt met concepten als *source code*, *object code*, *system libraries* en *standard interfaces*, en bevat bepalingen over installatie-informatie en andere software-specifieke aspecten.
 
@@ -461,7 +463,7 @@ Ten slotte is van belang dat het copyleft- of verervingseffect van de (A)GPL uit
 
 ### Herlicensering en compatibiliteit
 
-**2. Basic Permissions.** * [...] Sublicensing is not allowed; section 10 makes it unnecessary.* **5.c. Conveying Modified Source Versions** *[...] This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.*
+**2. Basic Permissions.** *[...] Sublicensing is not allowed; section 10 makes it unnecessary.* **5.c. Conveying Modified Source Versions** *[...] This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.*
 
 **13. Use with the GNU Affero General Public License.** *Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.*
 
@@ -512,6 +514,7 @@ Om de toetsing en het gebruik van OSS licenties makkelijker te maken, kan een OS
 Een opvallend aspect van *strong copyleft* is de mening van de Free Software Foundation. Volgens hen creëert het linken (statisch of dynamisch) van een werk onder de (A)GPL met een ander programma een gecombineerd afgeleid werk dat nu volledig onder de (A)GPL valt. Daarom wordt de (A)GPL soms een "virale" licentie genoemd. Sommige auteurs zijn van mening dat dit zich moeilijk verhoudt met EU-regelgeving  ([Richtlijn 2009/24/EC; De rechtsbescherming van computerprogramma's](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024)). De (A)GPL is - in tegenstelling tot de EUPL -  niet expliciet in lijn gebracht met EU-wetgeving, al blijkt de rechtspraak in met name Duitsland hier geen moeite mee te hebben.
 
 Er zijn dus twee redenen waarom de EUPL als een matige (weak) copyleft-licentie kan worden gezien:
+
 * Naar Europese regelgeving, die van toepassing is op de EUPL, mag het linken van meerdere programma's om interoperabiliteit te bereiken onder bepaalde omstandigheden. Dit staat los van de licentie. Deze uitzondering op het auteursrecht staat in artikelen 10 en 15 van de [Directive] 2009/24/EC](https://eur-lex.europa.eu/legal-content/NL/ALL/?uri=celex:32009L0024). Dit is de belangrijkste reden waarom de EUPL volgens de hoofdopsteller ervan niet als een „virale licentie” moet worden beschouwd: elk onderdeel dat via koppeling interoperabel wordt gemaakt, behoudt zijn oorspronkelijke licentie.
 * Voor afgeleide werken waarbij broncode onder verschillende licenties samengevoegd wordt, staat de EUPL toe dat het gecombineerde werk onder een verenigbare licentie wordt verspreid. Deze lijst bevat zwakke copyleft-licenties zoals MPL en LGPL.
 
@@ -531,6 +534,6 @@ Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem 
 This text is available under the CC-BY-4.0 \
 [![hackmd-github-sync-badge](https://hackmd.io/xKaPXWp9RxWZP20OnePz2g/badge)](https://hackmd.io/xKaPXWp9RxWZP20OnePz2g)
 
-> [!note] Licentie
+>[!note] Licentie
 >
 > Dit bestand is gepubliceerd onder een CC-BY licentie. De reden hiervoor is dat dit document een MinVWS-specifiek instrument omvat en niet een die door hele overheid is overgenomen. Als dit instrument ooit rijksbreed beleid wordt, verandert de licentie naar CC0, zoals aanbevolen in de Wet hergebruik van overheidsinformatie. Vanaf dat moment is het niet meer nodig om aan te geven dat dit document wordt aangeboden door MinVWS.
