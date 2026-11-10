@@ -215,7 +215,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
         * [ ] <span class="nieuw">Er wordt gebruik gemaakt van *semantische* versienummering voor nieuwe software versies.</span>
         * [ ] <span class="nieuw">Er wordt gebruik gemaakt van YYYY.MM(.DD) versienummer in geval van standaarden en specificaties.</span>
         * [ ] <span class="nieuw">Versies worden aangemaakt door gebruik te maken van git tags.</span>
-        * [ ] <span class="nieuw">Er wordt in een *change log* woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.</span>
+        * [ ] <span class="nieuw">Er wordt in een *changelog* woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.</span>
         * [ ] <span class="nieuw">Wanneer issues zijn opgelost of *merge/pull-requests* zijn geaccepteerd, dan worden deze opgesomd in de *changelog* met een verwijziging naar het issue nummer.</span>
         * [ ] <span class="nieuw">De *changelog* bevat een apart kopje waarin alle verbeteringen op de documentatie staat beschreven.</span>
     * **Beschrijving**
@@ -258,7 +258,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
         * [ ] Er wordt gebruik gemaakt van *semantische* versienummering voor nieuwe software versies.
         * [ ] Er wordt gebruik gemaakt van YYYY.MM(.DD) versienummer in geval van standaarden en specificaties.
         * [ ] Versies worden aangemaakt door gebruik te maken van git tags.
-        * [ ] Er wordt in een change log woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.
+        * [ ] Er wordt in een changelog woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.
         * [ ] Wanneer issues zijn opgelost of merge/pull-requests zijn geaccepteerd, dan worden deze opgesomd in de changelog met een verwijziging naar het issue nummer.
         * [ ] De changelog bevat een apart kopje waarin alle verbeteringen op de documentatie staat beschreven.
         * [ ] <span class="nieuw">De integriteit van de hoofd commit historie wordt intact gehouden.</span>
@@ -277,7 +277,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
         * [ ] Alle besluitvorming is geformaliseerd in documenten, denk aan architectuur, functionele en technische beschrijvingen, kaders etc. <span class="nieuw">óf</span>
         * [ ] <span class="nieuw">Alle discussies worden in openbaarheid</span>
             * [ ] <span class="nieuw">gevoerd als ze mogelijk leiden tot een besluit</span>
-            * [ ] <span class="nieuw">gepubliceerd wanneer ze hebben geleid tot een besluit</span>
+            * [ ] <span class="nieuw">gepubliceerd wanneer ze hebben geleid tot een besluit.</span>
               <span class="nieuw">Denk daarbij aan issues, pull- of pull-requests.</span>
 
 ## Samenwerking & Innovatie
@@ -399,13 +399,13 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
  * **Verbeterverzoeken**
     * [ ] <span class="nieuw">Verbeterverzoeken worden pas geaccepteerd zodra aan alle voorwaarden is voldaan waaronder de test-coverage.</span>
 
-### Ambitie 3 Volledig robuust
+### Ambitie 3 Volledig beheerst
 
 * **Informatiebeveiliging**
 * [ ] De code voldoet aan de ICT-beveiligingsrichtlijnen voor web- en mobiele applicaties van het NCSC.
     * [ ] Extern gebruikte componenten worden periodiek bijgewerkt naar de laatste versie.
     * [ ] Er is een Coordinated Vulnerability Disclosure beleid aanwezig dat duidelijk toelicht hoe derden kwetsbaarheden kunnen melden.
-    * [ ] Wijzigingen aan de code worden onderworpen aan een statische code-analyse (bugs, security, maintainability).</span>
+    * [ ] Wijzigingen aan de code worden onderworpen aan een statische code-analyse (bugs, security, maintainability).
     * [ ] Er wordt in de broncode onderbouwd waarom bepaalde stukken code niet worden getest of door wie en per wanneer deze alsnog worden getest.
     * [ ] De test-coverage mag niet dalen tijdens de ontwikkeling van de broncode.
     * [ ] De broncode en alle afhankelijkheden worden <span class="oud">periodiek</span> <span class="nieuw">dagelijks</span> gescanned op kwetsbaarheden en tenminste voor elke release.
