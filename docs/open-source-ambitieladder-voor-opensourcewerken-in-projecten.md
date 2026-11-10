@@ -156,10 +156,11 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
     * **Licenties** \
         *Onderstaande eisen volgen de [REUSE](https://reuse.software/) standaard voor het correct communiceren van open source licenties en auteursrecht.*
         * [ ] De volledige Engelse licentietekst van de open source licentie die geldig is op de hele repository wordt in een plat tekstformaat in de root van de repository gezet. Dit bestand krijgt de naam `LICENSE` (met of zonder txt of md extensie).
-        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 of hoger is dit `EUPL-1.2-or-later.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
-        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX confentie:
+        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 is dit `EUPL-1.2.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
+        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX conventie:
             * [ ] De van toepassing zijnde open source licentie.
-            * [ ] Copyright van de organisaties of individuen door wie het specifieke bestand is ontwikkeld. 
+            * [ ] Wie de auteursrechthebbenden zijn.
+            * [ ] De 'SPDX-FileContributor' tag kan gebruikt worden als de auteursrechthebbende niet hetzelfde is als de ontwikkelaar. `SPDX-FileContributor: Initial development by ...`.
         * [ ] Wanneer alle broncode bestanden van een (sub)module onder dezelfde licentie vallen en dit een afwijkende licentie is dan van het hoofdproject, dan wordt een aparte `LICENSE` (met of zonder txt of md extensie) in (sub)module map gezet. Zo wordt direct duidelijk dat een (sub)module losstaand onder die licentie gebruikt kan worden.
         * [ ] Middels REUSE worden bovenstaande eisen geautomatiseerd getest op compliance.
         * [ ] Met een REUSE tag wordt aangeven of de repository daadwerkelijk compliant is. 
@@ -184,10 +185,11 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
     * **Licenties** \
         *Onderstaande eisen volgen de [REUSE](https://reuse.software/) standaard voor het correct communiceren van open source licenties en auteursrecht.*
         * [ ] De volledige Engelse licentietekst van de open source licentie die geldig is op de hele repository wordt in een plat tekstformaat in de root van de repository gezet. Dit bestand krijgt de naam `LICENSE` (met of zonder txt of md extensie).
-        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 of hoger is dit `EUPL-1.2-or-later.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
-        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX confentie:
+        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 is dit `EUPL-1.2.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
+        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX conventie:
             * [ ] De van toepassing zijnde open source licentie.
-            * [ ] Copyright van de organisaties of individuen door wie het specifieke bestand is ontwikkeld. 
+            * [ ] Wie de auteursrechthebbenden zijn.
+            * [ ] De 'SPDX-FileContributor' tag kan gebruikt worden als de auteursrechthebbende niet hetzelfde is als de ontwikkelaar. `SPDX-FileContributor: Initial development by ...`.
         * [ ] Wanneer alle broncode bestanden van een (sub)module onder dezelfde licentie vallen en dit een afwijkende licentie is dan van het hoofdproject, dan wordt een aparte `LICENSE` (met of zonder txt of md extensie) in (sub)module map gezet. Zo wordt direct duidelijk dat een (sub)module losstaand onder die licentie gebruikt kan worden.
         * [ ] Middels REUSE worden bovenstaande eisen geautomatiseerd getest op compliance.
         * [ ] Met een REUSE tag wordt aangeven of de repository daadwerkelijk compliant is.
@@ -225,10 +227,11 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
     * **Licenties** \
         *Onderstaande eisen volgen de [REUSE](https://reuse.software/) standaard voor het correct communiceren van open source licenties en auteursrecht.*
         * [ ] De volledige Engelse licentietekst van de open source licentie die geldig is op de hele repository wordt in een plat tekstformaat in de root van de repository gezet. Dit bestand krijgt de naam `LICENSE` (met of zonder txt of md extensie).
-        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 of hoger is dit `EUPL-1.2-or-later.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
-        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX confentie:
+        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 is dit `EUPL-1.2.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
+        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX conventie:
             * [ ] De van toepassing zijnde open source licentie.
-            * [ ] Copyright van de organisaties of individuen door wie het specifieke bestand is ontwikkeld. 
+            * [ ] Wie de auteursrechthebbenden zijn.
+            * [ ] De 'SPDX-FileContributor' tag kan gebruikt worden als de auteursrechthebbende niet hetzelfde is als de ontwikkelaar. `SPDX-FileContributor: Initial development by ...`..
         * [ ] Wanneer alle broncode bestanden van een (sub)module onder dezelfde licentie vallen en dit een afwijkende licentie is dan van het hoofdproject, dan wordt een aparte `LICENSE` (met of zonder txt of md extensie) in (sub)module map gezet. Zo wordt direct duidelijk dat een (sub)module losstaand onder die licentie gebruikt kan worden.
         * [ ] Middels REUSE worden bovenstaande eisen geautomatiseerd getest op compliance.
         * [ ] Met een REUSE tag wordt aangeven of de repository daadwerkelijk compliant is.
