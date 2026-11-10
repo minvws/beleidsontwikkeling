@@ -31,6 +31,13 @@ show:
 
 .oud {
     background: #f9dfdd;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .nieuw {
@@ -156,10 +163,11 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
     * **Licenties** \
         *Onderstaande eisen volgen de [REUSE](https://reuse.software/) standaard voor het correct communiceren van open source licenties en auteursrecht.*
         * [ ] De volledige Engelse licentietekst van de open source licentie die geldig is op de hele repository wordt in een plat tekstformaat in de root van de repository gezet. Dit bestand krijgt de naam `LICENSE` (met of zonder txt of md extensie).
-        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 of hoger is dit `EUPL-1.2-or-later.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
-        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX confentie:
+        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 is dit `EUPL-1.2.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
+        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX conventie:
             * [ ] De van toepassing zijnde open source licentie.
-            * [ ] Copyright van de organisaties of individuen door wie het specifieke bestand is ontwikkeld. 
+            * [ ] Wie de auteursrechthebbenden zijn.
+            * [ ] De 'SPDX-FileContributor' tag kan gebruikt worden als de auteursrechthebbende niet hetzelfde is als de ontwikkelaar. `SPDX-FileContributor: Initial development by ...`.
         * [ ] Wanneer alle broncode bestanden van een (sub)module onder dezelfde licentie vallen en dit een afwijkende licentie is dan van het hoofdproject, dan wordt een aparte `LICENSE` (met of zonder txt of md extensie) in (sub)module map gezet. Zo wordt direct duidelijk dat een (sub)module losstaand onder die licentie gebruikt kan worden.
         * [ ] Middels REUSE worden bovenstaande eisen geautomatiseerd getest op compliance.
         * [ ] Met een REUSE tag wordt aangeven of de repository daadwerkelijk compliant is. 
@@ -184,10 +192,11 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
     * **Licenties** \
         *Onderstaande eisen volgen de [REUSE](https://reuse.software/) standaard voor het correct communiceren van open source licenties en auteursrecht.*
         * [ ] De volledige Engelse licentietekst van de open source licentie die geldig is op de hele repository wordt in een plat tekstformaat in de root van de repository gezet. Dit bestand krijgt de naam `LICENSE` (met of zonder txt of md extensie).
-        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 of hoger is dit `EUPL-1.2-or-later.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
-        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX confentie:
+        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 is dit `EUPL-1.2.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
+        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX conventie:
             * [ ] De van toepassing zijnde open source licentie.
-            * [ ] Copyright van de organisaties of individuen door wie het specifieke bestand is ontwikkeld. 
+            * [ ] Wie de auteursrechthebbenden zijn.
+            * [ ] De 'SPDX-FileContributor' tag kan gebruikt worden als de auteursrechthebbende niet hetzelfde is als de ontwikkelaar. `SPDX-FileContributor: Initial development by ...`.
         * [ ] Wanneer alle broncode bestanden van een (sub)module onder dezelfde licentie vallen en dit een afwijkende licentie is dan van het hoofdproject, dan wordt een aparte `LICENSE` (met of zonder txt of md extensie) in (sub)module map gezet. Zo wordt direct duidelijk dat een (sub)module losstaand onder die licentie gebruikt kan worden.
         * [ ] Middels REUSE worden bovenstaande eisen geautomatiseerd getest op compliance.
         * [ ] Met een REUSE tag wordt aangeven of de repository daadwerkelijk compliant is.
@@ -213,7 +222,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
         * [ ] <span class="nieuw">Er wordt gebruik gemaakt van *semantische* versienummering voor nieuwe software versies.</span>
         * [ ] <span class="nieuw">Er wordt gebruik gemaakt van YYYY.MM(.DD) versienummer in geval van standaarden en specificaties.</span>
         * [ ] <span class="nieuw">Versies worden aangemaakt door gebruik te maken van git tags.</span>
-        * [ ] <span class="nieuw">Er wordt in een *change log* woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.</span>
+        * [ ] <span class="nieuw">Er wordt in een *changelog* woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.</span>
         * [ ] <span class="nieuw">Wanneer issues zijn opgelost of *merge/pull-requests* zijn geaccepteerd, dan worden deze opgesomd in de *changelog* met een verwijziging naar het issue nummer.</span>
         * [ ] <span class="nieuw">De *changelog* bevat een apart kopje waarin alle verbeteringen op de documentatie staat beschreven.</span>
     * **Beschrijving**
@@ -225,10 +234,11 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
     * **Licenties** \
         *Onderstaande eisen volgen de [REUSE](https://reuse.software/) standaard voor het correct communiceren van open source licenties en auteursrecht.*
         * [ ] De volledige Engelse licentietekst van de open source licentie die geldig is op de hele repository wordt in een plat tekstformaat in de root van de repository gezet. Dit bestand krijgt de naam `LICENSE` (met of zonder txt of md extensie).
-        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 of hoger is dit `EUPL-1.2-or-later.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
-        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX confentie:
+        * [ ] Alle andere gebruikte open source licenties worden in een plat tekstformaat in de LICENSE folder gezet. Elke licentiebestand krijgt de naam van de [SPDX-identifier](https://spdx.org/licenses/) van de betreffende licentie. In geval van de European Union Public License versie 1.2 is dit `EUPL-1.2.txt`. Van elke licentie wordt de volledige Engelse tekst in het betreffende bestand opgenomen.
+        * [ ] In alle broncode is een koptekst toegevoegd met daarin volgens de SPDX conventie:
             * [ ] De van toepassing zijnde open source licentie.
-            * [ ] Copyright van de organisaties of individuen door wie het specifieke bestand is ontwikkeld. 
+            * [ ] Wie de auteursrechthebbenden zijn.
+            * [ ] De 'SPDX-FileContributor' tag kan gebruikt worden als de auteursrechthebbende niet hetzelfde is als de ontwikkelaar. `SPDX-FileContributor: Initial development by ...`..
         * [ ] Wanneer alle broncode bestanden van een (sub)module onder dezelfde licentie vallen en dit een afwijkende licentie is dan van het hoofdproject, dan wordt een aparte `LICENSE` (met of zonder txt of md extensie) in (sub)module map gezet. Zo wordt direct duidelijk dat een (sub)module losstaand onder die licentie gebruikt kan worden.
         * [ ] Middels REUSE worden bovenstaande eisen geautomatiseerd getest op compliance.
         * [ ] Met een REUSE tag wordt aangeven of de repository daadwerkelijk compliant is.
@@ -255,7 +265,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
         * [ ] Er wordt gebruik gemaakt van *semantische* versienummering voor nieuwe software versies.
         * [ ] Er wordt gebruik gemaakt van YYYY.MM(.DD) versienummer in geval van standaarden en specificaties.
         * [ ] Versies worden aangemaakt door gebruik te maken van git tags.
-        * [ ] Er wordt in een change log woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.
+        * [ ] Er wordt in een changelog woordelijk beschreven wat de verschillen zijn tussen de huidige en vorige versie.
         * [ ] Wanneer issues zijn opgelost of merge/pull-requests zijn geaccepteerd, dan worden deze opgesomd in de changelog met een verwijziging naar het issue nummer.
         * [ ] De changelog bevat een apart kopje waarin alle verbeteringen op de documentatie staat beschreven.
         * [ ] <span class="nieuw">De integriteit van de hoofd commit historie wordt intact gehouden.</span>
@@ -274,7 +284,7 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
         * [ ] Alle besluitvorming is geformaliseerd in documenten, denk aan architectuur, functionele en technische beschrijvingen, kaders etc. <span class="nieuw">óf</span>
         * [ ] <span class="nieuw">Alle discussies worden in openbaarheid</span>
             * [ ] <span class="nieuw">gevoerd als ze mogelijk leiden tot een besluit</span>
-            * [ ] <span class="nieuw">gepubliceerd wanneer ze hebben geleid tot een besluit</span>
+            * [ ] <span class="nieuw">gepubliceerd wanneer ze hebben geleid tot een besluit.</span>
               <span class="nieuw">Denk daarbij aan issues, pull- of pull-requests.</span>
 
 ## Samenwerking & Innovatie
@@ -396,13 +406,13 @@ Elk ambitieniveau borduurt voort op de vorige ambitie en wordt daarmee ambitieuz
  * **Verbeterverzoeken**
     * [ ] <span class="nieuw">Verbeterverzoeken worden pas geaccepteerd zodra aan alle voorwaarden is voldaan waaronder de test-coverage.</span>
 
-### Ambitie 3 Volledig robuust
+### Ambitie 3 Volledig beheerst
 
 * **Informatiebeveiliging**
 * [ ] De code voldoet aan de ICT-beveiligingsrichtlijnen voor web- en mobiele applicaties van het NCSC.
     * [ ] Extern gebruikte componenten worden periodiek bijgewerkt naar de laatste versie.
     * [ ] Er is een Coordinated Vulnerability Disclosure beleid aanwezig dat duidelijk toelicht hoe derden kwetsbaarheden kunnen melden.
-    * [ ] Wijzigingen aan de code worden onderworpen aan een statische code-analyse (bugs, security, maintainability).</span>
+    * [ ] Wijzigingen aan de code worden onderworpen aan een statische code-analyse (bugs, security, maintainability).
     * [ ] Er wordt in de broncode onderbouwd waarom bepaalde stukken code niet worden getest of door wie en per wanneer deze alsnog worden getest.
     * [ ] De test-coverage mag niet dalen tijdens de ontwikkeling van de broncode.
     * [ ] De broncode en alle afhankelijkheden worden <span class="oud">periodiek</span> <span class="nieuw">dagelijks</span> gescanned op kwetsbaarheden en tenminste voor elke release.
@@ -485,7 +495,9 @@ Het is belangrijk te realiseren dat de overheid sowieso een inspanningsverplicht
 
 Deze aanbevelingen zijn van toepassing op het werken met open source bij nieuwe projecten, maar ook bij projecten die achteraf open source worden gepubliceerd, bijvoorbeeld als gevolg van een Woo-verzoek (passieve informatieverstrekking).
 
-## :exclamation: Gedeeltelijke publicatie
+## :exclamation: Wet open overheid
+
+### Gedeeltelijke publicatie
 
 Er zijn verschillende redenen waarom een (open source) softwareproject niet volledig (open source) gepubliceerd kan worden:
 
@@ -498,7 +510,7 @@ Welke belemmering er ook is, publiceer altijd de onderdelen die wel open source 
 
 Let op: een beroep op vertrouwelijkheid kan niet zomaar worden gedaan. Vertrouwelijkheid geldt nooit automatisch voor het hele project. Een claim op vertrouwelijkheid moet altijd gerelateerd zijn aan een van de uitzonderingsgronden in de Woo en goed worden gemotiveerd. Wees daarnaast transparant over welke uitzonderingsgronden zijn toegepast bij het niet volledig publiceren van de broncode.
 
-## :exclamation: Absolute en relatieve uitzonderingsgrond
+### Absolute en relatieve uitzonderingsgrond
 
 Soms hoeft de overheid informatie niet openbaar te maken. Voor bepaalde informatie bestaan uitzonderingsgronden. Denk bijvoorbeeld aan informatie die de veiligheid van de Staat in gevaar kan brengen. Deze uitzonderingsgronden zijn er in twee vormen:
 
@@ -522,9 +534,11 @@ Hier is wél een afweging van belangen nodig, bij voorkeur samen met juristen. H
 
 Als er uitzonderingsgronden van toepassing zijn, betekent dit niet dat er niets gepubliceerd mag worden. Alleen de onderdelen die onder de uitzondering vallen mogen zwartgelakt worden of buiten de publicatie blijven. Zorg dat in de documentatie duidelijk staat welke delen zwartgelakt zijn of niet gepubliceerd, en waarom. Beschrijf ook de functie van die onderdelen, zodat derden de functionaliteit in de lokale context kunnen begrijpen en eventueel zelf invullen.
 
-## :exclamation: Transparantie, ja, hergebruik, nee
+## :exclamation: Auteurswet en Wet Markt & Overheid
 
 Vanuit de [Wet open overheid](https://www.rijksoverheid.nl/onderwerpen/wet-open-overheid-woo) (Woo) geldt er een inspanningsverplichting om broncode proactief openbaar te maken. De Wet hergebruik overheidsinformatie (Who) schrijft daar bovenop voor dat openbaar gemaakte broncode ook zoveel mogelijk geschikt moet worden gepubliceerd voor hergebruik. De open source licentie wordt erin aangewezen als hét instrument om dat hergebruik te bereiken.
+
+### Transparantie: ja, hergebruik: nee
 
 Er kunnen omstandigheden zijn waarin broncode wél openbaar wordt gemaakt voor transparantiedoeleinden, maar niet voor hergebruik. Dit kan zich voordoen wanneer openbaarmaking voor hergebruik de economische belangen van de overheid zou schaden. In dat geval is sprake van een relatieve uitzonderingsgrond als bedoeld in artikel 5.1, tweede lid, van de Woo.
 
@@ -537,15 +551,7 @@ In zulke situaties kan broncode worden gepubliceerd zonder open-sourcelicentie, 
 */
 ```
 
-Bij het via open source beschikbaar stellen van software moet o.a. gekeken worden naar de Wet Markt en Overheid (Wet M&O). De overheid kan door het beschikbaar stellen van software concurreren met reeds in de markt aanwezige software. Als dit het geval is, moet de overheid zich houden aan de vier gedragsregels om concurrentievervalsing te voorkomen. Een van die gedragsregels schrijft voor dat de overheid alleen de broncode openbaar mag maken via open source als de integrale kosten worden doorberekend aan de eindgebruiker. Met de integrale kosten wordt bedoeld alle kosten die samenhangen met het aanbieden van de software aan de eindgebruiker. Denk daarbij aan bijvoorbeeld publicatie – en ontwikkelingskosten.
-
-Of de overheid zich moet houden aan de (vier gedragsregels uit de) Wet M&O zal per geval onderbouwd moeten worden. Daarbij zal de Wet M&O sneller van toepassing zijn als de overheid de broncode als product op de markt exploiteert dan wanneer de overheid de broncode enkel openbaar maakt ter inzage. Mocht er sprake zijn van een wettelijke verplichting voor de overheid tot openbaarmaking van de broncode op grond van de Wet open overheid (Woo) of de Wet hergebruik van overheidsinformatie (Who) zal goed gekeken moeten worden naar de onderlinge verhouding tussen deze wetten enerzijds en de Wet M&O anderzijds.
-
-In sommige gevallen kan software die door een overheidsorgaan in het kader van haar overheidstaak wordt gebruikt buiten de werking van de Wet M&O vallen. Artikel 25h, tweede lid, van de Mededingingswet, biedt namelijk een mogelijke uitzondering voor levering van goederen of diensten door bestuursorganen als deze zijn bestemd voor de uitvoering van een publiekrechtelijke taak. Of bepaalde software daadwerkelijk onder deze uitzonderingsgrond valt, en derhalve open source beschikbaar kan worden gesteld, dient ook weer per geval onderbouwd te worden en bij twijfel altijd te worden beoordeeld door een jurist.
-
-Tot slot is het van belang om te benoemen dat er op dit moment een wetsvoorstel ligt om hoofdstuk 4b van de Mededingingswet (waarin de Wet M&O is opgenomen) aan te passen zodoende dat het aanbieden van open source software wordt uitgezonderd van de gedragsregel integrale kostendoorberekening. Achtergrond van deze wijziging is dat overheden gemakkelijker de broncode van open software kunnen publiceren waarmee maatschappelijke voordelen gerealiseerd kunnen worden. Omdat open source software per definitie gratis is kan de gedragsregel ‘integrale kostprijs doorberekening’ een belemmering vormen voor een bestuursorgaan om daadwerkelijk tot publicatie over te gaan (bron: Memorie van toelichting, Wijziging van de Mededingingswet in verband met aanpassing van de bepalingen over de markt en overheid, 35985-1). Op dit moment is het onduidelijk of en wanneer deze wetswijziging wordt doorgevoerd.
-
-## :exclamation: Wie bezit de IE-rechten?
+### Wie bezit de IE-rechten?
 
 Vanuit de Auteurswet bezit de maker van creatief werk automatisch het auteursrecht, tenzij hierover expliciet andere afspraken zijn gemaakt. Broncode valt onder creatief werk, dus het is belangrijk om goed vast te leggen wie (auteursrechtelijk) rechthebbende is van de geleverde broncode. Alleen de rechthebbende kan namelijk beslissen hoe (zijn deel van) de broncode gepubliceerd mag worden. Bedenk dat naast het auteursrecht met name ook het merkenrecht en databankenrecht in het spel kunnen zijn. In dit stuk wordt geconcentreerd op het auteursrecht, aangezien veel open source licenties het merkenrecht ook standaard al meenemen in hun voorwaarden.
 
@@ -558,6 +564,26 @@ Hou in ieder geval rekening met de volgende aandachtspunten als je aan de slag g
 
 * **Overdracht van broncode**
   Zorg dat je beschikt over de volledige rechten (auteursrechten en eventuele merkenrechten, databankrechten en octrooirechten) als je de broncode wil overdragen of wanneer je broncode overgedragen krijgt. Uitzondering is die broncode waar een open source licentie aan de broncode verbonden is. De overdracht van genoemde rechten moet altijd schriftelijk gebeuren daar waar van toepassing met een getekende overeenkomst en/of inschrijving in een relevant register. Als de rechten eerder niet zijn overgedragen, maar dat wel gewenst was, probeer deze alsnog te verkrijgen of een open source licentie aan de broncode te verbinden.
+
+### Marktverstoring
+
+Bij het via open source beschikbaar stellen van software moet o.a. gekeken worden naar de Wet Markt en Overheid (Wet M&O). De overheid kan door het beschikbaar stellen van software concurreren met reeds in de markt aanwezige software. Als dit het geval is, moet de overheid zich houden aan de vier gedragsregels om concurrentievervalsing te voorkomen. Een van die gedragsregels schrijft voor dat de overheid alleen de broncode openbaar mag maken via open source als de integrale kosten worden doorberekend aan de eindgebruiker. Met de integrale kosten wordt bedoeld alle kosten die samenhangen met het aanbieden van de software aan de eindgebruiker. Denk daarbij aan bijvoorbeeld publicatie – en ontwikkelingskosten.
+
+Of de overheid zich moet houden aan de (vier gedragsregels uit de) Wet M&O zal per geval onderbouwd moeten worden. Daarbij zal de Wet M&O sneller van toepassing zijn als de overheid de broncode als product op de markt exploiteert dan wanneer de overheid de broncode enkel openbaar maakt ter inzage. Mocht er sprake zijn van een wettelijke verplichting voor de overheid tot openbaarmaking van de broncode op grond van de Wet open overheid (Woo) of de Wet hergebruik van overheidsinformatie (Who) zal goed gekeken moeten worden naar de onderlinge verhouding tussen deze wetten enerzijds en de Wet M&O anderzijds.
+
+In sommige gevallen kan software die door een overheidsorgaan in het kader van haar overheidstaak wordt gebruikt buiten de werking van de Wet M&O vallen. Artikel 25h, tweede lid, van de Mededingingswet, biedt namelijk een mogelijke uitzondering voor levering van goederen of diensten door bestuursorganen als deze zijn bestemd voor de uitvoering van een publiekrechtelijke taak. Of bepaalde software daadwerkelijk onder deze uitzonderingsgrond valt, en derhalve open source beschikbaar kan worden gesteld, dient ook weer per geval onderbouwd te worden en bij twijfel altijd te worden beoordeeld door een jurist.
+
+Tot slot is het van belang om te benoemen dat er op dit moment een wetsvoorstel ligt om hoofdstuk 4b van de Mededingingswet (waarin de Wet M&O is opgenomen) aan te passen zodoende dat het aanbieden van open source software wordt uitgezonderd van de gedragsregel integrale kostendoorberekening. Achtergrond van deze wijziging is dat overheden gemakkelijker de broncode van open software kunnen publiceren waarmee maatschappelijke voordelen gerealiseerd kunnen worden. Omdat open source software per definitie gratis is kan de gedragsregel ‘integrale kostprijs doorberekening’ een belemmering vormen voor een bestuursorgaan om daadwerkelijk tot publicatie over te gaan (bron: Memorie van toelichting, Wijziging van de Mededingingswet in verband met aanpassing van de bepalingen over de markt en overheid, 35985-1). Op dit moment is het onduidelijk of en wanneer deze wetswijziging wordt doorgevoerd.
+
+## :bulb: Archiefwet
+
+Duurzame toegankelijkheid van overheidsinformatie is het uitgangspunt van de Archiefwet 2026. Overheidsinformatie moet vindbaar, beschikbaar, leesbaar, interpreteerbaar, betrouwbaar en toekomstbestendig zijn. Voor iedereen die daar recht op heeft en voor zo lang als noodzakelijk is. De Archiefwet gaat ervan uit dat overheidsinformatie openbaar moet zijn en dat burgers, onderzoekers, media, journalisten en ambtenaren moeten kunnen zien wat de overheid doet en heeft gedaan. Het moet voor de toekomst mogelijk zijn om onderzoek te kunnen doen naar de achtergrond van overheidsbesluiten en deze te kunnen reconstrueren. Ook is het nodig om lessen te kunnen trekken uit ervaringen uit het verleden.
+
+Informatie kan vóór overbrenging naar een archiefbewaarplaats al gerubriceerd zijn, bijvoorbeeld als "Confidentieel" of "Geheim". Deze rubricering heeft als doel om voortijdige openbaarmaking te voorkomen. Na overbrenging naar de archiefbewaarplaats vervalt de formele rubricering, maar dat betekent niet automatisch dat de informatie direct voor iedereen toegankelijk is. De zorgdrager kan alsnog besluiten om de documenten beperkt openbaar te maken. Zo blijven notulen uit de ministerraad 20 jaar geheim. Na die periode moeten ze (beperkt) openbaar gemaakt worden op een manier die duurzame toegankelijkheid ondersteunt. Dit betekent bijvoorbeeld dat ze onafhankelijk zijn van technologische ontwikkelingen. Aangezien technologische ontwikkelingen razendsnel gaan is het belangrijk om duurzame toegankelijkheid een integraal onderdeel van het proces te maken.
+
+Stel dat een overheidsinstantie een software oplossing ontwikkelt (propriëtair) voor een kritisch proces zoals belastingaangiften of identiteitsverificatie. Volgens de Archiefwet moeten blijvend te bewaren documenten en informatie na een bepaalde termijn worden overgebracht naar een archiefbewaarplaats. Dit kan ook gelden voor digitale informatie waaronder ook broncode. Als de broncode van zo'n systeem openbaar wordt gemaakt rijst de vraag: Hoe zorgen we ervoor dat deze code nog beschikbaar, leesbaar, interpreteerbaar, betrouwbaar en toekomstbestendig is?
+
+De Archiefwet maakt geen expliciet onderscheid tussen open source en propriëtaire broncode, maar open source maakt het wel makkelijker om te voldoen aan de eisen voor duurzame toegankelijkheid. Open source geeft een bredere waarborg dat informatie open en controleerbaar, duurzaam en vooral niet afhankelijk is van een gesloten systeem of één partij. Met open source i.c.m. open standaarden is de kennis achter bepaalde techniek inzichtelijk. Als deze aangevuld worden met documentatie en metadata kunnen toekomstige gebruikers de context en functionaliteit beter begrijpen. Mocht in de toekomst PDF niet meer bestaan, dan zouden we met open standaarden beschrijvingen en open source makkelijker een nieuwe implementatie kunnen maken om PDF opnieuw uit te kunnen lezen.
 
 ## :exclamation: Pseudonieme ontwikkelaars
 
