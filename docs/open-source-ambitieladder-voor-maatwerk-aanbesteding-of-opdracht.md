@@ -139,7 +139,7 @@ Dit document focust zich op de vier voordelen van open source zoals gecommunicee
   In hoeverre willen we dat de producten in deze aanbesteding zo open en transparant mogelijk worden ontwikkeld? Of in hoeverre willen we dat in te huren experts met hun kennis en ervaring uitvoering kunnen geven aan een ambitie?
 1. **Samenwerking en Innovatie** \
   In hoeverre willen we dat leveranciers, maatschappelijke partners (overheid, kennisinstellingen en/of burgers) en/of andere geïnteresseerden tijdens of na de ontwikkeling van de producten (kunnen blijven) samenwerken?
-   
+
 In zijn algemeenheid is het goed om na te denken over hoe de doelstellingen eruit zien op korte, middellange en lange termijn? Welke samenwerking met stakeholders (leveranciers, partners en/of overige geïnteresseerden) is daarvoor nodig over 1, 5 en 10 jaar?
 
 # Voordelen van open source aanbesteden
@@ -405,27 +405,6 @@ In dit geval ontvangen de 10 open source projecten elk € 30.000,-. Voor veel o
 Wanneer er voor een *strong-copyleft* open source licentie wordt gekozen is het goed om oog te houden voor het *virale* effect van deze licentiegroep. Het is wijs de invloed van de licentie beperkt te houden tot wat je zelf kan overzien. Concreet betekent dit dat je probeert te voorkomen dat er onvoorziene effecten ontstaan door de toepassing van dit type licentie. Daarvoor zou deze zin gebruikt kunnen worden:
 
 > In de uitwerking van de verschillende architecturen wordt rekening gehouden met de virale werking van de gekozen sterk wederkerige (strong-copyleft) licentie. Dat wil zeggen dat de architecturen zo worden ontworpen dat deze doorwerking beperkt blijft tot de prestatie die vanuit deze aanbesteding wordt gevraagd en geen invloed heeft op het gebruik van de prestatie of op de diensten die eventueel op de prestatie worden aangesloten.
-
-## De Verordening Cyberweerbaarheid / Cyber Resilience Act (CRA)
-
-Het is van belang te vermelden dat met de inwerkingtreding van de Verordening Cyberweerbaarheid (Verordening 2024/2847/EU) een productaansprakelijkheid voor beveiligingslekken in software is ontstaan.
-
-Kort samengevat betekent dit dat bij het op de Europese markt brengen van "producten met digitale elementen" - kortweg alles waar software in zit, ook de software zelf - een productaansprakelijkheid geldt. Deze aansprakelijkheid bestaat onder andere uit de verplichtingen om:
-
-- Ontwerp, ontwikkeling en bouw conform de vereisten voor informatiebeveiliging van Annex I van de CRA;
-- Risico-beoordeling gedurende de gehele levenscyclus van het product ten aanzien van informatiebeveiligingsrisico's;
-- Actualisatie van bovengenoemde risico-beoordeling;
-- Opname van de risico-beoordeling in de productdocumentatie;
-- Het betrachten van gepaste zorg bij de integratie van componenten van derden;
-- Het doorgeven van ontdekte beveiligingskwetsbaarheden in componenten van derden aan die derden (dat kunnen ook zogenaamde "open-source stewards" zijn);
-- Het systematisch documenteren van beveiligingsaspecten van de software;
-- Het effectief afhandelen van beveiligingskwetsbaarheden die gemeld worden;
-- Gedurende ten minste vijf jaar het product ondersteunen in de vorm van beveiligingsupdates;
-- Het gedurende ten minste tien jaar beschikbaar houden van gepubliceerde beveiligingsupdates;
-- Het uitvoeren van conformiteitesbeoordelingen daar waar sprake is van CE-conformiteitschema's;
-- Het melden van beveiligingskwetsbaarheden die daadwerkelijk uitgebuit worden aan nationale autoriteiten (CSIRTS) en de Europese toezichthouder ENISA.
-
-Het voert tever om de hele CRA weer te geven. Voor nu is van belang dat deze productaansprakelijkheid door de Europese wetgever met opzet genuanceerd is voor open source ontwikkelingen, om zo individuele ontwikkelaars hier niet mee te belasten. Daarmee is een nieuw begrip in het Europese productaansprakelijkheidsrecht geïntroduceerd: de "open-source steward". Zij hebben de bijzondere rol om open source ontwikkelaars te beschermen, hetzij individuele, hetzij het MKB dat open source ontwikkeld. Voor andere partijen in de waarde-keten is het model gelijk aan de reguliere productaansprakelijkheidswetgeving, dus "producenten", "importeurs", "distributeurs" blijven onverkort onderhevig aan de eisen van de CRA.
 
 {%hackmd x6SENhJxT7GaATRdlW9ekw %}
 
