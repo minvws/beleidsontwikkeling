@@ -136,19 +136,35 @@ Het is goed om te weten dat niet alle landen het wettelijk toestaan om afstand t
 In sommige situaties kan het veiliger zijn om broncode vrij te geven onder een expliciete open source-licentie. Daarmee blijven er duidelijkere afspraken bestaan over gebruik, hergebruik en aansprakelijkheid — wat in juridische zin vaak meer zekerheid biedt dan een beroep op het publieke domein.
 
 # Fair source licenties
+
 Fair Source licenties, niet te verwarren met de Fair License, proberen het gat tussen open source en traditionele licenties te overbruggen. Een voorbeeld hiervan is een termijn waarna de broncode open source wordt. Dit is technisch gezien niet open source, maar kan dit wel worden als een passende open source licentie wordt gekozen.
 
 De Functional Core License is een voorbeeld van een fair source licentie. Deze licentie is beschikbaar in twee varianten: een MIT en een Apache v2.0 variant. De licentie bepaalt dat broncode automatisch open source wordt na twee jaar geteld vanaf de publicatiedatum.
 
+# Open core
+
+Bij open core is een deel (veelal de basis) van de functionaliteit van een oplossing volledig open source, inclusief alle bijbehorende vrijheden, maar geldt dit niet voor meer uitgebreide functionaliteiten (bijvoorbeeld enterprisefunctionaliteiten). Voor het gebruik van die enterprisefunctionaliteit moet een commerciële licentie voor gesloten software (closed source) worden afgenomen.
+
+De enterprisefunctionaliteit kan bestaan uit bepaalde functies die in het geheel niet beschikbaar zijn in de basisversie, maar ook uit functionaliteit die in de basisversie slechts beperkt beschikbaar is. Denk bij dat laatste aan een beperkt aantal gebruikers dat de basisoplossing kan gebruiken, een beperkt aantal analyses dat kan worden uitgevoerd, een beperkt aantal databronnen dat kan worden ontsloten of een beperking van de aaneengesloten gebruiksduur van het product per dag.
+
+Bij deze producten lopen afnemers een groter risico op leveranciersafhankelijkheid. Naarmate gebruikers een product intensiever gebruiken en er meer ervaring mee opdoen, groeit doorgaans ook de behoefte aan geavanceerdere of aanvullende functionaliteit.
+
+Het staat afnemers overigens vrij om de ontbrekende functionaliteit zelf te ontwikkelen of deze door een derde partij te laten ontwikkelen en daarbij ook open source beschikbaar te stellen. Dit geldt ook wanneer het functionaliteit betreft die de open core leverancier zelf al in zijn commerciële enterprisevariant aanbiedt. De afnemer is dus niet verplicht om voor dergelijke functionaliteit een commerciële licentie bij de oorspronkelijke leverancier af te nemen. Uiteraard moet de ontwikkeling daarbij de toepasselijke intellectuele-eigendomsrechten en licentievoorwaarden respecteren.
+
+Hetzelfde geldt voor dienstverlening rondom de basisversie van het product. Afnemers zijn niet verplicht deze dienstverlening bij de oorspronkelijke open core leverancier af te nemen, maar kunnen hiervoor ook andere dienstverleners inschakelen.
+
 # Open source washing
+
 Het concept van fair source licenties kan heel makkelijk overgaan in openwashing met de Fair Core License en de Business Source License. De eerste belooft hetzelfde als de Fair Source licenties, maar dan alleen voor kernfunctionaliteit. Dit concept heeft dezelfde problemen als de zogenoemde open core business modellen: er is een sterke motivator voor de rechthebbende om belangrijke functionaliteit in het proprietary gelicentieerde deel op te nemen en daarmee vendor lock-in te verkrijgen bij gebruikers. De Business Source License gaat nog verder: die belooft alleen source availability, vergelijkbaar met het Shared Source Initiative (ooit bedacht door Microsoft), zonder de vrijheden van een echte open source licentie.
 
 Source availability is geen open source. Het betekent alleen dat de auteur de broncode online of op een andere manier beschikbaar heeft gemaakt, maar zonder een open source licentie. Hoewel dit het mogelijk maakt dat anderen de broncode inspecteren en bestuderen, mag die broncode niet worden hergebruikt, doorontwikkeld of verspreid. De broncode wordt namelijk beschermd door het auteursrecht van de rechthebbende.
 
 # Softwareoctrooien (patenten)
+
 Octrooirecht onderscheidt zich van auteursrecht in zijn twee basisprincipes: a) registratie en b) beperkt tot uitvindingen. Het debat over of software kan worden beschermd met octrooien loopt en zeker in de VS worden er octrooien geregistreerd over algoritmische ontdekkingen. De kracht van deze octrooirechten blijft onderwerp van discussie, maar de dreiging van een mogelijke rechtszaak kan voldoende zijn om (onbedoelde) inbreukmakers af te schrikken. Met dit in ons achterhoofd is het een relevant onderwerp om mee te nemen bij het kiezen van een open source licentie. Sommige licenties gaan namelijk ook over octrooirechten of hebben clausules over octrooi-inbreukprocedures om de juridische zekerheid te verbeteren.
 
 # Opvolgende licenties / stroomafwaartse licenties
+
 Opvolgende licensering is het scenario waarin de licentiegever niet dezelfde partij is als de rechthebbende. Dit is het geval als een distributeur de broncode verspreidt onder een andere licentie. In gevallen waar je verbeteringen hebt toegevoegd aan de broncode wordt jij beschouwd als de licentiegever voor die verbeteringen. De licentiegever kan de broncode alleen verspreiden met een subsequent license zonder specifieke goedkeuring als de originele licentie van de broncode dit toestaat. Die verdere verspreiding wordt ook wel stroomafwaarts verspreiden genoemd
 
 # Een verdiepende analyse
@@ -350,7 +366,7 @@ De EUPL is expliciet geschikt voor cloud-/SaaS-toepassing; de MPL beperkt zich t
 
 In het geval van de EUPL geldt ook: als de oorspronkelijke, ongemodificeerde broncode al openbaar beschikbaar is, bestaat er geen verplichting om deze opnieuw te verspreiden.
 
-### Patenten
+### Patenten (octrooien)
 
 | EUPL | MPL  |
 | ---- | ---- |
