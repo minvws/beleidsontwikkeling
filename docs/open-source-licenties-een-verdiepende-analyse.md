@@ -366,7 +366,7 @@ De EUPL is expliciet geschikt voor cloud-/SaaS-toepassing; de MPL beperkt zich t
 
 In het geval van de EUPL geldt ook: als de oorspronkelijke, ongemodificeerde broncode al openbaar beschikbaar is, bestaat er geen verplichting om deze opnieuw te verspreiden.
 
-### Patenten
+### Patenten (octrooien)
 
 | EUPL | MPL  |
 | ---- | ---- |
