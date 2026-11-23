@@ -524,7 +524,7 @@ Deze ambitieladder is eerder succesvol toegepast in de volgende projecten
 | PoC's en Pilots t.b.v. Generieke Functies - fase 1 | Ministerie van Volksgezondheid, Welzijn en Sport | € 10,- miljoen |
 | PoC's en Pilots t.b.v. Generieke Functies - fase 2 | Ministerie van Volksgezondheid, Welzijn en Sport | € 15,- miljoen |
 | Elektronisch Kandidaatstellingssysteem (e-KS) | De Kiesraad | € 3 tot 5,- miljoen |
-| Gemeentelijke inkoopvoorwaarden bij IT 2025 | Vereniging van Nederlandse Gemeenten | n.v.t. |
+| Gemeentelijke inkoopvoorwaarden bij IT (GIBIT) 2025 | Vereniging van Nederlandse Gemeenten | n.v.t. |
 
 # Bijdragers
 
