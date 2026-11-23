@@ -171,6 +171,17 @@ In some situations, it may be safer to release source code under an explicit ope
 
 The [Functional Core License](https://fsl.software/) is an example of a fair source license. This license is available in two variants. A MIT and Apache v2.0 variant. It automatically makes source code open source after a period of two years counted from the original publication date.
 
+# Open core
+With open core, some of the covered software’s functionality (often its basic functionality) is fully open source, including all the freedoms that entails. This does not apply, however, to more advanced functionality, such as enterprise features. In order to be able to use those features, a commercial licence for closed-source software must be obtained.
+
+Enterprise functionality may consist of features that are not available at all in the basic version, or of functionality that is available only to a limited extent. Examples of the latter include a cap on the number of users who can use the basic solution, the number of analyses that can be carried out, the number of data sources that can be accessed, or the amount of time the product can be used continuously each day.
+
+With these products, customers face a greater risk of vendor lock-in. As users make more intensive use of a product and gain experience with it, they typically also develop a need for more advanced or additional functionality.
+
+Customers are, however, free to develop the missing functionality themselves or have a third party develop it, and to make it available as open source. This also applies where the functionality in question is already offered by the open-core vendor in its commercial enterprise version. Customers are therefore not obliged to obtain a commercial licence for such functionality from the original vendor. Naturally, any development must respect the applicable intellectual property rights and licence terms.
+
+The same applies to services relating to the basic version of the product. Customers are not obliged to obtain these services from the original open-core vendor and may instead engage other service providers.
+
 # Open source washing
 
 The concept of fair source licenses can easily becomes openwashing with the [Fair Core License](https://fcl.dev/) and the [Business Source License](https://mariadb.com/bsl-faq-mariadb/). The former makes a similar promise as the Fair Source License, but only for core functionality. The problem here is similar as with so-called open core business models: there is an incentive for the copyright holder to put key functionality in the proprietary licensed parts and subsequently gain vendor lock-in. The Business Source License goes even further than that: it only promises source availability, similar to concepts like [Shared Source Initiative](https://en.wikipedia.org/wiki/Shared_Source_Initiative) (once pioneered by Microsoft), without actually giving the freedoms a proper open source license gives.
